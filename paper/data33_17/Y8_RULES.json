@@ -1,0 +1,45 @@
+{
+  "GT_used": false,
+  "version": "1.1",
+  "phase": "registered_before_Y8_v1.1_scoring",
+  "modified_utc": "2026-11-15T14:50:35.547239+00:00",
+  "rules": {
+    "Y8-a": "Every pooled A12/A13/A14 accuracy in percent is strictly below 50 - f_row_pp.",
+    "Y8-b": "Every pooled A12/A13/A14 accuracy in percent is at least 80 + f_row_pp.",
+    "Y8-c": "Neither Y8-a nor Y8-b holds.",
+    "Y8-d": "each absolute five-dataset AR difference A7s\u2013A7/A8s\u2013A8/A9s\u2013A9 <= 3.0 pp",
+    "Y8-e": "each absolute pooled paired accuracy difference K=252\u2013K=16 <= 5.0 pp",
+    "interpretation": "Prefer the K=252 target subsample to interpret Y8-a/b if Y8-d or Y8-e fails."
+  },
+  "thresholds_pct": {
+    "A12": {
+      "f_row_pp": 0.9696969696969697,
+      "Y8-a_below_pct": 49.03030303030303,
+      "Y8-b_at_least_pct": 80.96969696969697
+    },
+    "A13": {
+      "f_row_pp": 2.6262626262626263,
+      "Y8-a_below_pct": 47.37373737373737,
+      "Y8-b_at_least_pct": 82.62626262626263
+    },
+    "A14": {
+      "f_row_pp": 4.121212121212121,
+      "Y8-a_below_pct": 45.878787878787875,
+      "Y8-b_at_least_pct": 84.12121212121212
+    }
+  },
+  "source": [
+    {
+      "file": "runs/y8/Y8_NOISE.json",
+      "sha256": "ff5055e2e9941b0b7e777184a657fa1d14c2978e848529e7cdcadca7cd801064"
+    },
+    {
+      "file": "runs/y8/history/v1.0/Y8_RULES.json",
+      "sha256": "0e019a0afc0ee4523010ddf2030d1a60a48d16ce43011d5cf60e0bb85b7d5ff2"
+    },
+    {
+      "file": "runs/y8/INSTRUCTIONS_Y8_V11.md",
+      "sha256": "3ec3682b08b27f2664fc32ef635007424e736acd7df851990a050001366cd1ac"
+    }
+  ]
+}

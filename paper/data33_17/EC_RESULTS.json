@@ -1,0 +1,170 @@
+{
+  "GT_used": true,
+  "source": {
+    "file": "runs/p1/EC_PER_FRAME.json",
+    "sha256": "41cfa031745c916c5fb8cefb8b1f881dd93fca62800e132ca88d3fa9baf69edb"
+  },
+  "metrics": {
+    "ECA": {
+      "estimate_pp": {
+        "ar": 40.17077267637178,
+        "vsd": 36.912094064949606,
+        "mssd": 42.1612541993281,
+        "mspd": 41.438969764837616
+      },
+      "source": {
+        "file": "runs/p1/eval/ec/ECA_icbin-test/scores_bop19.json",
+        "sha256": "4bf73d65487d168bd49e5bf385bfc585dbed2042bd07ddc52779c378e0730f5a"
+      }
+    },
+    "ECB": {
+      "estimate_pp": {
+        "ar": 57.0371407241508,
+        "vsd": 54.05095184770432,
+        "mssd": 58.82978723404254,
+        "mspd": 58.23068309070547
+      },
+      "source": {
+        "file": "runs/p1/eval/ec/ECB_icbin-test/scores_bop19.json",
+        "sha256": "9c0c81075668f41cd16df51c06176ab1cba11f0729b775a089f306b869071a81"
+      }
+    },
+    "ECC": {
+      "estimate_pp": {
+        "ar": 60.1343784994401,
+        "vsd": 57.27323628219486,
+        "mssd": 61.741321388577816,
+        "mspd": 61.3885778275476
+      },
+      "source": {
+        "file": "runs/p1/eval/ec/ECC_icbin-test/scores_bop19.json",
+        "sha256": "d69433aaf5182429d8dc5e3d310620c3061016a7bc22dbedcc9ff6399708e68c"
+      }
+    },
+    "ECD": {
+      "estimate_pp": {
+        "ar": 66.03098170959315,
+        "vsd": 63.38969764837626,
+        "mssd": 67.48600223964166,
+        "mspd": 67.21724524076149
+      },
+      "source": {
+        "file": "runs/p1/eval/ec/ECD_icbin-test/scores_bop19.json",
+        "sha256": "ade4ba4d816e349fdb35ddfd58bae788bdc16eec75f479d850f6f3a9d21d82db"
+      }
+    },
+    "ECE": {
+      "estimate_pp": {
+        "ar": 65.879805897723,
+        "vsd": 63.07054871220604,
+        "mssd": 67.54199328107501,
+        "mspd": 67.02687569988801
+      },
+      "source": {
+        "file": "runs/p1/eval/ec/ECE_icbin-test/scores_bop19.json",
+        "sha256": "b6294f221e288a88bee04311f9407c34d032cd1b004059ac28d5c3a64a25a4da"
+      }
+    }
+  },
+  "comparisons": {
+    "ECB-ECA": {
+      "estimate_pp": 16.86636804777902,
+      "ci95_pp": [
+        15.806232274532057,
+        17.881254741206
+      ]
+    },
+    "ECC-ECA": {
+      "estimate_pp": 19.96360582306832,
+      "ci95_pp": [
+        18.190293846758923,
+        21.66484332580124
+      ]
+    },
+    "ECD-ECB": {
+      "estimate_pp": 8.993840985442347,
+      "ci95_pp": [
+        7.622867275071884,
+        10.387396924441767
+      ]
+    },
+    "ECE-ECB": {
+      "estimate_pp": 8.8426651735722,
+      "ci95_pp": [
+        7.4400824763914075,
+        10.20975177209989
+      ]
+    },
+    "ECD-ECE": {
+      "estimate_pp": 0.1511758118701465,
+      "ci95_pp": [
+        -0.9342751564157545,
+        1.2465106060574982
+      ]
+    }
+  },
+  "figures": {
+    "gain": {
+      "frame": [
+        1,
+        36
+      ],
+      "rank": 1,
+      "frame_count": 150,
+      "metric": "gain",
+      "value": 7,
+      "source": {
+        "file": "runs/p1/figs/EC_gain.png",
+        "sha256": "b6343368d2e115e8a02cdbf545ca508b9741adda356761b4bab8fd467dd80356"
+      },
+      "GT_used": true
+    },
+    "failure": {
+      "frame": [
+        3,
+        58
+      ],
+      "rank": 1,
+      "frame_count": 150,
+      "metric": "failures_after",
+      "value": 12,
+      "source": {
+        "file": "runs/p1/figs/EC_failure.png",
+        "sha256": "51ff3fcc50e724170e4e946b2b86a64785c9900d450d6a7eeb89726415a84728"
+      },
+      "GT_used": true
+    }
+  },
+  "details": {
+    "k_counts": {
+      "8": 79,
+      "7": 14,
+      "6": 48,
+      "4": 12,
+      "2": 8,
+      "5": 27,
+      "3": 6,
+      "1": 4,
+      "0": 2
+    },
+    "slots": {
+      "ECA": 1600,
+      "ECB": 2839,
+      "ECC": 2839,
+      "ECD": 4078,
+      "ECE": 4078
+    },
+    "recovered": {
+      "extra_2D": 220,
+      "G": 230,
+      "intersection": 134,
+      "union": 316
+    },
+    "jaccard": 0.4240506329113924,
+    "D_correct_by_pool_origin": {
+      "A": 626,
+      "extra_2D": 169,
+      "G": 271
+    }
+  }
+}

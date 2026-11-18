@@ -1,0 +1,22 @@
+{
+  "targets": [
+    {
+      "image_id": "synthetic-1",
+      "object_id": 1,
+      "calls": [
+        {
+          "mask_id": "distractor",
+          "scores": [90, 40, 20],
+          "correct": [false, false, false],
+          "joint_score": 0.12
+        },
+        {
+          "mask_id": "target",
+          "scores": [22, 8, -5],
+          "correct": [true, false, false],
+          "joint_score": 0.88
+        }
+      ]
+    }
+  ]
+}

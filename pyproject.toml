@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compare6d"
+version = "0.1.0"
+description = "Cached-pose diagnostics for Compare Before You Combine"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.urls]
+Homepage = "https://crianezrx.github.io/compare-before-you-combine/"
+Repository = "https://github.com/CrianeZRX/compare-before-you-combine"
+
+[project.scripts]
+compare6d = "compare6d.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

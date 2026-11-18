@@ -1,0 +1,116 @@
+{
+  "GT_used": false,
+  "details": {
+    "file": "runs/p1/A5_A5j_PAIR_DETAILS.json",
+    "sha256": "52d0e32126b42f7162f2bd45386bd39dc6b8547f26fef51dbb89309baf47b232"
+  },
+  "original_failed_gate": {
+    "file": "runs/p1/stage0/mp_batch_100.json",
+    "sha256": "586b6e2c8f99ba4b469b955206d4a54670d732bd8388755785e522c13debd6a4"
+  },
+  "A5_call": "one FP winner per official call",
+  "A5j_call": "all FP winners for one target per official call",
+  "absolute_logit_delta": {
+    "count": 37301,
+    "median": 0.07695198059082031,
+    "p99": 0.5792851448059082,
+    "max": 1.6439886093139648
+  },
+  "targets_with_changed_order": 3125,
+  "targets_with_at_least_two_poses": 10514,
+  "targets": 11272,
+  "flipped_pose_pairs": 4185,
+  "original_gap_flipped_pairs": {
+    "count": 4185,
+    "median": 0.08274078369140625,
+    "p99": 0.6551576995849608,
+    "max": 1.7696146965026855
+  },
+  "per_dataset": {
+    "icbin": {
+      "absolute_logit_delta": {
+        "count": 3688,
+        "median": 0.07357950508594513,
+        "p99": 0.42951168298721315,
+        "max": 0.8786890506744385
+      },
+      "targets": 200,
+      "targets_with_changed_order": 187,
+      "flipped_pose_pairs": 794,
+      "original_gap_flipped_pairs": {
+        "count": 794,
+        "median": 0.08058309555053711,
+        "p99": 0.527905416488646,
+        "max": 0.8381314277648926
+      }
+    },
+    "lmo": {
+      "absolute_logit_delta": {
+        "count": 5011,
+        "median": 0.06625723838806152,
+        "p99": 0.5447236061096187,
+        "max": 1.1903479099273682
+      },
+      "targets": 1445,
+      "targets_with_changed_order": 422,
+      "flipped_pose_pairs": 447,
+      "original_gap_flipped_pairs": {
+        "count": 447,
+        "median": 0.07888484001159668,
+        "p99": 0.6634407520294191,
+        "max": 0.9422283172607422
+      }
+    },
+    "tudl": {
+      "absolute_logit_delta": {
+        "count": 2306,
+        "median": 0.07937192916870117,
+        "p99": 0.5551456093788131,
+        "max": 1.421445369720459
+      },
+      "targets": 600,
+      "targets_with_changed_order": 180,
+      "flipped_pose_pairs": 199,
+      "original_gap_flipped_pairs": {
+        "count": 199,
+        "median": 0.07048487663269043,
+        "p99": 0.49064489364624114,
+        "max": 0.5901999473571777
+      }
+    },
+    "ycbv": {
+      "absolute_logit_delta": {
+        "count": 11013,
+        "median": 0.06128501892089844,
+        "p99": 0.454239177703856,
+        "max": 1.2605657577514648
+      },
+      "targets": 4123,
+      "targets_with_changed_order": 1111,
+      "flipped_pose_pairs": 1283,
+      "original_gap_flipped_pairs": {
+        "count": 1283,
+        "median": 0.06499671936035156,
+        "p99": 0.4068740844726563,
+        "max": 0.7675933837890625
+      }
+    },
+    "tless": {
+      "absolute_logit_delta": {
+        "count": 15283,
+        "median": 0.09626579284667969,
+        "p99": 0.6613962078094493,
+        "max": 1.6439886093139648
+      },
+      "targets": 4904,
+      "targets_with_changed_order": 1225,
+      "flipped_pose_pairs": 1462,
+      "original_gap_flipped_pairs": {
+        "count": 1462,
+        "median": 0.10760116577148438,
+        "p99": 0.7419117498397831,
+        "max": 1.7696146965026855
+      }
+    }
+  }
+}

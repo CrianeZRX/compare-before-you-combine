@@ -1,0 +1,48 @@
+{
+  "version": "1.1",
+  "GT_used": true,
+  "frozen_at": "2026-11-16T11:10:02.201738+00:00",
+  "cohort": "C",
+  "selected": "V2b03",
+  "visible_gt": 3990,
+  "identity_covered_counts": {
+    "V1": 2708,
+    "V2a03": 2721,
+    "V2a05": 2623,
+    "V2b03": 2764,
+    "V2b05": 2540
+  },
+  "identity_cover": {
+    "V1": 0.6786967418546366,
+    "V2a03": 0.6819548872180451,
+    "V2a05": 0.6573934837092732,
+    "V2b03": 0.6927318295739349,
+    "V2b05": 0.6365914786967418
+  },
+  "sources": {
+    "V0": {
+      "file": "runs/r33_18/v11/metrics/C/V0.json",
+      "sha256": "5ffcf08fee86092f4b22efb6bb0c714fd1c48455a9fc1dc22056d7ce6a808fbc"
+    },
+    "V1": {
+      "file": "runs/r33_18/v11/metrics/C/V1.json",
+      "sha256": "19df1138e9d3419df2c327ac23c8e35964d71faf65074ab4fe4939cb4b7edf83"
+    },
+    "V2a03": {
+      "file": "runs/r33_18/v11/metrics/C/V2a03.json",
+      "sha256": "7fbf3c1a1ae2ecf256e848768bb53daa49fc2d9725145ebea62f15c0fef35f86"
+    },
+    "V2a05": {
+      "file": "runs/r33_18/v11/metrics/C/V2a05.json",
+      "sha256": "2244c2bcaa52f7ec3be8f64968743f14bb90daa70a62da5ebd3a60744eaa4a67"
+    },
+    "V2b03": {
+      "file": "runs/r33_18/v11/metrics/C/V2b03.json",
+      "sha256": "15d763ba3870419357f6b48572790abaea42307b32468ce1d069921bde55402d"
+    },
+    "V2b05": {
+      "file": "runs/r33_18/v11/metrics/C/V2b05.json",
+      "sha256": "0e14bb0007691400e72594c54271b569e4383c642797852f5139be12623652b3"
+    }
+  }
+}

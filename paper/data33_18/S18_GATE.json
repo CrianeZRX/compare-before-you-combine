@@ -1,0 +1,29 @@
+{
+  "version": "1.1",
+  "GT_used": true,
+  "cohort": "Cprime",
+  "selected": "V2b03",
+  "identity_gain_pp": 30.651629072681704,
+  "identity_gain_threshold_pp": 10,
+  "identity_condition": true,
+  "V0_false_detections_per_frame": 4.026666666666666,
+  "selected_false_detections_per_frame": 66.91333333333333,
+  "false_detection_condition": false,
+  "ratio_limit": 2,
+  "passed": false,
+  "stage_B_authorized_by_gate": false,
+  "sources": {
+    "selection": {
+      "file": "runs/r33_18/v11/S18_V11_SELECT.json",
+      "sha256": "e0557f69b001ecb886117c465f9adc0904ef43ffb5426818de9b0c812bff9b3b"
+    },
+    "V0": {
+      "file": "runs/r33_18/v11/metrics/Cprime/V0.json",
+      "sha256": "1b4419a7218894faa24ea68185f8b434958552f032791775ddd82a6cc13069b0"
+    },
+    "V2b03": {
+      "file": "runs/r33_18/v11/metrics/Cprime/V2b03.json",
+      "sha256": "34c21e309dff31f9fa6ddb0d42fc2df137bb7c1e7b90e0fc69c8bb4a294b1fb7"
+    }
+  }
+}

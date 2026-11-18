@@ -1,0 +1,298 @@
+{
+  "GT_used": true,
+  "source": {
+    "icbin": [
+      {
+        "file": "runs/p1/frames/ea_selection/icbin.json",
+        "sha256": "e89ef2e6c28ba9a50fa00fa7d6c633cd5d7af4cf5065d48417f47bcda3d62041"
+      },
+      {
+        "file": "runs/p1/eval/ed_icbin.json",
+        "sha256": "db3ba419e7fa6b9e317a2af3ce99775aa20f0491deb5c201ff93aa39fcb3ccd8"
+      }
+    ],
+    "lmo": [
+      {
+        "file": "runs/p1/frames/ea_selection/lmo.json",
+        "sha256": "f1b1e3ee4dbebaf2dbb9cb686d03ba7068099f1495d0c4ce04262d4fe86f6229"
+      },
+      {
+        "file": "runs/p1/eval/ed_lmo.json",
+        "sha256": "fcb1f4dac6f4034de104de932a8aba494fb4ce8ac90945ef12cb5be26f7aab37"
+      }
+    ],
+    "tudl": [
+      {
+        "file": "runs/p1/frames/ea_selection/tudl.json",
+        "sha256": "9736dfbd93c6adb2f9326ed0fd2c48435efcfff409e4158447e6f6268a032fa8"
+      },
+      {
+        "file": "runs/p1/eval/ed_tudl.json",
+        "sha256": "b4f830b1d0690efb6bcf114d53c8790003216836c94677cf5ec549d700439497"
+      }
+    ],
+    "ycbv": [
+      {
+        "file": "runs/p1/frames/ea_selection/ycbv.json",
+        "sha256": "20214bec8e1833cd283dd9a665561b0b758619cc4d26f9ca5d48077094bbfa7d"
+      },
+      {
+        "file": "runs/p1/eval/ed_ycbv.json",
+        "sha256": "2c0358b4719bbc8742babd78b5222c1d9a4a7e8a3da20bbb1c5338d205996594"
+      }
+    ],
+    "tless": [
+      {
+        "file": "runs/p1/frames/ea_selection/tless.json",
+        "sha256": "38c756650cbe0e65a1fab9738595ce929d7a99b9048e3e516de1a28d1d1bc362"
+      },
+      {
+        "file": "runs/p1/eval/ed_tless.json",
+        "sha256": "68a932eff61b8fde326c8b8478bededa115cea88c475c453bf14404c10962b08"
+      }
+    ]
+  },
+  "rank_rule": "P1 detection score, source order and source rank resolve score ties before Kendall tau.",
+  "scopes": {
+    "icbin": {
+      "FP": {
+        "winner_count": 3688,
+        "solo_scores_iqr": 38.3408203125,
+        "normalized_abs_delta": {
+          "median": 0.7441481368278954,
+          "p90": 2.161167570871858,
+          "p99": 2.8184712564631567,
+          "max": 3.3564096686279004
+        },
+        "targets_at_least_two": 200,
+        "kendall_tau": {
+          "q1": -0.8931194295900179,
+          "median": -0.8503787878787878,
+          "q3": -0.7878787878787877
+        },
+        "winner_changed": 200,
+        "solo_correct_top": 17,
+        "joint_correct_top": 195
+      },
+      "MegaPose": {
+        "winner_count": 3688,
+        "solo_scores_iqr": 9.351027190685272,
+        "normalized_abs_delta": {
+          "median": 0.007868601340314679,
+          "p90": 0.023498888540103686,
+          "p99": 0.04593203230283166,
+          "max": 0.09396711535067682
+        },
+        "targets_at_least_two": 200,
+        "kendall_tau": {
+          "q1": 0.9393939393939392,
+          "median": 0.956412130069419,
+          "q3": 0.9738562091503269
+        },
+        "winner_changed": 56,
+        "solo_correct_top": 191,
+        "joint_correct_top": 192
+      }
+    },
+    "lmo": {
+      "FP": {
+        "winner_count": 5011,
+        "solo_scores_iqr": 59.3515625,
+        "normalized_abs_delta": {
+          "median": 0.031064894037119917,
+          "p90": 1.1562458865341583,
+          "p99": 1.454732131104383,
+          "max": 1.7401605897064631
+        },
+        "targets_at_least_two": 1356,
+        "kendall_tau": {
+          "q1": -1.0,
+          "median": -0.6666666666666669,
+          "q3": -0.6666666666666669
+        },
+        "winner_changed": 1293,
+        "solo_correct_top": 110,
+        "joint_correct_top": 1021
+      },
+      "MegaPose": {
+        "winner_count": 5011,
+        "solo_scores_iqr": 14.87939465045929,
+        "normalized_abs_delta": {
+          "median": 0.004452952552476073,
+          "p90": 0.015973360234548692,
+          "p99": 0.03660925856905102,
+          "max": 0.07999975388048633
+        },
+        "targets_at_least_two": 1356,
+        "kendall_tau": {
+          "q1": 0.6666666666666669,
+          "median": 1.0,
+          "q3": 1.0
+        },
+        "winner_changed": 377,
+        "solo_correct_top": 1018,
+        "joint_correct_top": 1019
+      }
+    },
+    "tudl": {
+      "FP": {
+        "winner_count": 2306,
+        "solo_scores_iqr": 48.80078125,
+        "normalized_abs_delta": {
+          "median": 0.029616585287761146,
+          "p90": 1.2112382934443289,
+          "p99": 1.546049787881213,
+          "max": 1.7821179860722005
+        },
+        "targets_at_least_two": 599,
+        "kendall_tau": {
+          "q1": -1.0,
+          "median": -1.0,
+          "q3": -0.6666666666666669
+        },
+        "winner_changed": 594,
+        "solo_correct_top": 21,
+        "joint_correct_top": 587
+      },
+      "MegaPose": {
+        "winner_count": 2306,
+        "solo_scores_iqr": 15.45831286907196,
+        "normalized_abs_delta": {
+          "median": 0.005134579034656727,
+          "p90": 0.01671331232733058,
+          "p99": 0.035912431976293756,
+          "max": 0.091953461012191
+        },
+        "targets_at_least_two": 599,
+        "kendall_tau": {
+          "q1": 0.6666666666666669,
+          "median": 1.0,
+          "q3": 1.0
+        },
+        "winner_changed": 147,
+        "solo_correct_top": 586,
+        "joint_correct_top": 586
+      }
+    },
+    "ycbv": {
+      "FP": {
+        "winner_count": 11013,
+        "solo_scores_iqr": 33.515625,
+        "normalized_abs_delta": {
+          "median": 0.03263403263403263,
+          "p90": 1.8129603729603734,
+          "p99": 2.8194125874125864,
+          "max": 3.5505827505827505
+        },
+        "targets_at_least_two": 4002,
+        "kendall_tau": {
+          "q1": -1.0,
+          "median": -1.0,
+          "q3": 0.0
+        },
+        "winner_changed": 3141,
+        "solo_correct_top": 2564,
+        "joint_correct_top": 3866
+      },
+      "MegaPose": {
+        "winner_count": 11013,
+        "solo_scores_iqr": 8.9541916847229,
+        "normalized_abs_delta": {
+          "median": 0.006844282664336885,
+          "p90": 0.02319446791272544,
+          "p99": 0.050729221988719694,
+          "max": 0.14077940277983617
+        },
+        "targets_at_least_two": 4002,
+        "kendall_tau": {
+          "q1": 0.6666666666666669,
+          "median": 1.0,
+          "q3": 1.0
+        },
+        "winner_changed": 916,
+        "solo_correct_top": 3864,
+        "joint_correct_top": 3862
+      }
+    },
+    "tless": {
+      "FP": {
+        "winner_count": 15283,
+        "solo_scores_iqr": 51.6953125,
+        "normalized_abs_delta": {
+          "median": 0.03385219888166843,
+          "p90": 1.2274444612362099,
+          "p99": 1.85582590297718,
+          "max": 2.241499168807617
+        },
+        "targets_at_least_two": 4357,
+        "kendall_tau": {
+          "q1": -1.0,
+          "median": -1.0,
+          "q3": -0.3333333333333334
+        },
+        "winner_changed": 3967,
+        "solo_correct_top": 1108,
+        "joint_correct_top": 3964
+      },
+      "MegaPose": {
+        "winner_count": 15283,
+        "solo_scores_iqr": 11.169934570789337,
+        "normalized_abs_delta": {
+          "median": 0.008618295141891502,
+          "p90": 0.02826188129102496,
+          "p99": 0.05921218281251856,
+          "max": 0.14717978864560086
+        },
+        "targets_at_least_two": 4357,
+        "kendall_tau": {
+          "q1": 0.8095238095238096,
+          "median": 1.0,
+          "q3": 1.0
+        },
+        "winner_changed": 884,
+        "solo_correct_top": 3857,
+        "joint_correct_top": 3857
+      }
+    },
+    "pooled": {
+      "FP": {
+        "winner_count": 37301,
+        "solo_scores_iqr": 55.859375,
+        "normalized_abs_delta": {
+          "median": 0.028531468531468533,
+          "p90": 1.1699300699300699,
+          "p99": 1.7253146853146852,
+          "max": 2.303776223776224
+        },
+        "targets_at_least_two": 10514,
+        "kendall_tau": {
+          "q1": -1.0,
+          "median": -0.9999999999999999,
+          "q3": -0.33333333333333337
+        },
+        "winner_changed": 9195,
+        "solo_correct_top": 3820,
+        "joint_correct_top": 9633
+      },
+      "MegaPose": {
+        "winner_count": 37301,
+        "solo_scores_iqr": 12.32260000705719,
+        "normalized_abs_delta": {
+          "median": 0.006244784424289491,
+          "p90": 0.02124882899408753,
+          "p99": 0.04700997715369726,
+          "max": 0.1334124785655988
+        },
+        "targets_at_least_two": 10514,
+        "kendall_tau": {
+          "q1": 0.6666666666666669,
+          "median": 1.0,
+          "q3": 1.0
+        },
+        "winner_changed": 2380,
+        "solo_correct_top": 9516,
+        "joint_correct_top": 9516
+      }
+    }
+  }
+}

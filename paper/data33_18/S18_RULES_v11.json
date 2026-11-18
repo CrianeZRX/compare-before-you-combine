@@ -1,0 +1,85 @@
+{
+  "version": "1.1",
+  "frozen_at": "2026-11-16T10:26:12.492997+00:00",
+  "GT_used": false,
+  "cohorts": {
+    "C": {
+      "file": "outputs/r33_16d_count_reuse/C/targets.json",
+      "sha256": "4d39c595d61e0569253e46c70603c80bff567f2fc85e46fc8463428df2b56985"
+    },
+    "Cprime": {
+      "file": "outputs/r33_16d_count_reuse/Cprime/targets.json",
+      "sha256": "9722d061cf6bbe484e7b0a2cbb8bb9f4b2ff559b26aa7af617c9d655bcf2fe4b"
+    }
+  },
+  "checkpoint_SHA256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+  "physical_cuda_devices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "stage_A_gpu_hours": 4,
+  "stage_B_gpu_hours": 30,
+  "variants": {
+    "V0": {
+      "source": "NOCTIS official accepted detections"
+    },
+    "V1": {
+      "prompts": [
+        "object",
+        "industrial part",
+        "mechanical part",
+        "metal part",
+        "plastic part",
+        "fastener"
+      ],
+      "sam3_minimum_score": 0.03,
+      "maximum_per_prompt": 100,
+      "mask_nms_iou": 0.9,
+      "maximum_per_frame": null,
+      "acceptance": "Official NOCTIS matching/scoring, acceptance threshold and postprocessing. Union with V0 then official per-object NMS."
+    },
+    "V2a": {
+      "maximum_positive_boxes_per_detected_object": 1
+    },
+    "V2b": {
+      "maximum_positive_boxes_per_detected_object": 3
+    }
+  },
+  "exemplar": {
+    "source": "V0 accepted same-frame boxes, ordered by NOCTIS score per detected object",
+    "thresholds": [
+      0.3,
+      0.5
+    ],
+    "score": "SAM 3 instance score times maximum NOCTIS score among its joint positive exemplars",
+    "identity": "object of the positive exemplars",
+    "discard_when_IoU_with_any_V0_at_least": 0.5,
+    "only_text_and_V0_if_official_visual_exemplar_unsupported": true
+  },
+  "gt_use": "Offline evaluation, validation C and Cprime only; minimum visibility 0.1, coverage mask IoU >= 0.5",
+  "selection": {
+    "cohort": "C",
+    "metric": "identity_correct_cover",
+    "tie_percentage_points": 1,
+    "prefer_V2a_then_higher_tau": true,
+    "V1_requires_strict_lead_pp_vs_all_V2": 1
+  },
+  "gate": {
+    "cohort": "Cprime",
+    "min_identity_correct_coverage_gain_pp": 10,
+    "max_ratio_of_mean_false_detections_per_frame": 2,
+    "retain_frame_false_detection_counts": true,
+    "if_fail": "stop before pose, test and test export"
+  },
+  "stage_B": {
+    "variant": "frozen selected V*",
+    "reuse_v10_prediction_and_readings": true,
+    "U2": false,
+    "test_method_names": [
+      "anon3dhls3xn0",
+      "anon3dhls3xn2a"
+    ]
+  }
+}
