@@ -30,22 +30,24 @@ checks = [
  ("IPD B4 outputs", f"{ib4['outputs']:,}"), ("IPD background", f"{ib4['background']:,}"),
  ("IPD background share of outputs", f"{round(100*ib4['background']/ib4['outputs'])}\\% of all outputs"),
  ("IPD background share of false", f"{round(100*ib4['background']/fp(ib4))}\\% of the false"),
- ("IPD added TP / FP", f"{ib4['TP']-ib1['TP']} correct poses and {fp(ib4)-fp(ib1):,} false"), ("IPD ratio", f"about {round((fp(ib4)-fp(ib1))/(ib4['TP']-ib1['TP']))} false"),
- ("XYZ added TP / FP", f"{xb4['TP']-xb1['TP']} correct poses and {fp(xb4)-fp(xb1):,} false"), ("XYZ ratio", f"about {round((fp(xb4)-fp(xb1))/(xb4['TP']-xb1['TP']))} for each"),
+ ("IPD added TP / FP", f"{ib4['TP']-ib1['TP']} correct poses and {fp(ib4)-fp(ib1):,} false"), ("IPD ratio", f"{(fp(ib4)-fp(ib1))/(ib4['TP']-ib1['TP']):.1f} false"),
+ ("XYZ added TP / FP", f"{xb4['TP']-xb1['TP']} correct poses and {fp(xb4)-fp(xb1):,} false"), ("XYZ ratio", f"{(fp(xb4)-fp(xb1))/(xb4['TP']-xb1['TP']):.1f} for each"),
  ("XYZ below one", f"{round(100*c['xyzibd']['share_below_1'])}\\% of the XYZ-IBD frames"), ("IPD below one", f"{round(100*c['ipd']['share_below_1'])}\\% of the IPD frames"),
  ("B0 IPD background", f"{round(100*c['ipd']['B0']['background']/c['ipd']['B0']['outputs'])}\\% of the detector"),
  ("density A4 rho", f"{dv['density_A4_basis_posthoc']['A4_spearman']['rho']:.2f} [{dv['density_A4_basis_posthoc']['A4_spearman']['ci95'][0]:.2f}, {dv['density_A4_basis_posthoc']['A4_spearman']['ci95'][1]:.2f}]"),
  ("T-LESS mean A4 gain", f"{dv['density_A4_basis_posthoc']['by_dataset_A4_mean']['tless']:.2f}"),
  ("A4-A5 by dataset", (lambda r: "T-LESS (%s) and LM-O (%s)" % (r[2], r[1]))(next(r for r in md_table("TABLES_P1.md", "E-A 的配对差（百分点）") if r[0] == "A4-A5"))),
- ("Y8 K16", "%.2f\\%%, %.2f\\%% and %.2f\\%% on all %s pairs" % tuple([float(r[i].split()[0]) for r in md_table("TABLES_Y8.md", "K=16 跨调用成对准确率（%）") if r[0] == "五集合并" for i in (2, 3, 4)] + [f"{36852:,}"])),
- ("Y8 FP", "%.2f\\%% for the z-score and %.2f\\%% for the margin" % tuple(float(r[i].split()[0]) for r in md_table("TABLES_Y8.md", "K=16 跨调用成对准确率（%）") if r[0] == "五集合并" for i in (5, 7))),
- ("Y8 AR", "%.2f, %.2f and %.2f" % tuple(float(r[2].split()[0]) for r in md_table("TABLES_Y8.md", "五集 AR 与分项（pp）") if r[0] == "五集等权" and r[1] in ("A12", "A13", "A14"))),
+ ("Y8 K16", "%.2f\\%%, %.2f\\%% and %.2f\\%% of all %s pairs" % tuple([float(r[i].split()[0]) for r in md_table("TABLES_Y8.md", "K=16 跨调用成对准确率（%）") if r[0] == "五集合并" for i in (2, 3, 4)] + [f"{36852:,}"])),
+ ("Y8 FP", "inverted (%.2f\\%% and %.2f\\%%)" % tuple(float(r[i].split()[0]) for r in md_table("TABLES_Y8.md", "K=16 跨调用成对准确率（%）") if r[0] == "五集合并" for i in (5, 7))),
  ("minimal B1->B4", f"+{50.44-41.90:.1f}"), ("instances per frame", f"{3990/150:.1f}"), ("IPD instances per frame", f"{548/88:.1f}"),
 ] + (lambda m: [
  ("S18 coverage", "from %d\\%% to %d--%d\\%%" % (round(100*m['V0']['identity_correct_cover']), round(100*min(m[k]['identity_correct_cover'] for k in m if k != 'V0')), round(100*max(m[k]['identity_correct_cover'] for k in m if k != 'V0')))),
  ("S18 false", "from %.1f to %d--%d" % (m['V0']['false_detections_per_frame_mean'], round(min(m[k]['false_detections_per_frame_mean'] for k in m if k != 'V0')), round(max(m[k]['false_detections_per_frame_mean'] for k in m if k != 'V0')))),
 ])(json.load(open(os.path.join(os.path.dirname(__file__), '..', 'data33_18', 'S18_2D_V11.json')))['cohorts']['Cprime']) + [
  ("EC doubling", "about 9" if round(float(x('EC 配对差')['ECD-ECB'][1].split()[0])) == 9 and round(float(x('EC 配对差')['ECE-ECB'][1].split()[0])) == 9 else "MISMATCH"),
+ ("slots k C-B", "segments lead by %.2f points" % (float(x('EC 评测')['ECC'][1]) - float(x('EC 评测')['ECB'][1]))),
+ ("count given candidates", "adds %.1f AP points" % float({r[0]: r for r in md_table('TABLES_P2.md', 'Y1 配对差')}['B4-B3'][1].split()[0])),
+ ("joint over det x depth", "and %.1f over the best ranking" % (ar['A4'][-1] - ar['A10'][-1]) if 'A10' in ar else "MISMATCH"),
 ]
 # ---- 33-19 (data33_19/derived_s19.json, written by scripts/make_s19.py)
 s19 = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'data33_19', 'derived_s19.json')))
@@ -59,7 +61,6 @@ checks += [
  ("S19 raw same pairs", f"({e1['FPraw']['pooled']:.2f}\\%; {e1['FPsingle']['wins']:,} against {e1['FPraw']['wins']:,} correct orders)"),
  ("S19 AR alone/raw", f"({e1['FPsingle']['ar']:.2f} against {e1['FPraw']['ar']:.2f})"),
  ("S19 MegaPose", f"{e1['MPsingle']['pooled']:.2f}\\% of the cross-call pairs correctly when it scores each pose alone and {e1['MPjoint']['pooled']:.2f}\\%"),
- ("S19 fit scores", f"{e1['Depth']['pooled']:.2f}\\%, {e1['MaskIoU']['pooled']:.2f}\\% and {e1['Chamfer']['pooled']:.2f}\\%"),
  ("S19 fit range", f"{round(min(e1[k]['pooled'] for k in ('Depth','MaskIoU','Chamfer')))}--{round(max(e1[k]['pooled'] for k in ('Depth','MaskIoU','Chamfer')))}\\% of the pairs"),
  ("S19 GigaPose", f"{e1['native']['gigapose']['pooled']:.2f}\\% (GigaPose, {e1['native']['gigapose']['pairs']:,} pairs)"),
  ("S19 SAM-6D", f"{e1['native']['sam6d']['pooled']:.2f}\\% (SAM-6D, {e1['native']['sam6d']['pairs']:,} pairs)"),
@@ -72,9 +73,24 @@ checks += [
  ("S19 XYZ max ratio", "reached only %.2f, and the gain stayed at %.2f points" % (e2c[('xyzibd', 0.0)]['ratio'], e2c[('xyzibd', 0.0)]['delta'])),
  ("S19 B1 cost", "up to %.2f points" % (e2c[('ipd', 0.2)]['b1'] - e2c[('ipd', 0.32)]['b1'])),
  ("S19 false per correct", "%.1f and %.1f on XYZ-IBD, against %.1f to %.1f on IPD, %.1f on IC-BIN" % (e2c[('xyzibd', 0.2)]['false_per_correct'], e2c[('xyzibd', 0.0)]['false_per_correct'], e2c[('ipd', 0.32)]['false_per_correct'], e2c[('ipd', 0.2)]['false_per_correct'], e2c[('icbin', 0.2)]['false_per_correct'])),
- ("S19 rule 3 range", "%d to %d false poses" % (round(e2c[('xyzibd', 0.2)]['false_per_correct']), round(e2c[('xyzibd', 0.0)]['false_per_correct'])) if e2c[('ipd', 0.32)]['false_per_correct'] >= 9 else "MISMATCH"),
+ ("S19 rule 3 range", "at most about %d false poses" % round(max(e2c[('xyzibd', t)]['false_per_correct'] for t in (0.0, 0.2))) if min(c['false_per_correct'] for c in s19['E2']['conditions'] if c['ds'] != 'xyzibd' and c['false_per_correct']) >= 9 else "MISMATCH"),
+ ("S19 sweep vs Table 4", "by at most %.2f points" % max(abs(e2c[('xyzibd', 0.2)]['delta'] - (50.44 - 41.90)), abs(e2c[('ipd', 0.2)]['delta'] - (e3['ipd']['ap']['B4'] - e3['ipd']['ap']['B1'])))),
+ ("S19 sweep XYZ ratio", "ratio is %.2f instead of %.2f" % (e2c[('xyzibd', 0.2)]['ratio'], c['xyzibd']['median_ratio'])),
  ("S19 rejection", "lost %.2f [%.2f, %.2f] points" % (-e3['ipd']['delta'], -e3['ipd']['ci'][1], -e3['ipd']['ci'][0])),
  ("S19 lowest classic ratio", "the lowest and the highest median count ratio" if min(s19['E2']['classic_median_ratios'].values()) >= 1.0 else "MISMATCH"),
+]
+
+# ---- 33-20 (data33_20/derived_s20.json, written by scripts/make_s20.py)
+s20 = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'data33_20', 'derived_s20.json')))
+d20 = lambda k: "%.2f [%.2f, %.2f]" % tuple(s20["diff"][k])
+checks += [
+ ("S20 reversed pairs", "orders %.2f\\%% of the cross-call pairs correctly and reaches %.2f AR" % (s20["pairwise_reversed_strict_pct"], s20["AR_full_mean"]["A1neg"])),
+ ("S20 reversed - joint", d20("full:A1neg-A4") + " points above joint scoring"),
+ ("S20 calibrated - joint", "(" + d20("k10:A1cal10-A4") + ";"),
+ ("S20 slopes", "negative slope in all 1,000 random draws" if s20["sign_learnability"]["10"]["combos_at_100"] == 10 and s20["sign_learnability"]["10"]["unfit"] == 0 else "MISMATCH"),
+ ("S20 categories", "order correctly %.2f\\%% of the pairs whose incorrect pose lies on the background or on clutter and %.2f\\%% of those whose incorrect pose lies on another object, but %.2f\\%%" % (s20["categories"]["c"]["strict_pct"], s20["categories"]["a"]["strict_pct"], s20["categories"]["b"]["strict_pct"])),
+ ("S20 share", "form %.2f\\%% of the reversed pairs" % s20["categories"]["c"]["share_pct"]),
+ ("S20 readings", "on par with joint scoring" if s20["readings"]["R1"] == "持平" and s20["readings"]["R3"] == "持平" and s20["readings"]["R5"] else "MISMATCH"),
 ]
 
 if not SRC:

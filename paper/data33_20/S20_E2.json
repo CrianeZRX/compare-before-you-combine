@@ -1,0 +1,672 @@
+{
+  "GT_used": true,
+  "rules": {
+    "file": "runs/r33_20/S20_RULES.json",
+    "sha256": "1956a8aac950165749b747869912260902169ebce60629c6230072d2ff241d54"
+  },
+  "by_dataset": {
+    "icbin": {
+      "by_wrong_category": {
+        "a": {
+          "strict_wins": 3,
+          "ties": 0,
+          "pairs": 90,
+          "strict_accuracy": 0.03333333333333333,
+          "ties_half_accuracy": 0.03333333333333333,
+          "raw_reversed_count": 87,
+          "share_of_reversals": 0.005541401273885351
+        },
+        "b": {
+          "strict_wins": 1185,
+          "ties": 1,
+          "pairs": 8891,
+          "strict_accuracy": 0.13328084579912272,
+          "ties_half_accuracy": 0.1333370824429198,
+          "raw_reversed_count": 7705,
+          "share_of_reversals": 0.4907643312101911
+        },
+        "c": {
+          "strict_wins": 330,
+          "ties": 0,
+          "pairs": 8238,
+          "strict_accuracy": 0.04005826656955572,
+          "ties_half_accuracy": 0.04005826656955572,
+          "raw_reversed_count": 7908,
+          "share_of_reversals": 0.5036942675159236
+        }
+      },
+      "strict_accuracy_differences_pp": {
+        "b-a": {
+          "estimate_pp": 9.99475124657894,
+          "ci95_pp": [
+            2.5499511422507126,
+            15.136536921350665
+          ],
+          "valid_draws": 10000
+        },
+        "b-c": {
+          "estimate_pp": 9.3222579229567,
+          "ci95_pp": [
+            6.974157188570394,
+            11.689300759525342
+          ],
+          "valid_draws": 10000
+        }
+      },
+      "mask_count": 3688,
+      "n_wrong_masks_overlapping_both": 0,
+      "post_hoc_covariates": {
+        "correct": {
+          "mask_area": {
+            "n": 2413,
+            "rho": -0.2722734507809278
+          },
+          "valid_depth_fraction": {
+            "n": 2413,
+            "rho": -0.06234029750724025
+          },
+          "camera_distance_m": {
+            "n": 2413,
+            "rho": 0.30906783949020944
+          },
+          "render_iou": {
+            "n": 2413,
+            "rho": -0.3295695550598409
+          },
+          "visibility": {
+            "n": 2413,
+            "rho": -0.5172411473406762,
+            "scope": "correct only"
+          }
+        },
+        "incorrect": {
+          "mask_area": {
+            "n": 1275,
+            "rho": -0.05735827135297501
+          },
+          "valid_depth_fraction": {
+            "n": 1275,
+            "rho": -0.1346538828550527
+          },
+          "camera_distance_m": {
+            "n": 1275,
+            "rho": 0.4875599337329839
+          },
+          "render_iou": {
+            "n": 1275,
+            "rho": -0.5137817073753984
+          },
+          "visibility": {
+            "n": 624,
+            "rho": -0.3490585718793943,
+            "scope": "b only"
+          }
+        }
+      },
+      "source": {
+        "selection": {
+          "file": "runs/p1/frames/ea_selection/icbin.json",
+          "sha256": "e89ef2e6c28ba9a50fa00fa7d6c633cd5d7af4cf5065d48417f47bcda3d62041"
+        },
+        "labels": {
+          "file": "runs/p1/eval/ed_icbin.json",
+          "sha256": "db3ba419e7fa6b9e317a2af3ce99775aa20f0491deb5c201ff93aa39fcb3ccd8"
+        },
+        "BOP19_targets": {
+          "file": "data/bop/icbin/test_targets_bop19.json",
+          "sha256": "8d2752cd4a645682540935f84a15176d3ddc1b8c3bfdc8af9935f9f1395e7c95"
+        }
+      }
+    },
+    "lmo": {
+      "by_wrong_category": {
+        "a": {
+          "strict_wins": 0,
+          "ties": 0,
+          "pairs": 139,
+          "strict_accuracy": 0.0,
+          "ties_half_accuracy": 0.0,
+          "raw_reversed_count": 139,
+          "share_of_reversals": 0.04217233009708738
+        },
+        "b": {
+          "strict_wins": 14,
+          "ties": 0,
+          "pairs": 31,
+          "strict_accuracy": 0.45161290322580644,
+          "ties_half_accuracy": 0.45161290322580644,
+          "raw_reversed_count": 17,
+          "share_of_reversals": 0.0051577669902912624
+        },
+        "c": {
+          "strict_wins": 4,
+          "ties": 0,
+          "pairs": 3144,
+          "strict_accuracy": 0.001272264631043257,
+          "ties_half_accuracy": 0.001272264631043257,
+          "raw_reversed_count": 3140,
+          "share_of_reversals": 0.9526699029126213
+        }
+      },
+      "strict_accuracy_differences_pp": {
+        "b-a": {
+          "estimate_pp": 45.16129032258064,
+          "ci95_pp": [
+            26.920731707317074,
+            63.33333333333333
+          ],
+          "valid_draws": 10000
+        },
+        "b-c": {
+          "estimate_pp": 45.03406385947632,
+          "ci95_pp": [
+            26.69520325203252,
+            63.237867845850886
+          ],
+          "valid_draws": 10000
+        }
+      },
+      "mask_count": 5011,
+      "n_wrong_masks_overlapping_both": 0,
+      "post_hoc_covariates": {
+        "correct": {
+          "mask_area": {
+            "n": 2093,
+            "rho": -0.210905315466813
+          },
+          "valid_depth_fraction": {
+            "n": 2093,
+            "rho": -0.11160022572148562
+          },
+          "camera_distance_m": {
+            "n": 2093,
+            "rho": 0.08177050565405439
+          },
+          "render_iou": {
+            "n": 2093,
+            "rho": -0.10613205517910751
+          },
+          "visibility": {
+            "n": 2093,
+            "rho": -0.17151988465365384,
+            "scope": "correct only"
+          }
+        },
+        "incorrect": {
+          "mask_area": {
+            "n": 2918,
+            "rho": -0.08801171883555747
+          },
+          "valid_depth_fraction": {
+            "n": 2918,
+            "rho": 0.050447991637161835
+          },
+          "camera_distance_m": {
+            "n": 2918,
+            "rho": 0.2542259962285098
+          },
+          "render_iou": {
+            "n": 2918,
+            "rho": -0.32649524054461404
+          },
+          "visibility": {
+            "n": 463,
+            "rho": -0.5938042439049548,
+            "scope": "b only"
+          }
+        }
+      },
+      "source": {
+        "selection": {
+          "file": "runs/p1/frames/ea_selection/lmo.json",
+          "sha256": "f1b1e3ee4dbebaf2dbb9cb686d03ba7068099f1495d0c4ce04262d4fe86f6229"
+        },
+        "labels": {
+          "file": "runs/p1/eval/ed_lmo.json",
+          "sha256": "fcb1f4dac6f4034de104de932a8aba494fb4ce8ac90945ef12cb5be26f7aab37"
+        },
+        "BOP19_targets": {
+          "file": "data/bop/lmo/test_targets_bop19.json",
+          "sha256": "634fc970d81d10e93e1b08f97c80a914ddbe801eb67881b633b9fa0691a400c6"
+        }
+      }
+    },
+    "tudl": {
+      "by_wrong_category": {
+        "a": {
+          "strict_wins": 0,
+          "ties": 0,
+          "pairs": 0,
+          "strict_accuracy": null,
+          "ties_half_accuracy": null,
+          "raw_reversed_count": 0,
+          "share_of_reversals": 0.0
+        },
+        "b": {
+          "strict_wins": 0,
+          "ties": 0,
+          "pairs": 79,
+          "strict_accuracy": 0.0,
+          "ties_half_accuracy": 0.0,
+          "raw_reversed_count": 79,
+          "share_of_reversals": 0.03866862457170827
+        },
+        "c": {
+          "strict_wins": 0,
+          "ties": 0,
+          "pairs": 1964,
+          "strict_accuracy": 0.0,
+          "ties_half_accuracy": 0.0,
+          "raw_reversed_count": 1964,
+          "share_of_reversals": 0.9613313754282917
+        }
+      },
+      "strict_accuracy_differences_pp": {
+        "b-a": {
+          "estimate_pp": null,
+          "ci95_pp": null,
+          "valid_draws": 0
+        },
+        "b-c": {
+          "estimate_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "valid_draws": 10000
+        }
+      },
+      "mask_count": 2306,
+      "n_wrong_masks_overlapping_both": 0,
+      "post_hoc_covariates": {
+        "correct": {
+          "mask_area": {
+            "n": 1242,
+            "rho": -0.3981354844573589
+          },
+          "valid_depth_fraction": {
+            "n": 1242,
+            "rho": -0.13264370743352402
+          },
+          "camera_distance_m": {
+            "n": 1242,
+            "rho": -0.011135865129972711
+          },
+          "render_iou": {
+            "n": 1242,
+            "rho": 0.24661549118157192
+          },
+          "visibility": {
+            "n": 1242,
+            "rho": -0.1374494699322038,
+            "scope": "correct only"
+          }
+        },
+        "incorrect": {
+          "mask_area": {
+            "n": 1064,
+            "rho": 0.1989759929405085
+          },
+          "valid_depth_fraction": {
+            "n": 1064,
+            "rho": -0.14476728631845076
+          },
+          "camera_distance_m": {
+            "n": 1064,
+            "rho": -0.0256411835046158
+          },
+          "render_iou": {
+            "n": 1064,
+            "rho": -0.06482298025496157
+          },
+          "visibility": {
+            "n": 56,
+            "rho": 0.5348566974407838,
+            "scope": "b only"
+          }
+        }
+      },
+      "source": {
+        "selection": {
+          "file": "runs/p1/frames/ea_selection/tudl.json",
+          "sha256": "9736dfbd93c6adb2f9326ed0fd2c48435efcfff409e4158447e6f6268a032fa8"
+        },
+        "labels": {
+          "file": "runs/p1/eval/ed_tudl.json",
+          "sha256": "b4f830b1d0690efb6bcf114d53c8790003216836c94677cf5ec549d700439497"
+        },
+        "BOP19_targets": {
+          "file": "data/bop/tudl/test_targets_bop19.json",
+          "sha256": "0a15509e67b66a4c20cc463880c07da16accaab40b64f274fe42fec75d2526d0"
+        }
+      }
+    },
+    "ycbv": {
+      "by_wrong_category": {
+        "a": {
+          "strict_wins": 5,
+          "ties": 0,
+          "pairs": 304,
+          "strict_accuracy": 0.01644736842105263,
+          "ties_half_accuracy": 0.01644736842105263,
+          "raw_reversed_count": 299,
+          "share_of_reversals": 0.0853310502283105
+        },
+        "b": {
+          "strict_wins": 20,
+          "ties": 0,
+          "pairs": 92,
+          "strict_accuracy": 0.21739130434782608,
+          "ties_half_accuracy": 0.21739130434782608,
+          "raw_reversed_count": 72,
+          "share_of_reversals": 0.02054794520547945
+        },
+        "c": {
+          "strict_wins": 4,
+          "ties": 1,
+          "pairs": 3138,
+          "strict_accuracy": 0.0012746972594008922,
+          "ties_half_accuracy": 0.0014340344168260039,
+          "raw_reversed_count": 3133,
+          "share_of_reversals": 0.89412100456621
+        }
+      },
+      "strict_accuracy_differences_pp": {
+        "b-a": {
+          "estimate_pp": 20.094393592677346,
+          "ci95_pp": [
+            10.507734804609804,
+            30.99920848453412
+          ],
+          "valid_draws": 10000
+        },
+        "b-c": {
+          "estimate_pp": 21.61166070884252,
+          "ci95_pp": [
+            12.165790469025657,
+            32.298062559085146
+          ],
+          "valid_draws": 10000
+        }
+      },
+      "mask_count": 11013,
+      "n_wrong_masks_overlapping_both": 0,
+      "post_hoc_covariates": {
+        "correct": {
+          "mask_area": {
+            "n": 8859,
+            "rho": -0.15862857874511996
+          },
+          "valid_depth_fraction": {
+            "n": 8859,
+            "rho": -0.20067393528577188
+          },
+          "camera_distance_m": {
+            "n": 8859,
+            "rho": 0.15678902553087146
+          },
+          "render_iou": {
+            "n": 8859,
+            "rho": 0.017394875026369473
+          },
+          "visibility": {
+            "n": 8859,
+            "rho": -0.05358803469170557,
+            "scope": "correct only"
+          }
+        },
+        "incorrect": {
+          "mask_area": {
+            "n": 2154,
+            "rho": 0.0674805133596984
+          },
+          "valid_depth_fraction": {
+            "n": 2154,
+            "rho": 0.1350906344525135
+          },
+          "camera_distance_m": {
+            "n": 2154,
+            "rho": 0.22981886409466118
+          },
+          "render_iou": {
+            "n": 2154,
+            "rho": -0.5062179139983987
+          },
+          "visibility": {
+            "n": 263,
+            "rho": -0.3908014624107112,
+            "scope": "b only"
+          }
+        }
+      },
+      "source": {
+        "selection": {
+          "file": "runs/p1/frames/ea_selection/ycbv.json",
+          "sha256": "20214bec8e1833cd283dd9a665561b0b758619cc4d26f9ca5d48077094bbfa7d"
+        },
+        "labels": {
+          "file": "runs/p1/eval/ed_ycbv.json",
+          "sha256": "2c0358b4719bbc8742babd78b5222c1d9a4a7e8a3da20bbb1c5338d205996594"
+        },
+        "BOP19_targets": {
+          "file": "data/bop/ycbv/test_targets_bop19.json",
+          "sha256": "c2cd2e1f5d04708f40d2c433dbc7d5caa9e2004f397eab79b36b433c5b57aaea"
+        }
+      }
+    },
+    "tless": {
+      "by_wrong_category": {
+        "a": {
+          "strict_wins": 145,
+          "ties": 0,
+          "pairs": 3960,
+          "strict_accuracy": 0.036616161616161616,
+          "ties_half_accuracy": 0.036616161616161616,
+          "raw_reversed_count": 3815,
+          "share_of_reversals": 0.3667916546485915
+        },
+        "b": {
+          "strict_wins": 47,
+          "ties": 0,
+          "pairs": 221,
+          "strict_accuracy": 0.21266968325791855,
+          "ties_half_accuracy": 0.21266968325791855,
+          "raw_reversed_count": 174,
+          "share_of_reversals": 0.016729160657629073
+        },
+        "c": {
+          "strict_wins": 149,
+          "ties": 0,
+          "pairs": 6561,
+          "strict_accuracy": 0.022709952751105014,
+          "ties_half_accuracy": 0.022709952751105014,
+          "raw_reversed_count": 6412,
+          "share_of_reversals": 0.6164791846937795
+        }
+      },
+      "strict_accuracy_differences_pp": {
+        "b-a": {
+          "estimate_pp": 17.60535216417569,
+          "ci95_pp": [
+            9.303197713280777,
+            26.988570250246713
+          ],
+          "valid_draws": 10000
+        },
+        "b-c": {
+          "estimate_pp": 18.995973050681354,
+          "ci95_pp": [
+            10.664013813123553,
+            28.477688900904383
+          ],
+          "valid_draws": 10000
+        }
+      },
+      "mask_count": 15283,
+      "n_wrong_masks_overlapping_both": 3,
+      "post_hoc_covariates": {
+        "correct": {
+          "mask_area": {
+            "n": 9313,
+            "rho": -0.7287152782741877
+          },
+          "valid_depth_fraction": {
+            "n": 9313,
+            "rho": -0.004401330115114522
+          },
+          "camera_distance_m": {
+            "n": 9313,
+            "rho": 0.1239658742507713
+          },
+          "render_iou": {
+            "n": 9313,
+            "rho": -0.2365331620256233
+          },
+          "visibility": {
+            "n": 9313,
+            "rho": -0.0983481908009553,
+            "scope": "correct only"
+          }
+        },
+        "incorrect": {
+          "mask_area": {
+            "n": 5970,
+            "rho": -0.12171352094931331
+          },
+          "valid_depth_fraction": {
+            "n": 5970,
+            "rho": 0.0809546212186756
+          },
+          "camera_distance_m": {
+            "n": 5970,
+            "rho": 0.2865630488030644
+          },
+          "render_iou": {
+            "n": 5970,
+            "rho": -0.44409427300055765
+          },
+          "visibility": {
+            "n": 196,
+            "rho": -0.28551278372361155,
+            "scope": "b only"
+          }
+        }
+      },
+      "source": {
+        "selection": {
+          "file": "runs/p1/frames/ea_selection/tless.json",
+          "sha256": "38c756650cbe0e65a1fab9738595ce929d7a99b9048e3e516de1a28d1d1bc362"
+        },
+        "labels": {
+          "file": "runs/p1/eval/ed_tless.json",
+          "sha256": "68a932eff61b8fde326c8b8478bededa115cea88c475c453bf14404c10962b08"
+        },
+        "BOP19_targets": {
+          "file": "data/bop/tless/test_targets_bop19.json",
+          "sha256": "5ced8796c421baad79816fe905a36fe6ad440efe78cd640d167fc4b8f26c3cfe"
+        }
+      }
+    }
+  },
+  "pooled": {
+    "by_wrong_category": {
+      "a": {
+        "strict_wins": 153,
+        "ties": 0,
+        "pairs": 4493,
+        "strict_accuracy": 0.03405297128867127,
+        "ties_half_accuracy": 0.03405297128867127,
+        "raw_reversed_count": 4340,
+        "share_of_reversals": 0.12419871794871795
+      },
+      "b": {
+        "strict_wins": 1266,
+        "ties": 1,
+        "pairs": 9314,
+        "strict_accuracy": 0.1359244148593515,
+        "ties_half_accuracy": 0.135978097487653,
+        "raw_reversed_count": 8047,
+        "share_of_reversals": 0.23028273809523808
+      },
+      "c": {
+        "strict_wins": 487,
+        "ties": 1,
+        "pairs": 23045,
+        "strict_accuracy": 0.021132566717292255,
+        "ties_half_accuracy": 0.021154263397700154,
+        "raw_reversed_count": 22557,
+        "share_of_reversals": 0.6455185439560439
+      }
+    },
+    "strict_accuracy_differences_pp": {
+      "b-a": {
+        "estimate_pp": 10.187144357068023,
+        "ci95_pp": [
+          7.7824669268607645,
+          12.548881897157058
+        ],
+        "valid_draws": 10000
+      },
+      "b-c": {
+        "estimate_pp": 11.479184814205924,
+        "ci95_pp": [
+          9.359158153259092,
+          13.614087002069054
+        ],
+        "valid_draws": 10000
+      }
+    },
+    "mask_count": 37301,
+    "n_wrong_masks_overlapping_both": 3,
+    "post_hoc_covariates": {
+      "correct": {
+        "mask_area": {
+          "n": 23920,
+          "rho": -0.4509551860946287
+        },
+        "valid_depth_fraction": {
+          "n": 23920,
+          "rho": 0.08767142795725477
+        },
+        "camera_distance_m": {
+          "n": 23920,
+          "rho": 0.043124597311862106
+        },
+        "render_iou": {
+          "n": 23920,
+          "rho": -0.0928038081285154
+        },
+        "visibility": {
+          "n": 23920,
+          "rho": -0.13752271938694424,
+          "scope": "correct only"
+        }
+      },
+      "incorrect": {
+        "mask_area": {
+          "n": 13381,
+          "rho": -0.10932796531550815
+        },
+        "valid_depth_fraction": {
+          "n": 13381,
+          "rho": 0.0008319403783730887
+        },
+        "camera_distance_m": {
+          "n": 13381,
+          "rho": 0.33495262511708507
+        },
+        "render_iou": {
+          "n": 13381,
+          "rho": -0.4040510642876627
+        },
+        "visibility": {
+          "n": 1602,
+          "rho": -0.38701708590446765,
+          "scope": "b only"
+        }
+      }
+    }
+  },
+  "R5": true,
+  "renderer": "BOP cpp + OSMesa/llvmpipe CPU; no nvidia or DRI device open in workers"
+}

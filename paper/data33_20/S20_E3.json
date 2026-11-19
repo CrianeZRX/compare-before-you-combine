@@ -1,0 +1,1437 @@
+{
+  "GT_used": true,
+  "rules": {
+    "file": "runs/r33_20/S20_RULES.json",
+    "sha256": "1956a8aac950165749b747869912260902169ebce60629c6230072d2ff241d54"
+  },
+  "results": {
+    "table1": {
+      "icbin": {
+        "frame_count": 150,
+        "scenes": [
+          1,
+          2,
+          3
+        ],
+        "scene_count": 3,
+        "source": {
+          "A1": {
+            "file": "runs/p1/eval/ea/A1_icbin-test/scores_bop19.json",
+            "sha256": "90362a6c943e8497429c52e5fc7bc05d1e5c3013968200c5464a079ab7c82cab"
+          },
+          "A4": {
+            "file": "runs/p1/eval/ea/A4_icbin-test/scores_bop19.json",
+            "sha256": "24aeb4f7874c27139546a0ef3186a07f7474fc9ca2fa43d58baceb58bbabf88d"
+          },
+          "A5": {
+            "file": "runs/p1/eval/ea/A5_icbin-test/scores_bop19.json",
+            "sha256": "adda83ff03620a98ef9967070147577dc926fde76c716a8b4a6975f3a4a84231"
+          },
+          "A10": {
+            "file": "runs/p1/eval/ea/A10_icbin-test/scores_bop19.json",
+            "sha256": "6a66e8506d69d954b2f25abbea1de4dc6c69706549cf93b6541ad3b9d5a7a13d"
+          },
+          "A1neg": {
+            "file": "runs/r33_20/E1/eval/A1neg_icbin-test/A1neg_icbin-test/scores_bop19.json",
+            "sha256": "fb3707b7bac936eba4906e85d4c5afc935918272b99e96f1c04a093dd543fdb6"
+          }
+        },
+        "comparisons": {
+          "A4-A1": {
+            "by_image": {
+              "estimate_pp": 9.849570735349012,
+              "ci95_pp": [
+                8.407584527846483,
+                11.421777605172048
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 3,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": null
+          },
+          "A4-A10": {
+            "by_image": {
+              "estimate_pp": 0.7314296379245917,
+              "ci95_pp": [
+                0.29152241929351064,
+                1.2082000842638287
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 3,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": null
+          },
+          "A4-A5": {
+            "by_image": {
+              "estimate_pp": -0.06588279208661163,
+              "ci95_pp": [
+                -0.4678774174200669,
+                0.3483790075533917
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 3,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": null,
+            "R6_retains_same_direction": null
+          },
+          "A1neg-A4": {
+            "by_image": {
+              "estimate_pp": 0.540873460246388,
+              "ci95_pp": [
+                0.2690556194565801,
+                0.8296226045669332
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 3,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": null
+          }
+        }
+      },
+      "lmo": {
+        "frame_count": 200,
+        "scenes": [
+          2
+        ],
+        "scene_count": 1,
+        "source": {
+          "A1": {
+            "file": "runs/p1/eval/ea/A1_lmo-test/scores_bop19.json",
+            "sha256": "ee9037f3a409a0698fe04638ea411667ea369407a2b5aef24382088ae7dec518"
+          },
+          "A4": {
+            "file": "runs/p1/eval/ea/A4_lmo-test/scores_bop19.json",
+            "sha256": "096999acb9688ad0001e710a30fc2f38af7c065f9489c0f21bf0993d377f51b0"
+          },
+          "A5": {
+            "file": "runs/p1/eval/ea/A5_lmo-test/scores_bop19.json",
+            "sha256": "0921affd65ad51526a8442a62404d0fb77519cb2f0f1825c01dd39ce600656f8"
+          },
+          "A10": {
+            "file": "runs/p1/eval/ea/A10_lmo-test/scores_bop19.json",
+            "sha256": "a2ceeeb3b482241b2adbb1d0aa4fe1c15324f5cf97c5515d6ff72868ed7259dc"
+          },
+          "A1neg": {
+            "file": "runs/r33_20/E1/eval/A1neg_lmo-test/A1neg_lmo-test/scores_bop19.json",
+            "sha256": "0220f1004080591669722662a8c72b9bba2034b5c043b19572a1acd87cd610ca"
+          }
+        },
+        "comparisons": {
+          "A4-A1": {
+            "by_image": {
+              "estimate_pp": 66.16539792387543,
+              "ci95_pp": [
+                64.65609235929917,
+                67.62694857258359
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 1,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": null
+          },
+          "A4-A10": {
+            "by_image": {
+              "estimate_pp": 1.6523644752018498,
+              "ci95_pp": [
+                1.095251407125535,
+                2.2427191781981444
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 1,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": null
+          },
+          "A4-A5": {
+            "by_image": {
+              "estimate_pp": 0.4472895040369167,
+              "ci95_pp": [
+                0.03998302573395592,
+                0.8826830285710467
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 1,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": null
+          },
+          "A1neg-A4": {
+            "by_image": {
+              "estimate_pp": 0.09480968858130723,
+              "ci95_pp": [
+                0.011017121029484402,
+                0.22724369123835966
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 1,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": null
+          }
+        }
+      },
+      "tudl": {
+        "frame_count": 600,
+        "scenes": [
+          1,
+          2,
+          3
+        ],
+        "scene_count": 3,
+        "source": {
+          "A1": {
+            "file": "runs/p1/eval/ea/A1_tudl-test/scores_bop19.json",
+            "sha256": "de132122ceea8c57b0a43d63f9cece92231d8e542af258ead0542c2eea2724d8"
+          },
+          "A4": {
+            "file": "runs/p1/eval/ea/A4_tudl-test/scores_bop19.json",
+            "sha256": "18beabb114de637bb0944055f7213623f078c902fdb27e6d2cdb825dd69ea7ac"
+          },
+          "A5": {
+            "file": "runs/p1/eval/ea/A5_tudl-test/scores_bop19.json",
+            "sha256": "f8b4fea23487e63b0512ab60732989800f714ba11e7cf6aa6f4b21de05287ec7"
+          },
+          "A10": {
+            "file": "runs/p1/eval/ea/A10_tudl-test/scores_bop19.json",
+            "sha256": "642ea7790ede8d109ed1465acefbb209a1b117b54ef409036968ed51af2fc876"
+          },
+          "A1neg": {
+            "file": "runs/r33_20/E1/eval/A1neg_tudl-test/A1neg_tudl-test/scores_bop19.json",
+            "sha256": "5294f3a0c73e9f6c14ff7f6eeb456127743614fde26bfe01412b43dabfd50846"
+          }
+        },
+        "comparisons": {
+          "A4-A1": {
+            "by_image": {
+              "estimate_pp": 90.4538888888889,
+              "ci95_pp": [
+                88.78543055555559,
+                92.01226388888894
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 3,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": null
+          },
+          "A4-A10": {
+            "by_image": {
+              "estimate_pp": 0.031111111111115974,
+              "ci95_pp": [
+                -0.072222222222209,
+                0.13666666666665606
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 3,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": null,
+            "R6_retains_same_direction": null
+          },
+          "A4-A5": {
+            "by_image": {
+              "estimate_pp": 0.14833333333335474,
+              "ci95_pp": [
+                -0.02056944444444858,
+                0.3494583333333606
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 3,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": null,
+            "R6_retains_same_direction": null
+          },
+          "A1neg-A4": {
+            "by_image": {
+              "estimate_pp": 0.05944444444445196,
+              "ci95_pp": [
+                -0.022777777777776363,
+                0.14111111111108698
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 3,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": null,
+            "R6_retains_same_direction": null
+          }
+        }
+      },
+      "ycbv": {
+        "frame_count": 900,
+        "scenes": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ],
+        "scene_count": 12,
+        "source": {
+          "A1": {
+            "file": "runs/p1/eval/ea/A1_ycbv-test/scores_bop19.json",
+            "sha256": "81fbd86441f00027f6a218a3633d01bf79f69f7be13008e969aab2a977059774"
+          },
+          "A4": {
+            "file": "runs/p1/eval/ea/A4_ycbv-test/scores_bop19.json",
+            "sha256": "51f0009bc6631d787c49aa5ea8f5ddfa117bc2c8263cb21cc514e358d344ddec"
+          },
+          "A5": {
+            "file": "runs/p1/eval/ea/A5_ycbv-test/scores_bop19.json",
+            "sha256": "fff30b75da1482f5c8289c8ae7e7dcc7460f81d14a47d3808b34b20e1cb189bc"
+          },
+          "A10": {
+            "file": "runs/p1/eval/ea/A10_ycbv-test/scores_bop19.json",
+            "sha256": "e842b540a1ecbed7b41b9e4334a0f72414461cfb518482738638a000c5e9ffc0"
+          },
+          "A1neg": {
+            "file": "runs/r33_20/E1/eval/A1neg_ycbv-test/A1neg_ycbv-test/scores_bop19.json",
+            "sha256": "7aba2b6b397cc1ba074d4f828c495cad055533f0f2880d06c7dff219a66fa940"
+          }
+        },
+        "comparisons": {
+          "A4-A1": {
+            "by_image": {
+              "estimate_pp": 29.228474411836054,
+              "ci95_pp": [
+                27.837885402978866,
+                30.65701591154262
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 29.228474411836054,
+              "ci95_pp": [
+                21.027483628556087,
+                38.13003863585868
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 12,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true
+          },
+          "A4-A10": {
+            "by_image": {
+              "estimate_pp": 1.3566173498261946,
+              "ci95_pp": [
+                1.0318746994502193,
+                1.7105558050027574
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 1.3566173498261946,
+              "ci95_pp": [
+                0.22682156603858203,
+                2.8650775444041052
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 12,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true
+          },
+          "A4-A5": {
+            "by_image": {
+              "estimate_pp": 0.07025628587599897,
+              "ci95_pp": [
+                -0.06373393586724277,
+                0.2088863477058357
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 0.07025628587599897,
+              "ci95_pp": [
+                -0.030109727658873094,
+                0.1578622981956563
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 12,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": null,
+            "R6_retains_same_direction": null
+          },
+          "A1neg-A4": {
+            "by_image": {
+              "estimate_pp": 0.0689627294041486,
+              "ci95_pp": [
+                0.009440627490657152,
+                0.1396986619138495
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 0.0689627294041486,
+              "ci95_pp": [
+                -0.0027922875817122128,
+                0.14879182758760442
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 12,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": false
+          }
+        }
+      },
+      "tless": {
+        "frame_count": 1000,
+        "scenes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "scene_count": 20,
+        "source": {
+          "A1": {
+            "file": "runs/p1/eval/ea/A1_tless-test-primesense/scores_bop19.json",
+            "sha256": "062a6f36a88a0f13284103361994d00640968418001eaa51149ab6c33facc210"
+          },
+          "A4": {
+            "file": "runs/p1/eval/ea/A4_tless-test-primesense/scores_bop19.json",
+            "sha256": "8cfcfda78e66e00174a019bc9881a4fd97bb6e842308b88a37ba7276783590ad"
+          },
+          "A5": {
+            "file": "runs/p1/eval/ea/A5_tless-test-primesense/scores_bop19.json",
+            "sha256": "63b7f362dd3fa1eaaa430cdb4967d3ec994ada85362c8f252b87f8722c64a968"
+          },
+          "A10": {
+            "file": "runs/p1/eval/ea/A10_tless-test-primesense/scores_bop19.json",
+            "sha256": "c8e0f33fb0a6a0aa314673687605a0c7760c55435f01480b6557f13d7667fa6e"
+          },
+          "A1neg": {
+            "file": "runs/r33_20/E1/eval/A1neg_tless-test-primesense/A1neg_tless-test-primesense/scores_bop19.json",
+            "sha256": "c10fa5a7a87893c7969ad74054b15b14c40c6bb5ec239b907bd5be579b619f8d"
+          }
+        },
+        "comparisons": {
+          "A4-A1": {
+            "by_image": {
+              "estimate_pp": 43.38720224194302,
+              "ci95_pp": [
+                41.87748142789591,
+                44.89513923228428
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 43.38720224194302,
+              "ci95_pp": [
+                36.22011539625237,
+                51.74895169031357
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 20,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true
+          },
+          "A4-A10": {
+            "by_image": {
+              "estimate_pp": 3.6659920078883346,
+              "ci95_pp": [
+                3.143475156765927,
+                4.2049982604236815
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 3.6659920078883346,
+              "ci95_pp": [
+                2.5394278597083906,
+                4.736167750153178
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 20,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true
+          },
+          "A4-A5": {
+            "by_image": {
+              "estimate_pp": 1.443043230058663,
+              "ci95_pp": [
+                0.9518414593589413,
+                1.939243174959721
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 1.443043230058663,
+              "ci95_pp": [
+                0.3555235775225018,
+                2.9687660370494444
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 20,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true
+          },
+          "A1neg-A4": {
+            "by_image": {
+              "estimate_pp": 0.2979915927136716,
+              "ci95_pp": [
+                0.09414743111090296,
+                0.5072406527548307
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 0.2979915927136716,
+              "ci95_pp": [
+                0.009249507142809322,
+                0.5672726997783378
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 20,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true
+          }
+        }
+      },
+      "equal_weight_average": {
+        "eligible_datasets": [
+          "ycbv",
+          "tless"
+        ],
+        "ineligible_datasets": [
+          "icbin",
+          "lmo",
+          "tudl"
+        ],
+        "comparisons": {
+          "A4-A1": {
+            "by_image": {
+              "estimate_pp": 36.307838326889545,
+              "ci95_pp": [
+                35.28879053188713,
+                37.367244133635786
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 36.307838326889545,
+              "ci95_pp": [
+                30.886727925240322,
+                42.437808510060776
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": null,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true,
+            "by_image_all_5": {
+              "estimate_pp": 47.81690684037849,
+              "ci95_pp": [
+                47.16860511150874,
+                48.50767185888154
+              ],
+              "valid_draws": 10000
+            },
+            "R6_relative_to_all_5_image": true
+          },
+          "A4-A10": {
+            "by_image": {
+              "estimate_pp": 2.5113046788572717,
+              "ci95_pp": [
+                2.206168858946423,
+                2.831323960432332
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 2.5113046788572717,
+              "ci95_pp": [
+                1.6741322863163746,
+                3.420517100382652
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": null,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true,
+            "by_image_all_5": {
+              "estimate_pp": 1.4875029163904259,
+              "ci95_pp": [
+                1.2911394626020058,
+                1.6865898813785676
+              ],
+              "valid_draws": 10000
+            },
+            "R6_relative_to_all_5_image": true
+          },
+          "A4-A5": {
+            "by_image": {
+              "estimate_pp": 0.7566497579673381,
+              "ci95_pp": [
+                0.5044685608823688,
+                1.0128524551559688
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 0.7566497579673381,
+              "ci95_pp": [
+                0.2104059242062661,
+                1.5286805887359294
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": null,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true,
+            "by_image_all_5": {
+              "estimate_pp": 0.4086079122436672,
+              "ci95_pp": [
+                0.24888993947099927,
+                0.5724375415850147
+              ],
+              "valid_draws": 10000
+            },
+            "R6_relative_to_all_5_image": true
+          },
+          "A1neg-A4": {
+            "by_image": {
+              "estimate_pp": 0.183477161058903,
+              "ci95_pp": [
+                0.07677400306186435,
+                0.2932859484763085
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 0.183477161058903,
+              "ci95_pp": [
+                0.03284670105116092,
+                0.3230656679813995
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": null,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true,
+            "by_image_all_5": {
+              "estimate_pp": 0.21241638307797928,
+              "ci95_pp": [
+                0.1379077830518188,
+                0.2904654031898296
+              ],
+              "valid_draws": 10000
+            },
+            "R6_relative_to_all_5_image": true
+          }
+        }
+      }
+    },
+    "table4": {
+      "xyzibd": {
+        "dataset": "xyzibd",
+        "frame_count": 150,
+        "scenes": [
+          0,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "source": {
+          "B4": {
+            "file": "runs/p2/eval/y1/B4_xyzibd-val/scores_bop24.json",
+            "sha256": "3c66dec458365b14a9c3569fab6c2a36466a4d3330018f3be135a6775287826c"
+          },
+          "B0": {
+            "file": "runs/p2/eval/y1/B0_xyzibd-val/scores_bop24.json",
+            "sha256": "1391f71efef287c2ac3cf25f09c95773ac3210715ea0541a00f47e9b6a58f3ee"
+          },
+          "B1": {
+            "file": "runs/p2/eval/y1/B1_xyzibd-val/scores_bop24.json",
+            "sha256": "3abf12cb95eff76191174e6eec80f952a4d0f84f1c8ff30bd1a03cd707435d06"
+          },
+          "B3": {
+            "file": "runs/p2/eval/y1/B3_xyzibd-val/scores_bop24.json",
+            "sha256": "df84254398a3b03fff56113776c1a1ea54631695905dbac130de404b3516d246"
+          }
+        },
+        "comparisons": {
+          "B4-B0": {
+            "by_image": {
+              "estimate_pp": 9.094525505989779,
+              "ci95_pp": [
+                8.056479316783312,
+                10.154712279072573
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 9.094525505989779,
+              "ci95_pp": [
+                6.30252748464207,
+                11.754298648178377
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 15,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true
+          },
+          "B4-B1": {
+            "by_image": {
+              "estimate_pp": 8.538020771595114,
+              "ci95_pp": [
+                7.643737705070777,
+                9.718477559363425
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 8.538020771595114,
+              "ci95_pp": [
+                5.805301499779026,
+                11.333975712688384
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 15,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true
+          },
+          "B4-B3": {
+            "by_image": {
+              "estimate_pp": 5.410000766824915,
+              "ci95_pp": [
+                4.718998078008071,
+                6.491674065884655
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 5.410000766824915,
+              "ci95_pp": [
+                2.7860405914954716,
+                7.907697523083841
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 15,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "positive",
+            "R6_retains_same_direction": true
+          }
+        }
+      },
+      "ipd": {
+        "dataset": "ipd",
+        "frame_count": 88,
+        "scenes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "source": {
+          "B4": {
+            "file": "runs/p1/eval/eb/B4_ipd-val/scores_bop24.json",
+            "sha256": "bf6d8d445bcc6beb95366e589367f6c0ce4597457968576c93dffa8da9134e4a"
+          },
+          "B0": {
+            "file": "runs/p1/eval/eb/B0_ipd-val/scores_bop24.json",
+            "sha256": "05b10d8336d13efc42ea964c18fa624a9fe4e612daebb3aef0e7c6a2b98543a1"
+          },
+          "B1": {
+            "file": "runs/p1/eval/eb/B1_ipd-val/scores_bop24.json",
+            "sha256": "529a77b51ea06a26618cf5ae42c508f28656cf52dade2aca85f021d511d840c7"
+          },
+          "B3": {
+            "file": "runs/p1/eval/eb/B3_ipd-val/scores_bop24.json",
+            "sha256": "5e85ccfd96a0cd80645c1a5606b588d6398bb56db8ea9434bc3c0e554a8c92e6"
+          }
+        },
+        "comparisons": {
+          "B4-B0": {
+            "by_image": {
+              "estimate_pp": -5.608526995233682,
+              "ci95_pp": [
+                -8.129276232540748,
+                -1.7123564732341623
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": -5.608526995233682,
+              "ci95_pp": [
+                -10.248668059348375,
+                -0.04566929682302194
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 15,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "negative",
+            "R6_retains_same_direction": true
+          },
+          "B4-B1": {
+            "by_image": {
+              "estimate_pp": -5.554861366773444,
+              "ci95_pp": [
+                -7.422340278689681,
+                -2.584070122531873
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": -5.554861366773444,
+              "ci95_pp": [
+                -8.896277214742979,
+                -0.3019707677596123
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 15,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "negative",
+            "R6_retains_same_direction": true
+          },
+          "B4-B3": {
+            "by_image": {
+              "estimate_pp": -6.075551631332239,
+              "ci95_pp": [
+                -8.61662319820774,
+                -3.6229927647161135
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": -6.075551631332239,
+              "ci95_pp": [
+                -10.081326853951673,
+                -2.4245766177591204
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 15,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "negative",
+            "R6_retains_same_direction": true
+          }
+        }
+      }
+    },
+    "section_6_4": {
+      "ipd tau 0.2": {
+        "dataset": "ipd",
+        "frame_count": 88,
+        "scenes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "source": {
+          "B4": {
+            "file": "runs/r33_19/E2a/eval/ipd/0.2/eval/B4_ipd-val/scores_bop24.json",
+            "sha256": "9fce992294df6cea717788c8ddd277bdeaa425dde72c7a46b4e877b377a8edc9"
+          },
+          "B1": {
+            "file": "runs/r33_19/E2a/eval/ipd/0.2/eval/B1_ipd-val/scores_bop24.json",
+            "sha256": "b1095079a3fd9418adc68fe90995cdd4033f214b3072c8885a8da539397d4cf4"
+          }
+        },
+        "comparisons": {
+          "B4-B1": {
+            "by_image": {
+              "estimate_pp": -5.715161760897018,
+              "ci95_pp": [
+                -7.568646385130453,
+                -2.817443367467862
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": -5.715161760897018,
+              "ci95_pp": [
+                -9.102523746740538,
+                -0.3210937017010451
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 15,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "negative",
+            "R6_retains_same_direction": true
+          }
+        }
+      },
+      "ipd tau 0.26": {
+        "dataset": "ipd",
+        "frame_count": 88,
+        "scenes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "source": {
+          "B4": {
+            "file": "runs/r33_19/E2a/eval/ipd/0.26/eval/B4_ipd-val/scores_bop24.json",
+            "sha256": "e8e0d7462b01b7842e1eea5be5181f85e6c768d0a66a87ad8dd771a3e1c2d7dd"
+          },
+          "B1": {
+            "file": "runs/r33_19/E2a/eval/ipd/0.26/eval/B1_ipd-val/scores_bop24.json",
+            "sha256": "0aecf559e5500186b0b9fa6aa544b3976d04a3d517fc15817d4c2ed109f85ab6"
+          }
+        },
+        "comparisons": {
+          "B4-B1": {
+            "by_image": {
+              "estimate_pp": -5.421702565797055,
+              "ci95_pp": [
+                -7.169788172717316,
+                -2.451523671549616
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": -5.421702565797055,
+              "ci95_pp": [
+                -9.761961074441984,
+                -0.13421021423474938
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 15,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": "negative",
+            "R6_retains_same_direction": true
+          }
+        }
+      },
+      "ipd tau 0.29": {
+        "dataset": "ipd",
+        "frame_count": 88,
+        "scenes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "source": {
+          "B4": {
+            "file": "runs/r33_19/E2a/eval/ipd/0.29/eval/B4_ipd-val/scores_bop24.json",
+            "sha256": "515ad6c02d5807001fa5e8e97a1bf94ab918d9a72fc5ed2e5c51be2ce53bf9f5"
+          },
+          "B1": {
+            "file": "runs/r33_19/E2a/eval/ipd/0.29/eval/B1_ipd-val/scores_bop24.json",
+            "sha256": "439c12f8eb2d16bd3d5d2691424b3cf1e4de1ad0c77d777ad8eddc313be64e30"
+          }
+        },
+        "comparisons": {
+          "B4-B1": {
+            "by_image": {
+              "estimate_pp": -2.0878272024840214,
+              "ci95_pp": [
+                -4.575485713751956,
+                1.392153166076259
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": -2.0878272024840214,
+              "ci95_pp": [
+                -7.192793984738088,
+                2.4362807149014323
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 15,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": null,
+            "R6_retains_same_direction": null
+          }
+        }
+      },
+      "ipd tau 0.32": {
+        "dataset": "ipd",
+        "frame_count": 88,
+        "scenes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "source": {
+          "B4": {
+            "file": "runs/r33_19/E2a/eval/ipd/0.32/eval/B4_ipd-val/scores_bop24.json",
+            "sha256": "3d3355982d25c8d778f07999b5dd79a68b4ba5118e24a2f61f38811e3bd1a42d"
+          },
+          "B1": {
+            "file": "runs/r33_19/E2a/eval/ipd/0.32/eval/B1_ipd-val/scores_bop24.json",
+            "sha256": "9fe0087b3939cd3ba6c94276f3817868e64ae35b5e5ebd5d488e80e09175dbfc"
+          }
+        },
+        "comparisons": {
+          "B4-B1": {
+            "by_image": {
+              "estimate_pp": 0.4166783445285063,
+              "ci95_pp": [
+                -2.5828113651250617,
+                4.061950609796176
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": {
+              "estimate_pp": 0.4166783445285063,
+              "ci95_pp": [
+                -4.381468543838159,
+                4.656617471672072
+              ],
+              "valid_draws": 10000
+            },
+            "scene_count": 15,
+            "scene_status": "eligible",
+            "image_direction_excluding_zero": null,
+            "R6_retains_same_direction": null
+          }
+        }
+      },
+      "icbin": {
+        "dataset": "icbin",
+        "frame_count": 150,
+        "scenes": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "B4": {
+            "file": "runs/r33_19/E2b/eval/icbin/0.2/eval/B4_icbin-test/scores_bop24.json",
+            "sha256": "5135b7d0dfe98d1b82438b247474abdda6715618248e548cd55755a705651dd2"
+          },
+          "B1": {
+            "file": "runs/r33_19/E2b/eval/icbin/0.2/eval/B1_icbin-test/scores_bop24.json",
+            "sha256": "cdde387064d9cab16f99cb1813c0bdfb023a8e0b183aa2704bfecd3721552680"
+          }
+        },
+        "comparisons": {
+          "B4-B1": {
+            "by_image": {
+              "estimate_pp": -3.5808556378134853,
+              "ci95_pp": [
+                -4.990743274141948,
+                -1.9986690454767637
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 3,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": "negative",
+            "R6_retains_same_direction": null
+          }
+        }
+      },
+      "tudl": {
+        "dataset": "tudl",
+        "frame_count": 150,
+        "scenes": [
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "B4": {
+            "file": "runs/r33_19/E2b/eval/tudl/0.2/eval/B4_tudl-test/scores_bop24.json",
+            "sha256": "f32ef35ae10174bcd6c2d28230ca3a8fe1068514d101bfea2e91a9e449d92275"
+          },
+          "B1": {
+            "file": "runs/r33_19/E2b/eval/tudl/0.2/eval/B1_tudl-test/scores_bop24.json",
+            "sha256": "113aaffe836f73f6ad65fb5d4304fc9eb7789aea89a60a9b480cc819d4084787"
+          }
+        },
+        "comparisons": {
+          "B4-B1": {
+            "by_image": {
+              "estimate_pp": -0.5926125467250358,
+              "ci95_pp": [
+                -1.1890983671666102,
+                -0.10531931507766616
+              ],
+              "valid_draws": 10000
+            },
+            "by_scene": null,
+            "scene_count": 3,
+            "scene_status": "fewer_than_5_scenes",
+            "image_direction_excluding_zero": "negative",
+            "R6_retains_same_direction": null
+          }
+        }
+      }
+    }
+  },
+  "R6": [
+    {
+      "scope": "table1",
+      "dataset_or_case": "icbin",
+      "comparison": "A4-A1",
+      "image_direction": "positive",
+      "scene_status": "fewer_than_5_scenes",
+      "retains_same_direction": null
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "icbin",
+      "comparison": "A4-A10",
+      "image_direction": "positive",
+      "scene_status": "fewer_than_5_scenes",
+      "retains_same_direction": null
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "icbin",
+      "comparison": "A1neg-A4",
+      "image_direction": "positive",
+      "scene_status": "fewer_than_5_scenes",
+      "retains_same_direction": null
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "lmo",
+      "comparison": "A4-A1",
+      "image_direction": "positive",
+      "scene_status": "fewer_than_5_scenes",
+      "retains_same_direction": null
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "lmo",
+      "comparison": "A4-A10",
+      "image_direction": "positive",
+      "scene_status": "fewer_than_5_scenes",
+      "retains_same_direction": null
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "lmo",
+      "comparison": "A4-A5",
+      "image_direction": "positive",
+      "scene_status": "fewer_than_5_scenes",
+      "retains_same_direction": null
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "lmo",
+      "comparison": "A1neg-A4",
+      "image_direction": "positive",
+      "scene_status": "fewer_than_5_scenes",
+      "retains_same_direction": null
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "tudl",
+      "comparison": "A4-A1",
+      "image_direction": "positive",
+      "scene_status": "fewer_than_5_scenes",
+      "retains_same_direction": null
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "ycbv",
+      "comparison": "A4-A1",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "ycbv",
+      "comparison": "A4-A10",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "ycbv",
+      "comparison": "A1neg-A4",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": false
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "tless",
+      "comparison": "A4-A1",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "tless",
+      "comparison": "A4-A10",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "tless",
+      "comparison": "A4-A5",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "tless",
+      "comparison": "A1neg-A4",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "equal_weight_average",
+      "comparison": "A4-A1",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "equal_weight_average",
+      "comparison": "A4-A10",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "equal_weight_average",
+      "comparison": "A4-A5",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table1",
+      "dataset_or_case": "equal_weight_average",
+      "comparison": "A1neg-A4",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table4",
+      "dataset_or_case": "xyzibd",
+      "comparison": "B4-B0",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table4",
+      "dataset_or_case": "xyzibd",
+      "comparison": "B4-B1",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table4",
+      "dataset_or_case": "xyzibd",
+      "comparison": "B4-B3",
+      "image_direction": "positive",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table4",
+      "dataset_or_case": "ipd",
+      "comparison": "B4-B0",
+      "image_direction": "negative",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table4",
+      "dataset_or_case": "ipd",
+      "comparison": "B4-B1",
+      "image_direction": "negative",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "table4",
+      "dataset_or_case": "ipd",
+      "comparison": "B4-B3",
+      "image_direction": "negative",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "section_6_4",
+      "dataset_or_case": "ipd tau 0.2",
+      "comparison": "B4-B1",
+      "image_direction": "negative",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "section_6_4",
+      "dataset_or_case": "ipd tau 0.26",
+      "comparison": "B4-B1",
+      "image_direction": "negative",
+      "scene_status": "eligible",
+      "retains_same_direction": true
+    },
+    {
+      "scope": "section_6_4",
+      "dataset_or_case": "icbin",
+      "comparison": "B4-B1",
+      "image_direction": "negative",
+      "scene_status": "fewer_than_5_scenes",
+      "retains_same_direction": null
+    },
+    {
+      "scope": "section_6_4",
+      "dataset_or_case": "tudl",
+      "comparison": "B4-B1",
+      "image_direction": "negative",
+      "scene_status": "fewer_than_5_scenes",
+      "retains_same_direction": null
+    }
+  ]
+}

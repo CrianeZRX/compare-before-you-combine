@@ -55,6 +55,13 @@ def tab_rankings():
             ("A10", "Detector $\\times$ depth"), ("A5", "MegaPose score")]),
         ("FoundationPose, all best poses of an object in one call", [("A4", "Joint score")]),
     ]
+    s20 = os.path.join(os.path.dirname(os.path.abspath(D)), "data33_20", "S20_E1.json")
+    if os.path.exists(s20):  # 33-20: the per-call score with its sign reversed, same best poses and selection
+        e1 = json.load(open(s20))
+        ar["A1neg"] = [f"{e1['AR'][d]['full']['A1neg']['metrics']['ar']['estimate_pp']:.2f}" for d in ("lmo", "tless", "tudl", "icbin", "ycbv", "average")]
+        x = e1["paired_AR_differences"]["average"]["full"]["A1neg-A4"]
+        diff["A1neg"] = f"{-x['estimate_pp']:.2f} [{-x['ci95_pp'][1]:.2f}, {-x['ci95_pp'][0]:.2f}]"
+        groups[0][1].insert(1, ("A1neg", "Per-call score, sign reversed"))
     comparable = [k for _, g in groups for k, _ in g]
     best = [max(comparable, key=lambda k: float(ar[k][c])) for c in range(6)]
     out = [HEAD, "\\setlength{\\tabcolsep}{3pt}\n\\adjustbox{max width=\\linewidth}{%\n\\begin{tabular}{l ccccc c l}\n\\toprule\n",
@@ -90,7 +97,15 @@ def tab_pairwise():
                    + f" & {w['opposite_label_pairs']:,} & {f(w['accuracy'])} \\\\\n")
     c = ed["cross_mask_combined"]
     out.append("\\midrule\nPooled & " + f"{c['raw']['opposite_label_pairs']:,} & " + " & ".join(("\\textbf{%s}" % f(c[x]["accuracy"])) if x == "raw" else f(c[x]["accuracy"]) for x in cols)
-               + f" & {tot_w[1]:,} & {f(tot_w[0] / tot_w[1])} " + "\\\\\n\\bottomrule\n\\end{tabular}\n")
+               + f" & {tot_w[1]:,} & {f(tot_w[0] / tot_w[1])} " + "\\\\\n")
+    s19 = os.path.join(os.path.dirname(os.path.abspath(D)), "data33_19", "derived_s19.json")
+    if os.path.exists(s19):  # bin-picking rows: per-call scores in the B1 pools of the detection experiments (33-19, E1e)
+        b = json.load(open(s19))["E1"]["bins"]
+        out.append("\\midrule\n\\multicolumn{9}{l}{\\emph{Bin picking: candidate pools of \\rowB{1} in the detection experiments}}\\\\\n")
+        for k, name in (("xyzibd", "XYZ-IBD"), ("ipd", "IPD")):
+            r = b[k]["B1"]
+            out.append(f"{name} & {r['pairs']:,} & {r['cross']:.2f} & -- & -- & -- & -- & -- & {r['within']:.2f} \\\\\n")
+    out.append("\\bottomrule\n\\end{tabular}\n")
     open(os.path.join(T, "tab_pairwise.tex"), "w").write("".join(out))
     return {"within_pooled": tot_w[0] / tot_w[1], "within_pairs": tot_w[1]}
 
