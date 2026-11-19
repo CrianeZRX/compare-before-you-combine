@@ -38,7 +38,6 @@ checks = [
  ("T-LESS mean A4 gain", f"{dv['density_A4_basis_posthoc']['by_dataset_A4_mean']['tless']:.2f}"),
  ("A4-A5 by dataset", (lambda r: "T-LESS (%s) and LM-O (%s)" % (r[2], r[1]))(next(r for r in md_table("TABLES_P1.md", "E-A 的配对差（百分点）") if r[0] == "A4-A5"))),
  ("Y8 K16", "%.2f\\%%, %.2f\\%% and %.2f\\%% on all %s pairs" % tuple([float(r[i].split()[0]) for r in md_table("TABLES_Y8.md", "K=16 跨调用成对准确率（%）") if r[0] == "五集合并" for i in (2, 3, 4)] + [f"{36852:,}"])),
- ("Y8 K252", "%.2f\\%%, %.2f\\%% and %.2f\\%%" % tuple(float(r[3].split()[0]) for r in md_table("TABLES_Y8.md", "同一批胜者对的 K=16 与 K=252 准确率（%）") if r[0] == "五集合并")),
  ("Y8 FP", "%.2f\\%% for the z-score and %.2f\\%% for the margin" % tuple(float(r[i].split()[0]) for r in md_table("TABLES_Y8.md", "K=16 跨调用成对准确率（%）") if r[0] == "五集合并" for i in (5, 7))),
  ("Y8 AR", "%.2f, %.2f and %.2f" % tuple(float(r[2].split()[0]) for r in md_table("TABLES_Y8.md", "五集 AR 与分项（pp）") if r[0] == "五集等权" and r[1] in ("A12", "A13", "A14"))),
  ("minimal B1->B4", f"+{50.44-41.90:.1f}"), ("instances per frame", f"{3990/150:.1f}"), ("IPD instances per frame", f"{548/88:.1f}"),
@@ -48,6 +47,36 @@ checks = [
 ])(json.load(open(os.path.join(os.path.dirname(__file__), '..', 'data33_18', 'S18_2D_V11.json')))['cohorts']['Cprime']) + [
  ("EC doubling", "about 9" if round(float(x('EC 配对差')['ECD-ECB'][1].split()[0])) == 9 and round(float(x('EC 配对差')['ECE-ECB'][1].split()[0])) == 9 else "MISMATCH"),
 ]
+# ---- 33-19 (data33_19/derived_s19.json, written by scripts/make_s19.py)
+s19 = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'data33_19', 'derived_s19.json')))
+e1, e2c, e3 = s19["E1"], {(c["ds"], round(c["tau"], 3)): c for c in s19["E2"]["conditions"]}, s19["E3"]
+pct = lambda v: f"{v:.2f}\\%"
+neg = lambda c: f"{-c['delta']:.2f} [{-c['ci'][1]:.2f}, {-c['ci'][0]:.2f}]"
+checks += [
+ ("S19 bins", f"{e1['bins']['xyzibd']['B1']['cross']:.2f}\\% of the cross-call pairs correctly on XYZ-IBD and {e1['bins']['ipd']['B1']['cross']:.2f}\\% on IPD, against {e1['bins']['xyzibd']['B1']['within']:.2f}\\% and {e1['bins']['ipd']['B1']['within']:.2f}\\%"),
+ ("S19 sample pairs", f"{e1['pairs']:,} cross-call pairs"),
+ ("S19 alone", f"{e1['FPsingle']['pooled']:.2f}\\% [{e1['FPsingle']['ci'][0]:.2f}, {e1['FPsingle']['ci'][1]:.2f}]"),
+ ("S19 raw same pairs", f"({e1['FPraw']['pooled']:.2f}\\%; {e1['FPsingle']['wins']:,} against {e1['FPraw']['wins']:,} correct orders)"),
+ ("S19 AR alone/raw", f"({e1['FPsingle']['ar']:.2f} against {e1['FPraw']['ar']:.2f})"),
+ ("S19 MegaPose", f"{e1['MPsingle']['pooled']:.2f}\\% of the cross-call pairs correctly when it scores each pose alone and {e1['MPjoint']['pooled']:.2f}\\%"),
+ ("S19 fit scores", f"{e1['Depth']['pooled']:.2f}\\%, {e1['MaskIoU']['pooled']:.2f}\\% and {e1['Chamfer']['pooled']:.2f}\\%"),
+ ("S19 fit range", f"{round(min(e1[k]['pooled'] for k in ('Depth','MaskIoU','Chamfer')))}--{round(max(e1[k]['pooled'] for k in ('Depth','MaskIoU','Chamfer')))}\\% of the pairs"),
+ ("S19 GigaPose", f"{e1['native']['gigapose']['pooled']:.2f}\\% (GigaPose, {e1['native']['gigapose']['pairs']:,} pairs)"),
+ ("S19 SAM-6D", f"{e1['native']['sam6d']['pooled']:.2f}\\% (SAM-6D, {e1['native']['sam6d']['pairs']:,} pairs)"),
+ ("S19 IPD ratios", "from %.2f to %.2f, %.2f and %.2f" % tuple(e2c[('ipd', t)]['ratio'] for t in (0.2, 0.26, 0.29, 0.32))),
+ ("S19 IPD loss official", neg(e2c[('ipd', 0.2)]) + " points at %.2f" % e2c[('ipd', 0.2)]['ratio']),
+ ("S19 IPD losses", "to %.2f and %.2f" % (-e2c[('ipd', 0.26)]['delta'], -e2c[('ipd', 0.29)]['delta'])),
+ ("S19 IPD low", "+%.2f [-%.2f, %.2f] at %.2f" % (e2c[('ipd', 0.32)]['delta'], -e2c[('ipd', 0.32)]['ci'][0], e2c[('ipd', 0.32)]['ci'][1], e2c[('ipd', 0.32)]['ratio'])),
+ ("S19 IC-BIN", neg(e2c[('icbin', 0.2)]) + " points on IC-BIN (ratio %.2f)" % e2c[('icbin', 0.2)]['ratio']),
+ ("S19 TUD-L", neg(e2c[('tudl', 0.2)]) + " on TUD-L (%.1f)" % e2c[('tudl', 0.2)]['ratio']),
+ ("S19 XYZ max ratio", "reached only %.2f, and the gain stayed at %.2f points" % (e2c[('xyzibd', 0.0)]['ratio'], e2c[('xyzibd', 0.0)]['delta'])),
+ ("S19 B1 cost", "up to %.2f points" % (e2c[('ipd', 0.2)]['b1'] - e2c[('ipd', 0.32)]['b1'])),
+ ("S19 false per correct", "%.1f and %.1f on XYZ-IBD, against %.1f to %.1f on IPD, %.1f on IC-BIN" % (e2c[('xyzibd', 0.2)]['false_per_correct'], e2c[('xyzibd', 0.0)]['false_per_correct'], e2c[('ipd', 0.32)]['false_per_correct'], e2c[('ipd', 0.2)]['false_per_correct'], e2c[('icbin', 0.2)]['false_per_correct'])),
+ ("S19 rule 3 range", "%d to %d false poses" % (round(e2c[('xyzibd', 0.2)]['false_per_correct']), round(e2c[('xyzibd', 0.0)]['false_per_correct'])) if e2c[('ipd', 0.32)]['false_per_correct'] >= 9 else "MISMATCH"),
+ ("S19 rejection", "lost %.2f [%.2f, %.2f] points" % (-e3['ipd']['delta'], -e3['ipd']['ci'][1], -e3['ipd']['ci'][0])),
+ ("S19 lowest classic ratio", "the lowest and the highest median count ratio" if min(s19['E2']['classic_median_ratios'].values()) >= 1.0 else "MISMATCH"),
+]
+
 if not SRC:
     for name, s in checks:
         print("----", name, "->", s)

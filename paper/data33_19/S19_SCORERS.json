@@ -1,0 +1,233 @@
+{
+  "frozen_at_utc": "2026-11-18T16:12:56.899032+00:00",
+  "GT_used": false,
+  "asset_source": {
+    "file": "runs/r33_19/S19_ASSETS.json",
+    "sha256": "311cde5350ca423918d87a5ac9e7c9306f25290ae41efdcab739b486b0c2b09d"
+  },
+  "methods": {
+    "FoundationPose": {
+      "official": "https://github.com/NVlabs/FoundationPose",
+      "commit": "a1b694b83e633c2cb6115b9063d940a687759392",
+      "checkpoints": {
+        "weights/foundationpose/2023-10-28-18-33-37/model_best.pth": {
+          "path": "weights/foundationpose/2023-10-28-18-33-37/model_best.pth",
+          "bytes": 68220109,
+          "sha256": "774700586ddc435d408fc01c9809c43e151232936369dfbea0f0f964ba471d60",
+          "source": null
+        },
+        "weights/foundationpose/2024-01-11-20-02-45/model_best.pth": {
+          "path": "weights/foundationpose/2024-01-11-20-02-45/model_best.pth",
+          "bytes": 190229389,
+          "sha256": "81924d384bf5c26c646ee4783104982ae3d1e049c181c36641b6a7aeae494c26",
+          "source": null
+        }
+      },
+      "scores_external_pose": true,
+      "native_per_mask_winner_score": "Official ScorePredictor score; logged as logit + 100.",
+      "design": "\u6309\u6784\u9020\u53d7\u96c6\u5408\u5f71\u54cd",
+      "inference_evidence": {
+        "hypothesis_interaction": "att_cross attends over the L poses of each input set.",
+        "normalization": "Attention normalizes across poses in the set. Official inference is in eval mode.",
+        "code": [
+          "code/FoundationPose/learning/models/score_network.py:77\u201392"
+        ]
+      },
+      "training_loss": {
+        "type": "Triplet ranking loss",
+        "reference": "https://arxiv.org/abs/2312.08344 \u00a73.4"
+      }
+    },
+    "MegaPose": {
+      "official": "https://github.com/megapose6d/megapose6d",
+      "commit": "f3b8e1247f133f3d098833a251b8f2d744c03e1f",
+      "checkpoints": {
+        "weights/megapose/megapose-models/coarse-rgb-906902141/checkpoint.pth.tar": {
+          "path": "weights/megapose/megapose-models/coarse-rgb-906902141/checkpoint.pth.tar",
+          "bytes": 86412681,
+          "sha256": "30fa2ba97d1bb1b27f6443b6671f557baebf3dff93fcc8605a6c7924ead759a4",
+          "source": null
+        },
+        "weights/megapose/megapose-models/refiner-rgb-653307694/checkpoint.pth.tar": {
+          "path": "weights/megapose/megapose-models/refiner-rgb-653307694/checkpoint.pth.tar",
+          "bytes": 86651785,
+          "sha256": "52dd473fc719488e2f45a98aac2f83960ebe1534b2845cb292c0a287ba70adb7",
+          "source": null
+        },
+        "weights/megapose/megapose-models/refiner-rgbd-288182519/checkpoint.pth.tar": {
+          "path": "weights/megapose/megapose-models/refiner-rgbd-288182519/checkpoint.pth.tar",
+          "bytes": 86714505,
+          "sha256": "6e8c833f8f0937492d024f81c533f4cb860570f0195b235c4b71356e78b79235",
+          "source": null
+        }
+      },
+      "scores_external_pose": true,
+      "native_per_mask_winner_score": "Raw pose_logit; sigmoid is applied separately to each logit.",
+      "design": "\u6309\u6784\u9020\u4e0d\u53d7\u96c6\u5408\u5f71\u54cd",
+      "inference_evidence": {
+        "hypothesis_interaction": "Render, crop and estimate one independent logit per pose.",
+        "normalization": "Elementwise sigmoid; the released inference uses eval-mode network parameters. Batch-dependent numerical effects were measured in 33-17.",
+        "code": [
+          "code/megapose6d/src/megapose/inference/pose_estimator.py:218\u2013303",
+          "code/megapose6d/src/megapose/models/pose_rigid.py:606\u2013628"
+        ]
+      },
+      "training_loss": {
+        "type": "Binary cross-entropy on pose quality labels",
+        "code": "code/megapose6d/src/megapose/training/megapose_forward_loss.py:206\u2013223"
+      }
+    },
+    "GigaPose": {
+      "official": "https://github.com/nv-nguyen/gigapose",
+      "commit": "17fcf97f493f79e56a215ab10ebff16d95cfe34b",
+      "checkpoints": {
+        "gigaPose_v1.ckpt": {
+          "path": "runs/r33_19/weights/gigaPose_v1.ckpt",
+          "bytes": 3814117255,
+          "sha256": "0f60a23b03ddc41d2135c916ed1e66fb16f814f612dbde0305ae5a2c0f45c932",
+          "source": "https://huggingface.co/datasets/nv-nguyen/gigaPose/resolve/01053845036df08a4d47c72e7878467fb22ef081/gigaPose_v1.ckpt"
+        }
+      },
+      "scores_external_pose": false,
+      "native_per_mask_winner_score": "RANSAC inlier fraction of each retrieved template hypothesis, ranked within the detection; optional refiner uses MegaPose.",
+      "design": "\u4e0d\u786e\u5b9a",
+      "inference_evidence": {
+        "hypothesis_interaction": "The released path derives scores from template retrieval and its correspondences, with no standalone external-pose scorer.",
+        "normalization": "Native inlier count divided by patch count; ranking of candidates follows. The audit cannot infer sensitivity to alternative arbitrary pose sets from this interface.",
+        "code": [
+          "runs/r33_19/code/upstream/gigapose/src/models/gigaPose.py:585\u2013602",
+          "runs/r33_19/code/upstream/gigapose/src/models/matching.py:265\u2013282"
+        ]
+      },
+      "training_loss": {
+        "type": "Contrastive InfoNCE for retrieval; other heads supervise scale/rotation.",
+        "code": [
+          "runs/r33_19/code/upstream/gigapose/src/models/loss.py:71\u201390",
+          "runs/r33_19/code/upstream/gigapose/configs/model/large.yaml"
+        ]
+      }
+    },
+    "FoundPose": {
+      "official": "https://github.com/facebookresearch/foundpose",
+      "commit": "3103473bfa3985fdf563bb31cefc0cae8f979ae0",
+      "checkpoints": {
+        "dinov2_vits14_reg4_pretrain.pth": {
+          "path": "runs/r33_19/weights/dinov2_vits14_reg4_pretrain.pth",
+          "bytes": 88291785,
+          "sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+          "source": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_reg4_pretrain.pth"
+        }
+      },
+      "scores_external_pose": false,
+      "native_per_mask_winner_score": "Released coarse estimator: RANSAC inlier count for the PnP result, then best count across retrieved templates.",
+      "design": "\u6309\u6784\u9020\u4e0d\u53d7\u96c6\u5408\u5f71\u54cd",
+      "inference_evidence": {
+        "scope": "Native geometric quality conditional on each template's own correspondences; no released external scorer or official learned refinement checkpoint.",
+        "hypothesis_interaction": "Independent PnP fit for each correspondence set; argmax only consumes the resulting qualities.",
+        "normalization": "Raw inlier count, no pose-set normalization.",
+        "code": [
+          "runs/r33_19/code/upstream/foundpose/scripts/infer.py:565\u2013605",
+          "runs/r33_19/code/upstream/foundpose/utils/pnp_util.py:46\u201384"
+        ]
+      },
+      "training_loss": {
+        "type": "No learned quality loss in the released coarse scorer; the DINOv2 feature backbone is pretrained."
+      }
+    },
+    "SAM-6D PEM": {
+      "official": "https://github.com/JiehongLin/SAM-6D",
+      "commit": "1c2543b3b6faa1f1d81b3c7291f8b371d71e50c2",
+      "checkpoints": {
+        "sam-6d-pem-base.pth": {
+          "path": "runs/r33_19/weights/sam-6d-pem-base.pth",
+          "bytes": 1295700437,
+          "sha256": "19885cc1a9dbb71159830e38ec09c6e8804f5b21834fad2a6dba127e93372c59",
+          "source": "https://drive.google.com/file/d/1joW9IvwsaRJYxoUmGo68dBVg-HcFNyI7/view"
+        },
+        "mae_pretrain_vit_base.pth": {
+          "path": "runs/r33_19/weights/mae_pretrain_vit_base.pth",
+          "bytes": 343249461,
+          "sha256": "aec5f0b68e5f3193a00b07bc65a37440db549c15b36b8bea242606cc40c4bc5d",
+          "source": "https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_base.pth"
+        }
+      },
+      "scores_external_pose": false,
+      "native_per_mask_winner_score": "PEM native geometric final quality, multiplied by the input detection confidence in the official BOP output.",
+      "design": "\u4e0d\u786e\u5b9a",
+      "inference_evidence": {
+        "hypothesis_interaction": "PEM samples and selects coarse fits, then refines the selected fit. The separate reported quality uses only the result and its points. The public path has no scorer for arbitrary external hypotheses.",
+        "normalization": "Softmax acts over point correspondences, not over an external pose set.",
+        "code": [
+          "runs/r33_19/code/upstream/sam6d/SAM-6D/Pose_Estimation_Model/utils/model_utils.py:187\u2013283",
+          "runs/r33_19/code/upstream/sam6d/SAM-6D/Pose_Estimation_Model/test_bop.py:151\u2013158"
+        ]
+      },
+      "training_loss": {
+        "type": "Cross-entropy for point matches, not a loss on pose-ranking logits.",
+        "code": "runs/r33_19/code/upstream/sam6d/SAM-6D/Pose_Estimation_Model/utils/loss_utils.py:7\u201338"
+      }
+    },
+    "GenFlow": {
+      "status": "official inference code or checkpoint not located",
+      "source": "https://bop.felk.cvut.cz/method_info/782/",
+      "scores_external_pose": null,
+      "native_per_mask_winner_score": null,
+      "commit": null,
+      "checkpoints": {},
+      "design": "\u4e0d\u786e\u5b9a",
+      "inference_evidence": {
+        "reason": "No executable release verified for the official inference path."
+      },
+      "training_loss": null
+    },
+    "Co-op": {
+      "status": "official inference code or checkpoint not located",
+      "source": "https://naverlabs.github.io/Co-op/",
+      "scores_external_pose": null,
+      "native_per_mask_winner_score": null,
+      "commit": null,
+      "checkpoints": {},
+      "design": "\u4e0d\u786e\u5b9a",
+      "inference_evidence": {
+        "reason": "No executable release verified for the official inference path."
+      },
+      "training_loss": null
+    },
+    "ZeroPose": {
+      "status": "official inference code or checkpoint not located",
+      "source": "https://bop.felk.cvut.cz/method_info/378/",
+      "scores_external_pose": null,
+      "native_per_mask_winner_score": null,
+      "commit": null,
+      "checkpoints": {},
+      "design": "\u4e0d\u786e\u5b9a",
+      "inference_evidence": {
+        "reason": "No executable release verified for the official inference path."
+      },
+      "training_loss": null
+    },
+    "FreeZe / FreeZeV2": {
+      "status": "linked repository contains project website; official inference implementation not located",
+      "source": "https://github.com/andreacaraffa/freeze/",
+      "scores_external_pose": null,
+      "native_per_mask_winner_score": null,
+      "commit": null,
+      "checkpoints": {},
+      "design": "\u4e0d\u786e\u5b9a",
+      "inference_evidence": {
+        "reason": "No executable release verified for the official inference path."
+      },
+      "training_loss": null
+    }
+  },
+  "E1c": {
+    "selected": [
+      "GigaPose",
+      "SAM-6D PEM"
+    ],
+    "reason": "Both have public official checkpoints and native per-mask output; native scores are available, while their arbitrary-pose set behavior cannot be established by the released interfaces.",
+    "giga_score": "Released native inlier-fraction score",
+    "sam6d_score": "Released BOP confidence = PEM geometric quality \u00d7 input detector score. Retain both factors for the audit.",
+    "within_call": "Use only individually scored hypotheses exposed by the native pipeline."
+  }
+}

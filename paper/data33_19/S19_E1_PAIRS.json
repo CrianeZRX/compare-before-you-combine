@@ -1,0 +1,1232 @@
+{
+  "GT_used": true,
+  "rule_source": {
+    "file": "runs/r33_19/S19_RULES.json",
+    "sha256": "f2e81de4fcef90dfd035bd3a43c5bdbdd4158a968a4186788fa99a97b1cf58b0"
+  },
+  "records": {
+    "icbin": {
+      "cross_call": {
+        "FPsingle": {
+          "strict_accuracy": 0.08792612811429235,
+          "ties_half_accuracy": 0.08795516580521517,
+          "strict_ci95": [
+            0.07231409939431084,
+            0.1039193356061286
+          ],
+          "ties_half_ci95": [
+            0.07231428123677176,
+            0.10398176658186947
+          ],
+          "strict_wins": 1514,
+          "ties": 1,
+          "total_pairs": 17219
+        },
+        "FPraw": {
+          "strict_accuracy": 0.08815842964167489,
+          "ties_half_accuracy": 0.08818746733259772,
+          "strict_ci95": [
+            0.07263836966318991,
+            0.1043609237225263
+          ],
+          "ties_half_ci95": [
+            0.07267423916164227,
+            0.10438197922275758
+          ],
+          "strict_wins": 1518,
+          "ties": 1,
+          "total_pairs": 17219
+        },
+        "FPjoint": {
+          "strict_accuracy": 0.89447703118648,
+          "ties_half_accuracy": 0.8992101748068994,
+          "strict_ci95": [
+            0.8755816710359846,
+            0.9126357841713727
+          ],
+          "ties_half_ci95": [
+            0.8805941882580702,
+            0.917111917293627
+          ],
+          "strict_wins": 15402,
+          "ties": 163,
+          "total_pairs": 17219
+        },
+        "MPsingle": {
+          "strict_accuracy": 0.8754863813229572,
+          "ties_half_accuracy": 0.8754863813229572,
+          "strict_ci95": [
+            0.8561183549334715,
+            0.8944001842555955
+          ],
+          "ties_half_ci95": [
+            0.8561183549334715,
+            0.8944001842555955
+          ],
+          "strict_wins": 15075,
+          "ties": 0,
+          "total_pairs": 17219
+        },
+        "MPjoint": {
+          "strict_accuracy": 0.876473662814333,
+          "ties_half_accuracy": 0.876473662814333,
+          "strict_ci95": [
+            0.8569729308068852,
+            0.8954141312548323
+          ],
+          "ties_half_ci95": [
+            0.8569729308068852,
+            0.8954141312548323
+          ],
+          "strict_wins": 15092,
+          "ties": 0,
+          "total_pairs": 17219
+        },
+        "Depth": {
+          "strict_accuracy": 0.7843080318253093,
+          "ties_half_accuracy": 0.7843080318253093,
+          "strict_ci95": [
+            0.7596903147363016,
+            0.8087975131245766
+          ],
+          "ties_half_ci95": [
+            0.7596903147363016,
+            0.8087975131245766
+          ],
+          "strict_wins": 13505,
+          "ties": 0,
+          "total_pairs": 17219
+        },
+        "MaskIoU": {
+          "strict_accuracy": 0.73732504791219,
+          "ties_half_accuracy": 0.73732504791219,
+          "strict_ci95": [
+            0.7136371245031718,
+            0.7610546848225188
+          ],
+          "ties_half_ci95": [
+            0.7136371245031718,
+            0.7610546848225188
+          ],
+          "strict_wins": 12696,
+          "ties": 0,
+          "total_pairs": 17219
+        },
+        "Chamfer": {
+          "strict_accuracy": 0.75741913003078,
+          "ties_half_accuracy": 0.7574481677217028,
+          "strict_ci95": [
+            0.7377082799160326,
+            0.7774223636871893
+          ],
+          "ties_half_ci95": [
+            0.7377352534524365,
+            0.7774624505172549
+          ],
+          "strict_wins": 13042,
+          "ties": 1,
+          "total_pairs": 17219
+        }
+      },
+      "set_sensitivity": {
+        "FoundationPose": {
+          "within_call_pooled_IQR": 14.5625,
+          "count": 3688,
+          "absolute_delta": {
+            "median": 29.6875,
+            "p90": 82.4578125,
+            "max": 125.46875
+          },
+          "delta_divided_by_IQR": {
+            "median": 2.03862660944206,
+            "p90": 5.662339055793992,
+            "max": 8.61587982832618
+          }
+        },
+        "MegaPose": {
+          "within_call_pooled_IQR": 9.384111016988754,
+          "count": 3688,
+          "absolute_delta": {
+            "median": 0.07357950508594513,
+            "p90": 0.21973874568939208,
+            "max": 0.8786890506744385
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.007840860466456405,
+            "p90": 0.023416042850684812,
+            "max": 0.09363583285445817
+          }
+        },
+        "Depth": {
+          "within_call_pooled_IQR": 0.3556394949555397,
+          "count": 3688,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        },
+        "MaskIoU": {
+          "within_call_pooled_IQR": 0.5980539284034789,
+          "count": 3688,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        },
+        "Chamfer": {
+          "within_call_pooled_IQR": 0.013283883007321324,
+          "count": 3688,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        }
+      },
+      "source": {
+        "file": "runs/r33_19/E1/provenance/icbin.json",
+        "sha256": "64c87a288b4dcf5bff3b1aa7327e14fee2bb3310e5a7013d462b835274453c75"
+      }
+    },
+    "lmo": {
+      "cross_call": {
+        "FPsingle": {
+          "strict_accuracy": 0.003577106518282989,
+          "ties_half_accuracy": 0.003577106518282989,
+          "strict_ci95": [
+            0.0015588312720266006,
+            0.005973834696883333
+          ],
+          "ties_half_ci95": [
+            0.0015588312720266006,
+            0.005973834696883333
+          ],
+          "strict_wins": 9,
+          "ties": 0,
+          "total_pairs": 2516
+        },
+        "FPraw": {
+          "strict_accuracy": 0.003179650238473768,
+          "ties_half_accuracy": 0.003179650238473768,
+          "strict_ci95": [
+            0.0011971268954509178,
+            0.005447629975792722
+          ],
+          "ties_half_ci95": [
+            0.0011971268954509178,
+            0.005447629975792722
+          ],
+          "strict_wins": 8,
+          "ties": 0,
+          "total_pairs": 2516
+        },
+        "FPjoint": {
+          "strict_accuracy": 0.9948330683624801,
+          "ties_half_accuracy": 0.995429252782194,
+          "strict_ci95": [
+            0.9917695069955622,
+            0.9975500454162882
+          ],
+          "ties_half_ci95": [
+            0.9925640093382212,
+            0.9978423333859798
+          ],
+          "strict_wins": 2503,
+          "ties": 3,
+          "total_pairs": 2516
+        },
+        "MPsingle": {
+          "strict_accuracy": 0.9920508744038156,
+          "ties_half_accuracy": 0.9920508744038156,
+          "strict_ci95": [
+            0.9872763419483102,
+            0.9961330239752514
+          ],
+          "ties_half_ci95": [
+            0.9872763419483102,
+            0.9961330239752514
+          ],
+          "strict_wins": 2496,
+          "ties": 0,
+          "total_pairs": 2516
+        },
+        "MPjoint": {
+          "strict_accuracy": 0.9924483306836248,
+          "ties_half_accuracy": 0.9924483306836248,
+          "strict_ci95": [
+            0.9879661849325785,
+            0.9962902660089556
+          ],
+          "ties_half_ci95": [
+            0.9879661849325785,
+            0.9962902660089556
+          ],
+          "strict_wins": 2497,
+          "ties": 0,
+          "total_pairs": 2516
+        },
+        "Depth": {
+          "strict_accuracy": 0.9618441971383148,
+          "ties_half_accuracy": 0.9618441971383148,
+          "strict_ci95": [
+            0.9502388535031847,
+            0.9723890476435973
+          ],
+          "ties_half_ci95": [
+            0.9502388535031847,
+            0.9723890476435973
+          ],
+          "strict_wins": 2420,
+          "ties": 0,
+          "total_pairs": 2516
+        },
+        "MaskIoU": {
+          "strict_accuracy": 0.9391891891891891,
+          "ties_half_accuracy": 0.9391891891891891,
+          "strict_ci95": [
+            0.9243003572388568,
+            0.9528152260111022
+          ],
+          "ties_half_ci95": [
+            0.9243003572388568,
+            0.9528152260111022
+          ],
+          "strict_wins": 2363,
+          "ties": 0,
+          "total_pairs": 2516
+        },
+        "Chamfer": {
+          "strict_accuracy": 0.9697933227344993,
+          "ties_half_accuracy": 0.9697933227344993,
+          "strict_ci95": [
+            0.9602202183933033,
+            0.9783915097853753
+          ],
+          "ties_half_ci95": [
+            0.9602202183933033,
+            0.9783915097853753
+          ],
+          "strict_wins": 2440,
+          "ties": 0,
+          "total_pairs": 2516
+        }
+      },
+      "set_sensitivity": {
+        "FoundationPose": {
+          "within_call_pooled_IQR": 22.78515625,
+          "count": 3767,
+          "absolute_delta": {
+            "median": 2.265625,
+            "p90": 67.6875,
+            "max": 104.0625
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.09943425338590776,
+            "p90": 2.970684039087948,
+            "max": 4.567118121035488
+          }
+        },
+        "MegaPose": {
+          "within_call_pooled_IQR": 14.851893305778503,
+          "count": 3767,
+          "absolute_delta": {
+            "median": 0.06827402114868164,
+            "p90": 0.24588298797607425,
+            "max": 1.1903479099273682
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.00459699108679416,
+            "p90": 0.016555666197817842,
+            "max": 0.08014788993025107
+          }
+        },
+        "Depth": {
+          "within_call_pooled_IQR": 0.5522835999727249,
+          "count": 3767,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        },
+        "MaskIoU": {
+          "within_call_pooled_IQR": 0.5428041289841349,
+          "count": 3767,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        },
+        "Chamfer": {
+          "within_call_pooled_IQR": 0.05529669585878738,
+          "count": 3767,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        }
+      },
+      "source": {
+        "file": "runs/r33_19/E1/provenance/lmo.json",
+        "sha256": "1c3babdb8e010fa308db835a9f784c7df50d39123ffb3073de56cb9fc2d645d8"
+      }
+    },
+    "tudl": {
+      "cross_call": {
+        "FPsingle": {
+          "strict_accuracy": 0.0,
+          "ties_half_accuracy": 0.0,
+          "strict_ci95": [
+            0.0,
+            0.0
+          ],
+          "ties_half_ci95": [
+            0.0,
+            0.0
+          ],
+          "strict_wins": 0,
+          "ties": 0,
+          "total_pairs": 474
+        },
+        "FPraw": {
+          "strict_accuracy": 0.0,
+          "ties_half_accuracy": 0.0,
+          "strict_ci95": [
+            0.0,
+            0.0
+          ],
+          "ties_half_ci95": [
+            0.0,
+            0.0
+          ],
+          "strict_wins": 0,
+          "ties": 0,
+          "total_pairs": 474
+        },
+        "FPjoint": {
+          "strict_accuracy": 1.0,
+          "ties_half_accuracy": 1.0,
+          "strict_ci95": [
+            1.0,
+            1.0
+          ],
+          "ties_half_ci95": [
+            1.0,
+            1.0
+          ],
+          "strict_wins": 474,
+          "ties": 0,
+          "total_pairs": 474
+        },
+        "MPsingle": {
+          "strict_accuracy": 1.0,
+          "ties_half_accuracy": 1.0,
+          "strict_ci95": [
+            1.0,
+            1.0
+          ],
+          "ties_half_ci95": [
+            1.0,
+            1.0
+          ],
+          "strict_wins": 474,
+          "ties": 0,
+          "total_pairs": 474
+        },
+        "MPjoint": {
+          "strict_accuracy": 1.0,
+          "ties_half_accuracy": 1.0,
+          "strict_ci95": [
+            1.0,
+            1.0
+          ],
+          "ties_half_ci95": [
+            1.0,
+            1.0
+          ],
+          "strict_wins": 474,
+          "ties": 0,
+          "total_pairs": 474
+        },
+        "Depth": {
+          "strict_accuracy": 1.0,
+          "ties_half_accuracy": 1.0,
+          "strict_ci95": [
+            1.0,
+            1.0
+          ],
+          "ties_half_ci95": [
+            1.0,
+            1.0
+          ],
+          "strict_wins": 474,
+          "ties": 0,
+          "total_pairs": 474
+        },
+        "MaskIoU": {
+          "strict_accuracy": 0.9177215189873418,
+          "ties_half_accuracy": 0.9177215189873418,
+          "strict_ci95": [
+            0.8830645161290323,
+            0.94866661401569
+          ],
+          "ties_half_ci95": [
+            0.8830645161290323,
+            0.94866661401569
+          ],
+          "strict_wins": 435,
+          "ties": 0,
+          "total_pairs": 474
+        },
+        "Chamfer": {
+          "strict_accuracy": 0.9409282700421941,
+          "ties_half_accuracy": 0.9409282700421941,
+          "strict_ci95": [
+            0.9072149993020798,
+            0.9700854700854701
+          ],
+          "ties_half_ci95": [
+            0.9072149993020798,
+            0.9700854700854701
+          ],
+          "strict_wins": 446,
+          "ties": 0,
+          "total_pairs": 474
+        }
+      },
+      "set_sensitivity": {
+        "FoundationPose": {
+          "within_call_pooled_IQR": 21.43212890625,
+          "count": 566,
+          "absolute_delta": {
+            "median": 2.1015625,
+            "p90": 57.390625,
+            "max": 82.28125
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.09805663773266808,
+            "p90": 2.6777846125805937,
+            "max": 3.839154307064908
+          }
+        },
+        "MegaPose": {
+          "within_call_pooled_IQR": 15.242616385221481,
+          "count": 566,
+          "absolute_delta": {
+            "median": 0.07851451635360718,
+            "p90": 0.24836882948875427,
+            "max": 0.6967742443084717
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.005150986836467992,
+            "p90": 0.01629436989108779,
+            "max": 0.045712246946267764
+          }
+        },
+        "Depth": {
+          "within_call_pooled_IQR": 0.6077702417969704,
+          "count": 566,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        },
+        "MaskIoU": {
+          "within_call_pooled_IQR": 0.5061155785454778,
+          "count": 566,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        },
+        "Chamfer": {
+          "within_call_pooled_IQR": 0.04837079078808134,
+          "count": 566,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        }
+      },
+      "source": {
+        "file": "runs/r33_19/E1/provenance/tudl.json",
+        "sha256": "b9098157c4a4699f0e2b7179262dd4c68b63a1cde160ecc249b69bc7c71a95ab"
+      }
+    },
+    "ycbv": {
+      "cross_call": {
+        "FPsingle": {
+          "strict_accuracy": 0.008635578583765112,
+          "ties_half_accuracy": 0.008635578583765112,
+          "strict_ci95": [
+            0.0,
+            0.021653543307086614
+          ],
+          "ties_half_ci95": [
+            0.0,
+            0.021653543307086614
+          ],
+          "strict_wins": 5,
+          "ties": 0,
+          "total_pairs": 579
+        },
+        "FPraw": {
+          "strict_accuracy": 0.008635578583765112,
+          "ties_half_accuracy": 0.008635578583765112,
+          "strict_ci95": [
+            0.0016181229773462784,
+            0.018740152100982017
+          ],
+          "ties_half_ci95": [
+            0.0016181229773462784,
+            0.018740152100982017
+          ],
+          "strict_wins": 5,
+          "ties": 0,
+          "total_pairs": 579
+        },
+        "FPjoint": {
+          "strict_accuracy": 0.9861830742659758,
+          "ties_half_accuracy": 0.9870466321243523,
+          "strict_ci95": [
+            0.9681816278361504,
+            0.9983334026622296
+          ],
+          "ties_half_ci95": [
+            0.969639136179042,
+            0.9983334026622296
+          ],
+          "strict_wins": 571,
+          "ties": 1,
+          "total_pairs": 579
+        },
+        "MPsingle": {
+          "strict_accuracy": 0.9844559585492227,
+          "ties_half_accuracy": 0.9844559585492227,
+          "strict_ci95": [
+            0.9689026409470983,
+            0.9965339454162744
+          ],
+          "ties_half_ci95": [
+            0.9689026409470983,
+            0.9965339454162744
+          ],
+          "strict_wins": 570,
+          "ties": 0,
+          "total_pairs": 579
+        },
+        "MPjoint": {
+          "strict_accuracy": 0.9879101899827288,
+          "ties_half_accuracy": 0.9879101899827288,
+          "strict_ci95": [
+            0.9741689464308436,
+            0.9982877444093198
+          ],
+          "ties_half_ci95": [
+            0.9741689464308436,
+            0.9982877444093198
+          ],
+          "strict_wins": 572,
+          "ties": 0,
+          "total_pairs": 579
+        },
+        "Depth": {
+          "strict_accuracy": 0.9378238341968912,
+          "ties_half_accuracy": 0.9378238341968912,
+          "strict_ci95": [
+            0.9102164023504138,
+            0.9636056404600598
+          ],
+          "ties_half_ci95": [
+            0.9102164023504138,
+            0.9636056404600598
+          ],
+          "strict_wins": 543,
+          "ties": 0,
+          "total_pairs": 579
+        },
+        "MaskIoU": {
+          "strict_accuracy": 0.8652849740932642,
+          "ties_half_accuracy": 0.8652849740932642,
+          "strict_ci95": [
+            0.8224295037060909,
+            0.9060293229795562
+          ],
+          "ties_half_ci95": [
+            0.8224295037060909,
+            0.9060293229795562
+          ],
+          "strict_wins": 501,
+          "ties": 0,
+          "total_pairs": 579
+        },
+        "Chamfer": {
+          "strict_accuracy": 0.9602763385146805,
+          "ties_half_accuracy": 0.9602763385146805,
+          "strict_ci95": [
+            0.9336728648805493,
+            0.9829555117501545
+          ],
+          "ties_half_ci95": [
+            0.9336728648805493,
+            0.9829555117501545
+          ],
+          "strict_wins": 556,
+          "ties": 0,
+          "total_pairs": 579
+        }
+      },
+      "set_sensitivity": {
+        "FoundationPose": {
+          "within_call_pooled_IQR": 26.91796875,
+          "count": 1818,
+          "absolute_delta": {
+            "median": 0.84375,
+            "p90": 58.3078125,
+            "max": 109.21875
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.03134523291249456,
+            "p90": 2.166129734436221,
+            "max": 4.057466260339574
+          }
+        },
+        "MegaPose": {
+          "within_call_pooled_IQR": 8.593189358711243,
+          "count": 1818,
+          "absolute_delta": {
+            "median": 0.05939817428588867,
+            "p90": 0.2005715012550354,
+            "max": 0.9180431365966797
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.006912238495672679,
+            "p90": 0.023340751946971636,
+            "max": 0.10683380736466891
+          }
+        },
+        "Depth": {
+          "within_call_pooled_IQR": 0.33406850695610046,
+          "count": 1818,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        },
+        "MaskIoU": {
+          "within_call_pooled_IQR": 0.5145218053481968,
+          "count": 1818,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        },
+        "Chamfer": {
+          "within_call_pooled_IQR": 0.009108843208982456,
+          "count": 1818,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        }
+      },
+      "source": {
+        "file": "runs/r33_19/E1/provenance/ycbv.json",
+        "sha256": "b02d31c17a88d4ae7731f4118a31a11ef97b82c23422c8ea94a2b903e48fec44"
+      }
+    },
+    "tless": {
+      "cross_call": {
+        "FPsingle": {
+          "strict_accuracy": 0.041312959818902095,
+          "ties_half_accuracy": 0.041312959818902095,
+          "strict_ci95": [
+            0.02640810746301444,
+            0.05719931551499348
+          ],
+          "ties_half_ci95": [
+            0.02640810746301444,
+            0.05719931551499348
+          ],
+          "strict_wins": 73,
+          "ties": 0,
+          "total_pairs": 1767
+        },
+        "FPraw": {
+          "strict_accuracy": 0.04018109790605546,
+          "ties_half_accuracy": 0.04018109790605546,
+          "strict_ci95": [
+            0.025626074253694613,
+            0.05614987699379771
+          ],
+          "ties_half_ci95": [
+            0.025626074253694613,
+            0.05614987699379771
+          ],
+          "strict_wins": 71,
+          "ties": 0,
+          "total_pairs": 1767
+        },
+        "FPjoint": {
+          "strict_accuracy": 0.9422750424448217,
+          "ties_half_accuracy": 0.9434069043576684,
+          "strict_ci95": [
+            0.9223200272644756,
+            0.9613899613899614
+          ],
+          "ties_half_ci95": [
+            0.9236882158450785,
+            0.962308957046617
+          ],
+          "strict_wins": 1665,
+          "ties": 4,
+          "total_pairs": 1767
+        },
+        "MPsingle": {
+          "strict_accuracy": 0.9235993208828522,
+          "ties_half_accuracy": 0.9235993208828522,
+          "strict_ci95": [
+            0.9004232687721434,
+            0.9449431478156792
+          ],
+          "ties_half_ci95": [
+            0.9004232687721434,
+            0.9449431478156792
+          ],
+          "strict_wins": 1632,
+          "ties": 0,
+          "total_pairs": 1767
+        },
+        "MPjoint": {
+          "strict_accuracy": 0.9241652518392756,
+          "ties_half_accuracy": 0.9241652518392756,
+          "strict_ci95": [
+            0.9013991909165409,
+            0.9449327604129272
+          ],
+          "ties_half_ci95": [
+            0.9013991909165409,
+            0.9449327604129272
+          ],
+          "strict_wins": 1633,
+          "ties": 0,
+          "total_pairs": 1767
+        },
+        "Depth": {
+          "strict_accuracy": 0.8222976796830787,
+          "ties_half_accuracy": 0.8222976796830787,
+          "strict_ci95": [
+            0.7846402401873402,
+            0.860676426223357
+          ],
+          "ties_half_ci95": [
+            0.7846402401873402,
+            0.860676426223357
+          ],
+          "strict_wins": 1453,
+          "ties": 0,
+          "total_pairs": 1767
+        },
+        "MaskIoU": {
+          "strict_accuracy": 0.8449349179400113,
+          "ties_half_accuracy": 0.8449349179400113,
+          "strict_ci95": [
+            0.799056921177428,
+            0.8841429506106846
+          ],
+          "ties_half_ci95": [
+            0.799056921177428,
+            0.8841429506106846
+          ],
+          "strict_wins": 1493,
+          "ties": 0,
+          "total_pairs": 1767
+        },
+        "Chamfer": {
+          "strict_accuracy": 0.8058856819468024,
+          "ties_half_accuracy": 0.8058856819468024,
+          "strict_ci95": [
+            0.762239815054458,
+            0.8485205262845741
+          ],
+          "ties_half_ci95": [
+            0.762239815054458,
+            0.8485205262845741
+          ],
+          "strict_wins": 1424,
+          "ties": 0,
+          "total_pairs": 1767
+        }
+      },
+      "set_sensitivity": {
+        "FoundationPose": {
+          "within_call_pooled_IQR": 31.30078125,
+          "count": 2349,
+          "absolute_delta": {
+            "median": 2.125,
+            "p90": 61.556250000000034,
+            "max": 109.8125
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.06788967927118432,
+            "p90": 1.9666042680643965,
+            "max": 3.508299014102084
+          }
+        },
+        "MegaPose": {
+          "within_call_pooled_IQR": 11.086067914962769,
+          "count": 2349,
+          "absolute_delta": {
+            "median": 0.09366607666015625,
+            "p90": 0.2992448806762697,
+            "max": 1.4619879722595215
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.008448989973598843,
+            "p90": 0.026992878175712918,
+            "max": 0.13187615153306875
+          }
+        },
+        "Depth": {
+          "within_call_pooled_IQR": 0.33124804496765137,
+          "count": 2349,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        },
+        "MaskIoU": {
+          "within_call_pooled_IQR": 0.5494131154440605,
+          "count": 2349,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        },
+        "Chamfer": {
+          "within_call_pooled_IQR": 0.022632053166173203,
+          "count": 2349,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        }
+      },
+      "source": {
+        "file": "runs/r33_19/E1/provenance/tless.json",
+        "sha256": "1da572cbe2707ed3915f591ec88e66be383d55ff1d2f6ea1fe621b20c1453943"
+      }
+    },
+    "pooled": {
+      "cross_call": {
+        "FPsingle": {
+          "strict_accuracy": 0.07098204389270672,
+          "ties_half_accuracy": 0.07100421192640213,
+          "strict_ci95": [
+            0.0585223544046322,
+            0.08373692052262151
+          ],
+          "ties_half_ci95": [
+            0.0585223544046322,
+            0.0837594722542753
+          ],
+          "strict_wins": 1601,
+          "ties": 1,
+          "total_pairs": 22555
+        },
+        "FPraw": {
+          "strict_accuracy": 0.07102637996009754,
+          "ties_half_accuracy": 0.07104854799379295,
+          "strict_ci95": [
+            0.058531180322600226,
+            0.08391436378439977
+          ],
+          "ties_half_ci95": [
+            0.05856269200224525,
+            0.08391481128019238
+          ],
+          "strict_wins": 1602,
+          "ties": 1,
+          "total_pairs": 22555
+        },
+        "FPjoint": {
+          "strict_accuracy": 0.9139880292618044,
+          "ties_half_accuracy": 0.9177787630237197,
+          "strict_ci95": [
+            0.8989546261703464,
+            0.9284422251758321
+          ],
+          "ties_half_ci95": [
+            0.9030724711358419,
+            0.9319628594870982
+          ],
+          "strict_wins": 20615,
+          "ties": 171,
+          "total_pairs": 22555
+        },
+        "MPsingle": {
+          "strict_accuracy": 0.8976723564619818,
+          "ties_half_accuracy": 0.8976723564619818,
+          "strict_ci95": [
+            0.882628390463565,
+            0.9127258006680884
+          ],
+          "ties_half_ci95": [
+            0.882628390463565,
+            0.9127258006680884
+          ],
+          "strict_wins": 20247,
+          "ties": 0,
+          "total_pairs": 22555
+        },
+        "MPjoint": {
+          "strict_accuracy": 0.8986034138771891,
+          "ties_half_accuracy": 0.8986034138771891,
+          "strict_ci95": [
+            0.8835248157459167,
+            0.9136646726875532
+          ],
+          "ties_half_ci95": [
+            0.8835248157459167,
+            0.9136646726875532
+          ],
+          "strict_wins": 20268,
+          "ties": 0,
+          "total_pairs": 22555
+        },
+        "Depth": {
+          "strict_accuracy": 0.8155619596541787,
+          "ties_half_accuracy": 0.8155619596541787,
+          "strict_ci95": [
+            0.7962376052766693,
+            0.8349387617553208
+          ],
+          "ties_half_ci95": [
+            0.7962376052766693,
+            0.8349387617553208
+          ],
+          "strict_wins": 18395,
+          "ties": 0,
+          "total_pairs": 22555
+        },
+        "MaskIoU": {
+          "strict_accuracy": 0.7753491465307027,
+          "ties_half_accuracy": 0.7753491465307027,
+          "strict_ci95": [
+            0.756849147669499,
+            0.793817576815441
+          ],
+          "ties_half_ci95": [
+            0.756849147669499,
+            0.793817576815441
+          ],
+          "strict_wins": 17488,
+          "ties": 0,
+          "total_pairs": 22555
+        },
+        "Chamfer": {
+          "strict_accuracy": 0.7939702948348482,
+          "ties_half_accuracy": 0.7939924628685435,
+          "strict_ci95": [
+            0.7782951699798674,
+            0.8103579603533768
+          ],
+          "ties_half_ci95": [
+            0.7783211504553306,
+            0.8103805231790605
+          ],
+          "strict_wins": 17908,
+          "ties": 1,
+          "total_pairs": 22555
+        }
+      },
+      "set_sensitivity": {
+        "FoundationPose": {
+          "within_call_pooled_IQR": 33.83203125,
+          "count": 12188,
+          "absolute_delta": {
+            "median": 6.59375,
+            "p90": 68.46796875000003,
+            "max": 125.46875
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.19489666320286342,
+            "p90": 2.0237616903359896,
+            "max": 3.708578686063965
+          }
+        },
+        "MegaPose": {
+          "within_call_pooled_IQR": 12.98686195909977,
+          "count": 12188,
+          "absolute_delta": {
+            "median": 0.07312917709350586,
+            "p90": 0.24230661392211914,
+            "max": 1.4619879722595215
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.005631012120080705,
+            "p90": 0.018657826246650543,
+            "max": 0.1125743830082925
+          }
+        },
+        "Depth": {
+          "within_call_pooled_IQR": 0.43119286745786667,
+          "count": 12188,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        },
+        "MaskIoU": {
+          "within_call_pooled_IQR": 0.5760364661817565,
+          "count": 12188,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        },
+        "Chamfer": {
+          "within_call_pooled_IQR": 0.03213568585201369,
+          "count": 12188,
+          "absolute_delta": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          },
+          "delta_divided_by_IQR": {
+            "median": 0.0,
+            "p90": 0.0,
+            "max": 0.0
+          }
+        }
+      }
+    }
+  },
+  "R1_preliminary": {
+    "FPsingle": "\u53cd\u8f6c",
+    "FPraw": "\u53cd\u8f6c",
+    "FPjoint": "\u53ef\u6bd4",
+    "MPsingle": "\u65e0\u6cd5\u5224\u5b9a",
+    "MPjoint": "\u65e0\u6cd5\u5224\u5b9a",
+    "Depth": "\u9000\u5316",
+    "MaskIoU": "\u9000\u5316",
+    "Chamfer": "\u9000\u5316"
+  },
+  "R3": {
+    "spearman": -0.22360679774997896,
+    "descriptive_only": true,
+    "scorers": {
+      "FoundationPose": "FPraw",
+      "MegaPose": "MPsingle",
+      "Depth": "Depth",
+      "MaskIoU": "MaskIoU",
+      "Chamfer": "Chamfer"
+    }
+  },
+  "R4": "persists",
+  "R1_without_within_call": "If even a within-call accuracy of 1 would cause a gap below .10, comparable is proven. Otherwise keep the indeterminate reading.",
+  "original_33_17_ED_source": {
+    "file": "runs/p1/ED_MECH.json",
+    "sha256": "84808dfbb03d51bf87fbe3a64236d47a1ae9cda8a79047323b8013975c3465ed"
+  }
+}

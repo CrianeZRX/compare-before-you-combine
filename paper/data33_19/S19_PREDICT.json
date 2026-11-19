@@ -1,0 +1,27 @@
+{
+  "GT_used": true,
+  "GT_used_for_condition_setting": true,
+  "frozen_at_utc": "2026-11-18T16:17:21.906092+00:00",
+  "source": {
+    "file": "runs/r33_19/S19_RULES.json",
+    "sha256": "f2e81de4fcef90dfd035bd3a43c5bdbdd4158a968a4186788fa99a97b1cf58b0"
+  },
+  "predictions": {
+    "icbin": {
+      "median_count_ratio": 1.4444444444444444,
+      "B4_minus_B1": null,
+      "source": {
+        "file": "runs/r33_19/conditions/E2b/icbin.json",
+        "sha256": "da7e8ef0078b5d9c876a880bbbaecba669684806f93697fe0e1ece9396d55511"
+      }
+    },
+    "tudl": {
+      "median_count_ratio": 11.0,
+      "B4_minus_B1": "nonpositive",
+      "source": {
+        "file": "runs/r33_19/conditions/E2b/tudl.json",
+        "sha256": "a5d5d9d81e257524f84468fabf1d218426c67aa5e07aa8beb1217aae618ffcb2"
+      }
+    }
+  }
+}
