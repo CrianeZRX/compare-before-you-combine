@@ -73,7 +73,8 @@ def fig_phenomenon():
     within = [100 * ed["within_call_by_dataset"][d]["accuracy"] for d, _ in DS]
     a.plot(x[:-1], within, ls="none", marker="_", ms=13, mew=1.4, color=C["black"], label="FoundationPose, within one call")
     a.axhline(50, color=C["grey"], lw=0.7, ls=(0, (3, 2)))
-    a.text(len(keys) - 0.45, 52, "chance (50%)", fontsize=6.5, color=C["grey"], ha="right")
+    a.set_xlim(-0.55, len(keys) - 0.45)
+    a.text(len(keys) - 0.4, 50, "chance", fontsize=6.3, color=C["grey"], ha="left", va="center", clip_on=False)
     a.set_xticks(x); a.set_xticklabels(labels, fontsize=6.6); a.set_ylim(0, 108); a.set_yticks([0, 25, 50, 75, 100])
     a.set_ylabel("Correct pose ranked first (%)")
     a.legend(loc="upper center", bbox_to_anchor=(0.5, 1.36), ncol=2, columnspacing=1.0, handlelength=1.4)
@@ -248,6 +249,23 @@ def fig_scores():
         axes[2].set_xlabel(xlab)
         axes[0].legend(loc="upper center", bbox_to_anchor=(2.9, 1.42), ncol=2, handlelength=1.6)
         fig.savefig(os.path.join(F, fname), bbox_inches="tight", pad_inches=0.02); plt.close(fig)
+    # combined figure of the article: (a) per-call and (b) joint scores, one row each
+    fig, axes = plt.subplots(2, 5, figsize=(W, 2.75), gridspec_kw=dict(wspace=0.22, hspace=0.95))
+    fig.subplots_adjust(left=0.035, right=0.995, top=0.86, bottom=0.12)
+    for r, (key, xlab, tag) in enumerate((("s_raw", "Per-call FoundationPose score", "(a)"), ("s_joint", "Joint FoundationPose score", "(b)"))):
+        for ax, (d, name) in zip(axes[r], DS):
+            e = np.array(h[d][key]["bin_edges"]); mid = 0.5 * (e[1:] + e[:-1]); wdt = e[1] - e[0]
+            for cls, col, lab in (("correct", C["blue"], "correct pose"), ("incorrect", C["red"], "incorrect pose")):
+                c = np.array(h[d][key][cls]["counts"], float); c = c / (c.sum() * wdt)
+                ax.fill_between(mid, c, step="mid", color=col, alpha=0.25, lw=0)
+                ax.step(mid, c, where="mid", color=col, lw=1.0, label=lab)
+                ax.axvline(h[d][key][cls]["median"], color=col, lw=0.8, ls=(0, (3, 2)))
+            ax.set_title(name, fontsize=7.5, pad=2); ax.set_yticks([]); ax.spines["left"].set_visible(False)
+            ax.tick_params(axis="x", labelsize=6.5)
+        axes[r][2].set_xlabel(xlab, labelpad=1)
+        axes[r][0].text(-0.16, 1.08, tag, transform=axes[r][0].transAxes, fontsize=9, fontweight="bold", va="bottom", ha="left")
+    axes[0][0].legend(loc="lower center", bbox_to_anchor=(0.5, 0.955), bbox_transform=fig.transFigure, ncol=2, handlelength=1.6)
+    fig.savefig(os.path.join(F, "fig_scores_both.pdf"), bbox_inches="tight", pad_inches=0.02); plt.close(fig)
     derived["score_medians"] = {d: {k: {c: h[d][k][c]["median"] for c in ("correct", "incorrect")} for k in ("s_raw", "s_joint", "megapose_logit")} for d in h}
     derived["setsens"] = {sc: json.load(open(os.path.join(D, "SETSENS.json")))["scopes"]["pooled"][sc] for sc in ("FP", "MegaPose")}
     load("SETSENS.json")

@@ -1,9 +1,11 @@
 from dataclasses import replace
 import json
 from pathlib import Path
+import tempfile
 import unittest
 
-from compare6d.cli import audit
+from compare6d.check import check, load_bop_errors, load_table
+from compare6d.cli import audit, main
 from compare6d.ranking import best_index, correct_from_mssd, pairwise, relative_scores, score_jointly
 from compare6d.selection import Candidate, select_detections, translation_nms
 from compare6d.replay import validate
@@ -93,6 +95,47 @@ class EvidenceTests(unittest.TestCase):
         data["cross_call_pooled"]["raw"]["correct_first"] += 1
         with self.assertRaises(ValueError):
             validate(data)
+
+
+class CheckTests(unittest.TestCase):
+    ROOT = Path(__file__).resolve().parents[1]
+
+    def test_example_table_is_read_as_reversed(self):
+        result = check(load_table(self.ROOT / "examples" / "scores_table.csv"))
+        self.assertEqual((result["wins"], result["pairs"], result["images_with_pairs"]), (1, 7, 4))
+        self.assertEqual(result["reading"], "reversed")
+        self.assertLess(result["interval_95"][1], 0.5)
+        self.assertEqual(main(["check", "--table", str(self.ROOT / "examples" / "scores_table.csv")]), 0)
+
+    def test_readings_follow_the_interval(self):
+        image = lambda i: ("", "1", str(i))
+        good = [(image(i), "1", s, c) for i in range(20) for s, c in ((0.9, True), (0.1, False))]
+        self.assertEqual(check(good)["reading"], "comparable")
+        mixed = [(image(i), "1", s, c) for i in range(20)
+                 for s, c in (((0.9, True), (0.1, False)) if i % 2 else ((0.1, True), (0.9, False)))]
+        self.assertEqual(check(mixed)["reading"], "not_comparable")
+        self.assertEqual(check(mixed, seed=3), check(mixed, seed=3))
+        with self.assertRaises(ValueError):
+            check([(image(0), "1", 0.5, True), (image(0), "2", 0.4, False)])
+
+    def test_pairs_stay_within_one_image_and_object(self):
+        rows = [(("", "1", "0"), "1", 0.9, True), (("", "1", "0"), "2", 0.1, False),
+                (("", "1", "1"), "1", 0.2, False), (("", "1", "0"), "1", 0.3, False)]
+        self.assertEqual(check(rows)["pairs"], 1)
+
+    def test_bop_error_files(self):
+        with tempfile.TemporaryDirectory() as folder:
+            folder = Path(folder)
+            (folder / "models_info.json").write_text(json.dumps({"3": {"diameter": 100.0}}))
+            records = [{"im_id": 7, "obj_id": 3, "est_id": 0, "score": 0.2, "errors": {"0": [9.9], "1": [80.0]}},
+                       {"im_id": 7, "obj_id": 3, "est_id": 1, "score": 0.8, "errors": {"0": [10.0], "1": [55.0]}}]
+            (folder / "errors_000002.json").write_text(json.dumps(records))
+            rows = load_bop_errors(folder, folder / "models_info.json")
+            self.assertEqual([row[3] for row in rows], [True, False])
+            self.assertEqual(rows[0][0], ("", "000002", "7"))
+            self.assertEqual(len(load_bop_errors(folder, folder / "models_info.json", threshold=0.2)), 2)
+            self.assertTrue(all(row[3] for row in load_bop_errors(folder, folder / "models_info.json", threshold=0.2)))
+            self.assertEqual(main(["check", "--bop-errors", str(folder)]), 1)
 
 
 if __name__ == "__main__":

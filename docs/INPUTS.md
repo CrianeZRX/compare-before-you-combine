@@ -18,6 +18,22 @@ The best per-call pose is the first maximum in the saved order. Relative scores 
 
 The included JSON example is synthetic. For real diagnostics, compute MSSD against the matching benchmark objects in the same length unit as their diameters, with the benchmark symmetry definitions and split annotations. Correctness labels are used by the audit only.
 
+## Check: one score per output pose
+
+`compare6d check` computes the cross-call pairwise accuracy of the score that a pipeline compares or submits. It needs one row per output pose, where each pose is the best pose of one scoring call (one mask), and it assumes that all rows of an image and object come from separate calls.
+
+```bash
+compare6d check --table examples/scores_table.csv
+compare6d check --bop-errors path/to/error=mssd_ntop=-1 --models-info path/to/models/models_info.json
+```
+
+| Input | Format |
+| --- | --- |
+| `--table` | CSV with the columns `scene_id`, `im_id`, `obj_id`, `score` and `correct` (`1`/`0` or `true`/`false`). An optional `dataset` column keeps the images of several datasets apart. |
+| `--bop-errors` | Folder with the `errors_<scene>.json` files that the BOP toolkit's `eval_calc_errors.py` writes for the error type `mssd`. Each record gives `im_id`, `obj_id`, `score` and the error to every annotated instance of the object. With `--models-info`, a pose counts as correct if its smallest error is strictly below `--threshold` (default 0.1) times the object diameter. |
+
+A pair is two poses of the same image and object of which exactly one is correct. The accuracy is the share of pairs in which the correct pose has the strictly higher score. The 95% interval resamples images (2,000 draws, fixed seed). The output field `reading` is `reversed` if the interval lies below 50%, `comparable` if it lies above, and `not_comparable` if it includes 50%. Images in which no object has both a correct and an incorrect pose contribute no pairs, so the check needs frames in which the pipeline makes mistakes.
+
 ## Selection API
 
 Pass one image at a time to `select_detections`. Each `Candidate` is the already chosen best pose of one mask. Its translation and object diameter are in metres. `detector_confidence=None` identifies an admitted supplementary mask. `detector_counts` is the per-object count of accepted detections.

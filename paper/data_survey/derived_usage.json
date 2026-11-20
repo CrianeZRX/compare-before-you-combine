@@ -1,0 +1,14 @@
+{
+ "industrial_submit_fp_score": [
+  "SAM-FP",
+  "SAM3-FS-FP"
+ ],
+ "n_entries": 25,
+ "n_state_confidence": 0,
+ "n_state_ranking_across_detections": 0,
+ "n_state_refiner": 6,
+ "n_state_score_network_selects": 3,
+ "n_use_foundationpose": 15,
+ "n_without_description": 3,
+ "read_on": "2026-11-19"
+}

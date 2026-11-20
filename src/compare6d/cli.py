@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import sys
 
+from .check import check, load_bop_errors, load_table
 from .ranking import Pairwise, best_index, pairwise, relative_scores
 from .replay import replay
 
@@ -67,8 +68,24 @@ def main(argv=None):
     replay_parser = commands.add_parser("replay", help="Export summaries from archived paper aggregates.")
     replay_parser.add_argument("input", type=Path)
     replay_parser.add_argument("--out", required=True, type=Path)
+    check_parser = commands.add_parser(
+        "check", help="Cross-call pairwise accuracy of one score per output pose.")
+    source = check_parser.add_mutually_exclusive_group(required=True)
+    source.add_argument("--table", type=Path, help="CSV with scene_id, im_id, obj_id, score, correct.")
+    source.add_argument("--bop-errors", type=Path, help="Folder of errors_<scene>.json files (BOP toolkit, MSSD).")
+    check_parser.add_argument("--models-info", type=Path, help="models_info.json of the dataset; needed with --bop-errors.")
+    check_parser.add_argument("--threshold", type=float, default=0.1, help="Correct if MSSD < threshold x diameter.")
+    check_parser.add_argument("--draws", type=int, default=2000)
+    check_parser.add_argument("--seed", type=int, default=0)
     args = parser.parse_args(argv)
     try:
+        if args.command == "check":
+            if args.bop_errors and not args.models_info:
+                raise ValueError("--bop-errors needs --models-info.")
+            rows = load_table(args.table) if args.table else load_bop_errors(
+                args.bop_errors, args.models_info, args.threshold)
+            print(json.dumps(check(rows, args.draws, args.seed), indent=2, allow_nan=False))
+            return 0
         data = json.loads(args.input.read_text(encoding="utf-8"))
         if args.command == "audit":
             print(json.dumps(audit(data), indent=2, allow_nan=False))
