@@ -1,6 +1,6 @@
 # Compare Before You Combine
 
-**Cross-Call Rank Inversion in Unseen-Object 6D Pose Estimation**
+**FoundationPose Scores Rank Poses but Are Not Confidences**
 
 [![CPU checks](https://github.com/CrianeZRX/compare-before-you-combine/actions/workflows/test.yml/badge.svg)](https://github.com/CrianeZRX/compare-before-you-combine/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -47,16 +47,18 @@ Python 3.10 or later. The diagnostics and aggregate replay run on CPU with the P
 
 ```bash
 python -m pip install .
+compare6d check --table examples/scores_table.csv
 compare6d audit examples/synthetic_calls.json
 compare6d replay data/paper_results.json --out build/results
 ```
 
-The first command after installation audits a synthetic target. Its per-call scores place the incorrect pose first. Its joint scores place the correct pose first. The replay writes CSVs for ranking, pairwise accuracy, counting, candidate coverage, and the supplementary SAM 3 gate, plus a short Markdown summary.
+The first command after installation computes the cross-call pairwise accuracy of a small synthetic table of scores and reads it as reversed. The second audits a synthetic target. Its per-call scores place the incorrect pose first. Its joint scores place the correct pose first. The replay writes CSVs for ranking, pairwise accuracy, counting, candidate coverage, and the supplementary SAM 3 gate, plus a short Markdown summary.
 
 ## Use your own cached poses
 
+- `compare6d check` answers the first question for a new scorer, detector or dataset: can the scores of separate calls be compared, and in which direction? It takes one score and one correctness label per output pose, as a CSV or as the MSSD error files of the BOP toolkit, and reports the cross-call pairwise accuracy with a 95% interval. See the [input schema](docs/INPUTS.md).
 - `compare6d audit` compares per-call, relative, and joint scores. See the [input schema](docs/INPUTS.md) for correctness labels, grouping, and tie conventions.
-- `compare6d.ranking.score_jointly` accepts a scorer callback and re-scores one fixed winner from each mask in a single call for an image–object target.
+- `compare6d.ranking.score_jointly` accepts a scorer callback and re-scores one fixed winner from each mask in a single call for an image–object target. [`examples/foundationpose_joint_scoring.py`](examples/foundationpose_joint_scoring.py) shows the same call pattern with the public FoundationPose code; it needs FoundationPose, its weights and a GPU and is not run by the tests here.
 - `compare6d.selection.select_detections` applies the B0–B4 output rules to registered candidates, with translation NMS and the paper's output caps.
 
 ## Results and scope
@@ -65,7 +67,7 @@ The [artifact guide](docs/ARTIFACT.md) maps the code and data to the experiments
 
 ## Citation
 
-Cite the manuscript as *Compare Before You Combine: Cross-Call Rank Inversion in Unseen-Object 6D Pose Estimation*.
+Cite the manuscript as *Compare Before You Combine: FoundationPose Scores Rank Poses but Are Not Confidences*.
 
 ## License
 

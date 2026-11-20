@@ -1,0 +1,229 @@
+{
+  "protocol_version": "33-22 v1.1",
+  "frozen_at_utc": "2026-11-20T02:05:43.177905+00:00",
+  "scope": "E4a 静态审读及 E4 预登记。截至冻结，E4 尚无前向或实验结果。",
+  "GT_used": false,
+  "amends": {
+    "file": "S22_RULES.json",
+    "sha256": "695a7a573fd8fc2251c15788d7168f9063a4b2a971d4c75f1ad48c7c8f14ceca",
+    "scope": "仅新增 E4 和 GPU 阶段次序，E1、E2 判读与实例清单沿用原冻结版本。"
+  },
+  "protocol_source": {
+    "file": "Pasted text.txt",
+    "sha256": "7566f1e270e04d71f5846571ff78d8b0a75d8964f66cce001b2a56bc7d1f3db7"
+  },
+  "E4_original_protocol": "## E4（P0，GPU ≤ 4 小时）：第二个打分器 WBPS 的跨调用检查\n\n### 背景\n\n- BOP 上的 WAPR.v2 条目用 FoundationPose 的打分网络为每个检测选位姿。\n- 已发布的 WAPR 代码（`pip install wapr==0.0.3`，GitHub WangYuLin-SEU/WAPR）把最终打分换成了自己的 WBPS。按其文档：\n  - WBPS 把假设分组，组内选一个假设（within_group），组间的输出（between_group）决定分数；\n  - 每个位姿的 `score_6d = (100 − max(between_group)) / 200`；\n  - 定位时，每类按 `score_6d` 保留前若干个位姿，也就是在不同检测之间比较这个分数；\n  - 文档说明这个分数不是通用的置信概率。\n- **E4 检验的是已发布代码中的 WBPS，不是 WAPR.v2 的榜单提交。**报告和判读中都不得把结论推到该榜单条目上。\n\n### E4a（不用 GPU，在任何 E4 运行之前完成，写入 `S22_RULES_AMEND.json`）\n\n1. **版本：** 记录 WAPR 的版本号或提交哈希，以及 `wapr_w_mask.pth`、`sapr.pth`、`wbps.pth` 的 SHA-256。\n2. **读代码，回答以下问题：**\n   - 一次 WBPS 调用的输入是什么：哪些假设、怎样分组。\n   - 一个假设的分数是否依赖同一调用中的其他假设或其他组（注意力、归一化、取最大值等）。\n   - `score_6d` 与 within_group、between_group 的确切计算关系。\n   - 是否能对任意给定的一组位姿（属于同一掩码或同一目标）调用 WBPS 打分。\n3. **定义（写定后不改）：**\n   - **调用：** 对一个掩码的全部假设做一次 WBPS 前向。\n   - **最佳位姿：** 该调用返回的位姿。\n   - **逐调用分数：** 该位姿的 `score_6d`。\n   - **单独打分：** 只含该最佳位姿的一次 WBPS 调用。\n   - **联合打分：** 同一图像、同一物体的所有最佳位姿放在一次 WBPS 调用中。\n   - 单独与联合时，每个最佳位姿各自作为一组还是另作安排，由实现方按代码结构写定。\n4. **可行性：** 如果不改 WBPS 代码就无法对给定位姿打分，可以写一个只调用其内部函数的薄包装（代码随交付）。权重和网络都不得修改。如果仍不可行，单独打分和联合打分记为\"不适用\"，其余指标照做。\n\n### E4b 运行\n\n- **图像：** 33-19 E1 的 750 张图像子集，帧清单不变。\n- **掩码：** A1 行使用的 CNOS 与 NOCTIS 掩码及其物体身份，原样使用。另标记其中的 CNOS 子集，用于 W0 行。\n- **注册：** 每个掩码用 WAPR 的默认配置注册（4 个视角 × 3 个面内旋转、3 次 WAPR 更新、2 次 SAPR 更新、WBPS 选择），输入为掩码、深度和内参。不用 WAPR 自带的 2D 检测器，不做 FoundationPose 精修，不调参数。\n- **逐掩码记录：**\n  - 全部假设的最终位姿；\n  - WBPS 为每个假设或每组输出的全部量；\n  - 被选中的序号与 `score_6d`；\n  - 耗时。\n- **对最佳位姿重新打分：**\n  - WBPS 单独打分、WBPS 联合打分（若可行）；\n  - FoundationPose 单独打分、FoundationPose 联合打分（与 33-19 E1 相同的代码和设置）；\n  - 深度一致性（与 33-17 相同的代码）。\n\n### 指标\n\n- **M1 调用内成对准确率：** 同一调用的假设之间，正确与错误配对，用 WBPS 选择时所依据的量排序。说明用的是哪个量；未暴露时记为\"不适用\"。\n- **M2 集合敏感性：** 最佳位姿在本调用中的逐调用分数与联合打分时分数之差的绝对值，除以 q（全部最佳位姿逐调用分数的四分位距）。报告中位数、P90、最大值，以及最高分掩码在逐调用与联合打分之间改变的目标数。定义与论文 §3.2 相同。\n- **M3 跨调用成对准确率（严格；平局另报）：** WBPS 逐调用、WBPS 反号（逐调用分数取负）、WBPS 单独、WBPS 联合、FoundationPose 单独、FoundationPose 联合、深度一致性。逐数据集报告并合并，区间分别按图像和按场景整群重采样。\n- **M4 AR（BOP 评测代码，五集等权）：** 每行为每个目标从候选掩码的最佳位姿中按某个分数选一个，再评测。\n\n  | 行 | 掩码 | 排序依据 |\n  | --- | --- | --- |\n  | W0 | 只用 CNOS | WBPS 逐调用（对应 A0） |\n  | W1 | CNOS + NOCTIS | WBPS 逐调用（对应 A1） |\n  | W1neg | CNOS + NOCTIS | WBPS 逐调用取负 |\n  | W1a | CNOS + NOCTIS | WBPS 单独 |\n  | W4 | CNOS + NOCTIS | WBPS 联合（对应 A4） |\n  | WF | CNOS + NOCTIS | FoundationPose 联合 |\n  | WD | CNOS + NOCTIS | 深度一致性 |\n\n  配对差及区间：W1 − W0、W4 − W1、W1neg − W4、W4 − WF、WD − W4，以及每一行减去 AR 最高的一行。\n- **M5 反转对的来源：** 仅在 R15 为\"反转\"或\"不可比\"时做。按 33-20 E2 的三类（背景或杂物、其他物体、目标上的错误位姿）报告 WBPS 逐调用的准确率和占比。\n\n### 判读\n\n| 编号 | 条件 | 记为 |\n| --- | --- | --- |\n| R14（是否同类） | M2 的 P90 ≥ 0.25 | \"依赖集合\"，与 FoundationPose 同类。参照 33-17：FoundationPose 的 P90 为 1.17，MegaPose 为 0.02 |\n|  | P90 ≤ 0.05 | \"不依赖集合\" |\n|  | 其他 | \"居中\" |\n|  | 联合打分不可行 | 只按 E4a 的代码阅读判断，记为\"仅据设计\" |\n| R15（跨调用，WBPS 逐调用，合并） | 区间上限 < 50% | \"反转\" |\n|  | 区间下限 > 50% | \"可比\"；若同时 W4 − W1 区间下限 > +1 AR，加记\"可比但有代价\" |\n|  | 其他 | \"不可比\" |\n| R16（加掩码的代价） | W1 − W0 区间上限 < 0 | \"逐调用 WBPS 下加掩码有损\" |\n|  | 区间落在 [−1, +1] 内 | \"持平\" |\n|  | 区间下限 > 0 | \"有益\" |\n|  | 其他 | \"不定\" |\n| R17（修复） | W4 − W1 区间下限 > 0 | \"联合打分有效\" |\n|  | 若 R15 为\"反转\"：W1neg − W4 落在 [−1, +1] 内 | \"反号与联合打分持平\" |\n| R18（FoundationPose 在其他位姿上） | FoundationPose 单独打分的跨调用准确率区间上限 < 50% | \"FoundationPose 的反转在 WAPR 的位姿上同样成立\" |\n| R19（两个打分器的比较） | W4 − WF 的区间 | 只报告，不设预期 |\n\n### 论文写法（方案方使用，实现方照做判读即可）\n\n- R14 为\"依赖集合\"且 R15 为\"反转\"：现象推广到第二个同类打分器。\n- R14 为\"依赖集合\"且 R15 为\"不可比\"：同类打分器跨调用失效，但方式不同（不可比而非反转），检查能区分两者。\n- R15 为\"可比\"：同类设计不一定出问题，检查能把两者分开。\n- 任何结果都只针对已发布代码中的 WBPS，不涉及 WAPR.v2 的榜单提交。\n\n---\n\n",
+  "upstream": {
+    "package": "wapr==0.0.3",
+    "git_tag": "v0.0.3",
+    "git_commit": "781fc9255dc95ba242ac5ee7065b82e71dab7651",
+    "github_release": "https://github.com/WangYuLin-SEU/WAPR/releases/tag/v0.0.3",
+    "pypi": "https://pypi.org/project/wapr/0.0.3/",
+    "wheel": "wapr-0.0.3-py3-none-any.whl",
+    "wheel_sha256_verified": "b4868277859f159e29ceb3daac16c210b750fe7fe42e7c423e489baaed3f4170",
+    "checkpoint_repo": "https://huggingface.co/SEU-WYL/WAPR",
+    "checkpoint_repo_revision": "676c54f11a8d4ae2946789c02e3f81eefb16fd0d",
+    "checkpoints": [
+      {
+        "file": "wapr_w_mask.pth",
+        "size_bytes": 87201655,
+        "sha256": "2c78d11924059cdc5c8f380ba9105d72628c50e3d34269bb86c9c0c072f0ceba",
+        "sha256_source": "Author-published Git LFS OID at pinned Hugging Face revision",
+        "source_url": "https://huggingface.co/SEU-WYL/WAPR/blob/676c54f11a8d4ae2946789c02e3f81eefb16fd0d/wapr_w_mask.pth",
+        "download_url": "https://huggingface.co/SEU-WYL/WAPR/resolve/676c54f11a8d4ae2946789c02e3f81eefb16fd0d/wapr_w_mask.pth"
+      },
+      {
+        "file": "sapr.pth",
+        "size_bytes": 87187865,
+        "sha256": "40d35718e2281c17ec5fa57e7ef85c1832e14632099f9e534b77a37c65aba7c3",
+        "sha256_source": "Author-published Git LFS OID at pinned Hugging Face revision",
+        "source_url": "https://huggingface.co/SEU-WYL/WAPR/blob/676c54f11a8d4ae2946789c02e3f81eefb16fd0d/sapr.pth",
+        "download_url": "https://huggingface.co/SEU-WYL/WAPR/resolve/676c54f11a8d4ae2946789c02e3f81eefb16fd0d/sapr.pth"
+      },
+      {
+        "file": "wbps.pth",
+        "size_bytes": 87179545,
+        "sha256": "fdba0553b538881c720c48426fa3783ccc765c266ed810790c77ce5861d1d6ad",
+        "sha256_source": "Author-published Git LFS OID at pinned Hugging Face revision",
+        "source_url": "https://huggingface.co/SEU-WYL/WAPR/blob/676c54f11a8d4ae2946789c02e3f81eefb16fd0d/wbps.pth",
+        "download_url": "https://huggingface.co/SEU-WYL/WAPR/resolve/676c54f11a8d4ae2946789c02e3f81eefb16fd0d/wbps.pth"
+      }
+    ]
+  },
+  "E4a_review": {
+    "default_input": {
+      "finding": "每掩码一组，包含 4×3 初始化、3 次 WAPR 和 2 次 SAPR 后的 12 个位姿。官方裁剪给出 160×160 的渲染与观测 RGB+XYZ 配对，比率 1.1，WBPS 无掩码输入通道。多个掩码批处理时各组保留独立的批维。",
+      "sources": [
+        {
+          "file": "wapr/recipe.py",
+          "lines": [
+            24,
+            46
+          ],
+          "sha256": "46a0c3ef86356174c3ae5d12e8606fca053b51f200c992893f78c75e0d89aa85",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/recipe.py#L24-L46"
+        },
+        {
+          "file": "wapr/estimator.py",
+          "lines": [
+            1154,
+            1231
+          ],
+          "sha256": "80c1e75bae2c819e4ac76d5e47f2d24b43e65fc41940ffa780e9de5512f92a50",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/estimator.py#L1154-L1231"
+        },
+        {
+          "file": "wapr/ogl.py",
+          "lines": [
+            3013,
+            3039
+          ],
+          "sha256": "b760f0d071ed18697e5532b8d16a68d4f4785080b4fa7798553a21411395b880",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/ogl.py#L3013-L3039"
+        }
+      ]
+    },
+    "design_classification": {
+      "finding": "按构造在同组内受集合影响。两头将特征组织为 [组数, 每组位姿数, 特征维]，组内候选间做自注意力，不同组之间没有注意力。eval 模式 BN 使用固定统计量。公开组分另有 max 约简。",
+      "sources": [
+        {
+          "file": "wapr/nets.py",
+          "lines": [
+            798,
+            805
+          ],
+          "sha256": "17b9c45e1e9f1ac8ccf02d03277bc8c10e356184dc4e150f974006561e6cd304",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/nets.py#L798-L805"
+        },
+        {
+          "file": "wapr/nets.py",
+          "lines": [
+            834,
+            838
+          ],
+          "sha256": "17b9c45e1e9f1ac8ccf02d03277bc8c10e356184dc4e150f974006561e6cd304",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/nets.py#L834-L838"
+        },
+        {
+          "file": "wapr/nets.py",
+          "lines": [
+            1222,
+            1236
+          ],
+          "sha256": "17b9c45e1e9f1ac8ccf02d03277bc8c10e356184dc4e150f974006561e6cd304",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/nets.py#L1222-L1236"
+        },
+        {
+          "file": "wapr/nets.py",
+          "lines": [
+            2064,
+            2072
+          ],
+          "sha256": "17b9c45e1e9f1ac8ccf02d03277bc8c10e356184dc4e150f974006561e6cd304",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/nets.py#L2064-L2072"
+        },
+        {
+          "file": "wapr/estimator.py",
+          "lines": [
+            1225,
+            1237
+          ],
+          "sha256": "80c1e75bae2c819e4ac76d5e47f2d24b43e65fc41940ffa780e9de5512f92a50",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/estimator.py#L1225-L1237"
+        }
+      ]
+    },
+    "public_value": {
+      "finding": "组内 argmax(within_group) 选胜者。score_6d=(100−max_j between_group[j])/200，取同一掩码完整假设组的最大 between_group。两头原值都保留。",
+      "sources": [
+        {
+          "file": "wapr/estimator.py",
+          "lines": [
+            1217,
+            1240
+          ],
+          "sha256": "80c1e75bae2c819e4ac76d5e47f2d24b43e65fc41940ffa780e9de5512f92a50",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/estimator.py#L1217-L1240"
+        },
+        {
+          "file": "wapr/tracking.py",
+          "lines": [
+            242,
+            264
+          ],
+          "sha256": "555c147021d014b31a3f56f5d9c4e8ca095137c0578b369aad06e503b72f5036",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/tracking.py#L242-L264"
+        }
+      ]
+    },
+    "arbitrary_pose_feasibility": {
+      "finding": "_wbps 可打支持组长的外给位姿。公开 runner 与 TRT 拒绝 K=1，底层正式 WbpsNet.forward 只要求 L>0 和 N%L=0。薄包装复用官方裁剪和 eval Torch 模块，在形状层面支持任意正数组长，包括单元素。实际渲染和数值待验证。",
+      "sources": [
+        {
+          "file": "wapr/pose_groups.py",
+          "lines": [
+            13,
+            24
+          ],
+          "sha256": "508a95a46ec36b951641463b1c2b7fbc68c8a207c86b202ce18ee65e286eeecd",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/pose_groups.py#L13-L24"
+        },
+        {
+          "file": "wapr/estimator.py",
+          "lines": [
+            1371,
+            1386
+          ],
+          "sha256": "80c1e75bae2c819e4ac76d5e47f2d24b43e65fc41940ffa780e9de5512f92a50",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/estimator.py#L1371-L1386"
+        },
+        {
+          "file": "wapr/tracking.py",
+          "lines": [
+            76,
+            88
+          ],
+          "sha256": "555c147021d014b31a3f56f5d9c4e8ca095137c0578b369aad06e503b72f5036",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/tracking.py#L76-L88"
+        },
+        {
+          "file": "wapr/nets.py",
+          "lines": [
+            1943,
+            1959
+          ],
+          "sha256": "17b9c45e1e9f1ac8ccf02d03277bc8c10e356184dc4e150f974006561e6cd304",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/nets.py#L1943-L1959"
+        },
+        {
+          "file": "wapr/nets.py",
+          "lines": [
+            1224,
+            1236
+          ],
+          "sha256": "17b9c45e1e9f1ac8ccf02d03277bc8c10e356184dc4e150f974006561e6cd304",
+          "source_url": "https://github.com/WangYuLin-SEU/WAPR/blob/781fc9255dc95ba242ac5ee7065b82e71dab7651/wapr/nets.py#L1224-L1236"
+        }
+      ]
+    }
+  },
+  "E4_fixed_definitions": {
+    "cohort": "沿用 S22_RULES.json 中 33-19 E1 的 750 张经典集清单。掩码用 A1 原样候选，标记 CNOS。",
+    "execution_backend": "三种调用均用官方 Torch eval 后端评分，满足 K=1 且避免跨后端数值差。保持 4×3、3+2、裁剪与权重，不调网络参数。",
+    "registration_group": "一掩码的 12 个最终假设组成一组。胜者是 within_group 的第一个最大值，逐调用置信度是公开组 score_6d。",
+    "singleton": "每个胜者独占一组，每次一个位姿。分数为 (100−between_group[0])/200。",
+    "joint": "同一帧同一物体的所有掩码胜者按原归档顺序放在同一个注意力组。用 (100−between_group[j])/200 给各候选排序。另存官方整组唯一的公开 score_6d。M2 的差同时包含上下文和组约简的影响。",
+    "M1_order": "以 within_group 降序，严格正确胜出为主，并列另报。",
+    "M2_scale": "q 取全部合格胜者原始逐调用分数的合并 IQR。若 q=0，归一化指标为不适用。",
+    "M4_selection": "每目标每行只输出排序首位。并列按原归档候选顺序。",
+    "R16_overlap_precedence": "按通用等价界约定，完整落在 ±1 AR 点的区间优先记为持平。",
+    "runtime_guard": "E4b 首先核对单元素与多元素官方裁剪和 Torch 前向。如果薄包装无法执行，按协议把对应行记为不适用。组内不补齐假设。",
+    "claim_scope": "只针对本发行版的 WBPS。",
+    "GPU_hours_cap": 4
+  },
+  "wrapper": {
+    "file": "s22_wbps_wrapper.py",
+    "sha256": "69cf046ea3ddb584ffd1c3764069d309cdbdc676db17564c07f832c5aa598ebf",
+    "verified": "静态语法与接口审查，尚无前向"
+  }
+}

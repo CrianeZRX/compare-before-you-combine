@@ -11,6 +11,8 @@ This folder holds the result files of the controlled study and the scripts that 
 | `data33_19/` | Result files of the further experiments (Supplementary Section S7): other scores of the same best poses, native scores of GigaPose and SAM-6D, the inversion in bins, varied count ratios and a rejection step, with the readings fixed in advance (`S19_RULES.json`, `S19_PREDICT.json`). |
 | `data33_20/` | Result files of the reversed-score analyses (Supplementary Section S8): ranking by the per-call score with its sign reversed and by a calibration fitted on a few labelled frames, the categories of the incorrect poses behind the reversal, and intervals that resample whole scenes, with the readings fixed in advance (`S20_RULES.json`). |
 | `data33_21/` | Result files of two further checks (Supplementary Section S8.4): the count ratio of the detector on two more dense datasets (HomebrewedDB, HOPE-Image) at its official threshold, with a control frame of IC-BIN, and a small pilot scorer trained to rank the hypotheses of one call, with the readings fixed in advance (`S21_RULES.json`, `S21_RULES_AMEND.json`, `S21_E2_RULES.json`). |
+| `data33_22/` | Result files of the experiments on the uses of a pose score: FoundationPose and other scores as output confidences (`S22_E1.json`) and as grasp order (`S22_E2.json`), the controlled displacement of ground-truth poses (`S22_E3.json`), and the check of the scorer of the released WAPR code (`S22_E4.json`, 57 MB; `s22_wbps_wrapper.py`), with the readings fixed in advance (`S22_RULES.json`, `S22_RULES_AMEND.json`). |
+| `data_survey/` | What the method pages of two BOP leaderboards state about the use of FoundationPose, transcribed by hand on 2026-11-19 (Supplementary Section S9), and the counts derived from it. |
 | `scripts/` | Table, figure and number-check scripts. |
 
 File names keep the internal run identifiers (33-17, 33-18). In `data33_18/`, absolute paths of the machines on which the runs were made were removed from file references; nothing else was changed. `data/paper_results.json` at the repository root is extracted from these files, and its `source_sha256` lists their hashes.
@@ -29,9 +31,11 @@ FIGW=7.1 python paper/scripts/make_figures_v3.py   # figures  -> paper/figures/
 FIGW=7.1 python paper/scripts/make_s19.py          # count-ratio figure and Section S7 tables
 python paper/scripts/make_s20.py                   # Section S8 tables
 python paper/scripts/make_s21.py                   # Section S8.4 count-ratio table
+python paper/scripts/make_usage.py                 # Section S9 table
+python paper/scripts/make_s22.py                   # Tables 2 and 3, Figure 3 and Figure 2 numbers
 ```
 
-`FIGW` is the text width in inches: 7.1 for the two-column journal layout and 5.45 for the single-column review layout. The figure script also rewrites `data33_17/derived_v3.json`, a summary of values used in the text; the regenerated file is identical to the committed one. `make_s19.py`, `make_s20.py` and `make_s21.py` likewise rewrite `data33_19/derived_s19.json`, `data33_20/derived_s20.json` and `data33_21/derived_s21.json`.
+`FIGW` is the text width in inches: 7.1 for the two-column journal layout and 5.45 for the single-column review layout. The figure script also rewrites `data33_17/derived_v3.json`, a summary of values used in the text; the regenerated file is identical to the committed one. `make_s19.py`, `make_s20.py` and `make_s21.py` likewise rewrite `data33_19/derived_s19.json`, `data33_20/derived_s20.json` and `data33_21/derived_s21.json`. `make_usage.py` rewrites `data_survey/derived_usage.json`. `make_s22.py` rewrites `data33_22/derived_s22.json`.
 
 ## Checking the numbers in the text
 
