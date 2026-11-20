@@ -1,0 +1,6299 @@
+{
+  "dataset": "hope",
+  "GT_used": true,
+  "detector_gt_used": false,
+  "GT_used_for_condition_setting": true,
+  "detector_device": "33-17 GPU AMP float16",
+  "gpu": 3,
+  "rules": {
+    "path": "runs/r33_21/S21_RULES_AMEND.json",
+    "sha256": "9b29ed8f400b844b4c7bc1ee0a715df89da7f8af7232a14036150bafe29c9700"
+  },
+  "summary": {
+    "frames": 50,
+    "valid_ratio_frames": 50,
+    "zero_truth_frames": 0,
+    "median_count_ratio": 1.5,
+    "fraction_ratio_below_one": 0.0,
+    "accepted_detections": 1410,
+    "mean_predicted_object_types": 18.0,
+    "median_predicted_object_types": 18.0
+  },
+  "frames": [
+    {
+      "frame": [
+        1,
+        0
+      ],
+      "n_hat": {
+        "2": 2,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "12": 1,
+        "15": 2,
+        "16": 2,
+        "18": 1,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "27": 1,
+        "28": 1
+      },
+      "ndetections": 24,
+      "detector_all": 1.3333333333333333,
+      "object_species": 1.3333333333333333,
+      "per_true_object": {
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        }
+      },
+      "truth_count": 18,
+      "truth_species": 15,
+      "predicted_object_types": 20,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000001/scene_gt.json",
+          "sha256": "a678706302e7fcf0d46145b58a027b6bb337490b9922d844263746b54de109b2"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000001/scene_gt_info.json",
+          "sha256": "dbbc8931a220bd34a83e1493de5854ebb991e8175978bb217daa3699d6f26b09"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000001_frame_0.npz",
+          "sha256": "b24cf849753c2c233fa7110a0411df3cbdf56d69e68bf9e203b52b631da930b9"
+        }
+      ]
+    },
+    {
+      "frame": [
+        1,
+        1
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 2,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "7": 1,
+        "8": 1,
+        "9": 3,
+        "10": 1,
+        "13": 1,
+        "15": 4,
+        "16": 3,
+        "18": 1,
+        "19": 2,
+        "20": 2,
+        "21": 1,
+        "22": 1,
+        "25": 1,
+        "28": 1
+      },
+      "ndetections": 29,
+      "detector_all": 1.6111111111111112,
+      "object_species": 1.2666666666666666,
+      "per_true_object": {
+        "16": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 2.0,
+          "detector_count": 4,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 2
+        }
+      },
+      "truth_count": 18,
+      "truth_species": 15,
+      "predicted_object_types": 19,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000001/scene_gt.json",
+          "sha256": "a678706302e7fcf0d46145b58a027b6bb337490b9922d844263746b54de109b2"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000001/scene_gt_info.json",
+          "sha256": "dbbc8931a220bd34a83e1493de5854ebb991e8175978bb217daa3699d6f26b09"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000001_frame_1.npz",
+          "sha256": "05e8fc126e87fd62153ef3dc8c09fd706c321ed11b5104c2459f07288e77e8d5"
+        }
+      ]
+    },
+    {
+      "frame": [
+        1,
+        2
+      ],
+      "n_hat": {
+        "2": 3,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "8": 1,
+        "9": 2,
+        "10": 1,
+        "15": 2,
+        "16": 2,
+        "18": 1,
+        "19": 1,
+        "20": 2,
+        "21": 1,
+        "22": 1,
+        "26": 1,
+        "27": 3,
+        "28": 1
+      },
+      "ndetections": 26,
+      "detector_all": 1.4444444444444444,
+      "object_species": 1.1333333333333333,
+      "per_true_object": {
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        }
+      },
+      "truth_count": 18,
+      "truth_species": 15,
+      "predicted_object_types": 17,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000001/scene_gt.json",
+          "sha256": "a678706302e7fcf0d46145b58a027b6bb337490b9922d844263746b54de109b2"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000001/scene_gt_info.json",
+          "sha256": "dbbc8931a220bd34a83e1493de5854ebb991e8175978bb217daa3699d6f26b09"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000001_frame_2.npz",
+          "sha256": "1c82a2933b22d44b4bc5d85b705f608817f25fa7aab360cadb82d5ddd425ef11"
+        }
+      ]
+    },
+    {
+      "frame": [
+        1,
+        3
+      ],
+      "n_hat": {
+        "2": 2,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "8": 1,
+        "9": 3,
+        "15": 3,
+        "16": 1,
+        "18": 1,
+        "20": 2,
+        "21": 1,
+        "22": 1,
+        "27": 1,
+        "28": 1
+      },
+      "ndetections": 20,
+      "detector_all": 1.1111111111111112,
+      "object_species": 0.9333333333333333,
+      "per_true_object": {
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        }
+      },
+      "truth_count": 18,
+      "truth_species": 15,
+      "predicted_object_types": 14,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000001/scene_gt.json",
+          "sha256": "a678706302e7fcf0d46145b58a027b6bb337490b9922d844263746b54de109b2"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000001/scene_gt_info.json",
+          "sha256": "dbbc8931a220bd34a83e1493de5854ebb991e8175978bb217daa3699d6f26b09"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000001_frame_3.npz",
+          "sha256": "408ed405751602dc65c04dda6ab3cd94ee1cb0b188a4372e8ce9850337c6a28a"
+        }
+      ]
+    },
+    {
+      "frame": [
+        1,
+        4
+      ],
+      "n_hat": {
+        "2": 3,
+        "3": 4,
+        "4": 2,
+        "8": 2,
+        "9": 3,
+        "10": 1,
+        "12": 1,
+        "13": 1,
+        "15": 2,
+        "16": 4,
+        "18": 1,
+        "19": 1,
+        "20": 2,
+        "22": 1,
+        "23": 1,
+        "27": 2,
+        "28": 1
+      },
+      "ndetections": 32,
+      "detector_all": 1.7777777777777777,
+      "object_species": 1.1333333333333333,
+      "per_true_object": {
+        "16": {
+          "ratio": 4.0,
+          "detector_count": 4,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 4.0,
+          "detector_count": 4,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        }
+      },
+      "truth_count": 18,
+      "truth_species": 15,
+      "predicted_object_types": 17,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000001/scene_gt.json",
+          "sha256": "a678706302e7fcf0d46145b58a027b6bb337490b9922d844263746b54de109b2"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000001/scene_gt_info.json",
+          "sha256": "dbbc8931a220bd34a83e1493de5854ebb991e8175978bb217daa3699d6f26b09"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000001_frame_4.npz",
+          "sha256": "a1e916e7597058e94201cf3922f2b6d1128a45ef8cac847e939e3d4b95ca5f78"
+        }
+      ]
+    },
+    {
+      "frame": [
+        2,
+        0
+      ],
+      "n_hat": {
+        "2": 1,
+        "3": 1,
+        "5": 1,
+        "6": 1,
+        "8": 2,
+        "11": 2,
+        "12": 2,
+        "13": 1,
+        "14": 1,
+        "16": 1,
+        "18": 1,
+        "19": 2,
+        "20": 1,
+        "21": 2,
+        "25": 1,
+        "26": 1
+      },
+      "ndetections": 21,
+      "detector_all": 1.2352941176470589,
+      "object_species": 1.0666666666666667,
+      "per_true_object": {
+        "1": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        },
+        "14": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "8": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 17,
+      "truth_species": 15,
+      "predicted_object_types": 16,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000002/scene_gt.json",
+          "sha256": "de9a1ad09a9a22671bb6fd2bd2835fdd8024ba06640fe0115e0de0e40e85c8dd"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000002/scene_gt_info.json",
+          "sha256": "1feb4e4cb560662c92a6a08d947c6134bd4aefeac2cabbb34d80292d863a545b"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000002_frame_0.npz",
+          "sha256": "da59f296f85f178c7136f1577d2f3b39cfafc5511594ef7e121e589d58d7c129"
+        }
+      ]
+    },
+    {
+      "frame": [
+        2,
+        1
+      ],
+      "n_hat": {
+        "1": 2,
+        "3": 2,
+        "5": 3,
+        "6": 1,
+        "8": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "16": 2,
+        "18": 2,
+        "20": 1,
+        "21": 2,
+        "25": 1,
+        "27": 1
+      },
+      "ndetections": 22,
+      "detector_all": 1.2941176470588236,
+      "object_species": 1.0,
+      "per_true_object": {
+        "1": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        },
+        "14": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "8": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 17,
+      "truth_species": 15,
+      "predicted_object_types": 15,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000002/scene_gt.json",
+          "sha256": "de9a1ad09a9a22671bb6fd2bd2835fdd8024ba06640fe0115e0de0e40e85c8dd"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000002/scene_gt_info.json",
+          "sha256": "1feb4e4cb560662c92a6a08d947c6134bd4aefeac2cabbb34d80292d863a545b"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000002_frame_1.npz",
+          "sha256": "181c9e40ac264fdd706d3bb38c81c072095050affb121a4c96f3cc51211b75b7"
+        }
+      ]
+    },
+    {
+      "frame": [
+        2,
+        2
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "5": 1,
+        "6": 1,
+        "8": 2,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 2,
+        "14": 1,
+        "15": 2,
+        "16": 1,
+        "18": 1,
+        "20": 1,
+        "21": 2,
+        "25": 1
+      },
+      "ndetections": 21,
+      "detector_all": 1.2352941176470589,
+      "object_species": 1.1333333333333333,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        },
+        "14": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "8": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 17,
+      "truth_species": 15,
+      "predicted_object_types": 17,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000002/scene_gt.json",
+          "sha256": "de9a1ad09a9a22671bb6fd2bd2835fdd8024ba06640fe0115e0de0e40e85c8dd"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000002/scene_gt_info.json",
+          "sha256": "1feb4e4cb560662c92a6a08d947c6134bd4aefeac2cabbb34d80292d863a545b"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000002_frame_2.npz",
+          "sha256": "14375d7f66438af7bba60f6f63c760a2f2d6109751df8b4186cceb6b5976b12e"
+        }
+      ]
+    },
+    {
+      "frame": [
+        2,
+        3
+      ],
+      "n_hat": {
+        "2": 1,
+        "3": 1,
+        "5": 1,
+        "6": 1,
+        "8": 2,
+        "9": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "16": 3,
+        "17": 1,
+        "18": 2,
+        "19": 1,
+        "20": 1,
+        "21": 2,
+        "23": 1,
+        "25": 1,
+        "26": 1,
+        "27": 1
+      },
+      "ndetections": 25,
+      "detector_all": 1.4705882352941178,
+      "object_species": 1.3333333333333333,
+      "per_true_object": {
+        "1": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        },
+        "14": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "8": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 17,
+      "truth_species": 15,
+      "predicted_object_types": 20,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000002/scene_gt.json",
+          "sha256": "de9a1ad09a9a22671bb6fd2bd2835fdd8024ba06640fe0115e0de0e40e85c8dd"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000002/scene_gt_info.json",
+          "sha256": "1feb4e4cb560662c92a6a08d947c6134bd4aefeac2cabbb34d80292d863a545b"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000002_frame_3.npz",
+          "sha256": "dd946a1e75b32e12943bf26d3252f911817884f30f08e0feb229d8d802e53280"
+        }
+      ]
+    },
+    {
+      "frame": [
+        2,
+        4
+      ],
+      "n_hat": {
+        "2": 1,
+        "3": 1,
+        "5": 2,
+        "6": 1,
+        "8": 2,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "16": 1,
+        "18": 1,
+        "19": 1,
+        "20": 2,
+        "21": 2,
+        "23": 1,
+        "26": 1,
+        "27": 1
+      },
+      "ndetections": 21,
+      "detector_all": 1.2352941176470589,
+      "object_species": 1.1333333333333333,
+      "per_true_object": {
+        "1": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "14": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "8": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 17,
+      "truth_species": 15,
+      "predicted_object_types": 17,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000002/scene_gt.json",
+          "sha256": "de9a1ad09a9a22671bb6fd2bd2835fdd8024ba06640fe0115e0de0e40e85c8dd"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000002/scene_gt_info.json",
+          "sha256": "1feb4e4cb560662c92a6a08d947c6134bd4aefeac2cabbb34d80292d863a545b"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000002_frame_4.npz",
+          "sha256": "2c3d03c4b4f1a8b0fbed00dc0fedcda44f163a4eaf92d2d31831c3e36848e80c"
+        }
+      ]
+    },
+    {
+      "frame": [
+        3,
+        0
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "5": 1,
+        "7": 3,
+        "8": 2,
+        "10": 2,
+        "12": 2,
+        "13": 2,
+        "15": 3,
+        "17": 1,
+        "21": 1,
+        "23": 1,
+        "25": 1,
+        "26": 2,
+        "28": 1
+      },
+      "ndetections": 26,
+      "detector_all": 1.3,
+      "object_species": 1.0666666666666667,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "15": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "26": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 20,
+      "truth_species": 15,
+      "predicted_object_types": 16,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000003/scene_gt.json",
+          "sha256": "dc014f970946a7502b27e70085ef924082e53c65a35a10e464fb0b62733da03e"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000003/scene_gt_info.json",
+          "sha256": "b699744d77349538fdca6a9fe04c5a59921311433097b88a792c96378057d276"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000003_frame_0.npz",
+          "sha256": "e5e9b499a35ba2713c3aff591b40574298ec216cfd415d1f154ae5e013fe00b9"
+        }
+      ]
+    },
+    {
+      "frame": [
+        3,
+        1
+      ],
+      "n_hat": {
+        "2": 3,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "7": 1,
+        "8": 3,
+        "9": 1,
+        "10": 2,
+        "12": 2,
+        "13": 3,
+        "14": 1,
+        "15": 6,
+        "16": 2,
+        "18": 1,
+        "19": 1,
+        "21": 1,
+        "23": 2,
+        "24": 1,
+        "25": 1,
+        "26": 1
+      },
+      "ndetections": 36,
+      "detector_all": 1.8,
+      "object_species": 1.3333333333333333,
+      "per_true_object": {
+        "1": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        },
+        "15": {
+          "ratio": 3.0,
+          "detector_count": 6,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "26": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 20,
+      "truth_species": 15,
+      "predicted_object_types": 20,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000003/scene_gt.json",
+          "sha256": "dc014f970946a7502b27e70085ef924082e53c65a35a10e464fb0b62733da03e"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000003/scene_gt_info.json",
+          "sha256": "b699744d77349538fdca6a9fe04c5a59921311433097b88a792c96378057d276"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000003_frame_1.npz",
+          "sha256": "e9d397826e3a648f1241d34a0b3188190e1c8f5e1b5f4bc57fa02f9f47ffbfa1"
+        }
+      ]
+    },
+    {
+      "frame": [
+        3,
+        2
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "5": 3,
+        "7": 2,
+        "8": 1,
+        "10": 3,
+        "12": 2,
+        "13": 2,
+        "15": 5,
+        "20": 1,
+        "21": 1,
+        "23": 1,
+        "24": 1,
+        "25": 1,
+        "26": 2,
+        "28": 1
+      },
+      "ndetections": 30,
+      "detector_all": 1.5,
+      "object_species": 1.1333333333333333,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "15": {
+          "ratio": 2.5,
+          "detector_count": 5,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "26": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 20,
+      "truth_species": 15,
+      "predicted_object_types": 17,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000003/scene_gt.json",
+          "sha256": "dc014f970946a7502b27e70085ef924082e53c65a35a10e464fb0b62733da03e"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000003/scene_gt_info.json",
+          "sha256": "b699744d77349538fdca6a9fe04c5a59921311433097b88a792c96378057d276"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000003_frame_2.npz",
+          "sha256": "adf7feb7a013dfd805a89e51027a6122ef82f43833357f85c9fc561fff79325f"
+        }
+      ]
+    },
+    {
+      "frame": [
+        3,
+        3
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "5": 2,
+        "7": 1,
+        "8": 3,
+        "9": 1,
+        "10": 3,
+        "12": 2,
+        "13": 2,
+        "15": 4,
+        "18": 1,
+        "21": 1,
+        "23": 1,
+        "25": 1,
+        "26": 2,
+        "27": 1,
+        "28": 1
+      },
+      "ndetections": 29,
+      "detector_all": 1.45,
+      "object_species": 1.2,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        },
+        "15": {
+          "ratio": 2.0,
+          "detector_count": 4,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "26": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 20,
+      "truth_species": 15,
+      "predicted_object_types": 18,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000003/scene_gt.json",
+          "sha256": "dc014f970946a7502b27e70085ef924082e53c65a35a10e464fb0b62733da03e"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000003/scene_gt_info.json",
+          "sha256": "b699744d77349538fdca6a9fe04c5a59921311433097b88a792c96378057d276"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000003_frame_3.npz",
+          "sha256": "c711a7546e33bd323afc23ad1ed0e1217c9890ed4ac0d6f729393d9b2eaf474e"
+        }
+      ]
+    },
+    {
+      "frame": [
+        3,
+        4
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "5": 1,
+        "7": 2,
+        "8": 1,
+        "10": 3,
+        "12": 2,
+        "13": 2,
+        "15": 2,
+        "19": 1,
+        "20": 1,
+        "21": 2,
+        "23": 1,
+        "25": 1,
+        "26": 2,
+        "28": 1
+      },
+      "ndetections": 26,
+      "detector_all": 1.3,
+      "object_species": 1.1333333333333333,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "15": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "26": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 20,
+      "truth_species": 15,
+      "predicted_object_types": 17,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000003/scene_gt.json",
+          "sha256": "dc014f970946a7502b27e70085ef924082e53c65a35a10e464fb0b62733da03e"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000003/scene_gt_info.json",
+          "sha256": "b699744d77349538fdca6a9fe04c5a59921311433097b88a792c96378057d276"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000003_frame_4.npz",
+          "sha256": "2baf86c27e969d8328103f08b2fab2d40603fa239875582dcaffb1babf94f67e"
+        }
+      ]
+    },
+    {
+      "frame": [
+        4,
+        0
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 3,
+        "3": 2,
+        "5": 3,
+        "7": 2,
+        "8": 1,
+        "9": 2,
+        "11": 2,
+        "12": 1,
+        "13": 1,
+        "14": 3,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 1,
+        "19": 1,
+        "20": 1,
+        "21": 2,
+        "22": 2,
+        "23": 1,
+        "25": 2
+      },
+      "ndetections": 37,
+      "detector_all": 1.7619047619047619,
+      "object_species": 1.1666666666666667,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 21,
+      "truth_species": 18,
+      "predicted_object_types": 21,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000004/scene_gt.json",
+          "sha256": "4e13c611125038e00f6eeab29ba47a4dfa917e2eb591b866668507a52a26b5ed"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000004/scene_gt_info.json",
+          "sha256": "41126555d2f9b90c541223b8b1ee003e47bd19424f32da96a8d08e6ebe581269"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000004_frame_0.npz",
+          "sha256": "c17b63d132910c8129f78bfd60c8ab91208329df28a0379c8e226547c71d96e5"
+        }
+      ]
+    },
+    {
+      "frame": [
+        4,
+        1
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 2,
+        "3": 1,
+        "5": 2,
+        "7": 2,
+        "9": 2,
+        "11": 3,
+        "12": 1,
+        "13": 1,
+        "14": 2,
+        "15": 1,
+        "16": 2,
+        "17": 2,
+        "18": 1,
+        "19": 1,
+        "20": 2,
+        "21": 2,
+        "22": 1,
+        "23": 1,
+        "25": 1
+      },
+      "ndetections": 31,
+      "detector_all": 1.4761904761904763,
+      "object_species": 1.1111111111111112,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 21,
+      "truth_species": 18,
+      "predicted_object_types": 20,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000004/scene_gt.json",
+          "sha256": "4e13c611125038e00f6eeab29ba47a4dfa917e2eb591b866668507a52a26b5ed"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000004/scene_gt_info.json",
+          "sha256": "41126555d2f9b90c541223b8b1ee003e47bd19424f32da96a8d08e6ebe581269"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000004_frame_1.npz",
+          "sha256": "f293fda41fcbb797f45f7743b5f786cf74949fb496c4da820dc200e1bc1f1177"
+        }
+      ]
+    },
+    {
+      "frame": [
+        4,
+        2
+      ],
+      "n_hat": {
+        "1": 2,
+        "2": 4,
+        "3": 2,
+        "5": 2,
+        "7": 2,
+        "8": 1,
+        "9": 1,
+        "11": 2,
+        "12": 2,
+        "13": 1,
+        "14": 1,
+        "16": 3,
+        "17": 3,
+        "18": 1,
+        "19": 2,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "25": 1
+      },
+      "ndetections": 33,
+      "detector_all": 1.5714285714285714,
+      "object_species": 1.0555555555555556,
+      "per_true_object": {
+        "1": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 2.0,
+          "detector_count": 4,
+          "truth_count": 2
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 21,
+      "truth_species": 18,
+      "predicted_object_types": 19,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000004/scene_gt.json",
+          "sha256": "4e13c611125038e00f6eeab29ba47a4dfa917e2eb591b866668507a52a26b5ed"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000004/scene_gt_info.json",
+          "sha256": "41126555d2f9b90c541223b8b1ee003e47bd19424f32da96a8d08e6ebe581269"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000004_frame_2.npz",
+          "sha256": "ca775232548eedb9b7216da9ed1646e1046caa5795f7c715324728482bee385d"
+        }
+      ]
+    },
+    {
+      "frame": [
+        4,
+        3
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 3,
+        "3": 2,
+        "5": 2,
+        "6": 1,
+        "7": 2,
+        "8": 1,
+        "9": 3,
+        "11": 1,
+        "12": 2,
+        "13": 1,
+        "14": 2,
+        "15": 2,
+        "16": 3,
+        "17": 1,
+        "18": 2,
+        "19": 1,
+        "20": 1,
+        "21": 2,
+        "22": 1,
+        "23": 1,
+        "25": 1
+      },
+      "ndetections": 36,
+      "detector_all": 1.7142857142857142,
+      "object_species": 1.2222222222222223,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "18": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 21,
+      "truth_species": 18,
+      "predicted_object_types": 22,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000004/scene_gt.json",
+          "sha256": "4e13c611125038e00f6eeab29ba47a4dfa917e2eb591b866668507a52a26b5ed"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000004/scene_gt_info.json",
+          "sha256": "41126555d2f9b90c541223b8b1ee003e47bd19424f32da96a8d08e6ebe581269"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000004_frame_3.npz",
+          "sha256": "3622b45115740e8308a97cadc48555c5df833ccdef0f1beb2279fe10234ff418"
+        }
+      ]
+    },
+    {
+      "frame": [
+        4,
+        4
+      ],
+      "n_hat": {
+        "1": 2,
+        "2": 2,
+        "3": 3,
+        "5": 1,
+        "7": 1,
+        "8": 1,
+        "9": 3,
+        "12": 2,
+        "13": 2,
+        "14": 1,
+        "16": 5,
+        "17": 2,
+        "18": 1,
+        "19": 1,
+        "20": 2,
+        "21": 1,
+        "22": 1,
+        "23": 2,
+        "25": 1
+      },
+      "ndetections": 34,
+      "detector_all": 1.619047619047619,
+      "object_species": 1.0555555555555556,
+      "per_true_object": {
+        "1": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 2.5,
+          "detector_count": 5,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 21,
+      "truth_species": 18,
+      "predicted_object_types": 19,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000004/scene_gt.json",
+          "sha256": "4e13c611125038e00f6eeab29ba47a4dfa917e2eb591b866668507a52a26b5ed"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000004/scene_gt_info.json",
+          "sha256": "41126555d2f9b90c541223b8b1ee003e47bd19424f32da96a8d08e6ebe581269"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000004_frame_4.npz",
+          "sha256": "26c7bd94554bcb9d09fffe91e07a07ec71118b47cd4a825d2750064231e8f2f9"
+        }
+      ]
+    },
+    {
+      "frame": [
+        5,
+        0
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 3,
+        "7": 1,
+        "9": 3,
+        "11": 1,
+        "12": 1,
+        "15": 1,
+        "16": 2,
+        "18": 1,
+        "19": 1,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "26": 2,
+        "27": 2
+      },
+      "ndetections": 25,
+      "detector_all": 1.5625,
+      "object_species": 1.2,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 16,
+      "truth_species": 15,
+      "predicted_object_types": 18,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000005/scene_gt.json",
+          "sha256": "cf780c7461fadd229cf2139123b6b33c14218afc843f376f4a7e63755e44d1b3"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000005/scene_gt_info.json",
+          "sha256": "4460a8ad7a15c7b75cc3b1567ee46a5bfdac451746f6fa22cb4ca5f7e92fb518"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000005_frame_0.npz",
+          "sha256": "c176d98b09549b429e3eeef5c2da5e348845f9676f8ce2a711d7b660b7465db2"
+        }
+      ]
+    },
+    {
+      "frame": [
+        5,
+        1
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 2,
+        "4": 1,
+        "5": 1,
+        "7": 1,
+        "9": 2,
+        "10": 1,
+        "11": 1,
+        "12": 2,
+        "15": 1,
+        "16": 1,
+        "18": 2,
+        "19": 1,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "26": 2
+      },
+      "ndetections": 22,
+      "detector_all": 1.375,
+      "object_species": 1.1333333333333333,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 16,
+      "truth_species": 15,
+      "predicted_object_types": 17,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000005/scene_gt.json",
+          "sha256": "cf780c7461fadd229cf2139123b6b33c14218afc843f376f4a7e63755e44d1b3"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000005/scene_gt_info.json",
+          "sha256": "4460a8ad7a15c7b75cc3b1567ee46a5bfdac451746f6fa22cb4ca5f7e92fb518"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000005_frame_1.npz",
+          "sha256": "3c2eda8b3308174b39f60b0e6efb2fb2f6ae2dd457f24e0c1411a5d4b0476f00"
+        }
+      ]
+    },
+    {
+      "frame": [
+        5,
+        2
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 2,
+        "5": 1,
+        "7": 1,
+        "9": 2,
+        "15": 1,
+        "16": 1,
+        "18": 1,
+        "19": 1,
+        "21": 1,
+        "22": 1,
+        "23": 2,
+        "26": 2,
+        "27": 1
+      },
+      "ndetections": 18,
+      "detector_all": 1.125,
+      "object_species": 0.9333333333333333,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "11": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 16,
+      "truth_species": 15,
+      "predicted_object_types": 14,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000005/scene_gt.json",
+          "sha256": "cf780c7461fadd229cf2139123b6b33c14218afc843f376f4a7e63755e44d1b3"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000005/scene_gt_info.json",
+          "sha256": "4460a8ad7a15c7b75cc3b1567ee46a5bfdac451746f6fa22cb4ca5f7e92fb518"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000005_frame_2.npz",
+          "sha256": "5cf6d81a5ddb512161afbd72d3fd1d5f0526577fec70a735cdadb8a96377ab23"
+        }
+      ]
+    },
+    {
+      "frame": [
+        5,
+        3
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "5": 3,
+        "7": 1,
+        "8": 1,
+        "9": 3,
+        "11": 1,
+        "12": 1,
+        "16": 1,
+        "18": 1,
+        "19": 1,
+        "21": 2,
+        "22": 1,
+        "23": 1,
+        "26": 3,
+        "27": 1
+      },
+      "ndetections": 24,
+      "detector_all": 1.5,
+      "object_species": 1.1333333333333333,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 16,
+      "truth_species": 15,
+      "predicted_object_types": 17,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000005/scene_gt.json",
+          "sha256": "cf780c7461fadd229cf2139123b6b33c14218afc843f376f4a7e63755e44d1b3"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000005/scene_gt_info.json",
+          "sha256": "4460a8ad7a15c7b75cc3b1567ee46a5bfdac451746f6fa22cb4ca5f7e92fb518"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000005_frame_3.npz",
+          "sha256": "643c5b59ecac70884189ebf71eadfa0239bb49efd3c810a2b60acb7e98c25c5f"
+        }
+      ]
+    },
+    {
+      "frame": [
+        5,
+        4
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 1,
+        "5": 3,
+        "7": 1,
+        "9": 4,
+        "11": 1,
+        "12": 2,
+        "16": 1,
+        "18": 1,
+        "19": 1,
+        "21": 1,
+        "22": 1,
+        "23": 2,
+        "26": 2,
+        "27": 1
+      },
+      "ndetections": 23,
+      "detector_all": 1.4375,
+      "object_species": 1.0,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 4.0,
+          "detector_count": 4,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 16,
+      "truth_species": 15,
+      "predicted_object_types": 15,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000005/scene_gt.json",
+          "sha256": "cf780c7461fadd229cf2139123b6b33c14218afc843f376f4a7e63755e44d1b3"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000005/scene_gt_info.json",
+          "sha256": "4460a8ad7a15c7b75cc3b1567ee46a5bfdac451746f6fa22cb4ca5f7e92fb518"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000005_frame_4.npz",
+          "sha256": "702c3c7bd6f66420449777263bf3c46505edfefc7d11664000c4ce9a327e36dc"
+        }
+      ]
+    },
+    {
+      "frame": [
+        6,
+        0
+      ],
+      "n_hat": {
+        "1": 2,
+        "2": 1,
+        "3": 3,
+        "5": 1,
+        "7": 1,
+        "8": 3,
+        "9": 1,
+        "10": 1,
+        "11": 2,
+        "12": 1,
+        "14": 2,
+        "16": 2,
+        "17": 1,
+        "18": 1,
+        "21": 1,
+        "23": 1,
+        "25": 2,
+        "26": 1,
+        "27": 2,
+        "28": 1
+      },
+      "ndetections": 30,
+      "detector_all": 1.5,
+      "object_species": 1.1764705882352942,
+      "per_true_object": {
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 20,
+      "truth_species": 17,
+      "predicted_object_types": 20,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000006/scene_gt.json",
+          "sha256": "941c28dbac1e1101045a45746c98ba32d827ababcfaa39de3bf0f0e051bb360d"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000006/scene_gt_info.json",
+          "sha256": "a8f34ef06fa0aee48d5095294f0884ac64b0d1e72c061a46c98ee1e7b789cf56"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000006_frame_0.npz",
+          "sha256": "ad7ddba264d4478e570c17da4d7f266e42b1ea8bd019d4318fff7e370c6d6ad3"
+        }
+      ]
+    },
+    {
+      "frame": [
+        6,
+        1
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "5": 2,
+        "7": 2,
+        "8": 2,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "14": 2,
+        "15": 1,
+        "16": 2,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "21": 1,
+        "22": 1,
+        "23": 3,
+        "25": 2,
+        "27": 2,
+        "28": 1
+      },
+      "ndetections": 31,
+      "detector_all": 1.55,
+      "object_species": 1.2941176470588236,
+      "per_true_object": {
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "1": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 20,
+      "truth_species": 17,
+      "predicted_object_types": 22,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000006/scene_gt.json",
+          "sha256": "941c28dbac1e1101045a45746c98ba32d827ababcfaa39de3bf0f0e051bb360d"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000006/scene_gt_info.json",
+          "sha256": "a8f34ef06fa0aee48d5095294f0884ac64b0d1e72c061a46c98ee1e7b789cf56"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000006_frame_1.npz",
+          "sha256": "1b18e5e141c00161f3758c450f5e61f64f910358427c04e3dee3a39b42ab4cea"
+        }
+      ]
+    },
+    {
+      "frame": [
+        6,
+        2
+      ],
+      "n_hat": {
+        "1": 3,
+        "2": 2,
+        "3": 3,
+        "5": 2,
+        "7": 1,
+        "8": 2,
+        "9": 1,
+        "10": 1,
+        "11": 2,
+        "12": 1,
+        "13": 1,
+        "14": 2,
+        "16": 2,
+        "17": 2,
+        "18": 1,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "25": 2,
+        "27": 2,
+        "28": 1
+      },
+      "ndetections": 34,
+      "detector_all": 1.7,
+      "object_species": 1.2352941176470589,
+      "per_true_object": {
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "1": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 20,
+      "truth_species": 17,
+      "predicted_object_types": 21,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000006/scene_gt.json",
+          "sha256": "941c28dbac1e1101045a45746c98ba32d827ababcfaa39de3bf0f0e051bb360d"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000006/scene_gt_info.json",
+          "sha256": "a8f34ef06fa0aee48d5095294f0884ac64b0d1e72c061a46c98ee1e7b789cf56"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000006_frame_2.npz",
+          "sha256": "0522ab67537d452dfe652c87b9a2353191afd9b5ccec76872a8716bed9592a0f"
+        }
+      ]
+    },
+    {
+      "frame": [
+        6,
+        3
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "5": 2,
+        "7": 1,
+        "8": 3,
+        "9": 1,
+        "10": 1,
+        "11": 2,
+        "12": 1,
+        "13": 1,
+        "14": 2,
+        "16": 1,
+        "17": 3,
+        "18": 1,
+        "19": 1,
+        "21": 1,
+        "23": 1,
+        "25": 2,
+        "27": 2,
+        "28": 1
+      },
+      "ndetections": 31,
+      "detector_all": 1.55,
+      "object_species": 1.2352941176470589,
+      "per_true_object": {
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "1": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 20,
+      "truth_species": 17,
+      "predicted_object_types": 21,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000006/scene_gt.json",
+          "sha256": "941c28dbac1e1101045a45746c98ba32d827ababcfaa39de3bf0f0e051bb360d"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000006/scene_gt_info.json",
+          "sha256": "a8f34ef06fa0aee48d5095294f0884ac64b0d1e72c061a46c98ee1e7b789cf56"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000006_frame_3.npz",
+          "sha256": "f0399299a6a1db754c1b355202173006d348ab2003fb7f916dfe1dcd211df884"
+        }
+      ]
+    },
+    {
+      "frame": [
+        6,
+        4
+      ],
+      "n_hat": {
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "5": 1,
+        "7": 1,
+        "8": 2,
+        "9": 1,
+        "10": 1,
+        "11": 2,
+        "12": 1,
+        "14": 2,
+        "16": 2,
+        "17": 2,
+        "18": 1,
+        "20": 1,
+        "21": 1,
+        "23": 2,
+        "25": 2,
+        "27": 2,
+        "28": 1
+      },
+      "ndetections": 30,
+      "detector_all": 1.5,
+      "object_species": 1.1764705882352942,
+      "per_true_object": {
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "8": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 20,
+      "truth_species": 17,
+      "predicted_object_types": 20,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000006/scene_gt.json",
+          "sha256": "941c28dbac1e1101045a45746c98ba32d827ababcfaa39de3bf0f0e051bb360d"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000006/scene_gt_info.json",
+          "sha256": "a8f34ef06fa0aee48d5095294f0884ac64b0d1e72c061a46c98ee1e7b789cf56"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000006_frame_4.npz",
+          "sha256": "7a0b70df86f4c2e126796f020a573edc7c2352912a646b24711b8b9fa0b06cee"
+        }
+      ]
+    },
+    {
+      "frame": [
+        7,
+        0
+      ],
+      "n_hat": {
+        "4": 1,
+        "5": 6,
+        "6": 3,
+        "8": 2,
+        "10": 1,
+        "12": 1,
+        "13": 1,
+        "15": 2,
+        "16": 4,
+        "17": 2,
+        "19": 1,
+        "21": 1,
+        "24": 1,
+        "25": 1,
+        "26": 3,
+        "27": 2,
+        "28": 1
+      },
+      "ndetections": 33,
+      "detector_all": 1.9411764705882353,
+      "object_species": 1.1333333333333333,
+      "per_true_object": {
+        "16": {
+          "ratio": 4.0,
+          "detector_count": 4,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 6.0,
+          "detector_count": 6,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "1": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "24": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 17,
+      "truth_species": 15,
+      "predicted_object_types": 17,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000007/scene_gt.json",
+          "sha256": "ba6d262eff83581d887c8f6f56415cc767a99087974f5480a3ff4c536371354d"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000007/scene_gt_info.json",
+          "sha256": "abbc91f12f8e4dd91374e3bce13b89a9f43c23ad3ecfbf2c7111112b78fe5745"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000007_frame_0.npz",
+          "sha256": "92bacf0e9f2931173ff5eb8de6820de70a7904bb05ccccba2c8ecafe0697480c"
+        }
+      ]
+    },
+    {
+      "frame": [
+        7,
+        1
+      ],
+      "n_hat": {
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 6,
+        "6": 4,
+        "8": 1,
+        "10": 3,
+        "12": 1,
+        "13": 1,
+        "15": 1,
+        "16": 2,
+        "17": 2,
+        "20": 1,
+        "21": 1,
+        "24": 1,
+        "25": 1,
+        "26": 2,
+        "27": 2,
+        "28": 1
+      },
+      "ndetections": 33,
+      "detector_all": 1.9411764705882353,
+      "object_species": 1.2666666666666666,
+      "per_true_object": {
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 6.0,
+          "detector_count": 6,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 4.0,
+          "detector_count": 4,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "1": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "24": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 17,
+      "truth_species": 15,
+      "predicted_object_types": 19,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000007/scene_gt.json",
+          "sha256": "ba6d262eff83581d887c8f6f56415cc767a99087974f5480a3ff4c536371354d"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000007/scene_gt_info.json",
+          "sha256": "abbc91f12f8e4dd91374e3bce13b89a9f43c23ad3ecfbf2c7111112b78fe5745"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000007_frame_1.npz",
+          "sha256": "b25330a3c723526e49b18b5a75f768c752adfb425fd45855d077ae435e284f46"
+        }
+      ]
+    },
+    {
+      "frame": [
+        7,
+        2
+      ],
+      "n_hat": {
+        "1": 1,
+        "3": 1,
+        "4": 1,
+        "5": 5,
+        "6": 3,
+        "10": 3,
+        "12": 2,
+        "13": 1,
+        "15": 2,
+        "16": 1,
+        "17": 2,
+        "20": 1,
+        "21": 1,
+        "24": 1,
+        "25": 1,
+        "26": 3,
+        "27": 3,
+        "28": 1
+      },
+      "ndetections": 33,
+      "detector_all": 1.9411764705882353,
+      "object_species": 1.2,
+      "per_true_object": {
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 5.0,
+          "detector_count": 5,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "24": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 17,
+      "truth_species": 15,
+      "predicted_object_types": 18,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000007/scene_gt.json",
+          "sha256": "ba6d262eff83581d887c8f6f56415cc767a99087974f5480a3ff4c536371354d"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000007/scene_gt_info.json",
+          "sha256": "abbc91f12f8e4dd91374e3bce13b89a9f43c23ad3ecfbf2c7111112b78fe5745"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000007_frame_2.npz",
+          "sha256": "1afe2289d8deaf53dc701def7c441185f30c8f4b0e39f143852638147812399c"
+        }
+      ]
+    },
+    {
+      "frame": [
+        7,
+        3
+      ],
+      "n_hat": {
+        "1": 1,
+        "2": 1,
+        "5": 4,
+        "6": 3,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 2,
+        "15": 2,
+        "16": 3,
+        "17": 2,
+        "18": 1,
+        "19": 1,
+        "20": 2,
+        "21": 1,
+        "24": 1,
+        "25": 1,
+        "26": 3,
+        "27": 3,
+        "28": 1
+      },
+      "ndetections": 37,
+      "detector_all": 2.176470588235294,
+      "object_species": 1.4666666666666666,
+      "per_true_object": {
+        "16": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 4.0,
+          "detector_count": 4,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "24": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 17,
+      "truth_species": 15,
+      "predicted_object_types": 22,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000007/scene_gt.json",
+          "sha256": "ba6d262eff83581d887c8f6f56415cc767a99087974f5480a3ff4c536371354d"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000007/scene_gt_info.json",
+          "sha256": "abbc91f12f8e4dd91374e3bce13b89a9f43c23ad3ecfbf2c7111112b78fe5745"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000007_frame_3.npz",
+          "sha256": "af3f99c227666b42b55f98648f5a5f88ef44df0e923292b851c53204ce36f090"
+        }
+      ]
+    },
+    {
+      "frame": [
+        7,
+        4
+      ],
+      "n_hat": {
+        "2": 1,
+        "3": 1,
+        "5": 4,
+        "6": 2,
+        "7": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "15": 1,
+        "16": 2,
+        "17": 2,
+        "20": 1,
+        "21": 1,
+        "24": 1,
+        "25": 1,
+        "26": 4,
+        "27": 2,
+        "28": 1
+      },
+      "ndetections": 29,
+      "detector_all": 1.7058823529411764,
+      "object_species": 1.2666666666666666,
+      "per_true_object": {
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 4.0,
+          "detector_count": 4,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "28": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 2.0,
+          "detector_count": 4,
+          "truth_count": 2
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "1": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "24": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 17,
+      "truth_species": 15,
+      "predicted_object_types": 19,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000007/scene_gt.json",
+          "sha256": "ba6d262eff83581d887c8f6f56415cc767a99087974f5480a3ff4c536371354d"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000007/scene_gt_info.json",
+          "sha256": "abbc91f12f8e4dd91374e3bce13b89a9f43c23ad3ecfbf2c7111112b78fe5745"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000007_frame_4.npz",
+          "sha256": "94286c405a711f8bf1d09470bfbc84c2def9b3dcbd5ce46ae96c9801bdd451de"
+        }
+      ]
+    },
+    {
+      "frame": [
+        8,
+        0
+      ],
+      "n_hat": {
+        "2": 1,
+        "3": 4,
+        "5": 1,
+        "6": 1,
+        "8": 1,
+        "9": 2,
+        "10": 1,
+        "11": 2,
+        "12": 1,
+        "14": 2,
+        "16": 2,
+        "17": 3,
+        "20": 1,
+        "21": 2,
+        "23": 2,
+        "25": 1,
+        "26": 3,
+        "27": 1
+      },
+      "ndetections": 31,
+      "detector_all": 1.4761904761904763,
+      "object_species": 1.0588235294117647,
+      "per_true_object": {
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "23": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 4,
+          "truth_count": 2
+        },
+        "14": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 2
+        }
+      },
+      "truth_count": 21,
+      "truth_species": 17,
+      "predicted_object_types": 18,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000008/scene_gt.json",
+          "sha256": "f17d0113a52266697817348b3a2561650b4d3ecfe8fa4d99f09b06cfed8cdff5"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000008/scene_gt_info.json",
+          "sha256": "4a5d7dc2e8243c7527740d503a499df56fd6ef00a4a6e0824d34c44956a9a932"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000008_frame_0.npz",
+          "sha256": "520d9571f1715407b77b9865eeeb1e4f21a7d39d849e5453462d028089c07ec0"
+        }
+      ]
+    },
+    {
+      "frame": [
+        8,
+        1
+      ],
+      "n_hat": {
+        "2": 1,
+        "3": 4,
+        "5": 1,
+        "6": 3,
+        "8": 1,
+        "9": 1,
+        "10": 2,
+        "11": 2,
+        "12": 1,
+        "14": 2,
+        "16": 2,
+        "17": 3,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "23": 2,
+        "25": 1,
+        "26": 2,
+        "27": 1
+      },
+      "ndetections": 32,
+      "detector_all": 1.5238095238095237,
+      "object_species": 1.1176470588235294,
+      "per_true_object": {
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "23": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 4,
+          "truth_count": 2
+        },
+        "14": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        }
+      },
+      "truth_count": 21,
+      "truth_species": 17,
+      "predicted_object_types": 19,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000008/scene_gt.json",
+          "sha256": "f17d0113a52266697817348b3a2561650b4d3ecfe8fa4d99f09b06cfed8cdff5"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000008/scene_gt_info.json",
+          "sha256": "4a5d7dc2e8243c7527740d503a499df56fd6ef00a4a6e0824d34c44956a9a932"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000008_frame_1.npz",
+          "sha256": "a0c6a5fb143394fa2cafaae0773911b517014074cff1e06a586131cfbbbb3f6e"
+        }
+      ]
+    },
+    {
+      "frame": [
+        8,
+        2
+      ],
+      "n_hat": {
+        "2": 2,
+        "3": 4,
+        "5": 1,
+        "6": 1,
+        "9": 3,
+        "10": 1,
+        "11": 2,
+        "12": 1,
+        "14": 2,
+        "15": 1,
+        "16": 2,
+        "17": 3,
+        "19": 2,
+        "20": 1,
+        "21": 1,
+        "23": 2,
+        "25": 1,
+        "26": 2,
+        "27": 1
+      },
+      "ndetections": 33,
+      "detector_all": 1.5714285714285714,
+      "object_species": 1.1176470588235294,
+      "per_true_object": {
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "23": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 4,
+          "truth_count": 2
+        },
+        "14": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        }
+      },
+      "truth_count": 21,
+      "truth_species": 17,
+      "predicted_object_types": 19,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000008/scene_gt.json",
+          "sha256": "f17d0113a52266697817348b3a2561650b4d3ecfe8fa4d99f09b06cfed8cdff5"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000008/scene_gt_info.json",
+          "sha256": "4a5d7dc2e8243c7527740d503a499df56fd6ef00a4a6e0824d34c44956a9a932"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000008_frame_2.npz",
+          "sha256": "47d673b588486289f71b2a8396680325cef9d677be2d435238ba37e8768b6c4a"
+        }
+      ]
+    },
+    {
+      "frame": [
+        8,
+        3
+      ],
+      "n_hat": {
+        "2": 2,
+        "3": 2,
+        "4": 1,
+        "6": 1,
+        "9": 3,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "14": 1,
+        "15": 1,
+        "16": 3,
+        "17": 2,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "23": 2,
+        "25": 1,
+        "26": 2,
+        "27": 1
+      },
+      "ndetections": 28,
+      "detector_all": 1.3333333333333333,
+      "object_species": 1.1176470588235294,
+      "per_true_object": {
+        "16": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "11": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        },
+        "23": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "14": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        }
+      },
+      "truth_count": 21,
+      "truth_species": 17,
+      "predicted_object_types": 19,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000008/scene_gt.json",
+          "sha256": "f17d0113a52266697817348b3a2561650b4d3ecfe8fa4d99f09b06cfed8cdff5"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000008/scene_gt_info.json",
+          "sha256": "4a5d7dc2e8243c7527740d503a499df56fd6ef00a4a6e0824d34c44956a9a932"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000008_frame_3.npz",
+          "sha256": "1e349b2441b2e37a45d842cd6b5bb82cce1597c60d76a52aa32b16aa55a489fb"
+        }
+      ]
+    },
+    {
+      "frame": [
+        8,
+        4
+      ],
+      "n_hat": {
+        "2": 3,
+        "3": 4,
+        "6": 1,
+        "7": 1,
+        "9": 2,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "14": 1,
+        "16": 2,
+        "17": 3,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "23": 3,
+        "25": 1,
+        "26": 2,
+        "27": 1
+      },
+      "ndetections": 30,
+      "detector_all": 1.4285714285714286,
+      "object_species": 1.0588235294117647,
+      "per_true_object": {
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "26": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "11": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        },
+        "23": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "2": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "17": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 2.0,
+          "detector_count": 4,
+          "truth_count": 2
+        },
+        "14": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "27": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "19": {
+          "ratio": 0.5,
+          "detector_count": 1,
+          "truth_count": 2
+        }
+      },
+      "truth_count": 21,
+      "truth_species": 17,
+      "predicted_object_types": 18,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000008/scene_gt.json",
+          "sha256": "f17d0113a52266697817348b3a2561650b4d3ecfe8fa4d99f09b06cfed8cdff5"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000008/scene_gt_info.json",
+          "sha256": "4a5d7dc2e8243c7527740d503a499df56fd6ef00a4a6e0824d34c44956a9a932"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000008_frame_4.npz",
+          "sha256": "ae81ab15692b5fd9664972a10a737fe789479b0ad76787cad41c1af07f14ad41"
+        }
+      ]
+    },
+    {
+      "frame": [
+        9,
+        0
+      ],
+      "n_hat": {
+        "1": 3,
+        "3": 2,
+        "4": 1,
+        "5": 2,
+        "7": 2,
+        "9": 1,
+        "10": 1,
+        "15": 3,
+        "16": 1,
+        "18": 2,
+        "19": 1,
+        "21": 1,
+        "22": 1,
+        "23": 3,
+        "24": 1,
+        "25": 1,
+        "26": 1,
+        "27": 1
+      },
+      "ndetections": 28,
+      "detector_all": 1.4736842105263157,
+      "object_species": 1.2,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "24": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 19,
+      "truth_species": 15,
+      "predicted_object_types": 18,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000009/scene_gt.json",
+          "sha256": "b138ab8b2bfe03c660b42a9c49b00d028eb7d7c7cb12ba4caced8de094572091"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000009/scene_gt_info.json",
+          "sha256": "6f9a7164bf6bd6a22ef1bed48ac3294162a28afcafbcc8624910701637ed928d"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000009_frame_0.npz",
+          "sha256": "fe1f978cbdd7ee3b4c6cec533a4e8bf40529dc70664adbde44b5ef284da8e542"
+        }
+      ]
+    },
+    {
+      "frame": [
+        9,
+        1
+      ],
+      "n_hat": {
+        "1": 2,
+        "2": 1,
+        "3": 3,
+        "4": 1,
+        "5": 3,
+        "6": 1,
+        "7": 1,
+        "9": 1,
+        "10": 1,
+        "15": 2,
+        "16": 1,
+        "18": 2,
+        "21": 2,
+        "23": 2,
+        "24": 1,
+        "25": 1,
+        "26": 1
+      },
+      "ndetections": 26,
+      "detector_all": 1.368421052631579,
+      "object_species": 1.1333333333333333,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "24": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 19,
+      "truth_species": 15,
+      "predicted_object_types": 17,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000009/scene_gt.json",
+          "sha256": "b138ab8b2bfe03c660b42a9c49b00d028eb7d7c7cb12ba4caced8de094572091"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000009/scene_gt_info.json",
+          "sha256": "6f9a7164bf6bd6a22ef1bed48ac3294162a28afcafbcc8624910701637ed928d"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000009_frame_1.npz",
+          "sha256": "c5e776c7bb70d143d0910451543600e556d812c300c7857fdac57d6ead9b50a7"
+        }
+      ]
+    },
+    {
+      "frame": [
+        9,
+        2
+      ],
+      "n_hat": {
+        "1": 2,
+        "3": 2,
+        "4": 1,
+        "5": 2,
+        "7": 1,
+        "9": 2,
+        "10": 1,
+        "15": 3,
+        "16": 1,
+        "18": 2,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "22": 2,
+        "23": 3,
+        "24": 1,
+        "25": 2,
+        "26": 1
+      },
+      "ndetections": 29,
+      "detector_all": 1.5263157894736843,
+      "object_species": 1.2,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "24": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 19,
+      "truth_species": 15,
+      "predicted_object_types": 18,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000009/scene_gt.json",
+          "sha256": "b138ab8b2bfe03c660b42a9c49b00d028eb7d7c7cb12ba4caced8de094572091"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000009/scene_gt_info.json",
+          "sha256": "6f9a7164bf6bd6a22ef1bed48ac3294162a28afcafbcc8624910701637ed928d"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000009_frame_2.npz",
+          "sha256": "5b83abd443db1686a9ca9996ffdae84485626058e55da18950cad3d5c066f625"
+        }
+      ]
+    },
+    {
+      "frame": [
+        9,
+        3
+      ],
+      "n_hat": {
+        "1": 2,
+        "3": 2,
+        "4": 1,
+        "5": 3,
+        "7": 2,
+        "9": 2,
+        "10": 1,
+        "15": 3,
+        "16": 1,
+        "18": 1,
+        "19": 1,
+        "21": 1,
+        "22": 1,
+        "23": 3,
+        "24": 1,
+        "25": 1,
+        "26": 1,
+        "27": 1
+      },
+      "ndetections": 28,
+      "detector_all": 1.4736842105263157,
+      "object_species": 1.2,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "24": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 19,
+      "truth_species": 15,
+      "predicted_object_types": 18,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000009/scene_gt.json",
+          "sha256": "b138ab8b2bfe03c660b42a9c49b00d028eb7d7c7cb12ba4caced8de094572091"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000009/scene_gt_info.json",
+          "sha256": "6f9a7164bf6bd6a22ef1bed48ac3294162a28afcafbcc8624910701637ed928d"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000009_frame_3.npz",
+          "sha256": "756040bf67fa2323483a5569b34e45cad433dce232de8b075aa68915e167aa0d"
+        }
+      ]
+    },
+    {
+      "frame": [
+        9,
+        4
+      ],
+      "n_hat": {
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "4": 1,
+        "5": 2,
+        "7": 1,
+        "9": 2,
+        "10": 1,
+        "15": 3,
+        "16": 2,
+        "18": 1,
+        "19": 1,
+        "21": 2,
+        "22": 1,
+        "23": 3,
+        "24": 1,
+        "25": 1,
+        "26": 1,
+        "27": 2
+      },
+      "ndetections": 30,
+      "detector_all": 1.5789473684210527,
+      "object_species": 1.2666666666666666,
+      "per_true_object": {
+        "1": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "16": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "24": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "23": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "18": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "25": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "9": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "10": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "3": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "21": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "22": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 19,
+      "truth_species": 15,
+      "predicted_object_types": 19,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000009/scene_gt.json",
+          "sha256": "b138ab8b2bfe03c660b42a9c49b00d028eb7d7c7cb12ba4caced8de094572091"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000009/scene_gt_info.json",
+          "sha256": "6f9a7164bf6bd6a22ef1bed48ac3294162a28afcafbcc8624910701637ed928d"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000009_frame_4.npz",
+          "sha256": "38e6459da6023a0576c2e4583e916ad190e59f717318b6aec3a61b251f49b888"
+        }
+      ]
+    },
+    {
+      "frame": [
+        10,
+        0
+      ],
+      "n_hat": {
+        "4": 1,
+        "5": 2,
+        "6": 3,
+        "7": 1,
+        "8": 3,
+        "11": 3,
+        "12": 2,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 3,
+        "27": 1
+      },
+      "ndetections": 26,
+      "detector_all": 1.7333333333333334,
+      "object_species": 1.2307692307692308,
+      "per_true_object": {
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "23": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 15,
+      "truth_species": 13,
+      "predicted_object_types": 16,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000010/scene_gt.json",
+          "sha256": "62ba24fe340dd558ab14a77c01356ac8c290b591e30d80638bce2618d855791c"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000010/scene_gt_info.json",
+          "sha256": "c4b4f8ddb7c230bafb75b021c47d732a25ae4a4d29dc07d89b86dcffc0cde16e"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000010_frame_0.npz",
+          "sha256": "f10e43d8b7dc0aaa55c3db4197a90a8484e27dab6eae3562b7bb7d8f786ab906"
+        }
+      ]
+    },
+    {
+      "frame": [
+        10,
+        1
+      ],
+      "n_hat": {
+        "2": 1,
+        "4": 1,
+        "5": 4,
+        "6": 2,
+        "7": 1,
+        "11": 3,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "17": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 3,
+        "27": 1
+      },
+      "ndetections": 23,
+      "detector_all": 1.5333333333333334,
+      "object_species": 1.1538461538461537,
+      "per_true_object": {
+        "16": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "23": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 4.0,
+          "detector_count": 4,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 15,
+      "truth_species": 13,
+      "predicted_object_types": 15,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000010/scene_gt.json",
+          "sha256": "62ba24fe340dd558ab14a77c01356ac8c290b591e30d80638bce2618d855791c"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000010/scene_gt_info.json",
+          "sha256": "c4b4f8ddb7c230bafb75b021c47d732a25ae4a4d29dc07d89b86dcffc0cde16e"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000010_frame_1.npz",
+          "sha256": "8c794cc3b68349373427fe7a188c5789496d721e18d59969ad02b109f51cecd0"
+        }
+      ]
+    },
+    {
+      "frame": [
+        10,
+        2
+      ],
+      "n_hat": {
+        "4": 1,
+        "5": 3,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "11": 3,
+        "12": 1,
+        "13": 1,
+        "14": 3,
+        "15": 2,
+        "16": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 4
+      },
+      "ndetections": 26,
+      "detector_all": 1.7333333333333334,
+      "object_species": 1.1538461538461537,
+      "per_true_object": {
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "23": {
+          "ratio": 2.0,
+          "detector_count": 4,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 15,
+      "truth_species": 13,
+      "predicted_object_types": 15,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000010/scene_gt.json",
+          "sha256": "62ba24fe340dd558ab14a77c01356ac8c290b591e30d80638bce2618d855791c"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000010/scene_gt_info.json",
+          "sha256": "c4b4f8ddb7c230bafb75b021c47d732a25ae4a4d29dc07d89b86dcffc0cde16e"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000010_frame_2.npz",
+          "sha256": "daee9a132c51e4380f78ddafc8963afc3711b030d43d4de4d6e666f620511996"
+        }
+      ]
+    },
+    {
+      "frame": [
+        10,
+        3
+      ],
+      "n_hat": {
+        "2": 1,
+        "4": 1,
+        "5": 6,
+        "6": 3,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "11": 2,
+        "13": 1,
+        "14": 2,
+        "15": 2,
+        "16": 1,
+        "20": 1,
+        "23": 3
+      },
+      "ndetections": 26,
+      "detector_all": 1.7333333333333334,
+      "object_species": 1.0769230769230769,
+      "per_true_object": {
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "23": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 6.0,
+          "detector_count": 6,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 15,
+      "truth_species": 13,
+      "predicted_object_types": 14,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000010/scene_gt.json",
+          "sha256": "62ba24fe340dd558ab14a77c01356ac8c290b591e30d80638bce2618d855791c"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000010/scene_gt_info.json",
+          "sha256": "c4b4f8ddb7c230bafb75b021c47d732a25ae4a4d29dc07d89b86dcffc0cde16e"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000010_frame_3.npz",
+          "sha256": "3dd15b4429774947e1df1eee7255c7979a228387e0636ac87e88aa6bb7df00e8"
+        }
+      ]
+    },
+    {
+      "frame": [
+        10,
+        4
+      ],
+      "n_hat": {
+        "2": 1,
+        "4": 1,
+        "5": 3,
+        "6": 2,
+        "8": 1,
+        "9": 1,
+        "11": 2,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 3,
+        "27": 1
+      },
+      "ndetections": 22,
+      "detector_all": 1.4666666666666666,
+      "object_species": 1.2307692307692308,
+      "per_true_object": {
+        "16": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "11": {
+          "ratio": 1.0,
+          "detector_count": 2,
+          "truth_count": 2
+        },
+        "23": {
+          "ratio": 1.5,
+          "detector_count": 3,
+          "truth_count": 2
+        },
+        "7": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "5": {
+          "ratio": 3.0,
+          "detector_count": 3,
+          "truth_count": 1
+        },
+        "14": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "4": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "6": {
+          "ratio": 2.0,
+          "detector_count": 2,
+          "truth_count": 1
+        },
+        "12": {
+          "ratio": 0.0,
+          "detector_count": 0,
+          "truth_count": 1
+        },
+        "21": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "15": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "13": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        },
+        "20": {
+          "ratio": 1.0,
+          "detector_count": 1,
+          "truth_count": 1
+        }
+      },
+      "truth_count": 15,
+      "truth_species": 13,
+      "predicted_object_types": 16,
+      "sources": [
+        {
+          "path": "runs/r33_21/data/hope/labels/000010/scene_gt.json",
+          "sha256": "62ba24fe340dd558ab14a77c01356ac8c290b591e30d80638bce2618d855791c"
+        },
+        {
+          "path": "runs/r33_21/data/hope/labels/000010/scene_gt_info.json",
+          "sha256": "c4b4f8ddb7c230bafb75b021c47d732a25ae4a4d29dc07d89b86dcffc0cde16e"
+        },
+        {
+          "path": "runs/r33_21/gpu_noctis/accepted/hope/predictions/hope/P1_hope/scene_000010_frame_4.npz",
+          "sha256": "439bc2f8424da99acf477340a93d2b4709ada61d0d3cbec34a1a56008d70c341"
+        }
+      ]
+    }
+  ]
+}

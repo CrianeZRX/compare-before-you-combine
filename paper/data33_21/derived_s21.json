@@ -1,0 +1,29 @@
+{
+ "e1_status": "no_sparse_dataset",
+ "e2_status": "uninterpretable_R4",
+ "median_count_ratio": {
+  "HOPE-Image": 1.5,
+  "HomebrewedDB": 3.0,
+  "IC-BIN": 1.4444444444444444,
+  "IPD": 2.6,
+  "LM-O": 4.714285714285714,
+  "T-LESS": 3.5357142857142856,
+  "TUD-L": 11.0,
+  "XYZ-IBD": 0.7721674876847291,
+  "YCB-V": 2.708333333333333
+ },
+ "n_datasets": 9,
+ "n_under_reporting": 1,
+ "pilot_A": {
+  "alone_pct": 59.929062292174685,
+  "background_pct": 81.36719677189652,
+  "cross_call_ci_pct": [
+   68.85140743423712,
+   72.96181023576041
+  ],
+  "cross_call_pct": 70.92440700509864,
+  "other_object_pct": 64.9104320337197,
+  "target_wrong_pct": 56.84175309468049,
+  "within_pct": 85.33686935066409
+ }
+}

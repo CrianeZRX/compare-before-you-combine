@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Recompute the numbers quoted in the running text from the deliverable tables and check that each appears in the text.
 Usage: python3 scripts/check_numbers_v3.py [MANUSCRIPT_ROOT]
-Without a manuscript root that contains sec/*.tex, the script prints the recomputed strings without checking them."""
+Checks marked [supp] are made against supplementary/*.tex under the same root. Without a manuscript root that contains sec/*.tex, the script prints the recomputed strings without checking them."""
 import json, os, re, glob, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from make_tables_v3 import md_table, D
@@ -93,13 +93,28 @@ checks += [
  ("S20 readings", "on par with joint scoring" if s20["readings"]["R1"] == "持平" and s20["readings"]["R3"] == "持平" and s20["readings"]["R5"] else "MISMATCH"),
 ]
 
+# ---- 33-21 (data33_21/derived_s21.json, written by scripts/make_s21.py)
+s21 = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'data33_21', 'derived_s21.json')))
+under = [k for k, v in s21["median_count_ratio"].items() if v < 1]
+num = {9: "nine", 8: "eight"}
+p21 = s21["pilot_A"]
+checks += [
+ ("S21 screened", "of %s datasets screened at the official threshold, only %s under-reports" % (num[s21["n_datasets"]], under[0]) if s21["n_under_reporting"] == 1 and len(under) == 1 else "MISMATCH"),
+ ("S21 dense over-report", "two further dense datasets that we screened both over-report" if s21["e1_status"] == "no_sparse_dataset" and min(s21["median_count_ratio"][k] for k in ("HomebrewedDB", "HOPE-Image")) > 1 else "MISMATCH"),
+ ("S21 pilot not inverted", "a small scorer trained this way did not invert" if p21["cross_call_ci_pct"][0] > 50 else "MISMATCH"),
+ ("[supp] S21 pilot", "It ranked %.2f\\%% of within-call pairs correctly and %.2f\\%% [%.2f, %.2f] of cross-call pairs, %.2f\\%% when each pose was scored alone" % (p21["within_pct"], p21["cross_call_pct"], *p21["cross_call_ci_pct"], p21["alone_pct"])),
+ ("[supp] S21 only under-reporter", "Of the %s datasets whose count ratio we computed at the official threshold, %s is the only one" % (num[s21["n_datasets"]], under[0])),
+]
+ROOT_M = sys.argv[1] if len(sys.argv) > 1 else "."
+supp = " ".join(open(f).read() for f in sorted(glob.glob(os.path.join(ROOT_M, "supplementary", "*.tex")))).replace("$-$", "-").replace("$", "")
+
 if not SRC:
     for name, s in checks:
         print("----", name, "->", s)
     sys.exit(0)
 bad = 0
 for name, s in checks:
-    ok = s in text
+    ok = s in (supp if name.startswith("[supp]") else text)
     bad += not ok
     print(("OK  " if ok else "MISS"), name, "->", s)
 print("missing:", bad)

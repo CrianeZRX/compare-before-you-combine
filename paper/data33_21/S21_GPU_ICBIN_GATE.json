@@ -1,0 +1,23 @@
+{
+  "GT_used": false,
+  "gpu": 0,
+  "frame": [
+    1,
+    0
+  ],
+  "historical_count": 19,
+  "accepted": 19,
+  "gate_pass": true,
+  "exact_masks": true,
+  "exact_categories": true,
+  "max_abs_ordered_score_delta": 0.0,
+  "reference": {
+    "path": "runs/p1/noctis/accepted/icbin/predictions/icbin/P1_icbin/scene_000001_frame_0.npz",
+    "sha256": "0f58e1942569eb274effd315567c1b493a218338dca72dc65360e9ab2b0d0ee4"
+  },
+  "replay": {
+    "path": "runs/r33_21/gpu_noctis/accepted/icbin/predictions/icbin/P1_icbin/scene_000001_frame_0.npz",
+    "sha256": "d6ebb9ec567bd3b7c4d5ee1fb4e432b06a8d87400d1c7548bffb23db0a31aa5f"
+  },
+  "completed_at_utc": "2026-11-19T15:51:54.558173+00:00"
+}

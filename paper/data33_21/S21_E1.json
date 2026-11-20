@@ -1,0 +1,14 @@
+{
+  "GT_used": true,
+  "amended_rules": {
+    "file": "runs/r33_21/S21_RULES_AMEND.json",
+    "sha256": "dabf22820be1e6c7112597f4a82745b54f16423216d99d4af71ff798eb2452f0"
+  },
+  "datasets": {},
+  "reading": {
+    "R1": null,
+    "R2": null,
+    "R3": null
+  },
+  "status": "no_sparse_dataset"
+}
