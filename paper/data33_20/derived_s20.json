@@ -19,12 +19,12 @@
   "b": {
    "pairs": 9314,
    "share_pct": 23.028273809523807,
-   "strict_pct": 13.59244148593515
+   "strict_pct": 13.5978097487653
   },
   "c": {
    "pairs": 23045,
    "share_pct": 64.5518543956044,
-   "strict_pct": 2.1132566717292254
+   "strict_pct": 2.1154263397700155
   }
  },
  "category_differences": {
@@ -87,8 +87,8 @@
    0.26283206406339765
   ]
  },
- "pairwise_joint_strict_pct": 93.68555302290243,
- "pairwise_reversed_strict_pct": 94.82253337675024,
+ "pairwise_joint_strict_pct": 93.96911972213177,
+ "pairwise_reversed_strict_pct": 94.82524693368067,
  "pairwise_reversed_ties": 2,
  "readings": {
   "R1": "\u6301\u5e73",

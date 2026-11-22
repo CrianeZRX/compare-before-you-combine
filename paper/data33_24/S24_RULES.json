@@ -1,0 +1,56 @@
+{
+ "written_utc": "2026-11-21T18:03:20.153706Z",
+ "written_before_results": true,
+ "scope": "Part B of instruction 33-24, run on the WAPR pose pool of 33-22 E4 (750 frames, CNOS+NOCTIS masks). The FoundationPose per-call scores of the 33-19 E1 pool and XYZ-IBD are not in this file and remain with the server.",
+ "pose_source": {
+  "file": "outputs/r33_22/S22_E4.json",
+  "sha256": "ed192e80aa7b7e9a30b98fc3b507c24bcd25451b1032de5f01c35abf8dfbb84b"
+ },
+ "tool": {
+  "file": "src/compare6d/check.py (2026-11-21, ties count half)",
+  "sha256": "a5c212b9fee2afdd1452a0e4c41a88d6f77181caea0141251cc1270f775b0954",
+  "ranking_sha256": "a7cd45f6e5988513647dd208e9cada866acc75351dcdf50612fca9b01630669b",
+  "call": "check(rows, draws=2000, seed=draw_index)"
+ },
+ "rows": "one row per mask with status 'ok': image=(dataset, scene_id, im_id), object=obj_id, score, correct (field 'correct' of S22_E4)",
+ "scores": {
+  "expected_reversed": [
+   "fp_single",
+   "wbps_neg"
+  ],
+  "expected_comparable": [
+   "wbps_raw",
+   "wbps_single",
+   "depth",
+   "fp_joint"
+  ]
+ },
+ "datasets": [
+  "lmo",
+  "tless",
+  "tudl",
+  "icbin",
+  "ycbv"
+ ],
+ "k": [
+  3,
+  5,
+  10,
+  20
+ ],
+ "draws_per_cell": 1000,
+ "sampling": "k frames drawn uniformly without replacement from all 150 frames of the dataset (not only frames with pairs)",
+ "seed": "random.Random(f'{dataset}|{score}|{k}') drives frame sampling; the tool seed is the draw index 0..999",
+ "outcomes": {
+  "no_pairs": "tool raises: no opposite-label pair",
+  "correct": "reversed for expected_reversed, comparable for expected_comparable",
+  "insufficient": "not_comparable or no_information",
+  "wrong": "comparable for expected_reversed, reversed for expected_comparable"
+ },
+ "readings": {
+  "RB1": "fp_single, k=10: correct >= 90% on every classic dataset -> 'ten frames suffice to detect the reversal'; otherwise list the datasets below",
+  "RB2": "every (dataset, score), k=10: wrong <= 1% -> 'no wrong direction at ten frames'; otherwise list",
+  "RB3": "smallest k with correct >= 90% per (dataset, score); '>20' if none",
+  "classic_average": "unweighted mean of the five datasets' shares"
+ }
+}

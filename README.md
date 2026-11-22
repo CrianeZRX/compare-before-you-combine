@@ -1,6 +1,6 @@
 # Compare Before You Combine
 
-**FoundationPose Scores Rank Poses but Are Not Confidences**
+**Cross-Call Rank Inversion in FoundationPose**
 
 [![CPU checks](https://github.com/CrianeZRX/compare-before-you-combine/actions/workflows/test.yml/badge.svg)](https://github.com/CrianeZRX/compare-before-you-combine/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -56,7 +56,7 @@ The first command after installation computes the cross-call pairwise accuracy o
 
 ## Use your own cached poses
 
-- `compare6d check` answers the first question for a new scorer, detector or dataset: can the scores of separate calls be compared, and in which direction? It takes one score and one correctness label per output pose, as a CSV or as the MSSD error files of the BOP toolkit, and reports the cross-call pairwise accuracy with a 95% interval. See the [input schema](docs/INPUTS.md).
+- `compare6d check` answers the first question for a new scorer, detector or dataset: can the scores of separate calls be compared, and in which direction? It takes one score and one correctness label per output pose, as a CSV or as the MSSD error files of the BOP toolkit, and reports the cross-call pairwise accuracy with a 95% interval over images, a tie counting as half a pair. It reads the scores as reversed, comparable or not comparable, and as carrying no information when every pair is tied. It gives no reading from fewer than six images that hold a pair, and it reads a direction only if a sign-flip test across these images (p < 0.05) and the interval both exclude 50%. Labelling frames until ten hold a pair took 10 to 12 frames on the classic BOP datasets and 28 on XYZ-IBD; the check then read the per-call FoundationPose score as reversed in every draw, never read any of the 13 scores of the paper the wrong way, and, with the scores of each frame negated at random, read a direction in at most 6.0% of the draws (`paper/data33_25/`). See the [input schema](docs/INPUTS.md).
 - `compare6d audit` compares per-call, relative, and joint scores. See the [input schema](docs/INPUTS.md) for correctness labels, grouping, and tie conventions.
 - `compare6d.ranking.score_jointly` accepts a scorer callback and re-scores one fixed winner from each mask in a single call for an image–object target. [`examples/foundationpose_joint_scoring.py`](examples/foundationpose_joint_scoring.py) shows the same call pattern with the public FoundationPose code; it needs FoundationPose, its weights and a GPU and is not run by the tests here.
 - `compare6d.selection.select_detections` applies the B0–B4 output rules to registered candidates, with translation NMS and the paper's output caps.
@@ -67,7 +67,7 @@ The [artifact guide](docs/ARTIFACT.md) maps the code and data to the experiments
 
 ## Citation
 
-Cite the manuscript as *Compare Before You Combine: FoundationPose Scores Rank Poses but Are Not Confidences*.
+Cite the manuscript as *Compare Before You Combine: Cross-Call Rank Inversion in FoundationPose*.
 
 ## License
 

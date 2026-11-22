@@ -310,27 +310,27 @@
    },
    "fp_joint": {
     "ci": [
-     89.713047540808,
-     92.6900629092047
+     90.06223614701379,
+     93.01614017530987
     ],
     "pairs": 22578,
-    "pct": 91.20382673398883
+    "pct": 91.54486668438302
    },
    "fp_single": {
     "ci": [
-     6.286281958585542,
-     9.175573978786423
+     6.288075472996014,
+     9.17811803163651
     ],
     "pairs": 22578,
-    "pct": 7.724333421915139
+    "pct": 7.726547967047568
    },
    "wbps_joint": {
     "ci": [
-     52.48531303609962,
-     60.31280509560457
+     52.48831376792402,
+     60.31426538492608
     ],
     "pairs": 22578,
-    "pct": 56.40003543272212
+    "pct": 56.402249977854545
    },
    "wbps_neg": {
     "ci": [
@@ -435,8 +435,8 @@
  "inputs": {
   "data33_17/ED_MECH.json": "84808dfbb03d51bf87fbe3a64236d47a1ae9cda8a79047323b8013975c3465ed",
   "data33_19/S19_E1.json": "3e1970ac72a872b1fd0f0f1442f9f0d28736b4740be3a831a6501eb2654a14b5",
-  "data33_19/derived_s19.json": "132aa3b4f3344318d6b195785d2d8ba11c9f43ae7a55ed2ffa2aa72d6c4d292a",
-  "data33_20/derived_s20.json": "8fd6ab9830d9ce96206c4ff78343d7fb5cc4242cebd5b4d140acc154644c62ae",
+  "data33_19/derived_s19.json": "74f262cab4782c4e106931be4072befbf9adb99392fb60df3ea82768d6b010d2",
+  "data33_20/derived_s20.json": "ec4a20a40b8cd9f3b0455961cbc43e4c61d16e16b7531e6413c6e03a97e0cfe4",
   "data33_22/S22_E1.json": "7dab9f9edb5fdfa87f09770538e9ee5317e3b516c63a5fc9df98f61e3a5e76e1",
   "data33_22/S22_E2.json": "545e0e1896b16be17d46e5224b714cae527da61d800e77674d0c7ad329cdaef5",
   "data33_22/S22_E3.json": "2cf8284396e3eab4ebb0568b405bed188d43a1799de8e630fd244d087aa4d5e7",

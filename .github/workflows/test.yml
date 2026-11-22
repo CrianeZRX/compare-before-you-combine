@@ -33,5 +33,11 @@ jobs:
       - run: python paper/scripts/make_supp_tables_v3.py
       - run: python paper/scripts/make_s18_table.py
       - run: FIGW=7.1 python paper/scripts/make_figures_v3.py
-      - run: git diff --exit-code paper/data33_17/derived_v3.json
+      - run: git diff --exit-code paper/data33_17/derived_v3.json paper/data33_19/derived_s19.json
       - run: python paper/scripts/check_numbers_v3.py
+      - run: FIGW=7.1 python paper/scripts/make_s19.py
+      - run: python paper/scripts/make_s20.py
+      - run: python paper/scripts/make_s21.py
+      - run: git diff --exit-code paper/data33_21/derived_s21.json
+      - run: python paper/scripts/make_usage.py
+      - run: git diff --exit-code paper/data_survey/derived_usage.json

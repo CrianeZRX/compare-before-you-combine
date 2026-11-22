@@ -1,0 +1,7778 @@
+{
+ "rules_sha256": "80ce35b70f3217fefd1239598ec9fa8c6a064a9c6120cbf455b52c35a85e2276",
+ "tool": "check v1.1 (/tmp/k25), v1.0 readings derived from the identical bootstrap interval",
+ "cells": [
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_raw",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_raw",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_raw",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_raw",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_joint",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_joint",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_joint",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "megapose_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "megapose_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "megapose_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "megapose_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "depth",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "depth",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "depth",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "depth",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "mask_iou",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "mask_iou",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "mask_iou",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "mask_iou",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "chamfer",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 97.4,
+     "insufficient": 2.6,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "chamfer",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "chamfer",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "lmo",
+    "chamfer",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "fp_raw",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 98.4,
+     "insufficient": 1.6,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "fp_raw",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.9,
+     "insufficient": 0.1,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "fp_raw",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "fp_raw",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "fp_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 97.6,
+     "insufficient": 2.4,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "fp_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "fp_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "fp_joint",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 97.4,
+     "insufficient": 2.6,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "fp_joint",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.5,
+     "insufficient": 0.5,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "fp_joint",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "megapose_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 86.5,
+     "insufficient": 13.5,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "megapose_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 97.3,
+     "insufficient": 2.7,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "megapose_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 99.7,
+     "insufficient": 0.3,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "megapose_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "depth",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 80.3,
+     "insufficient": 19.5,
+     "wrong": 0.2
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "depth",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 88.8,
+     "insufficient": 11.2,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "depth",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 97.9,
+     "insufficient": 2.1,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 94.8,
+     "insufficient": 5.2,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "depth",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "mask_iou",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.1,
+     "correct": 86.5,
+     "insufficient": 13.4,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.1,
+     "correct": 0.0,
+     "insufficient": 99.9,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "mask_iou",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 93.0,
+     "insufficient": 7.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "mask_iou",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 91.6,
+     "insufficient": 8.4,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 91.1,
+     "insufficient": 8.9,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "mask_iou",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 98.8,
+     "insufficient": 1.2,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 98.4,
+     "insufficient": 1.6,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "chamfer",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 88.5,
+     "insufficient": 11.5,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "chamfer",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 93.0,
+     "insufficient": 7.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "chamfer",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 92.7,
+     "insufficient": 7.3,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 91.3,
+     "insufficient": 8.7,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tless",
+    "chamfer",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_raw",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_raw",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_raw",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 99.9,
+     "insufficient": 0.1,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 8,
+     "q3": 10,
+     "share_lt6_pct": 0.1
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_raw",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 17,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.1,
+     "correct": 99.9,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.1,
+     "correct": 0.0,
+     "insufficient": 99.9,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 17,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_joint",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_joint",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_joint",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 17,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "megapose_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "megapose_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "megapose_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 8,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "megapose_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 17,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "depth",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "depth",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "depth",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 8,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "depth",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 17,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "mask_iou",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.3,
+     "correct": 78.1,
+     "insufficient": 21.4,
+     "wrong": 0.2
+    },
+    "v1.1": {
+     "no_pairs": 0.3,
+     "correct": 0.0,
+     "insufficient": 99.7,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "mask_iou",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 90.8,
+     "insufficient": 9.2,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "mask_iou",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 98.4,
+     "insufficient": 1.6,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 93.0,
+     "insufficient": 7.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 8,
+     "q3": 10,
+     "share_lt6_pct": 0.1
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "mask_iou",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 17,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "chamfer",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.3,
+     "correct": 85.8,
+     "insufficient": 13.7,
+     "wrong": 0.2
+    },
+    "v1.1": {
+     "no_pairs": 0.3,
+     "correct": 0.0,
+     "insufficient": 99.7,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "chamfer",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 89.4,
+     "insufficient": 10.6,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "chamfer",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 98.5,
+     "insufficient": 1.5,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 94.7,
+     "insufficient": 5.3,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.1
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "tudl",
+    "chamfer",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 17,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_raw",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_raw",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_raw",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_raw",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 18,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 18,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_joint",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_joint",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 99.9,
+     "insufficient": 0.1,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.1
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_joint",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 18,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "megapose_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 95.8,
+     "insufficient": 4.2,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "megapose_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 98.1,
+     "insufficient": 1.9,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "megapose_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 99.8,
+     "insufficient": 0.2,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "megapose_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 18,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "depth",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 84.7,
+     "insufficient": 15.3,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "depth",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 93.7,
+     "insufficient": 6.3,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "depth",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 99.0,
+     "insufficient": 1.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "depth",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 18,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "mask_iou",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 85.6,
+     "insufficient": 14.2,
+     "wrong": 0.2
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "mask_iou",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 91.1,
+     "insufficient": 8.9,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "mask_iou",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.3,
+     "insufficient": 0.7,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 96.3,
+     "insufficient": 3.7,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "mask_iou",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 18,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "chamfer",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 92.8,
+     "insufficient": 7.2,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "chamfer",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 98.1,
+     "insufficient": 1.9,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "chamfer",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 99.8,
+     "insufficient": 0.2,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "icbin",
+    "chamfer",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 18,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_raw",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.6,
+     "correct": 94.4,
+     "insufficient": 5.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.6,
+     "correct": 0.0,
+     "insufficient": 99.4,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_raw",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.2,
+     "insufficient": 0.8,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_raw",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 97.4,
+     "insufficient": 2.6,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 7,
+     "q3": 9,
+     "share_lt6_pct": 1.9
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_raw",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 16,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.5,
+     "correct": 94.7,
+     "insufficient": 4.8,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.5,
+     "correct": 0.0,
+     "insufficient": 99.5,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.4,
+     "insufficient": 0.6,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 96.8,
+     "insufficient": 3.2,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 7,
+     "q3": 9,
+     "share_lt6_pct": 2.5
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 15,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_joint",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.8,
+     "correct": 93.0,
+     "insufficient": 6.0,
+     "wrong": 0.2
+    },
+    "v1.1": {
+     "no_pairs": 0.8,
+     "correct": 0.0,
+     "insufficient": 99.2,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_joint",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 97.7,
+     "insufficient": 2.3,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 98.3,
+     "insufficient": 1.7,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 8,
+     "q3": 9,
+     "share_lt6_pct": 1.3
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_joint",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 15,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "megapose_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 1.0,
+     "correct": 94.3,
+     "insufficient": 4.5,
+     "wrong": 0.2
+    },
+    "v1.1": {
+     "no_pairs": 1.0,
+     "correct": 0.0,
+     "insufficient": 99.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "megapose_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 95.3,
+     "insufficient": 4.6,
+     "wrong": 0.1
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "megapose_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 96.8,
+     "insufficient": 3.2,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 8,
+     "q3": 9,
+     "share_lt6_pct": 1.8
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "megapose_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 16,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "depth",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.4,
+     "correct": 88.6,
+     "insufficient": 10.9,
+     "wrong": 0.1
+    },
+    "v1.1": {
+     "no_pairs": 0.4,
+     "correct": 0.0,
+     "insufficient": 99.6,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "depth",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 88.1,
+     "insufficient": 11.9,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "depth",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 98.7,
+     "insufficient": 1.3,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 91.4,
+     "insufficient": 8.6,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 8,
+     "q3": 9,
+     "share_lt6_pct": 2.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "depth",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 15,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "mask_iou",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.7,
+     "correct": 85.7,
+     "insufficient": 13.1,
+     "wrong": 0.5
+    },
+    "v1.1": {
+     "no_pairs": 0.7,
+     "correct": 0.0,
+     "insufficient": 99.3,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "mask_iou",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 86.5,
+     "insufficient": 13.5,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "mask_iou",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 96.2,
+     "insufficient": 3.8,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 86.4,
+     "insufficient": 13.6,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 8,
+     "q3": 9,
+     "share_lt6_pct": 1.8
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "mask_iou",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 99.9,
+     "insufficient": 0.1,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 16,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "chamfer",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.5,
+     "correct": 90.6,
+     "insufficient": 8.8,
+     "wrong": 0.1
+    },
+    "v1.1": {
+     "no_pairs": 0.5,
+     "correct": 0.0,
+     "insufficient": 99.5,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "chamfer",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 95.8,
+     "insufficient": 4.2,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "chamfer",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 95.6,
+     "insufficient": 4.4,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 8,
+     "q3": 9,
+     "share_lt6_pct": 1.9
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "classic_33_19_E1",
+    "ycbv",
+    "chamfer",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 16,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "xyzibd_33_19_E1e_B1",
+    "xyzibd",
+    "fp_raw",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 25.5,
+     "correct": 73.3,
+     "insufficient": 1.2,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 25.5,
+     "correct": 0.0,
+     "insufficient": 74.5,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 1,
+     "q1": 0,
+     "q3": 2,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "xyzibd_33_19_E1e_B1",
+    "xyzibd",
+    "fp_raw",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 10.6,
+     "correct": 86.7,
+     "insufficient": 2.7,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 10.6,
+     "correct": 0.0,
+     "insufficient": 89.4,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 2,
+     "q1": 1,
+     "q3": 2,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "xyzibd_33_19_E1e_B1",
+    "xyzibd",
+    "fp_raw",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 1.0,
+     "correct": 96.9,
+     "insufficient": 2.1,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 1.0,
+     "correct": 7.2,
+     "insufficient": 91.8,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 4,
+     "share_lt6_pct": 92.4
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "xyzibd_33_19_E1e_B1",
+    "xyzibd",
+    "fp_raw",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.8,
+     "insufficient": 0.2,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 72.8,
+     "insufficient": 27.2,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 7,
+     "q1": 5,
+     "q3": 8,
+     "share_lt6_pct": 25.7
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "xyzibd_33_19_E1e_B1",
+    "xyzibd",
+    "depth",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 27.7,
+     "correct": 72.3,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 27.7,
+     "correct": 0.0,
+     "insufficient": 72.3,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 1,
+     "q1": 0,
+     "q3": 2,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "xyzibd_33_19_E1e_B1",
+    "xyzibd",
+    "depth",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 13.2,
+     "correct": 86.8,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 13.2,
+     "correct": 0.0,
+     "insufficient": 86.8,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 2,
+     "q1": 1,
+     "q3": 2,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "xyzibd_33_19_E1e_B1",
+    "xyzibd",
+    "depth",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.9,
+     "correct": 99.1,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.9,
+     "correct": 8.8,
+     "insufficient": 90.3,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 3,
+     "q3": 4,
+     "share_lt6_pct": 91.2
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "xyzibd_33_19_E1e_B1",
+    "xyzibd",
+    "depth",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 77.0,
+     "insufficient": 23.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 7,
+     "q1": 6,
+     "q3": 8,
+     "share_lt6_pct": 23.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "fp_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "fp_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "fp_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_neg",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_neg",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_neg",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_neg",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_raw",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_raw",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_raw",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_raw",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "depth",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 97.8,
+     "insufficient": 2.2,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "depth",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "depth",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "depth",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "fp_joint",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "fp_joint",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "lmo",
+    "fp_joint",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 20,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "fp_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 95.9,
+     "insufficient": 4.1,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "fp_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.6,
+     "insufficient": 0.4,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "fp_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_neg",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 98.4,
+     "insufficient": 1.6,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_neg",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.7,
+     "insufficient": 0.3,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_neg",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_neg",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_raw",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 97.6,
+     "insufficient": 2.4,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_raw",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.7,
+     "insufficient": 0.3,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_raw",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_raw",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 97.8,
+     "insufficient": 2.2,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "depth",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 82.9,
+     "insufficient": 16.9,
+     "wrong": 0.2
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "depth",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 91.1,
+     "insufficient": 8.9,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "depth",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 98.3,
+     "insufficient": 1.7,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 95.6,
+     "insufficient": 4.4,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "depth",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "fp_joint",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 95.3,
+     "insufficient": 4.7,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "fp_joint",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.5,
+     "insufficient": 0.5,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 10,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tless",
+    "fp_joint",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 20,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "fp_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.1,
+     "correct": 99.9,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.1,
+     "correct": 0.0,
+     "insufficient": 99.9,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "fp_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "fp_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 18,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_neg",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.1,
+     "correct": 99.9,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.1,
+     "correct": 0.0,
+     "insufficient": 99.9,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_neg",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_neg",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 99.9,
+     "insufficient": 0.1,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.1
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_neg",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 17,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_raw",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.1,
+     "correct": 99.9,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.1,
+     "correct": 0.0,
+     "insufficient": 99.9,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_raw",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_raw",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 99.7,
+     "insufficient": 0.3,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.3
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_raw",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 17,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 99.9,
+     "insufficient": 0.1,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.1
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 18,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "depth",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.1,
+     "correct": 97.1,
+     "insufficient": 2.8,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.1,
+     "correct": 0.0,
+     "insufficient": 99.9,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "depth",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.9,
+     "insufficient": 0.1,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "depth",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "depth",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 17,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "fp_joint",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.1,
+     "correct": 99.9,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.1,
+     "correct": 0.0,
+     "insufficient": 99.9,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "fp_joint",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 9,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "tudl",
+    "fp_joint",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 18,
+     "q1": 17,
+     "q3": 19,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "fp_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "fp_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "fp_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_neg",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.1,
+     "correct": 99.9,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.1,
+     "correct": 0.0,
+     "insufficient": 99.9,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_neg",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_neg",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_neg",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_raw",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_raw",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_raw",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_raw",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 98.0,
+     "insufficient": 2.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.9,
+     "insufficient": 0.1,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "depth",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 94.4,
+     "insufficient": 5.6,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "depth",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.0,
+     "insufficient": 1.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "depth",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "depth",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "fp_joint",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 3,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "fp_joint",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 5,
+     "q1": 5,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 10,
+     "q1": 9,
+     "q3": 10,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "icbin",
+    "fp_joint",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 19,
+     "q1": 19,
+     "q3": 20,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "fp_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.5,
+     "correct": 97.4,
+     "insufficient": 2.1,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.5,
+     "correct": 0.0,
+     "insufficient": 99.5,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "fp_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.2,
+     "insufficient": 0.8,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 97.7,
+     "insufficient": 2.3,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 8,
+     "q3": 9,
+     "share_lt6_pct": 2.1
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "fp_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 15,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_neg",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.4,
+     "correct": 99.6,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.4,
+     "correct": 0.0,
+     "insufficient": 99.6,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_neg",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_neg",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 98.8,
+     "insufficient": 1.2,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 8,
+     "q3": 9,
+     "share_lt6_pct": 1.2
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_neg",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 16,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_raw",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.3,
+     "correct": 99.7,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.3,
+     "correct": 0.0,
+     "insufficient": 99.7,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_raw",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_raw",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 97.9,
+     "insufficient": 2.1,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 8,
+     "q3": 9,
+     "share_lt6_pct": 2.1
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_raw",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 15,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_single",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.3,
+     "correct": 99.7,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.3,
+     "correct": 0.0,
+     "insufficient": 99.7,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_single",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_single",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 98.4,
+     "insufficient": 1.6,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 8,
+     "q3": 9,
+     "share_lt6_pct": 1.6
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_single",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 16,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "depth",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.5,
+     "correct": 80.4,
+     "insufficient": 18.5,
+     "wrong": 0.6
+    },
+    "v1.1": {
+     "no_pairs": 0.5,
+     "correct": 0.0,
+     "insufficient": 99.5,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "depth",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 87.5,
+     "insufficient": 12.5,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "depth",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 98.0,
+     "insufficient": 2.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 87.7,
+     "insufficient": 12.3,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 8,
+     "q3": 9,
+     "share_lt6_pct": 1.8
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "depth",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 15,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "fp_joint",
+    3
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 1.0,
+     "correct": 96.5,
+     "insufficient": 2.5,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 1.0,
+     "correct": 0.0,
+     "insufficient": 99.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 3,
+     "q1": 2,
+     "q3": 3,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "fp_joint",
+    5
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 99.5,
+     "insufficient": 0.5,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 0.0,
+     "insufficient": 100.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 4,
+     "q1": 4,
+     "q3": 5,
+     "share_lt6_pct": 100.0
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 98.4,
+     "insufficient": 1.6,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 8,
+     "q1": 8,
+     "q3": 9,
+     "share_lt6_pct": 1.4
+    }
+   }
+  },
+  {
+   "key": [
+    "replay",
+    "wapr_33_22_E4",
+    "ycbv",
+    "fp_joint",
+    20
+   ],
+   "result": {
+    "v1.0": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "v1.1": {
+     "no_pairs": 0.0,
+     "correct": 100.0,
+     "insufficient": 0.0,
+     "wrong": 0.0
+    },
+    "informative_images": {
+     "median": 17,
+     "q1": 15,
+     "q3": 18,
+     "share_lt6_pct": 0.0
+    }
+   }
+  }
+ ]
+}

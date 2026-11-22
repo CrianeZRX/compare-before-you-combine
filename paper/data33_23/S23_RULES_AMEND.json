@@ -1,0 +1,12 @@
+{
+  "frozen_utc": "2026-11-20T05:09:12.226137+00:00",
+  "rules": {
+    "file": "runs/r33_23/S23_RULES.json",
+    "sha256": "fdb9ddd9dcb18f7e992d86cf9cdf24ac9bb335f65fb9caa867b006874612285e"
+  },
+  "user_confirmation": "12 hours of elapsed wall time; parallel CPU A2 authorized",
+  "cpu_worker_ceiling": 48,
+  "analytical_protocol_changes": [],
+  "geometry_reuse": "Identical archived poses are reused across confidence variants; score-dependent official output caps and matching are rerun per row.",
+  "random_row": "For each paired resampling, S-rand is the mean of all 20 fixed-seed random rankings and their corresponding scores."
+}

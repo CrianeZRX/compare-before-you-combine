@@ -15,15 +15,15 @@
  "n_datasets": 9,
  "n_under_reporting": 1,
  "pilot_A": {
-  "alone_pct": 59.929062292174685,
-  "background_pct": 81.36719677189652,
+  "alone_pct": 60.00886721347817,
+  "background_pct": 81.41071287285386,
   "cross_call_ci_pct": [
    68.85140743423712,
    72.96181023576041
   ],
-  "cross_call_pct": 70.92440700509864,
-  "other_object_pct": 64.9104320337197,
-  "target_wrong_pct": 56.84175309468049,
-  "within_pct": 85.33686935066409
+  "cross_call_pct": 70.9753934825981,
+  "other_object_pct": 65.01580611169653,
+  "target_wrong_pct": 56.897513103602094,
+  "within_pct": 85.3689492827182
  }
 }

@@ -1,0 +1,142 @@
+{
+ "version": "33-25 v1.0",
+ "written_utc": "2026-11-22T03:17:42.357558Z",
+ "written_before_results": true,
+ "CPU_only": true,
+ "no_registration": true,
+ "no_new_GT_use": "per-pose correctness labels already in the 33-24 rows only",
+ "motivation": "Mock review of 2026-11-21: with random per-frame sign flips of real cached scores, the released check v1.0 gives a definite direction in 5.0% of ten-frame draws on LM-O and 32.3% on XYZ-IBD, mostly because few sampled frames hold an opposite-label pair and the image bootstrap is degenerate with one such frame.",
+ "inputs": {
+  "classic_and_xyzibd_rows": {
+   "S24_B_rows/lmo.json": "84f88a09f42891a1dc27cc7198742212a18017b3eece3f6e05d9b526b0da63dd",
+   "S24_B_rows/tless.json": "f8ae26a012d79f936fdb78c625bf3013e34bfe3a8fc325c4ef22e53292f13676",
+   "S24_B_rows/tudl.json": "dad215b9746cbdcb0633b90e13d09e5510faa2a578c92295c7d71dc26fd87c38",
+   "S24_B_rows/icbin.json": "9e126e7fad1740d713fbaaaf093875dfb2af08a48456fc38a6f2fa2da30d08eb",
+   "S24_B_rows/ycbv.json": "b5d66e2fd6254519143ce8039f0118b83244f39ad9504b73b4471323f6286a73",
+   "S24_B_rows/xyzibd.json": "a284dc8481d0cff2160ad8d752c911f13f4bd9602cdb8d73949f60d4b5873597"
+  },
+  "wapr_pool": {
+   "file": "outputs/r33_22/S22_E4.json",
+   "sha256": "ed192e80aa7b7e9a30b98fc3b507c24bcd25451b1032de5f01c35abf8dfbb84b"
+  },
+  "tool_v1_0": {
+   "file": "src/compare6d/check.py",
+   "sha256": "a5c212b9fee2afdd1452a0e4c41a88d6f77181caea0141251cc1270f775b0954"
+  }
+ },
+ "tool_v1_1": {
+  "unit": "informative image: an image with at least one opposite-label pair (same image, same object)",
+  "statistic": "D = sum over informative images of d_i = wins_i + ties_i/2 - pairs_i/2 (pair-weighted pooled accuracy minus 0.5)",
+  "test": "two-sided sign-flip randomization test across informative images: p = share of sign patterns e in {-1,+1}^n with |sum e_i d_i| >= |D| (tolerance 1e-12); exact enumeration for n <= 16, otherwise 20,000 random patterns from random.Random(seed) with p = (1 + count) / (1 + 20,000)",
+  "alpha": 0.05,
+  "n_min": "6, the smallest n for which an exact two-sided sign-flip test can reach p < 0.05 (2^(1-n) < 0.05)",
+  "reading_order": [
+   "no_information: every pair tied (unchanged)",
+   "too_few_images: fewer than 6 informative images",
+   "reversed: p < 0.05 and the v1.0 image-bootstrap interval lies below 0.5",
+   "comparable: p < 0.05 and the v1.0 image-bootstrap interval lies above 0.5",
+   "not_comparable: otherwise"
+  ],
+  "property": "v1.1 gives a direction only where v1.0 gives the same direction; it never creates a reversed or comparable reading that v1.0 did not give",
+  "reported_fields_added": [
+   "images_with_pairs (already present)",
+   "sign_flip_p",
+   "min_images"
+  ]
+ },
+ "experiments": {
+  "N_null": {
+   "what": "negative control of the mock review: k frames drawn as in 33-24 B; each drawn frame independently keeps or negates all its scores with probability 1/2; candidates, labels, objects and within-frame structure unchanged",
+   "scores": {
+    "classic": [
+     "fp_raw",
+     "depth"
+    ],
+    "xyzibd": [
+     "fp_raw",
+     "depth"
+    ]
+   },
+   "datasets": [
+    "lmo",
+    "tless",
+    "tudl",
+    "icbin",
+    "ycbv",
+    "xyzibd"
+   ],
+   "k": [
+    3,
+    5,
+    10,
+    20
+   ],
+   "draws": 1000,
+   "frame_rng": "random.Random(f'null|{dataset}|{score}|{k}').sample(sorted frame keys incl. empty frames, k)",
+   "flip_rng": "random.Random(f'flip|{dataset}|{score}|{k}|{draw}').random() < 0.5 per drawn frame, in sorted order of the drawn frames",
+   "tool_seed": "draw index",
+   "tools": [
+    "v1.0",
+    "v1.1"
+   ],
+   "outcome": "definite = reversed or comparable; also no_pairs, too_few_images, not_comparable shares and the distribution of informative images"
+  },
+  "R_replay": {
+   "what": "33-24 B replay repeated with v1.1, same frame draws and tool seeds (classic: random.Random(f'{dataset}|{score}|{k}'); WAPR pool: the 33-24 replay.py)",
+   "pools": {
+    "classic_33_19_E1": [
+     "fp_raw",
+     "fp_single",
+     "fp_joint",
+     "megapose_single",
+     "depth",
+     "mask_iou",
+     "chamfer"
+    ],
+    "xyzibd_33_19_E1e_B1": [
+     "fp_raw",
+     "depth"
+    ],
+    "wapr_33_22_E4": [
+     "fp_single",
+     "wbps_neg",
+     "wbps_raw",
+     "wbps_single",
+     "depth",
+     "fp_joint"
+    ]
+   },
+   "expected": "as in 33-24 (reversed: fp_raw, fp_single, wbps_neg; comparable: the others)",
+   "k": [
+    3,
+    5,
+    10,
+    20
+   ],
+   "draws": 1000
+  },
+  "S_sequential": {
+   "what": "label frames one at a time in a random order until m frames are informative (or the 150 frames run out), then run v1.1 once",
+   "m": [
+    6,
+    10
+   ],
+   "order_rng": "random.Random(f'seq|{pool}|{dataset}|{score}|{draw}').shuffle(sorted frame keys)",
+   "draws": 1000,
+   "tool_seed": "draw index",
+   "pools_scores": "all scores of R_replay",
+   "outcome": "correct / insufficient / wrong shares; frames labelled (median, 90th percentile)"
+  },
+  "F_full": {
+   "what": "v1.1 on all 150 frames per dataset and pooled, every score of R_replay, seed 0"
+  }
+ },
+ "criteria": {
+  "K1": "N_null with v1.1: definite share <= 5% in every (dataset, score, k) cell -> 'the gated check gives a direction in at most 5% of draws without a common direction'; otherwise list cells",
+  "K2": "R_replay fp_raw, k = 10, v1.1: correct >= 90% on every classic dataset -> ten random frames still suffice on the classic datasets; otherwise report the smallest k with correct >= 90% per dataset",
+  "K3": "R_replay and S_sequential with v1.1: wrong <= 1% in every cell -> 'never the wrong direction'; otherwise list cells",
+  "K4": "S_sequential m = 10, fp_raw: correct >= 95% on all six datasets -> recommend labelling frames until ten hold a correct and an incorrect pose, and report the frames this takes",
+  "K5": "F_full: every v1.1 reading equals the v1.0 reading -> full-data statements unchanged; otherwise list"
+ },
+ "not_run_here": "public submission files (33-23): their rows stay on the server; v1.1 can only turn a v1.0 direction into an insufficient reading, so 'no file holds a reversed confidence' holds under v1.1 without a rerun; the count of comparable files needs the server rerun (CPU, minutes) if quoted"
+}

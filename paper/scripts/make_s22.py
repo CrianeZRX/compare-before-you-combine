@@ -5,7 +5,7 @@ Usage:  python scripts/make_s22.py          (run from the manuscript root)
 Inputs: data33_22/S22_E1.json, S22_E2.json, S22_E3.json, S22_E4.json (unchanged)
         data33_17/ED_MECH.json, data33_17/TABLES_P1.md, data33_19/S19_E1.json (for Table 2 and Table 3)
 Outputs:
-  figures/fig_intervention.pdf      Figure: single-pose scores as a pose is moved away from the truth
+  (figures/fig_intervention.pdf is drawn by scripts/make_figs_v4.py)
   figures/fig2/uses_data.tex        numbers drawn in Figure 2
   tables/tab_uses.tex               Table: four uses of a pose score, FoundationPose poses
   tables/tab_check.tex              Table: the check across scores, two pose sets
@@ -132,7 +132,7 @@ for i, (ax, (key, xlabel)) in enumerate(zip(axes, LAD)):
         ax.set_ylabel("Scored above the true\npose alone (% of instances)")
     ax.text(-0.02, 1.04, "(%s)" % "abc"[i], transform=ax.transAxes, fontsize=9, fontweight="bold", va="bottom", ha="right")
 axes[0].legend(loc="center right", bbox_to_anchor=(1.0, 0.62), handlelength=1.6)
-fig.savefig(os.path.join(F, "fig_intervention.pdf"), bbox_inches="tight", pad_inches=0.02); plt.close(fig)
+plt.close(fig)  # the article figure is drawn by scripts/make_figs_v4.py; this draft is not saved
 
 # ------------------------------------------------------------------ Table 2: four uses, FoundationPose poses
 cm = "classic_mean"
@@ -186,7 +186,7 @@ setsens = {"FoundationPose": "%.3f" % E19["set_sensitivity"]["FoundationPose"]["
 
 
 def pw(key):
-    v = e4["M3"]["pooled"][key]["strict"]
+    v = e4["M3"]["pooled"][key]["ties_half"]
     return "%.2f [%.2f, %.2f]" % (v["point_pp"], *v["ci95_image_pp"])
 
 
@@ -252,8 +252,8 @@ derived = {
            "posthoc_R10_R_failures": r10r_fail, "posthoc_R10_R_failures_with_correct_top": r10r_fail_correct,
            "ladders": lad},
     "E4": {"M2_P90": m2["P90"], "M2_median": m2["median"], "masks_valid": e4["mask_coverage"]["valid"], "masks_requested": e4["mask_coverage"]["requested"],
-           "within_group_pct": e4["M1"]["pooled"]["within_group"]["strict"]["point_pp"],
-           "pairwise": {k: {"pct": e4["M3"]["pooled"][k]["strict"]["point_pp"], "ci": e4["M3"]["pooled"][k]["strict"]["ci95_image_pp"], "pairs": e4["M3"]["pooled"][k]["pairs"]}
+           "within_group_pct": e4["M1"]["pooled"]["within_group"]["ties_half"]["point_pp"],
+           "pairwise": {k: {"pct": e4["M3"]["pooled"][k]["ties_half"]["point_pp"], "ci": e4["M3"]["pooled"][k]["ties_half"]["ci95_image_pp"], "pairs": e4["M3"]["pooled"][k]["pairs"]}
                         for k in ("wbps_raw", "wbps_neg", "wbps_single", "wbps_joint", "fp_single", "fp_joint", "depth")},
            "AR": {r: e4["M4"]["classic_mean"]["metrics"][r]["ar"]["point_pp"] for r in ("W0", "W1", "W1neg", "W1a", "W4", "WF", "WD")},
            "top_changed": sum(e4["M2"]["by_dataset"][d]["top_mask_changed_targets"] for d in DS),

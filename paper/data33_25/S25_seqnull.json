@@ -1,0 +1,187 @@
+{
+ "rules_sha256": "80ce35b70f3217fefd1239598ec9fa8c6a064a9c6120cbf455b52c35a85e2276",
+ "amendment_sha256": "861a7f0138ccf36244776dedbe2ed8375163a060602cc44d12163d615168cff4",
+ "tool": "check v1.1 (/tmp/k25), v1.0 readings derived from the identical bootstrap interval",
+ "cells": [
+  {
+   "key": [
+    "seqnull",
+    "lmo",
+    "fp_raw"
+   ],
+   "result": {
+    "counts": {
+     "not_comparable": 963,
+     "reversed": 18,
+     "comparable": 19
+    },
+    "definite_pct": 3.7
+   }
+  },
+  {
+   "key": [
+    "seqnull",
+    "lmo",
+    "depth"
+   ],
+   "result": {
+    "counts": {
+     "not_comparable": 964,
+     "reversed": 19,
+     "comparable": 17
+    },
+    "definite_pct": 3.6
+   }
+  },
+  {
+   "key": [
+    "seqnull",
+    "tless",
+    "fp_raw"
+   ],
+   "result": {
+    "counts": {
+     "not_comparable": 949,
+     "comparable": 31,
+     "reversed": 20
+    },
+    "definite_pct": 5.1
+   }
+  },
+  {
+   "key": [
+    "seqnull",
+    "tless",
+    "depth"
+   ],
+   "result": {
+    "counts": {
+     "not_comparable": 965,
+     "comparable": 15,
+     "reversed": 20
+    },
+    "definite_pct": 3.5
+   }
+  },
+  {
+   "key": [
+    "seqnull",
+    "tudl",
+    "fp_raw"
+   ],
+   "result": {
+    "counts": {
+     "not_comparable": 954,
+     "reversed": 20,
+     "comparable": 26
+    },
+    "definite_pct": 4.6
+   }
+  },
+  {
+   "key": [
+    "seqnull",
+    "tudl",
+    "depth"
+   ],
+   "result": {
+    "counts": {
+     "not_comparable": 962,
+     "reversed": 17,
+     "comparable": 21
+    },
+    "definite_pct": 3.8
+   }
+  },
+  {
+   "key": [
+    "seqnull",
+    "icbin",
+    "fp_raw"
+   ],
+   "result": {
+    "counts": {
+     "not_comparable": 948,
+     "comparable": 27,
+     "reversed": 25
+    },
+    "definite_pct": 5.2
+   }
+  },
+  {
+   "key": [
+    "seqnull",
+    "icbin",
+    "depth"
+   ],
+   "result": {
+    "counts": {
+     "not_comparable": 954,
+     "reversed": 23,
+     "comparable": 23
+    },
+    "definite_pct": 4.6
+   }
+  },
+  {
+   "key": [
+    "seqnull",
+    "ycbv",
+    "fp_raw"
+   ],
+   "result": {
+    "counts": {
+     "comparable": 20,
+     "not_comparable": 968,
+     "reversed": 12
+    },
+    "definite_pct": 3.2
+   }
+  },
+  {
+   "key": [
+    "seqnull",
+    "ycbv",
+    "depth"
+   ],
+   "result": {
+    "counts": {
+     "not_comparable": 958,
+     "comparable": 20,
+     "reversed": 22
+    },
+    "definite_pct": 4.2
+   }
+  },
+  {
+   "key": [
+    "seqnull",
+    "xyzibd",
+    "fp_raw"
+   ],
+   "result": {
+    "counts": {
+     "not_comparable": 963,
+     "comparable": 14,
+     "reversed": 23
+    },
+    "definite_pct": 3.7
+   }
+  },
+  {
+   "key": [
+    "seqnull",
+    "xyzibd",
+    "depth"
+   ],
+   "result": {
+    "counts": {
+     "not_comparable": 957,
+     "reversed": 19,
+     "comparable": 24
+    },
+    "definite_pct": 4.3
+   }
+  }
+ ]
+}

@@ -50,10 +50,10 @@ derived = {
     "n_datasets": len(ratios),
     "n_under_reporting": sum(1 for v in ratios.values() if v < 1),
     "e1_status": e1["status"],
-    "pilot_A": {"cross_call_pct": 100 * A["cross_context"]["strict"], "cross_call_ci_pct": [100 * x for x in A["cross_context"]["ci95"]],
-                "alone_pct": 100 * A["cross_single"]["strict"], "within_pct": 100 * A["within"]["strict"],
-                "background_pct": 100 * A["background"]["strict"], "other_object_pct": 100 * A["other_object"]["strict"],
-                "target_wrong_pct": 100 * A["target_pose_wrong"]["strict"]},
+    "pilot_A": {"cross_call_pct": 100 * A["cross_context"]["half_ties"], "cross_call_ci_pct": [100 * x for x in A["cross_context"]["ci95"]],
+                "alone_pct": 100 * A["cross_single"]["half_ties"], "within_pct": 100 * A["within"]["half_ties"],
+                "background_pct": 100 * A["background"]["half_ties"], "other_object_pct": 100 * A["other_object"]["half_ties"],
+                "target_wrong_pct": 100 * A["target_pose_wrong"]["half_ties"]},
     "e2_status": e2["status"],
 }
 json.dump(derived, open(os.path.join(D21, "derived_s21.json"), "w"), indent=1, sort_keys=True)

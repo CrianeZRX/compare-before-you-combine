@@ -1,0 +1,2820 @@
+{
+ "rules_sha256": "80ce35b70f3217fefd1239598ec9fa8c6a064a9c6120cbf455b52c35a85e2276",
+ "tool": "check v1.1 (/tmp/k25), v1.0 readings derived from the identical bootstrap interval",
+ "cells": [
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_raw",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_raw",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_joint",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "megapose_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "megapose_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "depth",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "depth",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "mask_iou",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "mask_iou",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "chamfer",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 96.3,
+    "insufficient": 3.7,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "lmo",
+    "chamfer",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "fp_raw",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 95.9,
+    "insufficient": 4.1,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 8
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "fp_raw",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 12
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "fp_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 96.1,
+    "insufficient": 3.9,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 8
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 14
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "fp_joint",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 90.9,
+    "insufficient": 9.1,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 8
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 12
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "megapose_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 79.0,
+    "insufficient": 21.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 8
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "megapose_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 99.9,
+    "insufficient": 0.1,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "depth",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 60.3,
+    "insufficient": 39.7,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 9
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "depth",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 95.6,
+    "insufficient": 4.4,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "mask_iou",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 72.8,
+    "insufficient": 27.2,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 8
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "mask_iou",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 92.4,
+    "insufficient": 7.6,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "chamfer",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 79.1,
+    "insufficient": 20.9,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 8
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tless",
+    "chamfer",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 92.7,
+    "insufficient": 7.3,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_raw",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 11
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_raw",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 13,
+     "max": 16
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 11
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 13,
+     "max": 16
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_joint",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 12
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 12,
+     "max": 17
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "megapose_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 11
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "megapose_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 13,
+     "max": 16
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "depth",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "depth",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 13,
+     "max": 17
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "mask_iou",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 58.7,
+    "insufficient": 41.3,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "mask_iou",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 97.2,
+    "insufficient": 2.8,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 13,
+     "max": 16
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "chamfer",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 67.4,
+    "insufficient": 32.6,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 11
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "tudl",
+    "chamfer",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 97.2,
+    "insufficient": 2.8,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 13,
+     "max": 17
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_raw",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_raw",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 12,
+     "max": 16
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 11
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 12,
+     "max": 15
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_joint",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 9
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 12,
+     "max": 14
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "megapose_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 92.1,
+    "insufficient": 7.9,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 9
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "megapose_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 99.8,
+    "insufficient": 0.2,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 12,
+     "max": 14
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "depth",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 67.1,
+    "insufficient": 32.9,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 9
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "depth",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 99.7,
+    "insufficient": 0.3,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 12,
+     "max": 14
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "mask_iou",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 71.2,
+    "insufficient": 28.8,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 9
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "mask_iou",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 97.5,
+    "insufficient": 2.5,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 12,
+     "max": 14
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "chamfer",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 85.5,
+    "insufficient": 14.5,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 9
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "icbin",
+    "chamfer",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 12,
+     "max": 14
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_raw",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 90.5,
+    "insufficient": 9.5,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 12
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_raw",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 17
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 89.9,
+    "insufficient": 10.1,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 18
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_joint",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 86.9,
+    "insufficient": 13.1,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 18
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "megapose_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 85.8,
+    "insufficient": 14.2,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 12
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "megapose_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 19
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "depth",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 71.6,
+    "insufficient": 28.4,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 11
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "depth",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 98.6,
+    "insufficient": 1.4,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 18
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "mask_iou",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 67.8,
+    "insufficient": 32.2,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "mask_iou",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 96.0,
+    "insufficient": 4.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 19
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "chamfer",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 77.1,
+    "insufficient": 22.9,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "classic_33_19_E1",
+    "ycbv",
+    "chamfer",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 18
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "xyzibd_33_19_E1e_B1",
+    "xyzibd",
+    "fp_raw",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 90.3,
+    "insufficient": 9.7,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 17,
+     "p90": 24,
+     "max": 39
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "xyzibd_33_19_E1e_B1",
+    "xyzibd",
+    "fp_raw",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 28,
+     "p90": 37,
+     "max": 54
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "xyzibd_33_19_E1e_B1",
+    "xyzibd",
+    "depth",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 16,
+     "p90": 24,
+     "max": 40
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "xyzibd_33_19_E1e_B1",
+    "xyzibd",
+    "depth",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 28,
+     "p90": 37,
+     "max": 50
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "lmo",
+    "fp_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "lmo",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_neg",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_neg",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_raw",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_raw",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "lmo",
+    "wbps_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "lmo",
+    "depth",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 96.4,
+    "insufficient": 3.6,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "lmo",
+    "depth",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "lmo",
+    "fp_joint",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 6,
+     "max": 6
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "lmo",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 10,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tless",
+    "fp_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 92.3,
+    "insufficient": 7.7,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 8
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tless",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 12
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_neg",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 97.0,
+    "insufficient": 3.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 8
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_neg",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_raw",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 96.7,
+    "insufficient": 3.3,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 8
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_raw",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 12
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 94.7,
+    "insufficient": 5.3,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 8
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tless",
+    "wbps_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tless",
+    "depth",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 73.5,
+    "insufficient": 26.5,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 8
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tless",
+    "depth",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 96.9,
+    "insufficient": 3.1,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tless",
+    "fp_joint",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 89.0,
+    "insufficient": 11.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 8
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tless",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 12
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tudl",
+    "fp_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 12
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tudl",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 12,
+     "max": 16
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_neg",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_neg",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 12,
+     "max": 15
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_raw",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_raw",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 12,
+     "max": 15
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tudl",
+    "wbps_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 12,
+     "max": 16
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tudl",
+    "depth",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 95.3,
+    "insufficient": 4.7,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 11
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tudl",
+    "depth",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 12,
+     "max": 15
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tudl",
+    "fp_joint",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 8,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "tudl",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 11,
+     "p90": 12,
+     "max": 15
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "icbin",
+    "fp_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 10
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "icbin",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 14
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_neg",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 9
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_neg",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 14
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_raw",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 9
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_raw",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 14
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 94.9,
+    "insufficient": 5.1,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 9
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "icbin",
+    "wbps_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 14
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "icbin",
+    "depth",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 89.4,
+    "insufficient": 10.6,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 9
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "icbin",
+    "depth",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "icbin",
+    "fp_joint",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 6,
+     "p90": 7,
+     "max": 9
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "icbin",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 10,
+     "p90": 11,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "ycbv",
+    "fp_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 95.0,
+    "insufficient": 5.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "ycbv",
+    "fp_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 19
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_neg",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 12
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_neg",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 20
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_raw",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 14
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_raw",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 18
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_single",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "ycbv",
+    "wbps_single",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 19
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "ycbv",
+    "depth",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 57.4,
+    "insufficient": 42.6,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 14
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "ycbv",
+    "depth",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 98.0,
+    "insufficient": 2.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 19
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "ycbv",
+    "fp_joint",
+    6
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 96.4,
+    "insufficient": 3.6,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 7,
+     "p90": 9,
+     "max": 13
+    },
+    "ran_out_of_frames": 0
+   }
+  },
+  {
+   "key": [
+    "seq",
+    "wapr_33_22_E4",
+    "ycbv",
+    "fp_joint",
+    10
+   ],
+   "result": {
+    "no_pairs": 0.0,
+    "correct": 100.0,
+    "insufficient": 0.0,
+    "wrong": 0.0,
+    "frames_labelled": {
+     "median": 12,
+     "p90": 14,
+     "max": 20
+    },
+    "ran_out_of_frames": 0
+   }
+  }
+ ]
+}

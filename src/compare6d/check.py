@@ -4,9 +4,20 @@ Each row is the best pose of one scoring call (one mask): an image key, an
 object identifier, the score that the pipeline would compare or submit, and
 whether the pose is correct. A pair is two rows of the same image and object
 with opposite labels. The accuracy is the share of pairs in which the correct
-pose has the strictly higher score.
+pose has the higher score, with a tie counted as half a pair (the area under
+the ROC curve restricted to these pairs), so that 0.5 means no information.
+The point estimate, the interval and the reading all use this convention; the
+share with the strictly higher score and the share of tied pairs are reported
+next to it.
+
+An image with at least one such pair is informative. The reading needs at
+least six informative images: with fewer, even images that all point the same
+way cannot be told from chance by a two-sided sign-flip test at the 5% level.
+A direction is read only if the sign-flip test across informative images and
+the image-bootstrap interval both exclude 50%.
 """
 
+from bisect import bisect_left, bisect_right
 import csv
 import json
 from math import isfinite
@@ -15,6 +26,12 @@ import random
 import re
 
 from .ranking import Pairwise, pairwise
+
+ALPHA = 0.05
+MIN_IMAGES = 6  # smallest n with 2 ** (1 - n) < ALPHA: fewer informative images cannot give a reading
+EXACT_UP_TO = 16
+FLIP_DRAWS = 20000
+TOLERANCE = 1e-12
 
 TRUE, FALSE = {"1", "true", "t", "yes"}, {"0", "false", "f", "no"}
 
@@ -67,6 +84,47 @@ def load_bop_errors(errors_dir, models_info, threshold=0.1):
     return rows
 
 
+def _subset_sums(values):
+    """All sums of +-v over the values, indexed by a bit mask (bit set: +v)."""
+    sums = [0.0]
+    for v in values:
+        sums = [x - v for x in sums] + [x + v for x in sums]
+    return sums
+
+
+def sign_flip_p(deviations, seed=0):
+    """Two-sided sign-flip test of sum(deviations) against images without a common direction.
+
+    Each image keeps or reverses its pairs with probability 1/2 under the null.
+    Exact for up to EXACT_UP_TO images, otherwise FLIP_DRAWS random sign patterns.
+    """
+    n = len(deviations)
+    observed = abs(sum(deviations))
+    if observed <= TOLERANCE:
+        return 1.0
+    if n <= EXACT_UP_TO:
+        half = n // 2
+        low, ordered = _subset_sums(deviations[:half]), sorted(_subset_sums(deviations[half:]))
+        count = 0
+        for a in low:
+            count += len(ordered) - bisect_left(ordered, observed - a - TOLERANCE)
+            count += bisect_right(ordered, -observed - a + TOLERANCE)
+        return count / 2 ** n
+    # bit j of a pattern keeps (1) or reverses (0) image j; sums are looked up eight images at a time
+    tables = [_subset_sums(deviations[i:i + 8]) for i in range(0, n, 8)]
+    rng = random.Random(seed)
+    count = 0
+    for _ in range(FLIP_DRAWS):
+        pattern = rng.getrandbits(n)
+        total = 0.0
+        for table in tables:
+            total += table[pattern & 255]
+            pattern >>= 8
+        if abs(total) >= observed - TOLERANCE:
+            count += 1
+    return (1 + count) / (1 + FLIP_DRAWS)
+
+
 def check(rows, draws=2000, seed=0):
     """Pool opposite-label pairs over targets and resample images for the interval."""
     targets = {}
@@ -86,14 +144,28 @@ def check(rows, draws=2000, seed=0):
     rng = random.Random(seed)
     samples = []
     for _ in range(draws):
-        wins = pairs = 0
+        credit = pairs = 0.0
         for value in rng.choices(counted, k=len(counted)):
-            wins += value.wins
+            credit += value.wins + 0.5 * value.ties
             pairs += value.pairs
-        samples.append(wins / pairs)
+        samples.append(credit / pairs)
     samples.sort()
     low, high = samples[int(0.025 * draws)], samples[min(draws - 1, int(0.975 * draws))]
-    if high < 0.5:
+    deviations = [value.wins + 0.5 * value.ties - 0.5 * value.pairs for value in counted]
+    p_value = sign_flip_p(deviations, seed)
+    if total.ties == total.pairs:
+        reading = "no_information"
+        advice = ("Every correct pose has the same score as the incorrect pose it is paired with, so these scores "
+                  "say nothing about which pose is correct. Use another score.")
+    elif len(counted) < MIN_IMAGES:
+        reading = "too_few_images"
+        advice = (f"Only {len(counted)} image(s) hold both a correct and an incorrect pose of one object; at least "
+                  f"{MIN_IMAGES} are needed before any direction can be told from chance. Label more images.")
+    elif p_value >= ALPHA:
+        reading = "not_comparable"
+        advice = ("The images do not agree on a direction. These scores cannot be compared across calls on this "
+                  "evidence, and normalizing each call is no substitute. Use more labelled images or another score.")
+    elif high < 0.5:
         reading = "reversed"
         advice = ("Across calls these scores order pairs worse than chance. Do not compare or submit them as they are. "
                   "Score the candidates of a target in one call, use a score that rates each pose on its own, "
@@ -106,9 +178,10 @@ def check(rows, draws=2000, seed=0):
         advice = ("The interval includes 50%. These scores cannot be compared across calls on this evidence, "
                   "and normalizing each call is no substitute. Use more labelled images or another score.")
     return {
-        "pairs": total.pairs, "wins": total.wins, "ties": total.ties,
-        "accuracy": total.accuracy, "accuracy_half_credit": total.accuracy_half_credit,
+        "pairs": total.pairs, "wins": total.wins, "ties": total.ties, "tie_rate": total.ties / total.pairs,
+        "accuracy": total.accuracy_half_credit, "accuracy_strict": total.accuracy,
         "interval_95": [low, high], "images_with_pairs": len(counted), "images": len(per_image),
-        "bootstrap": {"unit": "image", "draws": draws, "seed": seed},
+        "sign_flip_p": p_value, "min_images": MIN_IMAGES,
+        "bootstrap": {"unit": "image", "draws": draws, "seed": seed, "ties": "half credit"},
         "reading": reading, "advice": advice,
     }

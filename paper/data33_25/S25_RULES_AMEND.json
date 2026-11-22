@@ -1,0 +1,25 @@
+{
+ "amends": "S25_RULES.json (sha256 80ce35b70f3217fefd1239598ec9fa8c6a064a9c6120cbf455b52c35a85e2276)",
+ "written_utc": "2026-11-22T04:03:42.194373+00:00",
+ "written_before_results": true,
+ "added": {
+  "N_seq": {
+   "what": "negative control for the sequential protocol: frames in random order (random.Random(f'seqnull|{dataset}|{score}|{draw}').shuffle(sorted keys)); each frame keeps or negates all its scores with probability 1/2 (random.Random(f'seqflip|{dataset}|{score}|{draw}'), one draw per frame in shuffled order); labelling stops when m = 10 frames are informative; v1.1 run once (seed = draw index)",
+   "datasets": [
+    "lmo",
+    "tless",
+    "tudl",
+    "icbin",
+    "ycbv",
+    "xyzibd"
+   ],
+   "scores": [
+    "fp_raw",
+    "depth"
+   ],
+   "draws": 1000,
+   "outcome": "share of draws read in either direction; descriptive, no criterion"
+  }
+ },
+ "reason": "Table 6 of the article reports the sequential protocol next to random-k draws; its null row was not in S25_RULES.json"
+}

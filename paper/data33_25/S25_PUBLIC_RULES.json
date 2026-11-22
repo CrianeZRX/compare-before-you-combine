@@ -1,0 +1,677 @@
+{
+  "version": "33-25-S v1.0",
+  "written_utc": "2026-11-22T04:20:15.820104+00:00",
+  "written_before_results": true,
+  "GT_used": false,
+  "CPU_only": true,
+  "MSSD_recalculation": false,
+  "estimate_CPU_hours_upper": 0.8,
+  "sources": {
+    "frozen_A0": {
+      "file": "runs/r33_23/S23_RULES.json",
+      "sha256": "fdb9ddd9dcb18f7e992d86cf9cdf24ac9bb335f65fb9caa867b006874612285e"
+    },
+    "A1_archive": {
+      "file": "runs/r33_23/S23_A.json",
+      "sha256": "cf163d526f4bf626bd9c7cf0736d67d9cca3b426a77bf4f5c20c7702862a49f8"
+    }
+  },
+  "tool": {
+    "version": "1.1",
+    "check_sha256": "7355dbe2fd579b9719ee9faea47e1cb6c666950a0c3f20e9af8e43f522163fde",
+    "ranking_sha256": "a7cd45f6e5988513647dd208e9cada866acc75351dcdf50612fca9b01630669b",
+    "draws": 2000,
+    "seed": 0,
+    "minimum_informative_images": 6,
+    "sign_flip_alpha_strict": 0.05
+  },
+  "cases": [
+    {
+      "submission_id": 10734,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "localization",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 10737,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "localization",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 10736,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "localization",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 10576,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "localization",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 10735,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "localization",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15995,
+      "method_name": "Co-op (CNOS, Coarse)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "control"
+    },
+    {
+      "submission_id": 15996,
+      "method_name": "Co-op (CNOS, Coarse)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "control"
+    },
+    {
+      "submission_id": 15997,
+      "method_name": "Co-op (CNOS, Coarse)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "control"
+    },
+    {
+      "submission_id": 11989,
+      "method_name": "FreeZeV2 (SAM6D, Coarse-to-Fine)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "control"
+    },
+    {
+      "submission_id": 11992,
+      "method_name": "FreeZeV2 (SAM6D, Coarse-to-Fine)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "control"
+    },
+    {
+      "submission_id": 11990,
+      "method_name": "FreeZeV2 (SAM6D, Coarse-to-Fine)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "control"
+    },
+    {
+      "submission_id": 15707,
+      "method_name": "FRTPose.v1 (SAM6D-FastSAM)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15703,
+      "method_name": "FRTPose.v1 (SAM6D-FastSAM)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15705,
+      "method_name": "FRTPose.v1 (SAM6D-FastSAM)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15709,
+      "method_name": "FRTPose.v1 (SAM6D-FastSAM)",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15715,
+      "method_name": "FRTPose.v1 (SAM6D-FastSAM)",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15721,
+      "method_name": "FRTPose.v1 (Default Detections)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15717,
+      "method_name": "FRTPose.v1 (Default Detections)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15719,
+      "method_name": "FRTPose.v1 (Default Detections)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15723,
+      "method_name": "FRTPose.v1 (Default Detections)",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15729,
+      "method_name": "FRTPose.v1 (Default Detections)",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15735,
+      "method_name": "FRTPose.v1 (MUSE)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15731,
+      "method_name": "FRTPose.v1 (MUSE)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15733,
+      "method_name": "FRTPose.v1 (MUSE)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15737,
+      "method_name": "FRTPose.v1 (MUSE)",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 15743,
+      "method_name": "FRTPose.v1 (MUSE)",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23075,
+      "method_name": "FRTPose-WAPR（MUSE）",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23073,
+      "method_name": "FRTPose-WAPR（MUSE）",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23074,
+      "method_name": "FRTPose-WAPR（MUSE）",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23008,
+      "method_name": "FRTPose-WAPR（MUSE）",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23079,
+      "method_name": "FRTPose-WAPR（MUSE）",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23147,
+      "method_name": "FRTPose-WAPR（Default Detection）",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23286,
+      "method_name": "FRTPose-WAPR（Default Detection）",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23145,
+      "method_name": "FRTPose-WAPR（Default Detection）",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23149,
+      "method_name": "FRTPose-WAPR（Default Detection）",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23155,
+      "method_name": "FRTPose-WAPR（Default Detection）",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23312,
+      "method_name": "FRTPose-WAPR（Multi 2D Detections）",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23309,
+      "method_name": "FRTPose-WAPR（Multi 2D Detections）",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23308,
+      "method_name": "FRTPose-WAPR（Multi 2D Detections）",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23315,
+      "method_name": "FRTPose-WAPR（Multi 2D Detections）",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 23326,
+      "method_name": "FRTPose-WAPR（Multi 2D Detections）",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30482,
+      "method_name": "FRTPose-WAPR.v2（MUSE）",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30481,
+      "method_name": "FRTPose-WAPR.v2（MUSE）",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30085,
+      "method_name": "FRTPose-WAPR.v2（MUSE）",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30087,
+      "method_name": "FRTPose-WAPR.v2（MUSE）",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30484,
+      "method_name": "FRTPose-WAPR.v2（MUSE）",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30180,
+      "method_name": "FRTPose-WAPR.v2（Default Detection）",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30176,
+      "method_name": "FRTPose-WAPR.v2（Default Detection）",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30620,
+      "method_name": "FRTPose-WAPR.v2（Default Detection）",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30182,
+      "method_name": "FRTPose-WAPR.v2（Default Detection）",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30619,
+      "method_name": "FRTPose-WAPR.v2（Default Detection）",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30394,
+      "method_name": "FRTPose-WAPR.v2（Multi 2D Detections）",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30405,
+      "method_name": "FRTPose-WAPR.v2（Multi 2D Detections）",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30646,
+      "method_name": "FRTPose-WAPR.v2（Multi 2D Detections）",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30396,
+      "method_name": "FRTPose-WAPR.v2（Multi 2D Detections）",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 30644,
+      "method_name": "FRTPose-WAPR.v2（Multi 2D Detections）",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 31625,
+      "method_name": "WAPR.v2 (Default Detections)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 31629,
+      "method_name": "WAPR.v2 (Default Detections)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 31623,
+      "method_name": "WAPR.v2 (Default Detections)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 31628,
+      "method_name": "WAPR.v2 (Default Detections)",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 31635,
+      "method_name": "WAPR.v2 (Default Detections)",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 34120,
+      "method_name": "WAPR.v2（Multi 2D Detections）",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 34118,
+      "method_name": "WAPR.v2（Multi 2D Detections）",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 34114,
+      "method_name": "WAPR.v2（Multi 2D Detections）",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 34119,
+      "method_name": "WAPR.v2（Multi 2D Detections）",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 34127,
+      "method_name": "WAPR.v2（Multi 2D Detections）",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 33936,
+      "method_name": "WAPR.v2.1（MUSE）",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 33934,
+      "method_name": "WAPR.v2.1（MUSE）",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 33935,
+      "method_name": "WAPR.v2.1（MUSE）",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 33937,
+      "method_name": "WAPR.v2.1（MUSE）",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 33940,
+      "method_name": "WAPR.v2.1（MUSE）",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 33385,
+      "method_name": "FreeZeV2.2+WAPR.v2",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 33396,
+      "method_name": "FreeZeV2.2+WAPR.v2",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 33390,
+      "method_name": "FreeZeV2.2+WAPR.v2",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 33425,
+      "method_name": "GigaPose+GenFlow+WAPR.v2",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 33397,
+      "method_name": "GigaPose+GenFlow+WAPR.v2",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 33430,
+      "method_name": "GigaPose+GenFlow+WAPR.v2",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 41978,
+      "method_name": "SAM3-FS-FP",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "localization",
+      "group": "FoundationPose_mentioned"
+    },
+    {
+      "submission_id": 43028,
+      "method_name": "SAM3-FS-FP",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "localization",
+      "group": "FoundationPose_mentioned"
+    }
+  ],
+  "scope": "33-23 A1 target frames; localization keeps only objects in the localization targets; detection keeps all submitted objects. Original scores and duplicates are preserved.",
+  "verification": "Use existing MSSD errors or cached labels only. Match errors to original rows by target and numeric pose identity with multiplicity retained. Confirm original strict wins, ties and total pairs exactly. Only infer labels from aggregate constraints when mathematically forced; groups certified to have no opposite pairs do not affect the reported check statistics. Unresolved files are reported as pending, with no substitute reading.",
+  "v1.0": "Same interval; if all pairs tied -> no_information; high < 0.5 -> reversed; low > 0.5 -> comparable; else not_comparable. No opposite-label pair -> no_pairs.",
+  "R5_comparison": {
+    "反转": "reversed",
+    "可比": "comparable",
+    "不可比": "not_comparable"
+  },
+  "P1": {
+    "condition": "v1.1 reversed count is zero among all 79 files",
+    "reading": "带门槛的检查仍未在任何公开文件中发现反向置信度"
+  },
+  "P2": "List every difference from the archived R5 and explain the relevant gate, all-ties convention or absence of pairs. Disclose if distinct archived interval methods also change the reading.",
+  "P3": "Report comparable count among all six control files.",
+  "P4": "Report comparable, not_comparable, too_few_images, no_information and no_pairs counts for FoundationPose_mentioned, with pending count if needed."
+}

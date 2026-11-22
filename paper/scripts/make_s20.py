@@ -83,10 +83,10 @@ for d, n in DS:
     cells = []
     for c, _ in CAT:
         x = e2["by_dataset"][d]["by_wrong_category"][c]
-        cells += [f"{x['pairs']:,}", "--" if x["strict_accuracy"] is None else f"{100 * x['strict_accuracy']:.2f}"]
+        cells += [f"{x['pairs']:,}", "--" if x["ties_half_accuracy"] is None else f"{100 * x['ties_half_accuracy']:.2f}"]
     out.append(f"{n} & " + " & ".join(cells) + " \\\\\n")
 P = e2["pooled"]["by_wrong_category"]
-out.append("\\midrule\nPooled & " + " & ".join(f"{P[c]['pairs']:,} & {100 * P[c]['strict_accuracy']:.2f}" for c, _ in CAT) + " \\\\\n")
+out.append("\\midrule\nPooled & " + " & ".join(f"{P[c]['pairs']:,} & {100 * P[c]['ties_half_accuracy']:.2f}" for c, _ in CAT) + " \\\\\n")
 out.append("Share of reversed pairs & " + " & ".join(f"\\multicolumn{{2}}{{r}}{{{100 * P[c]['share_of_reversals']:.2f}\\%}}" for c, _ in CAT) + " \\\\\n")
 out.append("\\bottomrule\n\\end{tabular}\n")
 open(os.path.join(T, "supp_s20_categories.tex"), "w").write("".join(out))
@@ -138,11 +138,11 @@ derived = {
     "AR_k10_mean": {r: ar("average", "k10", r) for r in ("A1neg", "A1cal10", "A4")},
     "diff": {f"{k}:{r}": dif("average", k, r) for k, r in (("full", "A1neg-A4"), ("full", "A1neg-A10"), ("full", "A1neg-A1"),
                                                            ("k10", "A1cal10-A4"), ("k5", "A1cal5-A4"), ("k20", "A1cal20-A4"))},
-    "pairwise_reversed_strict_pct": 100 * pa["A1neg"]["strict_accuracy"],
+    "pairwise_reversed_strict_pct": 100 * pa["A1neg"]["ties_half_accuracy"],
     "pairwise_reversed_ties": pa["A1neg"]["ties"],
-    "pairwise_joint_strict_pct": 100 * pa["A4"]["strict_accuracy"],
+    "pairwise_joint_strict_pct": 100 * pa["A4"]["ties_half_accuracy"],
     "sign_learnability": sign,
-    "categories": {c: {"pairs": P[c]["pairs"], "strict_pct": 100 * P[c]["strict_accuracy"], "share_pct": 100 * P[c]["share_of_reversals"]} for c, _ in CAT},
+    "categories": {c: {"pairs": P[c]["pairs"], "strict_pct": 100 * P[c]["ties_half_accuracy"], "share_pct": 100 * P[c]["share_of_reversals"]} for c, _ in CAT},
     "category_differences": {k: (v["estimate_pp"], v["ci95_pp"][0], v["ci95_pp"][1]) for k, v in e2["pooled"]["strict_accuracy_differences_pp"].items()},
     "covariates": {g: {k: CV[g][k]["rho"] for k, _ in COV} for g in ("correct", "incorrect")},
     "scene": scene,

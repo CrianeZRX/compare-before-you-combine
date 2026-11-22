@@ -102,8 +102,9 @@ class CheckTests(unittest.TestCase):
 
     def test_example_table_is_read_as_reversed(self):
         result = check(load_table(self.ROOT / "examples" / "scores_table.csv"))
-        self.assertEqual((result["wins"], result["pairs"], result["images_with_pairs"]), (1, 7, 4))
+        self.assertEqual((result["wins"], result["pairs"], result["images_with_pairs"]), (1, 10, 7))
         self.assertEqual(result["reading"], "reversed")
+        self.assertLess(result["sign_flip_p"], 0.05)
         self.assertLess(result["interval_95"][1], 0.5)
         self.assertEqual(main(["check", "--table", str(self.ROOT / "examples" / "scores_table.csv")]), 0)
 
@@ -117,6 +118,55 @@ class CheckTests(unittest.TestCase):
         self.assertEqual(check(mixed, seed=3), check(mixed, seed=3))
         with self.assertRaises(ValueError):
             check([(image(0), "1", 0.5, True), (image(0), "2", 0.4, False)])
+
+    def test_few_informative_images_give_no_direction(self):
+        image = lambda i: ("", "1", str(i))
+        rows = [(image(i), "1", s, c) for i in range(5) for s, c in ((0.1, True), (0.9, False))]
+        rows += [(image(i), "1", 0.5, True) for i in range(5, 40)]  # images without a pair do not count
+        result = check(rows)
+        self.assertEqual((result["images_with_pairs"], result["accuracy"]), (5, 0.0))
+        self.assertEqual(result["reading"], "too_few_images")
+        self.assertEqual(result["sign_flip_p"], 0.0625)
+        six = [(image(i), "1", s, c) for i in range(6) for s, c in ((0.1, True), (0.9, False))]
+        self.assertEqual(check(six)["reading"], "reversed")
+        one = [(image(0), "1", s, c) for s, c in ((0.1, True), (0.9, False), (0.8, False), (0.7, False))]
+        self.assertEqual(check(one)["reading"], "too_few_images")
+
+    def test_images_without_a_common_direction_give_no_direction(self):
+        import random
+        image = lambda i: ("", "1", str(i))
+        definite = 0
+        for draw in range(200):
+            flip = random.Random(draw)
+            rows = []
+            for i in range(10):
+                good, bad = (0.9, 0.1) if flip.random() < 0.5 else (0.1, 0.9)
+                rows += [(image(i), "1", good, True), (image(i), "1", bad, False)]
+            definite += check(rows, draws=200, seed=draw)["reading"] in ("reversed", "comparable")
+        self.assertLessEqual(definite, 10)  # at most 5% of 200 draws
+
+    def test_sign_flip_p_is_exact_for_small_sets(self):
+        from itertools import product
+        from compare6d.check import sign_flip_p
+        values = [-1.0, -0.5, 2.0, -1.5, 0.5, -3.0, 1.0]
+        observed = abs(sum(values))
+        hits = sum(abs(sum(s * v for s, v in zip(signs, values))) >= observed - 1e-12
+                   for signs in product((-1, 1), repeat=len(values)))
+        self.assertAlmostEqual(sign_flip_p(values), hits / 2 ** len(values))
+        self.assertEqual(sign_flip_p([0.0, 0.0]), 1.0)
+
+    def test_ties_count_as_half_a_pair(self):
+        image = lambda i: ("", "1", str(i))
+        constant = [(image(i), "1", 0.5, c) for i in range(10) for c in (True, False)]
+        result = check(constant)
+        self.assertEqual((result["accuracy"], result["accuracy_strict"], result["tie_rate"]), (0.5, 0.0, 1.0))
+        self.assertEqual(result["interval_95"], [0.5, 0.5])
+        self.assertEqual(result["reading"], "no_information")
+        half = [(image(i), "1", s, c) for i in range(20)
+                for s, c in (((0.9, True), (0.1, False)) if i % 2 else ((0.5, True), (0.5, False)))]
+        result = check(half)
+        self.assertEqual((result["accuracy"], result["tie_rate"]), (0.75, 0.5))
+        self.assertEqual(result["reading"], "comparable")
 
     def test_pairs_stay_within_one_image_and_object(self):
         rows = [(("", "1", "0"), "1", 0.9, True), (("", "1", "0"), "2", 0.1, False),

@@ -1,0 +1,770 @@
+{
+ "fp_single": {
+  "lmo": {
+   "pairs": 2528,
+   "wins": 5,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.001977848101265823,
+   "accuracy_strict": 0.001977848101265823,
+   "interval_95": [
+    0.0003979307600477517,
+    0.003740648379052369
+   ],
+   "images_with_pairs": 150,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "reversed"
+  },
+  "tless": {
+   "pairs": 1685,
+   "wins": 62,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.03679525222551929,
+   "accuracy_strict": 0.03679525222551929,
+   "interval_95": [
+    0.02322946175637394,
+    0.05254237288135593
+   ],
+   "images_with_pairs": 147,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "reversed"
+  },
+  "tudl": {
+   "pairs": 471,
+   "wins": 1,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.0021231422505307855,
+   "accuracy_strict": 0.0021231422505307855,
+   "interval_95": [
+    0.0,
+    0.006578947368421052
+   ],
+   "images_with_pairs": 136,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "reversed"
+  },
+  "icbin": {
+   "pairs": 17274,
+   "wins": 1670,
+   "ties": 1,
+   "tie_rate": 5.78904712284358e-05,
+   "accuracy": 0.096706032187102,
+   "accuracy_strict": 0.09667708695148779,
+   "interval_95": [
+    0.07808912697945487,
+    0.11505759736697752
+   ],
+   "images_with_pairs": 144,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "reversed"
+  },
+  "ycbv": {
+   "pairs": 620,
+   "wins": 6,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.00967741935483871,
+   "accuracy_strict": 0.00967741935483871,
+   "interval_95": [
+    0.0,
+    0.025356576862123614
+   ],
+   "images_with_pairs": 124,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "reversed"
+  },
+  "pooled": {
+   "pairs": 22578,
+   "wins": 1744,
+   "ties": 1,
+   "tie_rate": 4.4290902648595976e-05,
+   "accuracy": 0.07726547967047569,
+   "accuracy_strict": 0.07724333421915139,
+   "interval_95": [
+    0.062648892493284,
+    0.09295048775998528
+   ],
+   "images_with_pairs": 701,
+   "images": 750,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "reversed"
+  }
+ },
+ "wbps_neg": {
+  "lmo": {
+   "pairs": 2528,
+   "wins": 8,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.0031645569620253164,
+   "accuracy_strict": 0.0031645569620253164,
+   "interval_95": [
+    0.0011760094080752645,
+    0.005439005439005439
+   ],
+   "images_with_pairs": 150,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "reversed"
+  },
+  "tless": {
+   "pairs": 1685,
+   "wins": 77,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.0456973293768546,
+   "accuracy_strict": 0.0456973293768546,
+   "interval_95": [
+    0.027044025157232705,
+    0.0660377358490566
+   ],
+   "images_with_pairs": 147,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "reversed"
+  },
+  "tudl": {
+   "pairs": 471,
+   "wins": 1,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.0021231422505307855,
+   "accuracy_strict": 0.0021231422505307855,
+   "interval_95": [
+    0.0,
+    0.006578947368421052
+   ],
+   "images_with_pairs": 136,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "reversed"
+  },
+  "icbin": {
+   "pairs": 17274,
+   "wins": 1965,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.11375477596387634,
+   "accuracy_strict": 0.11375477596387634,
+   "interval_95": [
+    0.0963494575045208,
+    0.13100537665491124
+   ],
+   "images_with_pairs": 144,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "reversed"
+  },
+  "ycbv": {
+   "pairs": 620,
+   "wins": 2,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.0032258064516129032,
+   "accuracy_strict": 0.0032258064516129032,
+   "interval_95": [
+    0.0,
+    0.008417508417508417
+   ],
+   "images_with_pairs": 124,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "reversed"
+  },
+  "pooled": {
+   "pairs": 22578,
+   "wins": 2053,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.09092922313756754,
+   "accuracy_strict": 0.09092922313756754,
+   "interval_95": [
+    0.0767479674796748,
+    0.10488289003572847
+   ],
+   "images_with_pairs": 701,
+   "images": 750,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "reversed"
+  }
+ },
+ "wbps_raw": {
+  "lmo": {
+   "pairs": 2528,
+   "wins": 2520,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.9968354430379747,
+   "accuracy_strict": 0.9968354430379747,
+   "interval_95": [
+    0.9945694336695112,
+    0.9988244514106583
+   ],
+   "images_with_pairs": 150,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "tless": {
+   "pairs": 1685,
+   "wins": 1608,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.9543026706231454,
+   "accuracy_strict": 0.9543026706231454,
+   "interval_95": [
+    0.9340232858990944,
+    0.9730226854690374
+   ],
+   "images_with_pairs": 147,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "tudl": {
+   "pairs": 471,
+   "wins": 470,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.9978768577494692,
+   "accuracy_strict": 0.9978768577494692,
+   "interval_95": [
+    0.993421052631579,
+    1.0
+   ],
+   "images_with_pairs": 136,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "icbin": {
+   "pairs": 17274,
+   "wins": 15309,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.8862452240361236,
+   "accuracy_strict": 0.8862452240361236,
+   "interval_95": [
+    0.869,
+    0.9038006156760596
+   ],
+   "images_with_pairs": 144,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "ycbv": {
+   "pairs": 620,
+   "wins": 618,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.9967741935483871,
+   "accuracy_strict": 0.9967741935483871,
+   "interval_95": [
+    0.9915848527349228,
+    1.0
+   ],
+   "images_with_pairs": 124,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "pooled": {
+   "pairs": 22578,
+   "wins": 20525,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.9090707768624324,
+   "accuracy_strict": 0.9090707768624324,
+   "interval_95": [
+    0.895180250783699,
+    0.9232545830727037
+   ],
+   "images_with_pairs": 701,
+   "images": 750,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  }
+ },
+ "wbps_single": {
+  "lmo": {
+   "pairs": 2528,
+   "wins": 2514,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.9944620253164557,
+   "accuracy_strict": 0.9944620253164557,
+   "interval_95": [
+    0.9906976744186047,
+    0.9976816074188563
+   ],
+   "images_with_pairs": 150,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "tless": {
+   "pairs": 1685,
+   "wins": 1613,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.9572700296735905,
+   "accuracy_strict": 0.9572700296735905,
+   "interval_95": [
+    0.9401098901098901,
+    0.9733593242365172
+   ],
+   "images_with_pairs": 147,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "tudl": {
+   "pairs": 471,
+   "wins": 470,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.9978768577494692,
+   "accuracy_strict": 0.9978768577494692,
+   "interval_95": [
+    0.993421052631579,
+    1.0
+   ],
+   "images_with_pairs": 136,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "icbin": {
+   "pairs": 17274,
+   "wins": 15335,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.887750376288063,
+   "accuracy_strict": 0.887750376288063,
+   "interval_95": [
+    0.8707447426513303,
+    0.9051685393258427
+   ],
+   "images_with_pairs": 144,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "ycbv": {
+   "pairs": 620,
+   "wins": 618,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.9967741935483871,
+   "accuracy_strict": 0.9967741935483871,
+   "interval_95": [
+    0.9915848527349228,
+    1.0
+   ],
+   "images_with_pairs": 124,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "pooled": {
+   "pairs": 22578,
+   "wins": 20550,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.9101780494286473,
+   "accuracy_strict": 0.9101780494286473,
+   "interval_95": [
+    0.8965503457648799,
+    0.9243090007087172
+   ],
+   "images_with_pairs": 701,
+   "images": 750,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  }
+ },
+ "depth": {
+  "lmo": {
+   "pairs": 2528,
+   "wins": 2467,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.975870253164557,
+   "accuracy_strict": 0.975870253164557,
+   "interval_95": [
+    0.9651302605210421,
+    0.9854559748427673
+   ],
+   "images_with_pairs": 150,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "tless": {
+   "pairs": 1685,
+   "wins": 1437,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.8528189910979228,
+   "accuracy_strict": 0.8528189910979228,
+   "interval_95": [
+    0.8216957605985037,
+    0.883133291219204
+   ],
+   "images_with_pairs": 147,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "tudl": {
+   "pairs": 471,
+   "wins": 468,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.9936305732484076,
+   "accuracy_strict": 0.9936305732484076,
+   "interval_95": [
+    0.9831578947368421,
+    1.0
+   ],
+   "images_with_pairs": 136,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "icbin": {
+   "pairs": 17274,
+   "wins": 13969,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.8086719925900197,
+   "accuracy_strict": 0.8086719925900197,
+   "interval_95": [
+    0.7891530982780837,
+    0.82834460452808
+   ],
+   "images_with_pairs": 144,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "ycbv": {
+   "pairs": 620,
+   "wins": 555,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.8951612903225806,
+   "accuracy_strict": 0.8951612903225806,
+   "interval_95": [
+    0.8582930756843801,
+    0.9278846153846154
+   ],
+   "images_with_pairs": 124,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "pooled": {
+   "pairs": 22578,
+   "wins": 18896,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.8369208964478696,
+   "accuracy_strict": 0.8369208964478696,
+   "interval_95": [
+    0.8208450945171499,
+    0.8542605387003104
+   ],
+   "images_with_pairs": 701,
+   "images": 750,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  }
+ },
+ "fp_joint": {
+  "lmo": {
+   "pairs": 2528,
+   "wins": 2521,
+   "ties": 5,
+   "tie_rate": 0.001977848101265823,
+   "accuracy": 0.9982199367088608,
+   "accuracy_strict": 0.9972310126582279,
+   "interval_95": [
+    0.9965999244427654,
+    0.9995964487489911
+   ],
+   "images_with_pairs": 150,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "tless": {
+   "pairs": 1685,
+   "wins": 1603,
+   "ties": 9,
+   "tie_rate": 0.005341246290801187,
+   "accuracy": 0.9540059347181009,
+   "accuracy_strict": 0.9513353115727003,
+   "interval_95": [
+    0.937358276643991,
+    0.9700272479564033
+   ],
+   "images_with_pairs": 147,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "tudl": {
+   "pairs": 471,
+   "wins": 471,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 1.0,
+   "accuracy_strict": 1.0,
+   "interval_95": [
+    1.0,
+    1.0
+   ],
+   "images_with_pairs": 136,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "icbin": {
+   "pairs": 17274,
+   "wins": 15383,
+   "ties": 140,
+   "tie_rate": 0.008104665971981012,
+   "accuracy": 0.8945814518930184,
+   "accuracy_strict": 0.8905291189070279,
+   "interval_95": [
+    0.8767861395570374,
+    0.9135034034463727
+   ],
+   "images_with_pairs": 144,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "ycbv": {
+   "pairs": 620,
+   "wins": 614,
+   "ties": 0,
+   "tie_rate": 0.0,
+   "accuracy": 0.9903225806451613,
+   "accuracy_strict": 0.9903225806451613,
+   "interval_95": [
+    0.9747235387045814,
+    1.0
+   ],
+   "images_with_pairs": 124,
+   "images": 150,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  },
+  "pooled": {
+   "pairs": 22578,
+   "wins": 20592,
+   "ties": 154,
+   "tie_rate": 0.006820799007883781,
+   "accuracy": 0.9154486668438303,
+   "accuracy_strict": 0.9120382673398884,
+   "interval_95": [
+    0.9003851540616247,
+    0.931009777478085
+   ],
+   "images_with_pairs": 701,
+   "images": 750,
+   "bootstrap": {
+    "unit": "image",
+    "draws": 2000,
+    "seed": 0,
+    "ties": "half credit"
+   },
+   "reading": "comparable"
+  }
+ }
+}

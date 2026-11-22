@@ -1,0 +1,4174 @@
+{
+  "GT_used": true,
+  "rules": {
+    "file": "runs/r33_25_s/S25_PUBLIC_RULES.json",
+    "sha256": "b5205682af87e0763fb1e7c737585fc084aaf2931e484001d868f3c3bdba7c8c"
+  },
+  "files": [
+    {
+      "submission_id": 10734,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "localization",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u4e0d\u53ef\u6bd4",
+      "A1_pair_counts": [
+        0,
+        0,
+        0
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_free_by_target_multiplicity": true
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/10734.json",
+          "sha256": "e929b1623e3f09fa11448fc9fe110ce8d1435888ba219c1fcce18d5a657b4950"
+        },
+        "submission_sha256": "af4a7acee889cba48ac27fa961679d4818c4046fed03ff182ec90011ea8c2b3c"
+      },
+      "pairs": 0,
+      "wins": 0,
+      "ties": 0,
+      "accuracy": null,
+      "accuracy_strict": null,
+      "interval_95": null,
+      "images_with_pairs": 0,
+      "sign_flip_p": null,
+      "reading": "no_pairs",
+      "reading_v10_same_interval": "no_pairs",
+      "CPU_seconds": 0.052722267999999996
+    },
+    {
+      "submission_id": 10737,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "localization",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53cd\u8f6c",
+      "A1_pair_counts": [
+        0,
+        613,
+        613
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 613,
+        "unknown_singleton": 0,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/10737.json",
+          "sha256": "18c0d54453258264440f5ef5782c493e474f02a2d8cc86e4e2cb3ca56b5f508c"
+        },
+        "submission_sha256": "41ef0218215f73ab78a87272508c5624432771bbf7802d9803447f0f4ec83f3f",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/10737/geometry_mssd_complete.json",
+          "sha256": "1f9012f66f964e16638ae7b34e21463017f613f7bc9976e1488c2ded4926ac09"
+        },
+        "geometry_submission_id": 10737
+      },
+      "pairs": 613,
+      "wins": 0,
+      "ties": 613,
+      "accuracy": 0.5,
+      "accuracy_strict": 0.0,
+      "interval_95": [
+        0.5,
+        0.5
+      ],
+      "images_with_pairs": 196,
+      "sign_flip_p": 1.0,
+      "reading": "no_information",
+      "reading_v10_same_interval": "no_information",
+      "CPU_seconds": 0.533293967
+    },
+    {
+      "submission_id": 10736,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "localization",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u4e0d\u53ef\u6bd4",
+      "A1_pair_counts": [
+        0,
+        0,
+        0
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_free_by_target_multiplicity": true
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/10736.json",
+          "sha256": "e5ca7ba6e35bb3cf4858902baacb3773fa808a2232d2ca71318c5f12e99befa5"
+        },
+        "submission_sha256": "ab83561077b635d84b5fbce0f58a30f0f7f1c900d74cc15b9634207c36de4a78"
+      },
+      "pairs": 0,
+      "wins": 0,
+      "ties": 0,
+      "accuracy": null,
+      "accuracy_strict": null,
+      "interval_95": null,
+      "images_with_pairs": 0,
+      "sign_flip_p": null,
+      "reading": "no_pairs",
+      "reading_v10_same_interval": "no_pairs",
+      "CPU_seconds": 0.026066508000000002
+    },
+    {
+      "submission_id": 10576,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "localization",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53cd\u8f6c",
+      "A1_pair_counts": [
+        0,
+        6230,
+        6230
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 6230,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/10576.json",
+          "sha256": "1d9b87a2176fd160754b41a32126d83811f3e8031858f6e6c7856efde435ba87"
+        },
+        "submission_sha256": "1eb2a6ef7a46fc1766b58acee919451f2407463f3951255ced4cfbc13a7886ae",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/10576/geometry_mssd_complete.json",
+          "sha256": "44ff0ba05dfed4b8421efb269d91cd3a5d6af857903cdc54c07d78ad7bedacf1"
+        },
+        "geometry_submission_id": 10576
+      },
+      "pairs": 6230,
+      "wins": 0,
+      "ties": 6230,
+      "accuracy": 0.5,
+      "accuracy_strict": 0.0,
+      "interval_95": [
+        0.5,
+        0.5
+      ],
+      "images_with_pairs": 101,
+      "sign_flip_p": 1.0,
+      "reading": "no_information",
+      "reading_v10_same_interval": "no_information",
+      "CPU_seconds": 0.24982830000000003
+    },
+    {
+      "submission_id": 10735,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "localization",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u4e0d\u53ef\u6bd4",
+      "A1_pair_counts": [
+        0,
+        0,
+        0
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_free_by_target_multiplicity": true
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/10735.json",
+          "sha256": "06ba4c9e9c75c0ac23714c45c4c486e18b5a10eec332ad7b5b6f5dbeef6cb066"
+        },
+        "submission_sha256": "b39d3aa5e5d2431dbab214d55bc73233be9bcf27548824f6e680f13867404f21"
+      },
+      "pairs": 0,
+      "wins": 0,
+      "ties": 0,
+      "accuracy": null,
+      "accuracy_strict": null,
+      "interval_95": null,
+      "images_with_pairs": 0,
+      "sign_flip_p": null,
+      "reading": "no_pairs",
+      "reading_v10_same_interval": "no_pairs",
+      "CPU_seconds": 0.067282971
+    },
+    {
+      "submission_id": 15995,
+      "method_name": "Co-op (CNOS, Coarse)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "control",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        753,
+        11,
+        776
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 776,
+        "unknown_in_multis": 0,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15995.json",
+          "sha256": "a24621bea6ac449bef13c9edced084042692a75c4d57d7641814a2816a6ad098"
+        },
+        "submission_sha256": "01dbd9ad38bde8df6a6c67f05b24d92a43e5fd5b715c7c90d32723a896e29afc",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15995/geometry_mssd_complete.json",
+          "sha256": "10a9a60023595d7f241b995959a5f820b06fad5c99c6d74c84b7c32b83012066"
+        },
+        "geometry_submission_id": 15995
+      },
+      "pairs": 776,
+      "wins": 753,
+      "ties": 11,
+      "accuracy": 0.9774484536082474,
+      "accuracy_strict": 0.970360824742268,
+      "interval_95": [
+        0.9638783269961977,
+        0.9889033942558747
+      ],
+      "images_with_pairs": 162,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.44567879400000004
+    },
+    {
+      "submission_id": 15996,
+      "method_name": "Co-op (CNOS, Coarse)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "control",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        2804,
+        77,
+        3043
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 3043,
+        "unknown_singleton": 0,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15996.json",
+          "sha256": "797095a5238dff2d502ef8c825ee543d7f51a07316b0a3be81f079073a8c4842"
+        },
+        "submission_sha256": "b65490b85400c44f47213e4bb97fe8b6486b51594ce09ea61c1655eea2ce35ef",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15996/geometry_mssd_complete.json",
+          "sha256": "936ae00543d70c3c454a6af2b46e202058a4b242e2254a48bcdc30931d1155c1"
+        },
+        "geometry_submission_id": 15996
+      },
+      "pairs": 3043,
+      "wins": 2804,
+      "ties": 77,
+      "accuracy": 0.9341110745974367,
+      "accuracy_strict": 0.9214590864278672,
+      "interval_95": [
+        0.9220910623946037,
+        0.9451746800415082
+      ],
+      "images_with_pairs": 731,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 1.824698072
+    },
+    {
+      "submission_id": 15997,
+      "method_name": "Co-op (CNOS, Coarse)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "control",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        723,
+        9,
+        740
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 740,
+        "unknown_in_multis": 0,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15997.json",
+          "sha256": "ce4d5f9080e1dc1c636db90d1d1006282023f02b755d8e55f150bdd2576557ed"
+        },
+        "submission_sha256": "27404aa01b2b88ef59a69dd17c9f2cc83ba321af85173ec6ad2c903826bb50cd",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15997/geometry_mssd_complete.json",
+          "sha256": "cb1fd47159179eb794b28d6aa5be9afb7dd4872cdfafe82028ff675180d592b8"
+        },
+        "geometry_submission_id": 15997
+      },
+      "pairs": 740,
+      "wins": 723,
+      "ties": 9,
+      "accuracy": 0.9831081081081081,
+      "accuracy_strict": 0.977027027027027,
+      "interval_95": [
+        0.96987087517934,
+        0.992445054945055
+      ],
+      "images_with_pairs": 151,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.398774205
+    },
+    {
+      "submission_id": 11989,
+      "method_name": "FreeZeV2 (SAM6D, Coarse-to-Fine)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "control",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        1,
+        0,
+        1
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 1,
+        "unknown_singleton": 0,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/11989.json",
+          "sha256": "373a3b0a9fcc74b494394d77476fc716c0fd42b5746532f60475f9a4f73defff"
+        },
+        "submission_sha256": "10450bcf466b7c401b93947a385745f7cc5673303742197062d87ae613e1b0e9",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/11989/geometry_mssd_complete.json",
+          "sha256": "44667e3445225135bcddfd7a0e50b0ba3f05c157e770a1670d514f3b0795442f"
+        },
+        "geometry_submission_id": 11989
+      },
+      "pairs": 1,
+      "wins": 1,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 1,
+      "sign_flip_p": 1.0,
+      "reading": "too_few_images",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.063721883
+    },
+    {
+      "submission_id": 11992,
+      "method_name": "FreeZeV2 (SAM6D, Coarse-to-Fine)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "control",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        879,
+        0,
+        1037
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 1037,
+        "unknown_singleton": 0,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/11992.json",
+          "sha256": "ace046a1dfe8360182cd5eb8b1a906f1568fb3ccb0f5e011ac42bbd8f5125ac9"
+        },
+        "submission_sha256": "625a81473b962ab7561441dfb73610b90e4564fd1d166c4578498f86beb6f557",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/11992/geometry_mssd_complete.json",
+          "sha256": "7960a94816f54f0fbb380875fb146f5f1d68fdd4167a68b6680859914969139f"
+        },
+        "geometry_submission_id": 11992
+      },
+      "pairs": 1037,
+      "wins": 879,
+      "ties": 0,
+      "accuracy": 0.8476374156219865,
+      "accuracy_strict": 0.8476374156219865,
+      "interval_95": [
+        0.8202979515828678,
+        0.8745136186770428
+      ],
+      "images_with_pairs": 387,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.842294976
+    },
+    {
+      "submission_id": 11990,
+      "method_name": "FreeZeV2 (SAM6D, Coarse-to-Fine)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "control",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        1,
+        0,
+        1
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 1,
+        "unknown_singleton": 0,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/11990.json",
+          "sha256": "51562e69f9f5fbee9caddbc8a2dd7e040b2daa1fe183b4f72c021c5f0746dbb5"
+        },
+        "submission_sha256": "34df0e58997057e0bba3c8f1c1d7737c98bbaa0331d4a6bd3eae816d52151aaa",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/11990/geometry_mssd_complete.json",
+          "sha256": "ae110cf66b899fc1cdb4b98c57b2d80c99fae3468ad2010fca47f5f79ba7dad1"
+        },
+        "geometry_submission_id": 11990
+      },
+      "pairs": 1,
+      "wins": 1,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 1,
+      "sign_flip_p": 1.0,
+      "reading": "too_few_images",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.033094816
+    },
+    {
+      "submission_id": 15707,
+      "method_name": "FRTPose.v1 (SAM6D-FastSAM)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        111517,
+        0,
+        111596
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 111596,
+        "missing_pose_rows_in_proven_pair_free_targets": 1182,
+        "forced_original_labels": 4175,
+        "unknown_in_multis": 5357
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15707.json",
+          "sha256": "c97b694ecfbc7e4abe8b2796fff63ef509f9ff79ca6504c90333951405074983"
+        },
+        "submission_sha256": "011bc2801d82b60554d5af1ffd1506207795c302fa64e8df3dd383a32855e346",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15707/geometry_mssd_complete.json",
+          "sha256": "52b9c1c8a438922e20449a79a550413f0003868de465917ee5c45dd77d054cc9"
+        },
+        "geometry_submission_id": 15707
+      },
+      "pairs": 111596,
+      "wins": 111517,
+      "ties": 0,
+      "accuracy": 0.9992920893221979,
+      "accuracy_strict": 0.9992920893221979,
+      "interval_95": [
+        0.9984185556141276,
+        0.9998442538844914
+      ],
+      "images_with_pairs": 200,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 4.424782808000001
+    },
+    {
+      "submission_id": 15703,
+      "method_name": "FRTPose.v1 (SAM6D-FastSAM)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        394944,
+        10,
+        397750
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 397750,
+        "forced_original_labels": 1964,
+        "missing_pose_rows_in_proven_pair_free_targets": 135,
+        "unknown_in_multis": 2099
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15703.json",
+          "sha256": "05345d941d5bafeaae7828d012b4d353cee187a6170fd505f6d299ef9ed5364b"
+        },
+        "submission_sha256": "95edf8893ad43892e4965d9051b4c98fed93aecfabcdddfa66e5f1e7d148c383",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15703/geometry_mssd_complete.json",
+          "sha256": "f15ad4d9b0f636a1093eb530947cb358016aec53adbbe9218d0d43a138835a00"
+        },
+        "geometry_submission_id": 15703
+      },
+      "pairs": 397750,
+      "wins": 394944,
+      "ties": 10,
+      "accuracy": 0.9929578881206789,
+      "accuracy_strict": 0.9929453174104337,
+      "interval_95": [
+        0.9920605066326258,
+        0.9938130599413054
+      ],
+      "images_with_pairs": 1000,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 11.257924626
+    },
+    {
+      "submission_id": 15705,
+      "method_name": "FRTPose.v1 (SAM6D-FastSAM)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        22499,
+        0,
+        22503
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 22503,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15705.json",
+          "sha256": "e49e7156618eef2aabdfbb28ca478b300c88042b86889daf74310c523ba22498"
+        },
+        "submission_sha256": "3e09055f11f765a0c4374928c5849205e8692e3eceb6897b66531ddb82f6efcb",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15705/geometry_mssd_complete.json",
+          "sha256": "ec6bb9c330a1664366b3a2d75e3bd62c3ec379dc5de19274bc750c5ed8bd3c6d"
+        },
+        "geometry_submission_id": 15705
+      },
+      "pairs": 22503,
+      "wins": 22499,
+      "ties": 0,
+      "accuracy": 0.9998222459227658,
+      "accuracy_strict": 0.9998222459227658,
+      "interval_95": [
+        0.9995973694806066,
+        1.0
+      ],
+      "images_with_pairs": 591,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 1.4631536170000001
+    },
+    {
+      "submission_id": 15709,
+      "method_name": "FRTPose.v1 (SAM6D-FastSAM)",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        39868,
+        2,
+        40341
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 40341,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15709.json",
+          "sha256": "b2cb469aac07e9cf92e2cb8c454fc07b0f6e213374e01ed638c7f63737e1e384"
+        },
+        "submission_sha256": "34a7a9802c0bc8a9634c305a62bdfa4e1bed46f9dd93e3c3ffcf0b04c410ad95",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15709/geometry_mssd_complete.json",
+          "sha256": "e04a3f4efb52958164fdc3d10e3e040c5ff7af905bc6dc4ac4ac8544272e508e"
+        },
+        "geometry_submission_id": 15709
+      },
+      "pairs": 40341,
+      "wins": 39868,
+      "ties": 2,
+      "accuracy": 0.9882997446766317,
+      "accuracy_strict": 0.9882749560000992,
+      "interval_95": [
+        0.9856952196068915,
+        0.9907003471244957
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.5942807680000002
+    },
+    {
+      "submission_id": 15715,
+      "method_name": "FRTPose.v1 (SAM6D-FastSAM)",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        213121,
+        0,
+        213641
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 213641,
+        "forced_original_labels": 188,
+        "missing_pose_rows_in_proven_pair_free_targets": 10,
+        "unknown_in_multis": 198
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15715.json",
+          "sha256": "3ca1a7fa990e0c13761c10a464def1788ad9ca213f3c436c82bf150a174ac1ac"
+        },
+        "submission_sha256": "1c4ff9b3aa85110d5d2f9a1b7ad517fb8729baedd00ef0b876c47e55986398e9",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15715/geometry_mssd_complete.json",
+          "sha256": "3b666fde989c32d66b6817ef106349da1dbcaf7ac0fafc9971c6a9a29efc9d6e"
+        },
+        "geometry_submission_id": 15715
+      },
+      "pairs": 213641,
+      "wins": 213121,
+      "ties": 0,
+      "accuracy": 0.9975660102695644,
+      "accuracy_strict": 0.9975660102695644,
+      "interval_95": [
+        0.9967708272683706,
+        0.9982870298696045
+      ],
+      "images_with_pairs": 900,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 6.241565383
+    },
+    {
+      "submission_id": 15721,
+      "method_name": "FRTPose.v1 (Default Detections)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        126518,
+        0,
+        126602
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 126602,
+        "missing_pose_rows_in_proven_pair_free_targets": 524,
+        "forced_original_labels": 1671,
+        "unknown_in_multis": 2195
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15721.json",
+          "sha256": "29b134d5e9c1795580344a1ce7683db44a61752905a1015653c58b9321966b62"
+        },
+        "submission_sha256": "ba7aa82fb9df585247fd9c594a640705265ae82fd3f966cfbbc1d2fea2d41406",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15721/geometry_mssd_complete.json",
+          "sha256": "af27aa7b657e4bdfde9050a83cd0a7375af8bb89aed98179689190e13c0a963c"
+        },
+        "geometry_submission_id": 15721,
+        "same_pose_geometry_sources": [
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/15707/geometry_mssd_complete.json",
+              "sha256": "52b9c1c8a438922e20449a79a550413f0003868de465917ee5c45dd77d054cc9"
+            },
+            "geometry_submission_id": 15707,
+            "exact_pose_identities": 6540
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/15735/geometry_mssd_complete.json",
+              "sha256": "4947bde6bf7c1229a9da8a12876d4a9ffe59aa69aa36c7510951f0ecdf13e859"
+            },
+            "geometry_submission_id": 15735,
+            "exact_pose_identities": 9
+          }
+        ]
+      },
+      "pairs": 126602,
+      "wins": 126518,
+      "ties": 0,
+      "accuracy": 0.9993365033727746,
+      "accuracy_strict": 0.9993365033727746,
+      "interval_95": [
+        0.9985117441125214,
+        0.9998575814159573
+      ],
+      "images_with_pairs": 200,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 5.71131763
+    },
+    {
+      "submission_id": 15717,
+      "method_name": "FRTPose.v1 (Default Detections)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        497721,
+        9,
+        500626
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 500626,
+        "forced_original_labels": 5081,
+        "missing_pose_rows_in_proven_pair_free_targets": 429,
+        "unknown_in_multis": 5510
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15717.json",
+          "sha256": "859f5fcfc87d5d96291926b432f2593624899e6c2e08a15c24a668f23823ba1b"
+        },
+        "submission_sha256": "ed328b85c648420508e82578ff1ec53530e9117190109d1548ea682f6774583a",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15717/geometry_mssd_complete.json",
+          "sha256": "dbbe6c33e36835385f6a700f1867e307b2e08f0cdfc300ce1a3716816b23f667"
+        },
+        "geometry_submission_id": 15717
+      },
+      "pairs": 500626,
+      "wins": 497721,
+      "ties": 9,
+      "accuracy": 0.9942062537702796,
+      "accuracy_strict": 0.9941972650241897,
+      "interval_95": [
+        0.9934694261082008,
+        0.9949176393849226
+      ],
+      "images_with_pairs": 1000,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 13.449792082
+    },
+    {
+      "submission_id": 15719,
+      "method_name": "FRTPose.v1 (Default Detections)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        30530,
+        0,
+        30536
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 30536,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15719.json",
+          "sha256": "c8b92c60bab7cc0b02bd302293d986487dfb27b065796c77db5b29c43aa53f2d"
+        },
+        "submission_sha256": "56684f685c77f4527db4de7cec638ffe18d42930f0d4782e3f7c9d320f598e44",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15719/geometry_mssd_complete.json",
+          "sha256": "cd04e68351f0609eaec876229b99803649c78878d15cbddbf2d2ba6859c26e8b"
+        },
+        "geometry_submission_id": 15719
+      },
+      "pairs": 30536,
+      "wins": 30530,
+      "ties": 0,
+      "accuracy": 0.999803510610427,
+      "accuracy_strict": 0.999803510610427,
+      "interval_95": [
+        0.9995738263834252,
+        0.999967394848386
+      ],
+      "images_with_pairs": 593,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 1.519977745
+    },
+    {
+      "submission_id": 15723,
+      "method_name": "FRTPose.v1 (Default Detections)",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        52440,
+        2,
+        52938
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 52938,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15723.json",
+          "sha256": "41715df23cb613c74a6de2b33842cba16ba1cffd58419cf9a0235f2eed7fd2a7"
+        },
+        "submission_sha256": "425a1272d0800f6884f3c8aaf126bbcfc2cb5d381345729d4415f2833bdad345",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15723/geometry_mssd_complete.json",
+          "sha256": "d6522eb37d11d81f04fe9bf956c882514f7654f69315c83ec6bc2064373e9d59"
+        },
+        "geometry_submission_id": 15723
+      },
+      "pairs": 52938,
+      "wins": 52440,
+      "ties": 2,
+      "accuracy": 0.9906116589217575,
+      "accuracy_strict": 0.9905927688994673,
+      "interval_95": [
+        0.9885693772672309,
+        0.9925036093732648
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.6611470289999999
+    },
+    {
+      "submission_id": 15729,
+      "method_name": "FRTPose.v1 (Default Detections)",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        231819,
+        0,
+        232337
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 232337,
+        "forced_original_labels": 228,
+        "missing_pose_rows_in_proven_pair_free_targets": 10,
+        "unknown_in_multis": 238
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15729.json",
+          "sha256": "2e892cb09b0e92b12d71cd89eea521e67499c5c9a6670cf2960526b2a43f89dc"
+        },
+        "submission_sha256": "3e477714b158e6b067d8c44b99320643e00380aa5da067b6069e48ececd78de2",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15729/geometry_mssd_complete.json",
+          "sha256": "75b5bdacf9c94883b1b8ad00d3ee9ec7f6945bca7833b948ea1abfeda259276a"
+        },
+        "geometry_submission_id": 15729
+      },
+      "pairs": 232337,
+      "wins": 231819,
+      "ties": 0,
+      "accuracy": 0.9977704799493838,
+      "accuracy_strict": 0.9977704799493838,
+      "interval_95": [
+        0.997094655631241,
+        0.998381324076905
+      ],
+      "images_with_pairs": 900,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 6.508165121999999
+    },
+    {
+      "submission_id": 15735,
+      "method_name": "FRTPose.v1 (MUSE)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        71212,
+        0,
+        71252
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 71252,
+        "missing_pose_rows_in_proven_pair_free_targets": 100,
+        "forced_original_labels": 310,
+        "unknown_in_multis": 410
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15735.json",
+          "sha256": "13230f5c7beb48242ff9814f8df192440de9677c4934d647aad714bf9f3ddc2a"
+        },
+        "submission_sha256": "e956b5ee915b9baa34fd025da2a13c441f7c69bacda983b1907f1c126795d616",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15735/geometry_mssd_complete.json",
+          "sha256": "4947bde6bf7c1229a9da8a12876d4a9ffe59aa69aa36c7510951f0ecdf13e859"
+        },
+        "geometry_submission_id": 15735
+      },
+      "pairs": 71252,
+      "wins": 71212,
+      "ties": 0,
+      "accuracy": 0.9994386122494807,
+      "accuracy_strict": 0.9994386122494807,
+      "interval_95": [
+        0.9990405372991125,
+        0.9997620047599048
+      ],
+      "images_with_pairs": 200,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 3.2374928699999996
+    },
+    {
+      "submission_id": 15731,
+      "method_name": "FRTPose.v1 (MUSE)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        211150,
+        5,
+        213767
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 213767,
+        "forced_original_labels": 81,
+        "missing_pose_rows_in_proven_pair_free_targets": 7,
+        "unknown_in_multis": 88
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15731.json",
+          "sha256": "6f5948cb24e01466c2f04373c1f1c6efefa8710bfda37af684439bfe18849485"
+        },
+        "submission_sha256": "e4c92d81f140f23a8078777f3ae7e048f10424ee3cafa700185d7b86bd677d33",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15731/geometry_mssd_complete.json",
+          "sha256": "da860bc460f23fb1909eded8d80ae993db959f09f16a142a500977f287cf8ab9"
+        },
+        "geometry_submission_id": 15731
+      },
+      "pairs": 213767,
+      "wins": 211150,
+      "ties": 5,
+      "accuracy": 0.9877693937792082,
+      "accuracy_strict": 0.9877576988029022,
+      "interval_95": [
+        0.9863399078776426,
+        0.989210062095939
+      ],
+      "images_with_pairs": 999,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 6.965970405
+    },
+    {
+      "submission_id": 15733,
+      "method_name": "FRTPose.v1 (MUSE)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        31123,
+        0,
+        31138
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 31138,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15733.json",
+          "sha256": "aa5d93c8c356624e3da237269f6ea4494ccffe2c7369050871d9925e86fc9a16"
+        },
+        "submission_sha256": "6c5359b68203aee6d005da04d10cfbb6a1a1cf36a2da2362dd270633ee667daa",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15733/geometry_mssd_complete.json",
+          "sha256": "8fdbe413cf23693652536498b3fdb1c39a40ed53666d5c21cfd88dc634cc6b29"
+        },
+        "geometry_submission_id": 15733
+      },
+      "pairs": 31138,
+      "wins": 31123,
+      "ties": 0,
+      "accuracy": 0.999518273492196,
+      "accuracy_strict": 0.999518273492196,
+      "interval_95": [
+        0.9989969280922826,
+        0.9999028780472012
+      ],
+      "images_with_pairs": 593,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 1.5391299600000004
+    },
+    {
+      "submission_id": 15737,
+      "method_name": "FRTPose.v1 (MUSE)",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        42503,
+        1,
+        42970
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 42970,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15737.json",
+          "sha256": "7ca57993b012679ce66edc2ca297bc7580bfa130ac7a8382acaa8901f02b3638"
+        },
+        "submission_sha256": "2a8125431906ad470e7b499f705f7f6420bf1843d4d7fc4cb313422dd8688ec0",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15737/geometry_mssd_complete.json",
+          "sha256": "9abe488f658065ee841a4fc31b00107130d31c9b6cd5a733254a3b6ea85cc040"
+        },
+        "geometry_submission_id": 15737
+      },
+      "pairs": 42970,
+      "wins": 42503,
+      "ties": 1,
+      "accuracy": 0.9891435885501513,
+      "accuracy_strict": 0.9891319525250174,
+      "interval_95": [
+        0.9868691588785047,
+        0.9913510603436169
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.5714516559999998
+    },
+    {
+      "submission_id": 15743,
+      "method_name": "FRTPose.v1 (MUSE)",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        98657,
+        0,
+        98842
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 98842,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/15743.json",
+          "sha256": "fa2c37b0a26965320fe0d68704a12d78228ef3e6f319eb13339003bd38ac3a34"
+        },
+        "submission_sha256": "21e8d63905da1b8f3e5a4b33c480b84c606b784e0e5aab4fedf2cd414593af6c",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/15743/geometry_mssd_complete.json",
+          "sha256": "a3c9e7619a194ecf33f11541a787ddb80af8eefaa2ceb5fefac1c7cd509b0a04"
+        },
+        "geometry_submission_id": 15743
+      },
+      "pairs": 98842,
+      "wins": 98657,
+      "ties": 0,
+      "accuracy": 0.9981283260152567,
+      "accuracy_strict": 0.9981283260152567,
+      "interval_95": [
+        0.9974572904251092,
+        0.9987278432702908
+      ],
+      "images_with_pairs": 900,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 4.160013735000001
+    },
+    {
+      "submission_id": 23075,
+      "method_name": "FRTPose-WAPR\uff08MUSE\uff09",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        1731,
+        0,
+        1731
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 1731,
+        "unknown_in_multis": 0,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23075.json",
+          "sha256": "4e9fb8bf75aedb3d2c12505c73cdaf83017fa14dde7e772aaee92a654d9bd578"
+        },
+        "submission_sha256": "6dbe18f89ec152726bc5ee88d6783ae088933bad5d72aada4952927f7a6313c5",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23075/geometry_mssd_complete.json",
+          "sha256": "f7f0dd000aecf41d922c68eed2a553ebef4e1e6d1f90d0008336673b2988ad74"
+        },
+        "geometry_submission_id": 23075
+      },
+      "pairs": 1731,
+      "wins": 1731,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 199,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.4023717229999999
+    },
+    {
+      "submission_id": 23073,
+      "method_name": "FRTPose-WAPR\uff08MUSE\uff09",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        2914,
+        0,
+        3035
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 3035,
+        "unknown_singleton": 0,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23073.json",
+          "sha256": "f265ba72618e20b39a59bcf3f499b9bc02875a866291440b1a81599fd478f5e4"
+        },
+        "submission_sha256": "e0636a90e20d306c8cdf628a79bebd3bc5b874c3f5722e18be08122f623d513c",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23073/geometry_mssd_complete.json",
+          "sha256": "b80a0a3aa9d11922037661394cf495d4995e79923f49a940651ef00e7c6e0974"
+        },
+        "geometry_submission_id": 23073
+      },
+      "pairs": 3035,
+      "wins": 2914,
+      "ties": 0,
+      "accuracy": 0.9601317957166392,
+      "accuracy_strict": 0.9601317957166392,
+      "interval_95": [
+        0.9515698062792252,
+        0.9690327070285316
+      ],
+      "images_with_pairs": 789,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 1.554490468
+    },
+    {
+      "submission_id": 23074,
+      "method_name": "FRTPose-WAPR\uff08MUSE\uff09",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        1464,
+        0,
+        1464
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 1464,
+        "unknown_in_multis": 0,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23074.json",
+          "sha256": "c53e5c90b149502d4ca0641fede35c3fa61cea9a3cc09e7ba4279c1a664e7523"
+        },
+        "submission_sha256": "9668123fdd3da253f752e68f325acf8e6be8569640eb0f68c6674696e8750155",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23074/geometry_mssd_complete.json",
+          "sha256": "c129b2ca4f838a1599566cc571c215c8dbffd4fb9a915a5deb05eded0d679d6c"
+        },
+        "geometry_submission_id": 23074
+      },
+      "pairs": 1464,
+      "wins": 1464,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 365,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.6218105180000002
+    },
+    {
+      "submission_id": 23008,
+      "method_name": "FRTPose-WAPR\uff08MUSE\uff09",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        10996,
+        0,
+        11376
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 11376,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23008.json",
+          "sha256": "d58a5e4bb72ef452eaad2825b156647ff7de8a5003ffce437ffb824c1479d7b9"
+        },
+        "submission_sha256": "3592564920ad17c981a14f6dd616437a869a357eaacfe3f8e9ac079adc8f604d",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23008/geometry_mssd_complete.json",
+          "sha256": "2369a3815090945ad0714131576748ee3a1cd3db566bcf33e14d9b424da37ad2"
+        },
+        "geometry_submission_id": 23008
+      },
+      "pairs": 11376,
+      "wins": 10996,
+      "ties": 0,
+      "accuracy": 0.9665963431786216,
+      "accuracy_strict": 0.9665963431786216,
+      "interval_95": [
+        0.9588993076855665,
+        0.9740792459417001
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.40129092899999996
+    },
+    {
+      "submission_id": 23079,
+      "method_name": "FRTPose-WAPR\uff08MUSE\uff09",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        699,
+        0,
+        706
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 706,
+        "unknown_singleton": 0,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23079.json",
+          "sha256": "b09877e9a6e38dfb3ef24a14a3a2eadff3cce13756301625394951440b81a112"
+        },
+        "submission_sha256": "7d158dd0bd4e9685c6f63c0fdb9dd1d650ff8bc38913c39212e6599c0a53f302",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23079/geometry_mssd_complete.json",
+          "sha256": "f4346264495e97aa4eca98dbaa1db6c6fc33e2feedbffa388100f94cc0ff1d4f"
+        },
+        "geometry_submission_id": 23079
+      },
+      "pairs": 706,
+      "wins": 699,
+      "ties": 0,
+      "accuracy": 0.990084985835694,
+      "accuracy_strict": 0.990084985835694,
+      "interval_95": [
+        0.9817415730337079,
+        0.997134670487106
+      ],
+      "images_with_pairs": 448,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.8764806109999999
+    },
+    {
+      "submission_id": 23147,
+      "method_name": "FRTPose-WAPR\uff08Default Detection\uff09",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        90045,
+        0,
+        90063
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 90063,
+        "missing_pose_rows_in_proven_pair_free_targets": 971,
+        "forced_original_labels": 2642,
+        "unknown_in_multis": 3613
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23147.json",
+          "sha256": "878798a8b0dd2084eddf3e3c09953db4faca622ea1da0636a7fbf654e6235087"
+        },
+        "submission_sha256": "df7feaba87ee7d3de7fc00257ca696e62302038d2ca2311e5b41e88ffe4dd02c",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23147/geometry_mssd_complete.json",
+          "sha256": "48b36179ca5f2244fbd60706f20b281f81b29eefb6919e46c8b0942276a51254"
+        },
+        "geometry_submission_id": 23147
+      },
+      "pairs": 90063,
+      "wins": 90045,
+      "ties": 0,
+      "accuracy": 0.9998001399020685,
+      "accuracy_strict": 0.9998001399020685,
+      "interval_95": [
+        0.9995338874893183,
+        0.9999886657297004
+      ],
+      "images_with_pairs": 200,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 3.7820308019999995
+    },
+    {
+      "submission_id": 23286,
+      "method_name": "FRTPose-WAPR\uff08Default Detection\uff09",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        351222,
+        1,
+        352304
+      ],
+      "recovery": {
+        "state": "missing_labels",
+        "pair_count_lower_bound": 351943,
+        "known_only_pair_counts": [
+          268150,
+          1,
+          269189
+        ],
+        "unknown_in_multis": 69128
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23286.json",
+          "sha256": "8c185926db7c1a8cdc0cfbaf444e050f56471eac07cdc4d5102052b726e36f0e"
+        },
+        "submission_sha256": "744891b5150eac75aaf44f423bf3150f888458b77daf0d7863320ae102a0c2fe",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23286/geometry_mssd_complete.json",
+          "sha256": "db45d15a75b4dd993c08f8ecf8d70635d49d2de191d49a781099eab975daf8db"
+        },
+        "geometry_submission_id": 23286,
+        "same_pose_geometry_sources": [
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23286/geometry_mssd_complete.json",
+              "sha256": "db45d15a75b4dd993c08f8ecf8d70635d49d2de191d49a781099eab975daf8db"
+            },
+            "geometry_submission_id": 23286,
+            "exact_pose_identities": 8602
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23309/geometry_mssd_complete.json",
+              "sha256": "5ecda526c9b06b92fccc637f8dd15b15794035e478cb413e0ce099301dd493a3"
+            },
+            "geometry_submission_id": 23309,
+            "exact_pose_identities": 13445
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30481/geometry_mssd_complete.json",
+              "sha256": "6eba6230c7dc94ca102dbfe7a68252066281f767a83a07ce15fd0e3a64a8d213"
+            },
+            "geometry_submission_id": 30481,
+            "exact_pose_identities": 2
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30176/geometry_mssd_complete.json",
+              "sha256": "807a9a555b068176bcc1148b2c110dfecb754663527d10493828728bfe50e2c4"
+            },
+            "geometry_submission_id": 30176,
+            "exact_pose_identities": 15
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30405/geometry_mssd_complete.json",
+              "sha256": "9c5497f95d67eae8950f593d6422ee7ab33c411f7b71396e1ae9403faf1864a0"
+            },
+            "geometry_submission_id": 30405,
+            "exact_pose_identities": 3
+          }
+        ]
+      },
+      "pairs": null,
+      "wins": null,
+      "ties": null,
+      "accuracy": null,
+      "accuracy_strict": null,
+      "interval_95": null,
+      "images_with_pairs": null,
+      "sign_flip_p": null,
+      "reading": null,
+      "reading_v10_same_interval": null,
+      "CPU_seconds": 22.043631096
+    },
+    {
+      "submission_id": 23145,
+      "method_name": "FRTPose-WAPR\uff08Default Detection\uff09",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        23918,
+        0,
+        23918
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 23918,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23145.json",
+          "sha256": "c653826299a611d00a9346ae9c72da8f08c4759e312d4e439345d2027dc33401"
+        },
+        "submission_sha256": "e37001ba42a380f04cd8af0c22bf14b45ce28720b467045aaee21d886969f7a9",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23145/geometry_mssd_complete.json",
+          "sha256": "8bb9922fa09d0c6564a5bf4db42ea28e8a443d21aaba956d1529e003bea8787a"
+        },
+        "geometry_submission_id": 23145
+      },
+      "pairs": 23918,
+      "wins": 23918,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 593,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 2.152608979
+    },
+    {
+      "submission_id": 23149,
+      "method_name": "FRTPose-WAPR\uff08Default Detection\uff09",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        36803,
+        0,
+        37234
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 37234,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23149.json",
+          "sha256": "c1b22e3da8100c4c9b55becea9d6442668ed5ffb77ae9e2a81c4a3860892d4a2"
+        },
+        "submission_sha256": "6d91b2da39982e8e15720bf4ca898f0a0094df7cc9e9c4fdc94f49742ea3d9b2",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23149/geometry_mssd_complete.json",
+          "sha256": "aaf8031edf1a0f9fe27d47d07908162855774395fa5d370d486fe8b1c8e6932b"
+        },
+        "geometry_submission_id": 23149
+      },
+      "pairs": 37234,
+      "wins": 36803,
+      "ties": 0,
+      "accuracy": 0.988424558199495,
+      "accuracy_strict": 0.988424558199495,
+      "interval_95": [
+        0.9860179694984594,
+        0.9908141612687067
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.5728606340000013
+    },
+    {
+      "submission_id": 23155,
+      "method_name": "FRTPose-WAPR\uff08Default Detection\uff09",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        121943,
+        0,
+        121954
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 121954,
+        "missing_pose_rows_in_proven_pair_free_targets": 539,
+        "forced_original_labels": 7747,
+        "unknown_in_multis": 8286
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23155.json",
+          "sha256": "a6cddc45781b17e9807e41757fbad296d0b2e6b127317b8db9d57b403c85a38a"
+        },
+        "submission_sha256": "66ee40b7e7b7d08d2b135659247b69cb610332c3fd0ea8d6675577c3d829f8d1",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23155/geometry_mssd_complete.json",
+          "sha256": "3e6d5f5b9000c3ce577f938233b5ae0e18b88ab7b1dd302edfcd99bd323af22c"
+        },
+        "geometry_submission_id": 23155
+      },
+      "pairs": 121954,
+      "wins": 121943,
+      "ties": 0,
+      "accuracy": 0.9999098020565131,
+      "accuracy_strict": 0.9999098020565131,
+      "interval_95": [
+        0.9998539782341673,
+        0.999959281398114
+      ],
+      "images_with_pairs": 900,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 10.838386844999999
+    },
+    {
+      "submission_id": 23312,
+      "method_name": "FRTPose-WAPR\uff08Multi 2D Detections\uff09",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        128513,
+        0,
+        128531
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 128531,
+        "missing_pose_rows_in_proven_pair_free_targets": 3985,
+        "forced_original_labels": 10916,
+        "unknown_in_multis": 14901
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23312.json",
+          "sha256": "2e875adb98b4325d65bbd8708e5dd6449366891dd0ab8f6098063372a9b912c3"
+        },
+        "submission_sha256": "f937c3ed1bef48061a8fac0c863379de61c2221288341a35eec7f4cadf42c545",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23312/geometry_mssd_complete.json",
+          "sha256": "deb309b217fff5f16b7d69c41863bc2fc8f0af6cda3cdd50be4b3a360f5a88ea"
+        },
+        "geometry_submission_id": 23312
+      },
+      "pairs": 128531,
+      "wins": 128513,
+      "ties": 0,
+      "accuracy": 0.9998599559639308,
+      "accuracy_strict": 0.9998599559639308,
+      "interval_95": [
+        0.9996759084209795,
+        0.9999921048476236
+      ],
+      "images_with_pairs": 200,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 5.635551268
+    },
+    {
+      "submission_id": 23309,
+      "method_name": "FRTPose-WAPR\uff08Multi 2D Detections\uff09",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        281405,
+        3,
+        282520
+      ],
+      "recovery": {
+        "state": "missing_labels",
+        "pair_count_lower_bound": 282248,
+        "known_only_pair_counts": [
+          233023,
+          3,
+          234113
+        ],
+        "unknown_in_multis": 40715
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23309.json",
+          "sha256": "97f90457a585fda221aab1410921160b51d9cddf5670279d38bc771c6370515d"
+        },
+        "submission_sha256": "7de03e5ecdff5e07c50020cf2b0d1e7bf0ecb77a937d5ac6618b570f3589d7af",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23309/geometry_mssd_complete.json",
+          "sha256": "5ecda526c9b06b92fccc637f8dd15b15794035e478cb413e0ce099301dd493a3"
+        },
+        "geometry_submission_id": 23309,
+        "same_pose_geometry_sources": [
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23286/geometry_mssd_complete.json",
+              "sha256": "db45d15a75b4dd993c08f8ecf8d70635d49d2de191d49a781099eab975daf8db"
+            },
+            "geometry_submission_id": 23286,
+            "exact_pose_identities": 8602
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23309/geometry_mssd_complete.json",
+              "sha256": "5ecda526c9b06b92fccc637f8dd15b15794035e478cb413e0ce099301dd493a3"
+            },
+            "geometry_submission_id": 23309,
+            "exact_pose_identities": 13445
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30481/geometry_mssd_complete.json",
+              "sha256": "6eba6230c7dc94ca102dbfe7a68252066281f767a83a07ce15fd0e3a64a8d213"
+            },
+            "geometry_submission_id": 30481,
+            "exact_pose_identities": 2
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30176/geometry_mssd_complete.json",
+              "sha256": "807a9a555b068176bcc1148b2c110dfecb754663527d10493828728bfe50e2c4"
+            },
+            "geometry_submission_id": 30176,
+            "exact_pose_identities": 15
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30405/geometry_mssd_complete.json",
+              "sha256": "9c5497f95d67eae8950f593d6422ee7ab33c411f7b71396e1ae9403faf1864a0"
+            },
+            "geometry_submission_id": 30405,
+            "exact_pose_identities": 3
+          }
+        ]
+      },
+      "pairs": null,
+      "wins": null,
+      "ties": null,
+      "accuracy": null,
+      "accuracy_strict": null,
+      "interval_95": null,
+      "images_with_pairs": null,
+      "sign_flip_p": null,
+      "reading": null,
+      "reading_v10_same_interval": null,
+      "CPU_seconds": 19.584488855
+    },
+    {
+      "submission_id": 23308,
+      "method_name": "FRTPose-WAPR\uff08Multi 2D Detections\uff09",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        49248,
+        0,
+        49248
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 49248,
+        "forced_original_labels": 1,
+        "unknown_in_multis": 1
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23308.json",
+          "sha256": "c95463549736c900bb6a6d3cb033e81cf06ee21566521e4bd3cfc7f5e6c5b945"
+        },
+        "submission_sha256": "e8945f7fc2945163b1d23c92141f8db4b5963139dd7d23795c00f4521a9f7758",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23308/geometry_mssd_complete.json",
+          "sha256": "9c49d34d872ada3c8effd75fecb37e36e7f82b0164915819882113d732af7e3f"
+        },
+        "geometry_submission_id": 23308
+      },
+      "pairs": 49248,
+      "wins": 49248,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 592,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 3.511317333000001
+    },
+    {
+      "submission_id": 23315,
+      "method_name": "FRTPose-WAPR\uff08Multi 2D Detections\uff09",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        52937,
+        2,
+        53422
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 53422,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23315.json",
+          "sha256": "88aae5afe736c20b1f65fdcc69681ef192e876166864f8333e73796159222bcb"
+        },
+        "submission_sha256": "ef6f81f36d2a377ce0ff0d7d19791d78158c3ea2dcdc2b973543f7133d807cba",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23315/geometry_mssd_complete.json",
+          "sha256": "f96df60b5b2f044d8effc80c9651773b20d8d2a4838041e12b4d18492ec206b7"
+        },
+        "geometry_submission_id": 23315
+      },
+      "pairs": 53422,
+      "wins": 52937,
+      "ties": 2,
+      "accuracy": 0.9909400621466812,
+      "accuracy_strict": 0.9909213432668189,
+      "interval_95": [
+        0.9890001672271874,
+        0.9928458625872861
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.6710952150000011
+    },
+    {
+      "submission_id": 23326,
+      "method_name": "FRTPose-WAPR\uff08Multi 2D Detections\uff09",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        166681,
+        0,
+        166694
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 166694,
+        "forced_original_labels": 11109,
+        "missing_pose_rows_in_proven_pair_free_targets": 757,
+        "unknown_in_multis": 11866
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/23326.json",
+          "sha256": "44ba9a1615c4a955ea3453ff6b7e8d77613cc13aa68ef1a0104001ffca281f38"
+        },
+        "submission_sha256": "f0b9628930c3e131f73763d8bebcf37f7a112af7031f7fc91b831b2ffb8a32b3",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23326/geometry_mssd_complete.json",
+          "sha256": "9cba39b744526c8aa35483b693ac66283d68a2cbc2e3722f50d345c5c66b4d35"
+        },
+        "geometry_submission_id": 23326,
+        "same_pose_geometry_sources": [
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23155/geometry_mssd_complete.json",
+              "sha256": "3e6d5f5b9000c3ce577f938233b5ae0e18b88ab7b1dd302edfcd99bd323af22c"
+            },
+            "geometry_submission_id": 23155,
+            "exact_pose_identities": 6686
+          }
+        ]
+      },
+      "pairs": 166694,
+      "wins": 166681,
+      "ties": 0,
+      "accuracy": 0.9999220127899024,
+      "accuracy_strict": 0.9999220127899024,
+      "interval_95": [
+        0.9998784999605125,
+        0.9999631967318698
+      ],
+      "images_with_pairs": 900,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 14.321197089999998
+    },
+    {
+      "submission_id": 30482,
+      "method_name": "FRTPose-WAPR.v2\uff08MUSE\uff09",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        3184,
+        0,
+        3184
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 3184,
+        "unknown_in_multis": 0,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30482.json",
+          "sha256": "d8f8da2a511c9e9838363ff4b28dba67541c3b5c5db6ef48285df36d04da0044"
+        },
+        "submission_sha256": "eb44d96b5e2b02b1eafe766d06217e6f9f124bbd1f2ef41e606c719f53aa8f19",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/30482/geometry_mssd_complete.json",
+          "sha256": "a66c14bdfb0b732c248f8250e2f49dceff65da55e71fdb1426c06cce27499845"
+        },
+        "geometry_submission_id": 30482
+      },
+      "pairs": 3184,
+      "wins": 3184,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 200,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.47086713699999905
+    },
+    {
+      "submission_id": 30481,
+      "method_name": "FRTPose-WAPR.v2\uff08MUSE\uff09",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        2349,
+        2,
+        2524
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 2524,
+        "unknown_singleton": 0,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30481.json",
+          "sha256": "81b6d6de4ae9d455f0806a36fec1a96787f6a3d186581f9036f407e966e7b162"
+        },
+        "submission_sha256": "c5c9bcc8f927a7971f17116c0ee40c215a42f72e207cbb4397b5692090d01bb4",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/30481/geometry_mssd_complete.json",
+          "sha256": "6eba6230c7dc94ca102dbfe7a68252066281f767a83a07ce15fd0e3a64a8d213"
+        },
+        "geometry_submission_id": 30481
+      },
+      "pairs": 2524,
+      "wins": 2349,
+      "ties": 2,
+      "accuracy": 0.9310618066561014,
+      "accuracy_strict": 0.9306656101426307,
+      "interval_95": [
+        0.9162355750099482,
+        0.9454872204472844
+      ],
+      "images_with_pairs": 752,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 1.485813246000001
+    },
+    {
+      "submission_id": 30085,
+      "method_name": "FRTPose-WAPR.v2\uff08MUSE\uff09",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        741,
+        0,
+        741
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 741,
+        "unknown_in_multis": 0,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30085.json",
+          "sha256": "737c156275fa8cd524e891fbf955a31bedfb503dda97488ee6eee478f192b356"
+        },
+        "submission_sha256": "7e90ab90158342e8dd0ff4b56f4aa1eadecd9716c70cfa12d8dc69c4a606185a",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/30085/geometry_mssd_complete.json",
+          "sha256": "e070185d4d95da5e5b94f9701ec0d6585a86e48e9546da8bad9e405f839ec0e6"
+        },
+        "geometry_submission_id": 30085
+      },
+      "pairs": 741,
+      "wins": 741,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 320,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.48675177199999986
+    },
+    {
+      "submission_id": 30087,
+      "method_name": "FRTPose-WAPR.v2\uff08MUSE\uff09",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        10088,
+        0,
+        10568
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 10568,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30087.json",
+          "sha256": "3590e67ecf84c99d7cde8df99e817b43a945bb669fe6c6653002be9f89eb5266"
+        },
+        "submission_sha256": "56dbd9a039b282e5f9a32660deb9bf5040e2147b239f860a87908430c62fb30c",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/30087/geometry_mssd_complete.json",
+          "sha256": "7c1b18a4274d61139f22161bdbd17697953e84cf4747cd7f7028114ea6f6020e"
+        },
+        "geometry_submission_id": 30087
+      },
+      "pairs": 10568,
+      "wins": 10088,
+      "ties": 0,
+      "accuracy": 0.9545798637395913,
+      "accuracy_strict": 0.9545798637395913,
+      "interval_95": [
+        0.9461094828401247,
+        0.9639006094702297
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.3492782820000002
+    },
+    {
+      "submission_id": 30484,
+      "method_name": "FRTPose-WAPR.v2\uff08MUSE\uff09",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        965,
+        0,
+        966
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 966,
+        "unknown_singleton": 0,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30484.json",
+          "sha256": "5f2867f3634e68135edf8f1e8543032af2d6c2bac24ccd84bff3b5aebe08d7bf"
+        },
+        "submission_sha256": "e9f7a13b67ec4e7b0b8c41d0e942e257e2fdf33fe89ae594c1142850a3f207cd",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/30484/geometry_mssd_complete.json",
+          "sha256": "8eee48af6edc1da5e400dabd33c293e3ec3512584320ffb9d175dafe32b9e6d3"
+        },
+        "geometry_submission_id": 30484
+      },
+      "pairs": 966,
+      "wins": 965,
+      "ties": 0,
+      "accuracy": 0.9989648033126294,
+      "accuracy_strict": 0.9989648033126294,
+      "interval_95": [
+        0.9967532467532467,
+        1.0
+      ],
+      "images_with_pairs": 452,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.9170099269999987
+    },
+    {
+      "submission_id": 30180,
+      "method_name": "FRTPose-WAPR.v2\uff08Default Detection\uff09",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        89084,
+        0,
+        89100
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 89100,
+        "missing_pose_rows_in_proven_pair_free_targets": 836,
+        "forced_original_labels": 2360,
+        "unknown_in_multis": 3196
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30180.json",
+          "sha256": "1844709d5e8b34969a7099833d89320f7d006987f24dfcad7907cafa5330d34c"
+        },
+        "submission_sha256": "a7e518464a0fd6694f78e3be151aa8a308387be8a3e98cca8435d9d38d551b33",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/30180/geometry_mssd_complete.json",
+          "sha256": "c0523d3c6a6e9bb98f491822ad76c72e13c6970b09e8dde061fea5a554767c27"
+        },
+        "geometry_submission_id": 30180
+      },
+      "pairs": 89100,
+      "wins": 89084,
+      "ties": 0,
+      "accuracy": 0.9998204264870931,
+      "accuracy_strict": 0.9998204264870931,
+      "interval_95": [
+        0.9995884350241795,
+        0.9999772012220145
+      ],
+      "images_with_pairs": 200,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 4.034892803999998
+    },
+    {
+      "submission_id": 30176,
+      "method_name": "FRTPose-WAPR.v2\uff08Default Detection\uff09",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        345128,
+        5,
+        346241
+      ],
+      "recovery": {
+        "state": "missing_labels",
+        "pair_count_lower_bound": 345698,
+        "known_only_pair_counts": [
+          252502,
+          5,
+          253582
+        ],
+        "unknown_in_multis": 75226
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30176.json",
+          "sha256": "28c121beb2dccf04bf002b94e7c6aff457849cb34d049ec9016d3b1cc6d2836f"
+        },
+        "submission_sha256": "af0d4b3e158be84440202a84e02fc031b4daec07f00dba4ee27c831d3b122f79",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/30176/geometry_mssd_complete.json",
+          "sha256": "807a9a555b068176bcc1148b2c110dfecb754663527d10493828728bfe50e2c4"
+        },
+        "geometry_submission_id": 30176,
+        "same_pose_geometry_sources": [
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23286/geometry_mssd_complete.json",
+              "sha256": "db45d15a75b4dd993c08f8ecf8d70635d49d2de191d49a781099eab975daf8db"
+            },
+            "geometry_submission_id": 23286,
+            "exact_pose_identities": 8602
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23309/geometry_mssd_complete.json",
+              "sha256": "5ecda526c9b06b92fccc637f8dd15b15794035e478cb413e0ce099301dd493a3"
+            },
+            "geometry_submission_id": 23309,
+            "exact_pose_identities": 13445
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30481/geometry_mssd_complete.json",
+              "sha256": "6eba6230c7dc94ca102dbfe7a68252066281f767a83a07ce15fd0e3a64a8d213"
+            },
+            "geometry_submission_id": 30481,
+            "exact_pose_identities": 2
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30176/geometry_mssd_complete.json",
+              "sha256": "807a9a555b068176bcc1148b2c110dfecb754663527d10493828728bfe50e2c4"
+            },
+            "geometry_submission_id": 30176,
+            "exact_pose_identities": 15
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30405/geometry_mssd_complete.json",
+              "sha256": "9c5497f95d67eae8950f593d6422ee7ab33c411f7b71396e1ae9403faf1864a0"
+            },
+            "geometry_submission_id": 30405,
+            "exact_pose_identities": 3
+          }
+        ]
+      },
+      "pairs": null,
+      "wins": null,
+      "ties": null,
+      "accuracy": null,
+      "accuracy_strict": null,
+      "interval_95": null,
+      "images_with_pairs": null,
+      "sign_flip_p": null,
+      "reading": null,
+      "reading_v10_same_interval": null,
+      "CPU_seconds": 21.621226986
+    },
+    {
+      "submission_id": 30620,
+      "method_name": "FRTPose-WAPR.v2\uff08Default Detection\uff09",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        23918,
+        0,
+        23918
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 23918,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30620.json",
+          "sha256": "ab085fbc4129b4685463afd6180bae58992dbcd9b05c41b80b01f5a1b9f34c8b"
+        },
+        "submission_sha256": "e37001ba42a380f04cd8af0c22bf14b45ce28720b467045aaee21d886969f7a9",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23145/geometry_mssd_complete.json",
+          "sha256": "8bb9922fa09d0c6564a5bf4db42ea28e8a443d21aaba956d1529e003bea8787a"
+        },
+        "geometry_submission_id": 23145
+      },
+      "pairs": 23918,
+      "wins": 23918,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 593,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 2.0172843999999976
+    },
+    {
+      "submission_id": 30182,
+      "method_name": "FRTPose-WAPR.v2\uff08Default Detection\uff09",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        35532,
+        0,
+        35983
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 35983,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30182.json",
+          "sha256": "215f3704d57d824456b88d1081e4bdcbc8ad499a69873b435749f172c494f3bf"
+        },
+        "submission_sha256": "689775925f0e9c96b28193089191db41e698d2e8d513425390ebc66a599b646a",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/30182/geometry_mssd_complete.json",
+          "sha256": "ccbe282b0fb66ac3f73667538123c09bf1c925658c623f7a7719fd95fa945b1c"
+        },
+        "geometry_submission_id": 30182
+      },
+      "pairs": 35983,
+      "wins": 35532,
+      "ties": 0,
+      "accuracy": 0.9874663035322235,
+      "accuracy_strict": 0.9874663035322235,
+      "interval_95": [
+        0.9846251343234232,
+        0.9902284982274258
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.5848965540000002
+    },
+    {
+      "submission_id": 30619,
+      "method_name": "FRTPose-WAPR.v2\uff08Default Detection\uff09",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        121943,
+        0,
+        121954
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 121954,
+        "missing_pose_rows_in_proven_pair_free_targets": 539,
+        "forced_original_labels": 7747,
+        "unknown_in_multis": 8286
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30619.json",
+          "sha256": "29da29b07a99d9520c84059eeda65e38bac02cede8bf0fef984efcc933b4ad9f"
+        },
+        "submission_sha256": "66ee40b7e7b7d08d2b135659247b69cb610332c3fd0ea8d6675577c3d829f8d1",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23155/geometry_mssd_complete.json",
+          "sha256": "3e6d5f5b9000c3ce577f938233b5ae0e18b88ab7b1dd302edfcd99bd323af22c"
+        },
+        "geometry_submission_id": 23155
+      },
+      "pairs": 121954,
+      "wins": 121943,
+      "ties": 0,
+      "accuracy": 0.9999098020565131,
+      "accuracy_strict": 0.9999098020565131,
+      "interval_95": [
+        0.9998539782341673,
+        0.999959281398114
+      ],
+      "images_with_pairs": 900,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 10.954810295
+    },
+    {
+      "submission_id": 30394,
+      "method_name": "FRTPose-WAPR.v2\uff08Multi 2D Detections\uff09",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        123440,
+        0,
+        123484
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 123484,
+        "missing_pose_rows_in_proven_pair_free_targets": 3191,
+        "forced_original_labels": 9337,
+        "unknown_in_multis": 12528
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30394.json",
+          "sha256": "faf89033067f0f345c35e53a638c2534025ab4318c7029a84724239fa9679bf8"
+        },
+        "submission_sha256": "b34fbe405373d257e912f96e1cd60a966c730e67ad54b599ed4a229aa0f5b2c3",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/30394/geometry_mssd_complete.json",
+          "sha256": "d3e28be5ecfdfdd58137c811a444efee934a8335382ce99846c7d7a0374b3c89"
+        },
+        "geometry_submission_id": 30394
+      },
+      "pairs": 123484,
+      "wins": 123440,
+      "ties": 0,
+      "accuracy": 0.9996436785332513,
+      "accuracy_strict": 0.9996436785332513,
+      "interval_95": [
+        0.9993139051348344,
+        0.9999042680494615
+      ],
+      "images_with_pairs": 200,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 5.319605269
+    },
+    {
+      "submission_id": 30405,
+      "method_name": "FRTPose-WAPR.v2\uff08Multi 2D Detections\uff09",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        437512,
+        2,
+        438700
+      ],
+      "recovery": {
+        "state": "missing_labels",
+        "pair_count_lower_bound": 437200,
+        "known_only_pair_counts": [
+          281722,
+          1,
+          282821
+        ],
+        "unknown_in_multis": 130527
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30405.json",
+          "sha256": "f6873ac5624e76aee4eaf6bacd2d191f7a7e796d2f4094680b15907919e30484"
+        },
+        "submission_sha256": "0b40cb47bc83a035155b31cf9057d457c0809fa4e0d3ff3911e2efbea312dfd1",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/30405/geometry_mssd_complete.json",
+          "sha256": "9c5497f95d67eae8950f593d6422ee7ab33c411f7b71396e1ae9403faf1864a0"
+        },
+        "geometry_submission_id": 30405,
+        "same_pose_geometry_sources": [
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23286/geometry_mssd_complete.json",
+              "sha256": "db45d15a75b4dd993c08f8ecf8d70635d49d2de191d49a781099eab975daf8db"
+            },
+            "geometry_submission_id": 23286,
+            "exact_pose_identities": 8602
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23309/geometry_mssd_complete.json",
+              "sha256": "5ecda526c9b06b92fccc637f8dd15b15794035e478cb413e0ce099301dd493a3"
+            },
+            "geometry_submission_id": 23309,
+            "exact_pose_identities": 13445
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30481/geometry_mssd_complete.json",
+              "sha256": "6eba6230c7dc94ca102dbfe7a68252066281f767a83a07ce15fd0e3a64a8d213"
+            },
+            "geometry_submission_id": 30481,
+            "exact_pose_identities": 2
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30176/geometry_mssd_complete.json",
+              "sha256": "807a9a555b068176bcc1148b2c110dfecb754663527d10493828728bfe50e2c4"
+            },
+            "geometry_submission_id": 30176,
+            "exact_pose_identities": 15
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30405/geometry_mssd_complete.json",
+              "sha256": "9c5497f95d67eae8950f593d6422ee7ab33c411f7b71396e1ae9403faf1864a0"
+            },
+            "geometry_submission_id": 30405,
+            "exact_pose_identities": 3
+          }
+        ]
+      },
+      "pairs": null,
+      "wins": null,
+      "ties": null,
+      "accuracy": null,
+      "accuracy_strict": null,
+      "interval_95": null,
+      "images_with_pairs": null,
+      "sign_flip_p": null,
+      "reading": null,
+      "reading_v10_same_interval": null,
+      "CPU_seconds": 25.904839799
+    },
+    {
+      "submission_id": 30646,
+      "method_name": "FRTPose-WAPR.v2\uff08Multi 2D Detections\uff09",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        23918,
+        0,
+        23918
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 23918,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30646.json",
+          "sha256": "24d4d0770cb6490ddd5c986df782057b7dcf22387a03d9cf1b690b22ed49f6fc"
+        },
+        "submission_sha256": "e37001ba42a380f04cd8af0c22bf14b45ce28720b467045aaee21d886969f7a9",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23145/geometry_mssd_complete.json",
+          "sha256": "8bb9922fa09d0c6564a5bf4db42ea28e8a443d21aaba956d1529e003bea8787a"
+        },
+        "geometry_submission_id": 23145
+      },
+      "pairs": 23918,
+      "wins": 23918,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 593,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 2.0784472019999995
+    },
+    {
+      "submission_id": 30396,
+      "method_name": "FRTPose-WAPR.v2\uff08Multi 2D Detections\uff09",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        58497,
+        0,
+        58977
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 58977,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30396.json",
+          "sha256": "939d3a21e91799fe70b040efc6700878fc06cfbc199379b7848344df8f817fa0"
+        },
+        "submission_sha256": "1798d518c378e92f2a2b00dd85097abc8db558791dfb92534f6c371fbbeb890a",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/30396/geometry_mssd_complete.json",
+          "sha256": "d00cd2966faf6a96d79112203256004c11ba9f0994cff522097c901744cd2669"
+        },
+        "geometry_submission_id": 30396
+      },
+      "pairs": 58977,
+      "wins": 58497,
+      "ties": 0,
+      "accuracy": 0.9918612340403886,
+      "accuracy_strict": 0.9918612340403886,
+      "interval_95": [
+        0.9902609458866422,
+        0.9933997359894395
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.7134887490000033
+    },
+    {
+      "submission_id": 30644,
+      "method_name": "FRTPose-WAPR.v2\uff08Multi 2D Detections\uff09",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        121943,
+        0,
+        121954
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 121954,
+        "missing_pose_rows_in_proven_pair_free_targets": 539,
+        "forced_original_labels": 7747,
+        "unknown_in_multis": 8286
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/30644.json",
+          "sha256": "335889be5561a8a00e245dbbdad547a374cbd008cce0936024df034fca2f2c84"
+        },
+        "submission_sha256": "66ee40b7e7b7d08d2b135659247b69cb610332c3fd0ea8d6675577c3d829f8d1",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/23155/geometry_mssd_complete.json",
+          "sha256": "3e6d5f5b9000c3ce577f938233b5ae0e18b88ab7b1dd302edfcd99bd323af22c"
+        },
+        "geometry_submission_id": 23155
+      },
+      "pairs": 121954,
+      "wins": 121943,
+      "ties": 0,
+      "accuracy": 0.9999098020565131,
+      "accuracy_strict": 0.9999098020565131,
+      "interval_95": [
+        0.9998539782341673,
+        0.999959281398114
+      ],
+      "images_with_pairs": 900,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 11.022990351000004
+    },
+    {
+      "submission_id": 31625,
+      "method_name": "WAPR.v2 (Default Detections)",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        61701,
+        0,
+        61708
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 61708,
+        "missing_pose_rows_in_proven_pair_free_targets": 108,
+        "forced_original_labels": 346,
+        "unknown_in_multis": 454
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/31625.json",
+          "sha256": "af8c0b55112307c446ff1531065f4c9a1a1640732c7f9f9872e394a585da1e47"
+        },
+        "submission_sha256": "42e09b5b2cd2e29c17579c44724be28741fac0ad78d563e0c373f53ac5d22f28",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/31625/geometry_mssd_complete.json",
+          "sha256": "2b614c3dfd23462ee3342599675e1854b86daff84a04c8cbfecf0135766ee501"
+        },
+        "geometry_submission_id": 31625
+      },
+      "pairs": 61708,
+      "wins": 61701,
+      "ties": 0,
+      "accuracy": 0.9998865625202566,
+      "accuracy_strict": 0.9998865625202566,
+      "interval_95": [
+        0.9996960537647118,
+        1.0
+      ],
+      "images_with_pairs": 200,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 2.697569422000001
+    },
+    {
+      "submission_id": 31629,
+      "method_name": "WAPR.v2 (Default Detections)",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        266072,
+        1,
+        267104
+      ],
+      "recovery": {
+        "state": "missing_labels",
+        "pair_count_lower_bound": 266926,
+        "known_only_pair_counts": [
+          217416,
+          1,
+          218430
+        ],
+        "unknown_in_multis": 39672
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/31629.json",
+          "sha256": "940eaec7bc9eb761914c517233403431ad00fb5dc0a6b433aacb2dcef12daa87"
+        },
+        "submission_sha256": "5a42cb28885ee3ac07a9aa7d27ac38be9daec0b5786e7ecb3ea231f28c790f17",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/31629/geometry_mssd_complete.json",
+          "sha256": "8c06589a6629bcd6870d586d925ffaf6e4c59919610b9c4f8fd076361ed69f52"
+        },
+        "geometry_submission_id": 31629,
+        "same_pose_geometry_sources": [
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23286/geometry_mssd_complete.json",
+              "sha256": "db45d15a75b4dd993c08f8ecf8d70635d49d2de191d49a781099eab975daf8db"
+            },
+            "geometry_submission_id": 23286,
+            "exact_pose_identities": 8602
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23309/geometry_mssd_complete.json",
+              "sha256": "5ecda526c9b06b92fccc637f8dd15b15794035e478cb413e0ce099301dd493a3"
+            },
+            "geometry_submission_id": 23309,
+            "exact_pose_identities": 13445
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30481/geometry_mssd_complete.json",
+              "sha256": "6eba6230c7dc94ca102dbfe7a68252066281f767a83a07ce15fd0e3a64a8d213"
+            },
+            "geometry_submission_id": 30481,
+            "exact_pose_identities": 2
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30176/geometry_mssd_complete.json",
+              "sha256": "807a9a555b068176bcc1148b2c110dfecb754663527d10493828728bfe50e2c4"
+            },
+            "geometry_submission_id": 30176,
+            "exact_pose_identities": 15
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30405/geometry_mssd_complete.json",
+              "sha256": "9c5497f95d67eae8950f593d6422ee7ab33c411f7b71396e1ae9403faf1864a0"
+            },
+            "geometry_submission_id": 30405,
+            "exact_pose_identities": 3
+          }
+        ]
+      },
+      "pairs": null,
+      "wins": null,
+      "ties": null,
+      "accuracy": null,
+      "accuracy_strict": null,
+      "interval_95": null,
+      "images_with_pairs": null,
+      "sign_flip_p": null,
+      "reading": null,
+      "reading_v10_same_interval": null,
+      "CPU_seconds": 18.127075527000002
+    },
+    {
+      "submission_id": 31623,
+      "method_name": "WAPR.v2 (Default Detections)",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        15002,
+        0,
+        15003
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 15003,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/31623.json",
+          "sha256": "dce855d735b1cf9c4649ca7825917792177808c59c837607cf47be2ed392f67c"
+        },
+        "submission_sha256": "42a1ab8bf983dcfd6e4b16c586c3ce3bb319d4dbcd7f4e130976dd21420537ac",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/31623/geometry_mssd_complete.json",
+          "sha256": "3472ea7944562d9eb8899fa9a4dc434f003f5019686bfa7005b035b11e55f6a5"
+        },
+        "geometry_submission_id": 31623
+      },
+      "pairs": 15003,
+      "wins": 15002,
+      "ties": 0,
+      "accuracy": 0.9999333466640006,
+      "accuracy_strict": 0.9999333466640006,
+      "interval_95": [
+        0.9997995188452286,
+        1.0
+      ],
+      "images_with_pairs": 581,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 1.5653968579999997
+    },
+    {
+      "submission_id": 31628,
+      "method_name": "WAPR.v2 (Default Detections)",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        28785,
+        0,
+        29219
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 29219,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/31628.json",
+          "sha256": "f7fc45def8623c188e95b75ad083eda6c8102711349784bd8fc381e330ad492e"
+        },
+        "submission_sha256": "28112afbfa41cd6c24a9ee8281b820bb24b088715119c9f513c89d562481699e",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/31628/geometry_mssd_complete.json",
+          "sha256": "b058b1859ca2f0c322b7d064af08d4b74741351a58d0568e284cf1059ce6b725"
+        },
+        "geometry_submission_id": 31628
+      },
+      "pairs": 29219,
+      "wins": 28785,
+      "ties": 0,
+      "accuracy": 0.9851466511516479,
+      "accuracy_strict": 0.9851466511516479,
+      "interval_95": [
+        0.9819456385159712,
+        0.9883617783770358
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.5449916240000015
+    },
+    {
+      "submission_id": 31635,
+      "method_name": "WAPR.v2 (Default Detections)",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        99842,
+        0,
+        99862
+      ],
+      "recovery": {
+        "state": "missing_labels",
+        "pair_count_lower_bound": 99787,
+        "known_only_pair_counts": [
+          95199,
+          0,
+          95213
+        ],
+        "unknown_in_multis": 4885
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/31635.json",
+          "sha256": "883ca3b9fe1b3557d75ef3bbb71cc7fe1514ccc54d38e01cecd9df6e0aacedf1"
+        },
+        "submission_sha256": "05bdb5807f4fb3c378910b880c26dd36c425d24ddf7316cb3f3b33f8b4a2a224",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/31635/geometry_mssd_complete.json",
+          "sha256": "13ef4057ab9ad2cba919e3606c366b526d29911028e19812f69fc69b558eabd9"
+        },
+        "geometry_submission_id": 31635,
+        "same_pose_geometry_sources": [
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23155/geometry_mssd_complete.json",
+              "sha256": "3e6d5f5b9000c3ce577f938233b5ae0e18b88ab7b1dd302edfcd99bd323af22c"
+            },
+            "geometry_submission_id": 23155,
+            "exact_pose_identities": 6686
+          }
+        ]
+      },
+      "pairs": null,
+      "wins": null,
+      "ties": null,
+      "accuracy": null,
+      "accuracy_strict": null,
+      "interval_95": null,
+      "images_with_pairs": null,
+      "sign_flip_p": null,
+      "reading": null,
+      "reading_v10_same_interval": null,
+      "CPU_seconds": 7.680686049999995
+    },
+    {
+      "submission_id": 34120,
+      "method_name": "WAPR.v2\uff08Multi 2D Detections\uff09",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        78293,
+        0,
+        78316
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 78316,
+        "missing_pose_rows_in_proven_pair_free_targets": 457,
+        "forced_original_labels": 1233,
+        "unknown_in_multis": 1690
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/34120.json",
+          "sha256": "37d521ee8e0ae009bb6d87317f2fc1e5b1c7c781ef2c0c5180f09952dba19438"
+        },
+        "submission_sha256": "e59f1a345331b4f82640c69eb877635bb9e86f8315d3296f4103f6d1e7bb447e",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/34120/geometry_mssd_complete.json",
+          "sha256": "887f16c9f11287800639cf53d7615684bf94e1e6914118f8bc50fa37b5ef5f03"
+        },
+        "geometry_submission_id": 34120
+      },
+      "pairs": 78316,
+      "wins": 78293,
+      "ties": 0,
+      "accuracy": 0.9997063179937689,
+      "accuracy_strict": 0.9997063179937689,
+      "interval_95": [
+        0.9993295756462146,
+        0.9999625463488933
+      ],
+      "images_with_pairs": 200,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 3.7114078640000017
+    },
+    {
+      "submission_id": 34118,
+      "method_name": "WAPR.v2\uff08Multi 2D Detections\uff09",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        326309,
+        6,
+        327640
+      ],
+      "recovery": {
+        "state": "missing_labels",
+        "pair_count_lower_bound": 325820,
+        "known_only_pair_counts": [
+          237364,
+          4,
+          238536
+        ],
+        "unknown_in_multis": 73372
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/34118.json",
+          "sha256": "885dbe26ec97b550a52d02a8c42dd412379fcaadadf86c1733353eb85a083b19"
+        },
+        "submission_sha256": "d8eda082c768d6f16e66b5b5fcb761da273381ca31c7832996f5001f21965cf6",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/34118/geometry_mssd_complete.json",
+          "sha256": "bb303ee87ecc92544fd97da1600a75bfc60fcbff936164b95be22aaaa0e0adb5"
+        },
+        "geometry_submission_id": 34118,
+        "same_pose_geometry_sources": [
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23286/geometry_mssd_complete.json",
+              "sha256": "db45d15a75b4dd993c08f8ecf8d70635d49d2de191d49a781099eab975daf8db"
+            },
+            "geometry_submission_id": 23286,
+            "exact_pose_identities": 8602
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23309/geometry_mssd_complete.json",
+              "sha256": "5ecda526c9b06b92fccc637f8dd15b15794035e478cb413e0ce099301dd493a3"
+            },
+            "geometry_submission_id": 23309,
+            "exact_pose_identities": 13445
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30481/geometry_mssd_complete.json",
+              "sha256": "6eba6230c7dc94ca102dbfe7a68252066281f767a83a07ce15fd0e3a64a8d213"
+            },
+            "geometry_submission_id": 30481,
+            "exact_pose_identities": 2
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30176/geometry_mssd_complete.json",
+              "sha256": "807a9a555b068176bcc1148b2c110dfecb754663527d10493828728bfe50e2c4"
+            },
+            "geometry_submission_id": 30176,
+            "exact_pose_identities": 15
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30405/geometry_mssd_complete.json",
+              "sha256": "9c5497f95d67eae8950f593d6422ee7ab33c411f7b71396e1ae9403faf1864a0"
+            },
+            "geometry_submission_id": 30405,
+            "exact_pose_identities": 3
+          }
+        ]
+      },
+      "pairs": null,
+      "wins": null,
+      "ties": null,
+      "accuracy": null,
+      "accuracy_strict": null,
+      "interval_95": null,
+      "images_with_pairs": null,
+      "sign_flip_p": null,
+      "reading": null,
+      "reading_v10_same_interval": null,
+      "CPU_seconds": 21.559928833000004
+    },
+    {
+      "submission_id": 34114,
+      "method_name": "WAPR.v2\uff08Multi 2D Detections\uff09",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        25981,
+        0,
+        25981
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 25981,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/34114.json",
+          "sha256": "a8f74a1296e9fa56b1b4894011d40baf3071dc9abf9c6f80e8e4f6d637d0bba4"
+        },
+        "submission_sha256": "6e2b4419ffea923402314bb82e93dedf9a019f66e7319deefa3b7c6eefea0bb7",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/34114/geometry_mssd_complete.json",
+          "sha256": "d276971b598201f0b223baa126518bfb6818904b5d0f881a2f6810048df98264"
+        },
+        "geometry_submission_id": 34114
+      },
+      "pairs": 25981,
+      "wins": 25981,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 592,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 2.1640206609999986
+    },
+    {
+      "submission_id": 34119,
+      "method_name": "WAPR.v2\uff08Multi 2D Detections\uff09",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        38542,
+        0,
+        39129
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 39129,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/34119.json",
+          "sha256": "ae9681dfb4411e56e3932dabb171d08b6cd16b68cc1bd30f4ee5191edfd97499"
+        },
+        "submission_sha256": "fa585c4fb6f5a02877cb78930f201a442cb2d2818041e56b6cb7547ebc021b5e",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/34119/geometry_mssd_complete.json",
+          "sha256": "73e5fd7673e3b78c90bc8b9420a68fb329d6a538fcfa77fd3a789fbf22d55518"
+        },
+        "geometry_submission_id": 34119
+      },
+      "pairs": 39129,
+      "wins": 38542,
+      "ties": 0,
+      "accuracy": 0.9849983388279793,
+      "accuracy_strict": 0.9849983388279793,
+      "interval_95": [
+        0.9821918862744092,
+        0.9877619622879353
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.6018939469999971
+    },
+    {
+      "submission_id": 34127,
+      "method_name": "WAPR.v2\uff08Multi 2D Detections\uff09",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        157281,
+        1,
+        157397
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 157397,
+        "forced_original_labels": 11310,
+        "missing_pose_rows_in_proven_pair_free_targets": 388,
+        "unknown_in_multis": 11698
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/34127.json",
+          "sha256": "dc43776058434f3a7e10797b085493ac6502c42928a51a878f00a9b1ecf12383"
+        },
+        "submission_sha256": "accb624ec9ef56534ae5d752af3b62c3d81fc8b84c9ea375d5188605a39d73f1",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/34127/geometry_mssd_complete.json",
+          "sha256": "f499cbf96f868e2fc30bd722125b4d3b9d33d23258ea87d372814f381f4ed265"
+        },
+        "geometry_submission_id": 34127
+      },
+      "pairs": 157397,
+      "wins": 157281,
+      "ties": 1,
+      "accuracy": 0.9992661867761139,
+      "accuracy_strict": 0.999263010095491,
+      "interval_95": [
+        0.9989913162676115,
+        0.9995040865776952
+      ],
+      "images_with_pairs": 900,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 11.488927660999998
+    },
+    {
+      "submission_id": 33936,
+      "method_name": "WAPR.v2.1\uff08MUSE\uff09",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        3174,
+        0,
+        3174
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 3174,
+        "unknown_in_multis": 0,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/33936.json",
+          "sha256": "03f2535ead4b645a4e13fcfd4a6418910e6c2e6d378a82895f26e5cf14f659af"
+        },
+        "submission_sha256": "517dd9d9abaa6fc3f24dd6d2446c3c65d9449e483a93f7dfecb3d8ba0f524c5c",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/33936/geometry_mssd_complete.json",
+          "sha256": "1255d50a6007d30ae35a33b035e4502adbe84acf4f006400a0c34006df0e4f29"
+        },
+        "geometry_submission_id": 33936
+      },
+      "pairs": 3174,
+      "wins": 3174,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 200,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.4491684669999998
+    },
+    {
+      "submission_id": 33934,
+      "method_name": "WAPR.v2.1\uff08MUSE\uff09",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        2310,
+        0,
+        2507
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 2507,
+        "unknown_singleton": 0,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/33934.json",
+          "sha256": "2bd74202ceba82846b292229da232a49de0c01b5d0f2d43a881238ff5ad3e025"
+        },
+        "submission_sha256": "7f1a0c06b63a4d0290834d9fd04d79214fefaf8307fd24c4a0c1a741c69a30e2",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/33934/geometry_mssd_complete.json",
+          "sha256": "7fe20d429e2d4d2583ca85c8703ca3cdfcf0909af91ba91ab6b87a7c606a0108"
+        },
+        "geometry_submission_id": 33934
+      },
+      "pairs": 2507,
+      "wins": 2310,
+      "ties": 0,
+      "accuracy": 0.9214200239329876,
+      "accuracy_strict": 0.9214200239329876,
+      "interval_95": [
+        0.9046892870758674,
+        0.9362980769230769
+      ],
+      "images_with_pairs": 759,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 1.4111784709999995
+    },
+    {
+      "submission_id": 33935,
+      "method_name": "WAPR.v2.1\uff08MUSE\uff09",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        3245,
+        0,
+        3245
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 3245,
+        "unknown_in_multis": 0,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/33935.json",
+          "sha256": "7f9f96f2a5a45a9126de62c5a6bc8d0d841d39dd9b2b3f9c5e7a5ba4b9c97eb4"
+        },
+        "submission_sha256": "0a32dea61b982003e276b5be06e1fbfadb948c30fc4e0c372280e91441a5f206",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/33935/geometry_mssd_complete.json",
+          "sha256": "8994f7ce895f3fd078bfa6b39f6d33e9c207261c46b17a653061a4d8c1c7a62a"
+        },
+        "geometry_submission_id": 33935
+      },
+      "pairs": 3245,
+      "wins": 3245,
+      "ties": 0,
+      "accuracy": 1.0,
+      "accuracy_strict": 1.0,
+      "interval_95": [
+        1.0,
+        1.0
+      ],
+      "images_with_pairs": 572,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.9914400599999951
+    },
+    {
+      "submission_id": 33937,
+      "method_name": "WAPR.v2.1\uff08MUSE\uff09",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        8727,
+        0,
+        9131
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 9131,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/33937.json",
+          "sha256": "f754bfdafd89a8dfeb12a01d1552a8cc7ccdb22e5fbae4049ffeabdab3f6cb41"
+        },
+        "submission_sha256": "99b70867832f6a0fa15d96f510777aa94f0afe5e8c5497394c7844ba1adbeab0",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/33937/geometry_mssd_complete.json",
+          "sha256": "300002e9085b9ea3bda5d59396364fff10f32b79b1f571b26ff45b0b3a7ace6e"
+        },
+        "geometry_submission_id": 33937
+      },
+      "pairs": 9131,
+      "wins": 8727,
+      "ties": 0,
+      "accuracy": 0.9557551199211477,
+      "accuracy_strict": 0.9557551199211477,
+      "interval_95": [
+        0.9467511885895404,
+        0.9651724895627335
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.3271447599999959
+    },
+    {
+      "submission_id": 33940,
+      "method_name": "WAPR.v2.1\uff08MUSE\uff09",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        986,
+        0,
+        1007
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 1007,
+        "unknown_singleton": 0,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/33940.json",
+          "sha256": "b32bb517b619aa3e90d41a9cbdd99ff5e59b92c180ec2df77bf33c641052ddf8"
+        },
+        "submission_sha256": "c8beca314edfb954327c64da8e560ac29b3bcf39f28b36aa1f72253d8d041857",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/33940/geometry_mssd_complete.json",
+          "sha256": "3d631001ab0ebf47bda6ea4b5508cea9303412a5e5e8e8455310e19c94fa64ee"
+        },
+        "geometry_submission_id": 33940
+      },
+      "pairs": 1007,
+      "wins": 986,
+      "ties": 0,
+      "accuracy": 0.9791459781529295,
+      "accuracy_strict": 0.9791459781529295,
+      "interval_95": [
+        0.9694656488549618,
+        0.9875717017208413
+      ],
+      "images_with_pairs": 449,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.9692625750000019
+    },
+    {
+      "submission_id": 33385,
+      "method_name": "FreeZeV2.2+WAPR.v2",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        10205,
+        0,
+        10280
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 10280,
+        "unknown_in_multis": 0,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/33385.json",
+          "sha256": "d584cf8192725a682debea8eafecd87c058021f65bea56d25494c46a2cd8ed7f"
+        },
+        "submission_sha256": "c3f97323a9a6f1c5fca5fc386d735425de27fea478b04ee399f07bcc5c9a3b3a",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/33385/geometry_mssd_complete.json",
+          "sha256": "189a042ac0c406f77fb822e362fe46482db3eef55b392e96aedd8af1a3c2218a"
+        },
+        "geometry_submission_id": 33385
+      },
+      "pairs": 10280,
+      "wins": 10205,
+      "ties": 0,
+      "accuracy": 0.992704280155642,
+      "accuracy_strict": 0.992704280155642,
+      "interval_95": [
+        0.9863000482392668,
+        0.9979953893956099
+      ],
+      "images_with_pairs": 200,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.6585375570000025
+    },
+    {
+      "submission_id": 33396,
+      "method_name": "FreeZeV2.2+WAPR.v2",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        7721,
+        1,
+        8112
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 8112,
+        "unknown_in_multis": 0,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/33396.json",
+          "sha256": "74bdf13a07025c1ffab751708a6581cf7660ae308b3d370a4ed2e273551acfe7"
+        },
+        "submission_sha256": "aec58bd8ceefa2c0d9ba021e95295b9328d34bb482a2292557ad5d00162d5368",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/33396/geometry_mssd_complete.json",
+          "sha256": "cbb6f343b6029570620fc09aff9a1ad9e2a5f899d1bcd08292c7c2011b94935c"
+        },
+        "geometry_submission_id": 33396
+      },
+      "pairs": 8112,
+      "wins": 7721,
+      "ties": 1,
+      "accuracy": 0.9518614398422091,
+      "accuracy_strict": 0.9517998027613412,
+      "interval_95": [
+        0.9357997823721437,
+        0.9674679905931539
+      ],
+      "images_with_pairs": 587,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 1.215709111999999
+    },
+    {
+      "submission_id": 33390,
+      "method_name": "FreeZeV2.2+WAPR.v2",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        17098,
+        0,
+        18168
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 18168,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/33390.json",
+          "sha256": "2ac13cbc70437b3b54b795b80f59b48a16b91957e10764afa8c15b1fc5b23e66"
+        },
+        "submission_sha256": "bb0a4d7c077f4bdcd070e4dbf2a2521d444428ac66027a24da3be27683ec498f",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/33390/geometry_mssd_complete.json",
+          "sha256": "8ef4101571a5ac6fe32815567411ff89f3a82ae057640ad5aac2ed79357ea96d"
+        },
+        "geometry_submission_id": 33390
+      },
+      "pairs": 18168,
+      "wins": 17098,
+      "ties": 0,
+      "accuracy": 0.9411052399823866,
+      "accuracy_strict": 0.9411052399823866,
+      "interval_95": [
+        0.9318971507991661,
+        0.9500521433668149
+      ],
+      "images_with_pairs": 150,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.38770330700000244
+    },
+    {
+      "submission_id": 33425,
+      "method_name": "GigaPose+GenFlow+WAPR.v2",
+      "dataset": "LM-O",
+      "code": "lmo",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        3865,
+        5,
+        4020
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 4020,
+        "unknown_singleton": 0,
+        "unknown_in_multis": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/33425.json",
+          "sha256": "d6b704d79cc8a0c369d980de2ef078b1babd6d73b4014e046ea385c45837da6d"
+        },
+        "submission_sha256": "4b66f844145ae7fabe194b18c8d4c13de85cf68bd31db46251f9f478d94c5460",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/33425/geometry_mssd_complete.json",
+          "sha256": "258d70a96b8f283ba96d96656e8a62f60f9b4c84a7b74ffe44d137616e463cd2"
+        },
+        "geometry_submission_id": 33425
+      },
+      "pairs": 4020,
+      "wins": 3865,
+      "ties": 5,
+      "accuracy": 0.9620646766169154,
+      "accuracy_strict": 0.9614427860696517,
+      "interval_95": [
+        0.9399095668729177,
+        0.9824539571926332
+      ],
+      "images_with_pairs": 197,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.4749167330000006
+    },
+    {
+      "submission_id": 33397,
+      "method_name": "GigaPose+GenFlow+WAPR.v2",
+      "dataset": "TUD-L",
+      "code": "tudl",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        1693,
+        11,
+        1834
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 1834,
+        "unknown_in_multis": 0,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/33397.json",
+          "sha256": "4a0726f2ab47429ebda34c096ccd8f9a79db0d897e0af10f7be91392a66f3cd5"
+        },
+        "submission_sha256": "fa9b5d2dd9bacc16b89483d66fbdd933b76ee70ecac793397986993268b292bc",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/33397/geometry_mssd_complete.json",
+          "sha256": "c775d3969480d407e3374916cfbfea233b3fa034ea0fa0e7ff17c42d0879c627"
+        },
+        "geometry_submission_id": 33397
+      },
+      "pairs": 1834,
+      "wins": 1693,
+      "ties": 11,
+      "accuracy": 0.9261177753544165,
+      "accuracy_strict": 0.9231188658669575,
+      "interval_95": [
+        0.9045383411580594,
+        0.9467670011148273
+      ],
+      "images_with_pairs": 433,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.7096334060000018
+    },
+    {
+      "submission_id": 33430,
+      "method_name": "GigaPose+GenFlow+WAPR.v2",
+      "dataset": "IC-BIN",
+      "code": "icbin",
+      "task": "detection",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        3142,
+        47,
+        4481
+      ],
+      "recovery": {
+        "state": "recovered",
+        "pair_count_lower_bound": 4481,
+        "unknown_in_multis": 0,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/33430.json",
+          "sha256": "626896d5dc8138d6d36f36a923dec79ef0f6206a70546917e94fc0c70c2d6642"
+        },
+        "submission_sha256": "2f12005cfa4aec4cba8a43bb53b0c1384e710df52e5ccaf2cd4de2274f78d255",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/33430/geometry_mssd_complete.json",
+          "sha256": "cd006b44f188ceec246b3dd242bb10b78d745fcd10542aaa4d31965af49ab988"
+        },
+        "geometry_submission_id": 33430
+      },
+      "pairs": 4481,
+      "wins": 3142,
+      "ties": 47,
+      "accuracy": 0.7064271367998215,
+      "accuracy_strict": 0.7011827717027449,
+      "interval_95": [
+        0.6744705882352942,
+        0.7372690401081569
+      ],
+      "images_with_pairs": 147,
+      "sign_flip_p": 4.999750012499375e-05,
+      "reading": "comparable",
+      "reading_v10_same_interval": "comparable",
+      "CPU_seconds": 0.2747197630000002
+    },
+    {
+      "submission_id": 41978,
+      "method_name": "SAM3-FS-FP",
+      "dataset": "T-LESS",
+      "code": "tless",
+      "task": "localization",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        93218,
+        0,
+        110715
+      ],
+      "recovery": {
+        "state": "missing_labels",
+        "pair_count_lower_bound": 103316,
+        "known_only_pair_counts": [
+          74278,
+          0,
+          87647
+        ],
+        "unknown_in_multis": 9133,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/41978.json",
+          "sha256": "3be26eb8d749df55eaf4c55871ee2c2959ca84b8b8fb419b79a3d4db30cb193e"
+        },
+        "submission_sha256": "07f1cf58c8aacd403929ccf14ee3968916503718fa35dd341563e8702f47fc1b",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/41978/geometry_mssd_complete.json",
+          "sha256": "837c0fbc546d848d2cbbd14148b732b370c534395b45722d6f95126cf4af06d2"
+        },
+        "geometry_submission_id": 41978,
+        "same_pose_geometry_sources": [
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23286/geometry_mssd_complete.json",
+              "sha256": "db45d15a75b4dd993c08f8ecf8d70635d49d2de191d49a781099eab975daf8db"
+            },
+            "geometry_submission_id": 23286,
+            "exact_pose_identities": 8602
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23309/geometry_mssd_complete.json",
+              "sha256": "5ecda526c9b06b92fccc637f8dd15b15794035e478cb413e0ce099301dd493a3"
+            },
+            "geometry_submission_id": 23309,
+            "exact_pose_identities": 13445
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30481/geometry_mssd_complete.json",
+              "sha256": "6eba6230c7dc94ca102dbfe7a68252066281f767a83a07ce15fd0e3a64a8d213"
+            },
+            "geometry_submission_id": 30481,
+            "exact_pose_identities": 2
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30176/geometry_mssd_complete.json",
+              "sha256": "807a9a555b068176bcc1148b2c110dfecb754663527d10493828728bfe50e2c4"
+            },
+            "geometry_submission_id": 30176,
+            "exact_pose_identities": 15
+          },
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/30405/geometry_mssd_complete.json",
+              "sha256": "9c5497f95d67eae8950f593d6422ee7ab33c411f7b71396e1ae9403faf1864a0"
+            },
+            "geometry_submission_id": 30405,
+            "exact_pose_identities": 3
+          }
+        ]
+      },
+      "pairs": null,
+      "wins": null,
+      "ties": null,
+      "accuracy": null,
+      "accuracy_strict": null,
+      "interval_95": null,
+      "images_with_pairs": null,
+      "sign_flip_p": null,
+      "reading": null,
+      "reading_v10_same_interval": null,
+      "CPU_seconds": 1.3900023369999985
+    },
+    {
+      "submission_id": 43028,
+      "method_name": "SAM3-FS-FP",
+      "dataset": "YCB-V",
+      "code": "ycbv",
+      "task": "localization",
+      "group": "FoundationPose_mentioned",
+      "R5_33_23": "\u53ef\u6bd4",
+      "A1_pair_counts": [
+        1250,
+        0,
+        1718
+      ],
+      "recovery": {
+        "state": "missing_labels",
+        "pair_count_lower_bound": 1529,
+        "known_only_pair_counts": [
+          1107,
+          0,
+          1381
+        ],
+        "unknown_in_multis": 93,
+        "unknown_singleton": 0
+      },
+      "sources": {
+        "A1_archive": {
+          "file": "runs/r33_23/work/A1/43028.json",
+          "sha256": "b2a441227d7dd215f164f4f0468a1cda602889a7295cdafbf86e4604d48db27d"
+        },
+        "submission_sha256": "ed4351870fcdfbedf4f7309f4358774af449ed7d11269da4a6ec0546c586b56d",
+        "geometry_manifest": {
+          "file": "runs/r33_23/work/A2/43028/geometry_mssd_complete.json",
+          "sha256": "2d159fc2706b6bc62be0ff3a1f3064ad43353ef4feff4c210d1bed88d2e6e38a"
+        },
+        "geometry_submission_id": 43028,
+        "same_pose_geometry_sources": [
+          {
+            "source": {
+              "file": "runs/r33_23/work/A2/23155/geometry_mssd_complete.json",
+              "sha256": "3e6d5f5b9000c3ce577f938233b5ae0e18b88ab7b1dd302edfcd99bd323af22c"
+            },
+            "geometry_submission_id": 23155,
+            "exact_pose_identities": 6686
+          }
+        ]
+      },
+      "pairs": null,
+      "wins": null,
+      "ties": null,
+      "accuracy": null,
+      "accuracy_strict": null,
+      "interval_95": null,
+      "images_with_pairs": null,
+      "sign_flip_p": null,
+      "reading": null,
+      "reading_v10_same_interval": null,
+      "CPU_seconds": 0.253710820000002
+    }
+  ],
+  "total": 79,
+  "validated": 70,
+  "P1": {
+    "passed": null,
+    "reversed": 0
+  },
+  "P2": [
+    {
+      "submission_id": 10734,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "LM-O",
+      "reading": "no_pairs",
+      "R5_33_23": "\u4e0d\u53ef\u6bd4",
+      "reading_v10_same_interval": "no_pairs",
+      "images_with_pairs": 0,
+      "sign_flip_p": null,
+      "reasons": [
+        "\u6709\u6548\u914d\u5bf9\u4e3a\u96f6\uff0c\u65e7 R5 \u7edf\u4e00\u8bb0\u4f5c\u4e0d\u53ef\u6bd4"
+      ]
+    },
+    {
+      "submission_id": 10737,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "T-LESS",
+      "reading": "no_information",
+      "R5_33_23": "\u53cd\u8f6c",
+      "reading_v10_same_interval": "no_information",
+      "images_with_pairs": 196,
+      "sign_flip_p": 1.0,
+      "reasons": [
+        "\u6240\u6709\u914d\u5bf9\u540c\u5206\uff0c\u65e7 R5 \u91c7\u7528\u4e25\u683c\u80dc\u51fa\u53e3\u5f84"
+      ]
+    },
+    {
+      "submission_id": 10736,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "TUD-L",
+      "reading": "no_pairs",
+      "R5_33_23": "\u4e0d\u53ef\u6bd4",
+      "reading_v10_same_interval": "no_pairs",
+      "images_with_pairs": 0,
+      "sign_flip_p": null,
+      "reasons": [
+        "\u6709\u6548\u914d\u5bf9\u4e3a\u96f6\uff0c\u65e7 R5 \u7edf\u4e00\u8bb0\u4f5c\u4e0d\u53ef\u6bd4"
+      ]
+    },
+    {
+      "submission_id": 10576,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "IC-BIN",
+      "reading": "no_information",
+      "R5_33_23": "\u53cd\u8f6c",
+      "reading_v10_same_interval": "no_information",
+      "images_with_pairs": 101,
+      "sign_flip_p": 1.0,
+      "reasons": [
+        "\u6240\u6709\u914d\u5bf9\u540c\u5206\uff0c\u65e7 R5 \u91c7\u7528\u4e25\u683c\u80dc\u51fa\u53e3\u5f84"
+      ]
+    },
+    {
+      "submission_id": 10735,
+      "method_name": "FoundationPose(NVIDIA)",
+      "dataset": "YCB-V",
+      "reading": "no_pairs",
+      "R5_33_23": "\u4e0d\u53ef\u6bd4",
+      "reading_v10_same_interval": "no_pairs",
+      "images_with_pairs": 0,
+      "sign_flip_p": null,
+      "reasons": [
+        "\u6709\u6548\u914d\u5bf9\u4e3a\u96f6\uff0c\u65e7 R5 \u7edf\u4e00\u8bb0\u4f5c\u4e0d\u53ef\u6bd4"
+      ]
+    },
+    {
+      "submission_id": 11989,
+      "method_name": "FreeZeV2 (SAM6D, Coarse-to-Fine)",
+      "dataset": "LM-O",
+      "reading": "too_few_images",
+      "R5_33_23": "\u53ef\u6bd4",
+      "reading_v10_same_interval": "comparable",
+      "images_with_pairs": 1,
+      "sign_flip_p": 1.0,
+      "reasons": [
+        "\u6709\u6548\u56fe\u50cf\u5c11\u4e8e 6 \u5f20"
+      ]
+    },
+    {
+      "submission_id": 11990,
+      "method_name": "FreeZeV2 (SAM6D, Coarse-to-Fine)",
+      "dataset": "TUD-L",
+      "reading": "too_few_images",
+      "R5_33_23": "\u53ef\u6bd4",
+      "reading_v10_same_interval": "comparable",
+      "images_with_pairs": 1,
+      "sign_flip_p": 1.0,
+      "reasons": [
+        "\u6709\u6548\u56fe\u50cf\u5c11\u4e8e 6 \u5f20"
+      ]
+    }
+  ],
+  "P3": {
+    "comparable": 4,
+    "total": 6,
+    "pending": 0
+  },
+  "P4": {
+    "reversed": 0,
+    "comparable": 59,
+    "not_comparable": 0,
+    "too_few_images": 0,
+    "no_information": 2,
+    "no_pairs": 3,
+    "pending": 9
+  },
+  "pending_submission_ids": [
+    23286,
+    23309,
+    30176,
+    30405,
+    31629,
+    31635,
+    34118,
+    41978,
+    43028
+  ],
+  "timing": {
+    "worker_CPU_seconds": 327.43046315,
+    "wall_seconds": 319.9682483621873,
+    "initial_pass_CPU_seconds": 377.755550471,
+    "cross_cache_CPU_seconds": 273.089422839,
+    "worker_CPU_seconds_total": 978.27543646
+  },
+  "geometry_cache_recovery": {
+    "lmo": {
+      "archived_error_sources": [
+        {
+          "source": {
+            "file": "runs/r33_23/work/A2/15707/geometry_mssd_complete.json",
+            "sha256": "52b9c1c8a438922e20449a79a550413f0003868de465917ee5c45dd77d054cc9"
+          },
+          "geometry_submission_id": 15707,
+          "exact_pose_identities": 6540
+        },
+        {
+          "source": {
+            "file": "runs/r33_23/work/A2/15735/geometry_mssd_complete.json",
+            "sha256": "4947bde6bf7c1229a9da8a12876d4a9ffe59aa69aa36c7510951f0ecdf13e859"
+          },
+          "geometry_submission_id": 15735,
+          "exact_pose_identities": 9
+        }
+      ],
+      "recovered_target_pose_signatures": 6549
+    },
+    "tless": {
+      "archived_error_sources": [
+        {
+          "source": {
+            "file": "runs/r33_23/work/A2/23286/geometry_mssd_complete.json",
+            "sha256": "db45d15a75b4dd993c08f8ecf8d70635d49d2de191d49a781099eab975daf8db"
+          },
+          "geometry_submission_id": 23286,
+          "exact_pose_identities": 8602
+        },
+        {
+          "source": {
+            "file": "runs/r33_23/work/A2/23309/geometry_mssd_complete.json",
+            "sha256": "5ecda526c9b06b92fccc637f8dd15b15794035e478cb413e0ce099301dd493a3"
+          },
+          "geometry_submission_id": 23309,
+          "exact_pose_identities": 13445
+        },
+        {
+          "source": {
+            "file": "runs/r33_23/work/A2/30481/geometry_mssd_complete.json",
+            "sha256": "6eba6230c7dc94ca102dbfe7a68252066281f767a83a07ce15fd0e3a64a8d213"
+          },
+          "geometry_submission_id": 30481,
+          "exact_pose_identities": 2
+        },
+        {
+          "source": {
+            "file": "runs/r33_23/work/A2/30176/geometry_mssd_complete.json",
+            "sha256": "807a9a555b068176bcc1148b2c110dfecb754663527d10493828728bfe50e2c4"
+          },
+          "geometry_submission_id": 30176,
+          "exact_pose_identities": 15
+        },
+        {
+          "source": {
+            "file": "runs/r33_23/work/A2/30405/geometry_mssd_complete.json",
+            "sha256": "9c5497f95d67eae8950f593d6422ee7ab33c411f7b71396e1ae9403faf1864a0"
+          },
+          "geometry_submission_id": 30405,
+          "exact_pose_identities": 3
+        }
+      ],
+      "recovered_target_pose_signatures": 22067
+    },
+    "ycbv": {
+      "archived_error_sources": [
+        {
+          "source": {
+            "file": "runs/r33_23/work/A2/23155/geometry_mssd_complete.json",
+            "sha256": "3e6d5f5b9000c3ce577f938233b5ae0e18b88ab7b1dd302edfcd99bd323af22c"
+          },
+          "geometry_submission_id": 23155,
+          "exact_pose_identities": 6686
+        }
+      ],
+      "recovered_target_pose_signatures": 6686
+    }
+  }
+}
